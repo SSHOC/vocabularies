@@ -1,0 +1,1059 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+
+<http://vocabularyserver.com/tadirah/en/> rdf:type ns0:ConceptScheme ;
+                                          ns1:title "TaDiRAH - Taxonomy of Digital Research Activities in the Humanities" ;
+                                          ns1:creator "TaDiRAH" ;
+                                          ns1:contributor "Luise Borek, Quinn Dombrowski, Jody Perkins, Christof Schöch" ;
+                                          ns1:publisher "DARIAH-DE and DiRTdirectory" ;
+                                          ns1:rights "CC-BY" ;
+                                          ns1:subject "Taxonomy, DH, Digital Humanities" ;
+                                          ns1:description " This taxonomy of digital research activities in the humanities has been developed for use by community-driven sites and projects that aim to structure information relevant to digital humanities and make it more easily discoverable. The taxonomy is expected to be particularly useful to endeavors aiming to collect information on digital humanities tools, methods, projects, or readings. See https://github.com/dhtaxonomy for further information. " ;
+                                          ns1:date "2014-07-18" ;
+                                          ns2:modified "2014-09-18 14:39:42" ;
+                                          ns1:language "en" ;
+                                          ns0:hasTopConcept <http://vocabularyserver.com/tadirah/en/?tema=6> ,
+                                                            <http://vocabularyserver.com/tadirah/en/?tema=55> ,
+                                                            <http://vocabularyserver.com/tadirah/en/?tema=92> .
+
+<http://vocabularyserver.com/tadirah/en/?tema=49> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "0_Meta-Activities"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=44" ;
+                                                  ns0:scopeNote "Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial Teaching the digital Encoding of music, or a report Introducing Pattern Recognition in images. Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “Infrastructure” or “Digital Humanities”."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=50> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=51> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=52> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=53> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=54> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:13:39" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=7> rdf:type ns0:Concept ;
+                                                 ns0:prefLabel "1_Capture"@en ;
+                                                 ns0:notation "http://tadirah.dariah.eu/vocab/?tema=1" ;
+                                                 ns0:scopeNote """Capture generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in Transcribing) or an automated procedure (as in Imaging or DataRecognition). Such capture precedes Enrichment and Analysis, at least from a systematic point of view, if not in practice.
+The "1" is not part of the term, but used to indicate the term's order in the research process."""@en ;
+                                                 ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                 ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                 ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=8> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=9> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=10> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=11> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=12> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=13> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=14> ;
+                                                 ns2:created "2014-08-14 14:16:52" ;
+                                                 ns2:modified "2014-08-25 14:09:04" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=15> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "2_Creation"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=11A" ;
+                                                  ns0:scopeNote """Creating things generally refers to the activity of producing born-digital digital objects, rather than creating digital objects by capturing and digitizing existing analog objects. Creating can involve writing natural language text (cf. Writing) or, understood more broadly as the creation of a string of discrete symbols, it could also concern other forms of expression, such as creating executable code (cf. Programming), composing a musical score, or creating an image.
+The "2" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=16> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=17> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=18> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=19> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=20> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:09:25" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=21> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "3_Enrichment"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=15" ;
+                                                  ns0:scopeNote """Enrichment refers to the activity of adding information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit. This activity typically follows the capture of the object.
+The "3" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=22> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=23> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=24> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:10:04" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=25> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "4_Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=19" ;
+                                                  ns0:scopeNote """This general research goal refers to the activity of extracting any kind of information from open or closed, structured or unstructured collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data. Analysis also includes methods used to visualize results. Methods and techniques related to this goal may be considered to follow Capture and Enrichment; however, Enrichment depends upon assumptions, research questions and results related to Analysis.
+The "4" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=26> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=27> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=28> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=29> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=30> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=31> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=32> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:10:22" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=33> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "5_Interpretation"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=27" ;
+                                                  ns0:scopeNote """Interpretation is the activity of ascribing meaning to phenomena observed in Analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.
+The "5" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=34> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=35> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=36> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:10:45" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=37> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "6_Storage"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=31" ;
+                                                  ns0:scopeNote """Storing refers to the activity of making digital copies of objects of inquiry, results of research, or software and services and of keeping them accessible, without necessarily making them available to the public.
+The "6" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=38> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=39> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=40> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=41> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:11:05" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=42> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "7_Dissemination"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=36" ;
+                                                  ns0:scopeNote """Dissemination refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing and sharing of data using a variety of methods and techniques including the application of linked open data.
+The "7" is not part of the term, but used to indicate the term's relative order in the research process."""@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=6> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=43> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=44> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=45> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=46> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=47> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=48> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-25 14:11:26" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=22> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Annotating"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=16" ;
+                                                  ns0:scopeNote "Annotating refers to the activity of making information about a digital object explicit by adding, e.g., comments, metadata or keywords to a digitized representation or to an annotation file associated with it. This can be in the form of annotations that comment on or contextualize a passage (explanatory annotations) in order to make structural or linguistic information explicit (structural/linguistic annotation), as linked open data making the relationships between objects machine-readable, or, in the case of general metadata, adding information about the object as a whole. Encoding is a technique associated with annotating, as are POS-Tagging, Tree-Tagging, and Georeferencing."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=21> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=38> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Archiving"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=32" ;
+                                                  ns0:scopeNote "Archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=37> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=56> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Artifacts"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=51" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=57> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Bibliographic Listings"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=52" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns2:created "2014-08-14 14:16:52" ;
+                                                  ns2:modified "2014-08-29 17:26:31" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=93> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Bit Stream Preservation > Storage-Preservation"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=89" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=94> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Brainstorming"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=90" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=95> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Browsing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=91" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=23> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Cleanup"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=17" ;
+                                                  ns0:scopeNote "Data cleanup involves improving the quality of an existing digital object. This could include such things as correcting errors in a written text, errors in OCR results, debugging code, improving the quality of video, audio, or image file."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=21> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=96> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Cluster Analysis > Analysis-Stylistic Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=92" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=128> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Code"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=52A" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                   ns2:created "2014-08-29 16:34:09" ;
+                                                   ns2:modified "2014-08-29 16:34:36" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=43> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Collaboration"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=37" ;
+                                                  ns0:scopeNote "Collaboration is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive Digital Research Environments, but can also happen around more specific activities, such as communication or sharing of resources."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=97> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Collocation Analysis > Analysis- Structural Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=93" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=44> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Commenting"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=38" ;
+                                                  ns0:scopeNote "Commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on. This is different from Annotating (as defined here) which refers to adding descriptive or explanatory information to sections of an object with the aim of making inherent qualities, structures, or meanings of that section explicit."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=45> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Communicating"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=39" ;
+                                                  ns0:scopeNote "Communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means. Relevant techniques include Email, Chat, Audio-Conferencing."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=58> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Computers"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=53" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=99> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Concordancing > Analysis-Structural Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=95" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=26> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Content Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=20" ;
+                                                  ns0:scopeNote "Content Analysis is a method which aims to analyse aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include Topic Modeling, Sentiment Analysis, Information Retrieval, Discourse Analysis, but also Named Entity Recognition."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=34> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Contextualizing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=28" ;
+                                                  ns0:scopeNote "Contextualization is the activity of creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object. Such contextualizing may build on existing annotations and/or metadata."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=33> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=8> rdf:type ns0:Concept ;
+                                                 ns0:prefLabel "Conversion"@en ;
+                                                 ns0:notation "http://tadirah.dariah.eu/vocab/?tema=2" ;
+                                                 ns0:scopeNote "Conversion refers to changing the file format of an object (e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format) without fundamentally changing the content or nature of the object. When conversion concerns metadata, it involves mapping one metadata schema to another. More fundamental “conversions”, such as converting a scanned page image to an editable text document, are better referred to using “DataRecognition”."@en ;
+                                                 ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                 ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                 ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=46> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Crowdsourcing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=40" ;
+                                                  ns0:scopeNote "Crowdsourcing refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. Crowdsourcing may include gamification, which may be understood as one form of creating motivation in crowdsourcing endeavors."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns2:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=59> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Curricula"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=54" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=60> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Data"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=56" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=9> rdf:type ns0:Concept ;
+                                                 ns0:prefLabel "Data Recognition"@en ;
+                                                 ns0:notation "http://tadirah.dariah.eu/vocab/?tema=3" ;
+                                                 ns0:scopeNote "Data Recognition, for example OCR, refers to the process of treating the immediate products of digital data capture (recording or imaging), such as digital facsimiles of texts or of sheet music, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, or still or moving image elements (including, for example, face recognition)."@en ;
+                                                 ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                 ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                 ns1:created "2014-08-14 14:16:52" ;
+                                                 ns1:modified "2014-08-29 16:37:21" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=100> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Debugging"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=96" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=16> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Designing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=10" ;
+                                                  ns0:scopeNote "The development of a user interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, where a person’s perceptions of the practical aspects such as utility, ease of use, and efficiency of the system are taken into consideration. Does not include the implementation of the design (see “Programming” or “Web development”). Database design is to be categorized using “Modeling”."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=15> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=61> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Digital Humanities"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=55" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:26:42" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=10> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Discovering"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=4" ;
+                                                  ns0:scopeNote "Discovering is the activity of seeking out objects of research, research results, or other information which is useful in a given search perspective. Discovery includes very directed techniques such as advanced querying of databases, less directed techniques such as simple searching, and more serendipitous ones as browsing, which would include faceted browsing. (It is different from Information Retrieval, which is a structured way of extracting some piece of information or some specific subset of objects from a resource.)"@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=101> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Distance Measures > Analysis-Stylistic Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=97" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=102> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Durable Persistent Media > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=98" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=24> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Editing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=18" ;
+                                                  ns0:scopeNote "Editing refers to making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding (inline or stand-off) markup to its transcription. This is typically part of the larger activity of scholarly editing of textual, musical, or other sources. It is based on a transcription of the document (the result of data recognition) and guided by a model of the document (the result of modeling)."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=21> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=103> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Emulation > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=99" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=104> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Encoding"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=100" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=62> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "File"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=57" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=105> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Gamification > Dissemination-Crowdsourcing"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=101" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=11> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Gathering"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=5" ;
+                                                  ns0:scopeNote "Gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis). Related techniques include web crawling and scraping."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=106> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Georeferencing > Enrichment-Annotation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=102" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=39> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Identifying"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=33" ;
+                                                  ns0:scopeNote "Identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers to objects of enquiry or to any kind of digital object. Adding a metadata description of the object is part of Annotation."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=37> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=63> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Images"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=58" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=64> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Images (3D)"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=59" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:27:09" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=12> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Imaging"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=6" ;
+                                                  ns0:scopeNote "Imaging refers to the capture of texts, images, artefacts or spatial formations using optical means of capture. Imaging can be made in 2D or 3D, using various means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes, which is something DataRecognition accomplishes. Imaging also includes scanning and digital photography."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=107> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Information Retrieval > Analysis-Content Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=103" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=65> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Infrastructure"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=60" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=66> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Interaction"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=61" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=67> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Language"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=62" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=68> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Link"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=63" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=108> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Linked open data > Enrichment-Annotation; Dissemination-Publishing"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=104" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=69> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Literature"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=64" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=109> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=105" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=70> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Manuscript"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=65" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=71> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Map"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=66" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=110> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Mapping"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=106" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=50> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Meta: Assessing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=45" ;
+                                                  ns0:scopeNote "Assessing refers to the activity of verifying the existence of certain properties, usually indicative of some desirable quality in some outcome of an activity. This may refer to reviewing research papers or conference proposals, to evaluating the coherence of the annotation of audio-visual materials, or to an assessment of the usefulness of the Digital Humanities."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=51> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Meta: Community Building"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=46" ;
+                                                  ns0:scopeNote "Community building is the activity of creating or enhancing a community with a common interest. It may include dissemination, teaching as well as advocating for specific activities, practices, or values."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 16:39:04" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=52> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Meta: Give Overview"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=47" ;
+                                                  ns0:scopeNote "GiveOverview refers to the activity of providing information which is relatively general or provides a historical or systematic overview of a given topic. Nevertheless, it can be aimed at experts or beginners in a field, subfield or specialty."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 16:39:19" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=53> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Meta: Project Management"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=48" ;
+                                                  ns0:scopeNote "Project management involves activities such as developing a strategy and assessing risk for conducting a project, as well as task management activities, such as keeping a record of tasks, due dates, and other relevant information. It may include activities such as planning, documenting, getting funding, but also sending reminders and status reports. Project Management is related to Collaboration."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 16:39:34" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=54> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Meta: Teaching / Learning"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=49" ;
+                                                  ns0:scopeNote "Teaching and Learning involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that lets them solve problems in a specific area of research."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 16:40:03" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=72> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Metadata"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=67" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=73> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Methods"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=68" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=111> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Migration > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=107" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=35> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Modeling"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=29" ;
+                                                  ns0:scopeNote "Modeling is the activity of creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modelling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Modeling can also refer to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema. Mapping, for instance, is an example of a spatial model. Workflow design is included as part of Modeling, using an object such as Process."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=33> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=74> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Multimedia"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=69" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=75> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Multimodal"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=70" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=76> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Named Entities"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=71" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:27:27" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=112> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=108" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=27> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Network Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=21" ;
+                                                  ns0:scopeNote "Network Analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature; the resulting network is usually made up of nodes (entities) and edges (relations). Relevant techniques include Named Entity Recognition. When the artefacts themselves (texts, images, etc.) and their relations are concerned, the corresponding research activity would be Relational Analysis."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=113> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Open Archival Information Systems > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=109" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=40> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Organizing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=34" ;
+                                                  ns0:scopeNote "Organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=37> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=114> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Pattern Recognition > Analysis-Relational Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=110" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=77> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Persons"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=72" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=115> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Photography"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=111" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=116> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "POS-Tagging > Analysis-Structural Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=112" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=41> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Preservation"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=35" ;
+                                                  ns0:scopeNote "The application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability. Related techniques include but are not limited to: Bit Stream Preservation, Durable Persistent Media, Emulation, Metadata Attachment, Migration, Replication, Technology Preservation, Versioning, the use of Open Archival Information Systems and standards that support interoperability."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=37> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=117> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Preservation Metadata > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=113" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=118> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Principal Component Analysis > Analysis-Stylistic Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=114" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=17> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Programming"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=11" ;
+                                                  ns0:scopeNote "Creation of code executable by a computer, that is creation of scripts or software. (This includes “Prototyping”, the creation of such code for testing or modeling purposes.) It is also closely related to the more broader activity of tool development. Programming is separate from Encoding (enriching a document by making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding markup to its transcription)."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=15> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=78> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Projects"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=73" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=47> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Publishing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=41" ;
+                                                  ns0:scopeNote "Publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=13> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Recording"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=7" ;
+                                                  ns0:scopeNote "Capturing audio and/or video; the result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed, and/or stored."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=28> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Relational Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=22" ;
+                                                  ns0:scopeNote "Relational Analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between several different texts (study of text reuse / plagiarism), or textual variations between several versions of one text (collation), or assessing the similarity of texts in terms of stylistic features (stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting. Relevant techniques include Sequence Alignment, Collation, and techniques associated with Stylistic Analysis."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=119> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Replication > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=115" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=79> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Research"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=74" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=6> rdf:type ns0:Concept ;
+                                                 ns0:prefLabel "Research Activities"@en ;
+                                                 ns0:notation "http://tadirah.dariah.eu/vocab/?tema=43" ;
+                                                 ns0:scopeNote 'Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “Modeling” and “Manuscript”. A plain text editor would be tagged with the tags "Writing" and "Code" and "Text".'@en ;
+                                                 ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                 ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=7> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=15> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=21> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=25> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=33> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=37> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=42> ,
+                                                              <http://vocabularyserver.com/tadirah/en/?tema=49> ;
+                                                 ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=55> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Research Objects"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=50" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=56> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=57> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=128> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=58> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=59> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=61> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=60> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=62> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=63> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=64> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=65> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=66> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=67> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=68> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=69> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=70> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=71> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=72> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=73> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=74> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=75> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=76> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=77> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=78> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=79> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=80> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=81> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=82> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=83> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=84> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=85> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=86> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=87> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=88> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=89> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=91> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=80> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Research Process"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=75" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:27:43" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=81> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Research Results"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=76" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:27:59" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=92> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Research Techniques"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=88" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:narrower <http://vocabularyserver.com/tadirah/en/?tema=104> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=105> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=106> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=107> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=108> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=109> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=110> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=111> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=112> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=113> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=114> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=115> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=116> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=117> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=118> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=119> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=120> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=121> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=122> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=123> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=124> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=125> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=126> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=127> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=93> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=94> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=95> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=96> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=97> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=99> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=100> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=101> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=102> ,
+                                                               <http://vocabularyserver.com/tadirah/en/?tema=103> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=120> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Scanning"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=116" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=121> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Searching"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=117" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=122> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Sentiment Analysis > Analysis-Content Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=118" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=123> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Sequence Alignment > Analysis-Relational Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=119" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=48> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Sharing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=42" ;
+                                                  ns0:scopeNote "Sharing refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=42> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=82> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Sheet Music"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=77" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:28:14" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=83> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Software"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=78" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=84> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Sound"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=79" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=29> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Spatial Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=23" ;
+                                                  ns0:scopeNote "Spatial Analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis is often based on techniques of annotation of data, such as Georeferencing or Named Entity Recognition, and may lead to visualization or modeling in the form of maps (see Modeling)."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=85> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Standards"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=80" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=30> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Structural Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=24" ;
+                                                  ns0:scopeNote "Structural Analysis involves analysis of objects on the level of the relations between structural elements of a cultural artefact (level of morphology or syntax in linguistics). Relevant techniques include: POS-Tagging, Tree-Tagging, Collocation Analysis, Concordancing."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=31> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Stylistic Analysis"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=25" ;
+                                                  ns0:scopeNote "Stylistic Analysis consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=124> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Technology Preservation > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=120" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=86> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Text"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=81" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=87> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Text Bearing Objects"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=82" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" ;
+                                                  ns1:modified "2014-08-29 17:28:42" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=36> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Theorizing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=30" ;
+                                                  ns0:scopeNote "Theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations. Theorizing relies on techniques such as reasoning, abstract thinking, conceptualizing and defining. A theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=33> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=88> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Tools"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=83" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=125> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Topic Modeling > Analysis-Content Analysis"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=121" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=14> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Transcription"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=8" ;
+                                                  ns0:scopeNote "Transcription is the activity of creating a representation of a manuscript (often in combination with Enrichment) or of audio or video recordings. The representation is (also) generally textual for the verbal aspects of recordings and structured for example by speech turns, but can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files. Transcription that is partial, selective, and/or inherently linked to the source document may be better categorized as Annotation."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=7> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=18> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Translation"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=12" ;
+                                                  ns0:scopeNote "Translation involves creating a new linguistic object based on a source document but written in a different language than the source. This applies to both natural languages and machine-readable programming languages."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=15> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=126> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Versioning > Storage-Preservation"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=122" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=89> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Video"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=84" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=32> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Visualization"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=26" ;
+                                                  ns0:scopeNote "Visualization refers to activities which serve to summarise and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include plotting and mapping."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=25> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=91> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "VREs"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=86" ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=55> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=127> rdf:type ns0:Concept ;
+                                                   ns0:prefLabel "Web Crawling > Capture-Gathering"@en ;
+                                                   ns0:notation "http://tadirah.dariah.eu/vocab/?tema=123" ;
+                                                   ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                   ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=92> ;
+                                                   ns1:created "2014-08-14 14:16:53" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=19> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Web development"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=13" ;
+                                                  ns0:scopeNote "Creation of websites, by building on a platform (e.g. content management systems such as Drupal, WordPress and Omeka) or writing HTML/CSS. Writing a module/plugin for a platform, or programming web-based applications, should use the “Programming” method."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=15> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
+
+<http://vocabularyserver.com/tadirah/en/?tema=20> rdf:type ns0:Concept ;
+                                                  ns0:prefLabel "Writing"@en ;
+                                                  ns0:notation "http://tadirah.dariah.eu/vocab/?tema=14" ;
+                                                  ns0:scopeNote "Writing designates the activity of creating new texts (instead of capturing existing text). In our context, this would primarily concern research papers and reports, but may include other textually-oriented objects."@en ;
+                                                  ns0:inScheme <http://vocabularyserver.com/tadirah/en/> ;
+                                                  ns0:broader <http://vocabularyserver.com/tadirah/en/?tema=15> ;
+                                                  ns1:created "2014-08-14 14:16:52" .
