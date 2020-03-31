@@ -1,0 +1,49 @@
+# endpoint : http://sparql.archives-ouvertes.fr/sparql
+
+# to extract the basic scheme
+
+construct 
+{
+
+?s a skos:Concept ;
+skos:prefLabel ?prefLabel ;
+skos:inScheme <https://data.archives-ouvertes.fr/subject> ;
+skos:broader ?broader ;
+skos:narrower ?narrower ;
+skos:topConceptOf ?scheme .
+
+}
+
+where 
+{
+
+?s skos:inScheme <https://data.archives-ouvertes.fr/subject> ;
+skos:prefLabel ?prefLabel .
+
+OPTIONAL {?s skos:narrower ?narrower }
+OPTIONAL {?s skos:broader ?broader }
+OPTIONAL {?s skos:topConceptOf ?scheme }
+
+}
+
+# to create the topConcept and inverse
+
+construct 
+{
+
+?s skos:topConceptOf <https://data.archives-ouvertes.fr/subject> .
+
+<https://data.archives-ouvertes.fr/subject> skos:hasTopConcept ?s ;
+a skos:ConceptScheme .
+}
+
+where 
+{
+
+?s skos:inScheme <https://data.archives-ouvertes.fr/subject> ;
+
+OPTIONAL {?s <http://purl.org/dc/elements/1.1/identifier> ?notation}
+
+filter NOT EXISTS {?s skos:broader ?broader }
+
+}
