@@ -1,0 +1,1306 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Fri Jun 05 16:02:55 CEST 2020
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  dcterms:title "TaDiRAH"@en;
+  dc:title "TaDiRAH - Taxonomy of Digital Research Activities in the Humanities";
+  dc:subject "Taxonomy, DH, Digital Humanities";
+  dcterms:modified "2014-09-18 14:39:42";
+  dc:contributor "Luise Borek, Quinn Dombrowski, Jody Perkins, Christof Schöch";
+  dc:creator "TaDiRAH";
+  dc:date "2014-07-18";
+  dc:description " This taxonomy of digital research activities in the humanities has been developed for use by community-driven sites and projects that aim to structure information relevant to digital humanities and make it more easily discoverable. The taxonomy is expected to be particularly useful to endeavors aiming to collect information on digital humanities tools, methods, projects, or readings. See https://github.com/dhtaxonomy for further information. ";
+  dc:language "en";
+  dc:publisher "DARIAH-DE and DiRTdirectory";
+  dc:rights "CC-BY";
+  skos:hasTopConcept <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/128>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/56>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/57>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/58>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/59>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/60>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/61>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/62>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/63>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/64>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/65>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/66>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/67>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/68>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/69>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/70>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/71>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/72>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/73>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/74>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/75>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/76>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/77>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/78>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/79>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/80>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/81>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/82>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/83>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/84>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/85>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/86>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/87>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/88>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/89>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/91>;
+  skos:topConceptOf <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research Objects"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/68> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Link"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=68> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/69> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Literature"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=69> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/64> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Images (3D)"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=64> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/86> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Text"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=86> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/65> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Infrastructure"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=65> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/87> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Text Bearing Objects"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=87> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/66> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Interaction"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=66> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/88> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Tools"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=88> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/67> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Language"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=67> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/89> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Video"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=89> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/128> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Code"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=128> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/60> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Data"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=60> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/82> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Sheet Music"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=82> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/61> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Digital Humanities"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=61> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/83> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Software"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=83> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/62> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "File"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=62> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/84> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Sound"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=84> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/63> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Images"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=63> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/85> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Standards"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=85> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/80> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research Process"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=80> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/81> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research Results"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=81> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/57> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Bibliographic Listings"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=57> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/79> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=79> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/58> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Computers"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=58> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/59> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Curricula"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=59> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/75> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Multimodal"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=75> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/76> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Named Entities"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=76> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/77> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Persons"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=77> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/56> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Artifacts"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=56> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/78> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Projects"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=78> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/71> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Map"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=71> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/72> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Metadata"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=72> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/73> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Methods"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=73> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/74> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Multimedia"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=74> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/91> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "VREs"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=91> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/70> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Manuscript"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=70> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities> skos:hasTopConcept <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “Modeling” and “Manuscript”. A plain text editor would be tagged with the tags \"Writing\" and \"Code\" and \"Text\"."@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49>;
+  skos:topConceptOf <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research Activities"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """This general research goal refers to the activity of extracting any kind of information from open or closed, structured or unstructured collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data. Analysis also includes methods used to visualize results. Methods and techniques related to this goal may be considered to follow Capture and Enrichment; however, Enrichment depends upon assumptions, research questions and results related to Analysis.
+The \"4\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/27>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/28>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/29>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/32>;
+  skos:hiddenLabel "4_Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Analysis"@en;
+  dcterms:modified "2020-06-05T12:47:19.476Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Content Analysis is a method which aims to analyse aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include Topic Modeling, Sentiment Analysis, Information Retrieval, Discourse Analysis, but also Named Entity Recognition."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Content Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/107>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/112>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/122>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/125>;
+  dcterms:modified "2020-06-05T13:02:36.085Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=26> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/27> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Network Analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature; the resulting network is usually made up of nodes (entities) and edges (relations). Relevant techniques include Named Entity Recognition. When the artefacts themselves (texts, images, etc.) and their relations are concerned, the corresponding research activity would be Relational Analysis."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Network Analysis"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=27> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Stylistic Analysis consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Stylistic Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/101>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/118>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/96>;
+  dcterms:modified "2020-06-05T13:01:30.855Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=31> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/32> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Visualization refers to activities which serve to summarise and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include plotting and mapping."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Visualization"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=32> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Structural Analysis involves analysis of objects on the level of the relations between structural elements of a cultural artefact (level of morphology or syntax in linguistics). Relevant techniques include: POS-Tagging, Tree-Tagging, Collocation Analysis, Concordancing."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Structural Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/116>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/97>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/99>;
+  dcterms:modified "2020-06-05T13:01:05.893Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=30> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/28> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Relational Analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between several different texts (study of text reuse / plagiarism), or textual variations between several versions of one text (collation), or assessing the similarity of texts in terms of stylistic features (stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting. Relevant techniques include Sequence Alignment, Collation, and techniques associated with Stylistic Analysis."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Relational Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/114>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/123>;
+  dcterms:modified "2020-06-05T13:02:12.249Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=28> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/29> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Spatial Analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis is often based on techniques of annotation of data, such as Georeferencing or Named Entity Recognition, and may lead to visualization or modeling in the form of maps (see Modeling)."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Spatial Analysis"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=29> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Creating things generally refers to the activity of producing born-digital digital objects, rather than creating digital objects by capturing and digitizing existing analog objects. Creating can involve writing natural language text (cf. Writing) or, understood more broadly as the creation of a string of discrete symbols, it could also concern other forms of expression, such as creating executable code (cf. Programming), composing a musical score, or creating an image.
+The \"2\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/16>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/17>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/18>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/19>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/20>;
+  skos:hiddenLabel "2_Creation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Creation"@en;
+  dcterms:modified "2020-06-05T12:47:05.358Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/16> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "The development of a user interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, where a person’s perceptions of the practical aspects such as utility, ease of use, and efficiency of the system are taken into consideration. Does not include the implementation of the design (see “Programming” or “Web development”). Database design is to be categorized using “Modeling”."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Designing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=16> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/20> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Writing designates the activity of creating new texts (instead of capturing existing text). In our context, this would primarily concern research papers and reports, but may include other textually-oriented objects."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Writing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=20> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/17> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Creation of code executable by a computer, that is creation of scripts or software. (This includes “Prototyping”, the creation of such code for testing or modeling purposes.) It is also closely related to the more broader activity of tool development. Programming is separate from Encoding (enriching a document by making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding markup to its transcription)."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Programming"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=17> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/18> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Translation involves creating a new linguistic object based on a source document but written in a different language than the source. This applies to both natural languages and machine-readable programming languages."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Translation"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=18> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/19> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Creation of websites, by building on a platform (e.g. content management systems such as Drupal, WordPress and Omeka) or writing HTML/CSS. Writing a module/plugin for a platform, or programming web-based applications, should use the “Programming” method."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Web development"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=19> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Storing refers to the activity of making digital copies of objects of inquiry, results of research, or software and services and of keeping them accessible, without necessarily making them available to the public.
+The \"6\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/38>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/39>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/40>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  skos:hiddenLabel "6_Storage"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Storage"@en;
+  dcterms:modified "2020-06-05T12:47:31.229Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=37> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/38> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Archiving"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=38> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/40> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Organizing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=40> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "The application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability. Related techniques include but are not limited to: Bit Stream Preservation, Durable Persistent Media, Emulation, Metadata Attachment, Migration, Replication, Technology Preservation, Versioning, the use of Open Archival Information Systems and standards that support interoperability."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Preservation"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/102>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/103>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/111>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/113>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/117>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/119>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/124>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/126>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/93>;
+  dcterms:modified "2020-06-05T13:02:49.506Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=41> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/39> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers to objects of enquiry or to any kind of digital object. Adding a metadata description of the object is part of Annotation."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Identifying"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=39> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial Teaching the digital Encoding of music, or a report Introducing Pattern Recognition in images. Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “Infrastructure” or “Digital Humanities”."@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/50>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/51>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/52>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/53>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/54>;
+  skos:hiddenLabel "0_Meta-Activities"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Meta-Activities"@en;
+  dcterms:modified "2020-06-05T12:48:01.221Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/53> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Project management involves activities such as developing a strategy and assessing risk for conducting a project, as well as task management activities, such as keeping a record of tasks, due dates, and other relevant information. It may include activities such as planning, documenting, getting funding, but also sending reminders and status reports. Project Management is related to Collaboration."@en;
+  skos:hiddenLabel "Meta: Project Management"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Project Management"@en;
+  dcterms:modified "2020-06-05T12:49:27.200Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=53> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/54> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Teaching and Learning involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that lets them solve problems in a specific area of research."@en;
+  skos:hiddenLabel "Meta: Teaching / Learning"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Teaching / Learning"@en;
+  dcterms:modified "2020-06-05T12:49:52.940Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=54> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/50> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Assessing refers to the activity of verifying the existence of certain properties, usually indicative of some desirable quality in some outcome of an activity. This may refer to reviewing research papers or conference proposals, to evaluating the coherence of the annotation of audio-visual materials, or to an assessment of the usefulness of the Digital Humanities."@en;
+  skos:hiddenLabel "Meta: Assessing"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Assesing"@en;
+  dcterms:modified "2020-06-05T12:48:30.968Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=50> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/51> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Community building is the activity of creating or enhancing a community with a common interest. It may include dissemination, teaching as well as advocating for specific activities, practices, or values."@en;
+  skos:hiddenLabel "Meta: Community Building"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Community Building"@en;
+  dcterms:modified "2020-06-05T12:48:52.962Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=51> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/52> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "GiveOverview refers to the activity of providing information which is relatively general or provides a historical or systematic overview of a given topic. Nevertheless, it can be aimed at experts or beginners in a field, subfield or specialty."@en;
+  skos:hiddenLabel "Meta: Give Overview"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Give Overview"@en;
+  dcterms:modified "2020-06-05T12:49:09.310Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=52> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Dissemination refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing and sharing of data using a variety of methods and techniques including the application of linked open data.
+The \"7\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/43>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/44>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/45>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/46>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/47>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/48>;
+  skos:hiddenLabel "7_Dissemination"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Dissemination"@en;
+  dcterms:modified "2020-06-05T12:47:38.042Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/46> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Crowdsourcing refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. Crowdsourcing may include gamification, which may be understood as one form of creating motivation in crowdsourcing endeavors."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Crowdsourcing"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/105>;
+  dcterms:modified "2020-06-05T12:57:53.764Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=46> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/47> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Publishing"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/108>;
+  dcterms:modified "2020-06-05T12:59:11.821Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=47> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/48> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Sharing refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Sharing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=48> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/43> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Collaboration is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive Digital Research Environments, but can also happen around more specific activities, such as communication or sharing of resources."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Collaboration"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=43> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/44> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on. This is different from Annotating (as defined here) which refers to adding descriptive or explanatory information to sections of an object with the aim of making inherent qualities, structures, or meanings of that section explicit."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Commenting"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=44> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/45> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means. Relevant techniques include Email, Chat, Audio-Conferencing."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Communicating"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=45> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Enrichment refers to the activity of adding information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit. This activity typically follows the capture of the object.
+The \"3\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/23>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/24>;
+  skos:hiddenLabel "3_Enrichment"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Enrichment"@en;
+  dcterms:modified "2020-06-05T12:47:13.029Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=21> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/24> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Editing refers to making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding (inline or stand-off) markup to its transcription. This is typically part of the larger activity of scholarly editing of textual, musical, or other sources. It is based on a transcription of the document (the result of data recognition) and guided by a model of the document (the result of modeling)."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Editing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=24> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Annotating refers to the activity of making information about a digital object explicit by adding, e.g., comments, metadata or keywords to a digitized representation or to an annotation file associated with it. This can be in the form of annotations that comment on or contextualize a passage (explanatory annotations) in order to make structural or linguistic information explicit (structural/linguistic annotation), as linked open data making the relationships between objects machine-readable, or, in the case of general metadata, adding information about the object as a whole. Encoding is a technique associated with annotating, as are POS-Tagging, Tree-Tagging, and Georeferencing."@en;
+  skos:hiddenLabel "Annotation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Annotating"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/106>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/108>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/112>;
+  dcterms:modified "2020-06-05T13:04:23.447Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=22> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/23> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Data cleanup involves improving the quality of an existing digital object. This could include such things as correcting errors in a written text, errors in OCR results, debugging code, improving the quality of video, audio, or image file."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Cleanup"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=23> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Capture generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in Transcribing) or an automated procedure (as in Imaging or DataRecognition). Such capture precedes Enrichment and Analysis, at least from a systematic point of view, if not in practice.
+The \"1\" is not part of the term, but used to indicate the term's order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/10>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/11>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/12>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/13>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/14>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/8>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/9>;
+  skos:hiddenLabel "1_Capture"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Capture"@en;
+  dcterms:modified "2020-06-05T12:46:26.885Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/13> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Capturing audio and/or video; the result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed, and/or stored."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Recording"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=13> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/14> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Transcription is the activity of creating a representation of a manuscript (often in combination with Enrichment) or of audio or video recordings. The representation is (also) generally textual for the verbal aspects of recordings and structured for example by speech turns, but can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files. Transcription that is partial, selective, and/or inherently linked to the source document may be better categorized as Annotation."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Transcription"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=14> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/9> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Data Recognition, for example OCR, refers to the process of treating the immediate products of digital data capture (recording or imaging), such as digital facsimiles of texts or of sheet music, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, or still or moving image elements (including, for example, face recognition)."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Data Recognition"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=9> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/10> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Discovering is the activity of seeking out objects of research, research results, or other information which is useful in a given search perspective. Discovery includes very directed techniques such as advanced querying of databases, less directed techniques such as simple searching, and more serendipitous ones as browsing, which would include faceted browsing. (It is different from Information Retrieval, which is a structured way of extracting some piece of information or some specific subset of objects from a resource.)"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Discovering"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=10> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/8> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Conversion refers to changing the file format of an object (e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format) without fundamentally changing the content or nature of the object. When conversion concerns metadata, it involves mapping one metadata schema to another. More fundamental “conversions”, such as converting a scanned page image to an editable text document, are better referred to using “DataRecognition”."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Conversion"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=8> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/11> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote "Gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis). Related techniques include web crawling and scraping."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Gathering"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/127>;
+  dcterms:modified "2020-06-05T13:02:59.462Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=11> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/12> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Imaging refers to the capture of texts, images, artefacts or spatial formations using optical means of capture. Imaging can be made in 2D or 3D, using various means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes, which is something DataRecognition accomplishes. Imaging also includes scanning and digital photography."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Imaging"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=12> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:scopeNote """Interpretation is the activity of ascribing meaning to phenomena observed in Analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.
+The \"5\" is not part of the term, but used to indicate the term's relative order in the research process."""@en;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/34>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/35>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/36>;
+  skos:hiddenLabel "5_Interpretation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Interpretation"@en;
+  dcterms:modified "2020-06-05T12:47:25.993Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=33> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/35> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Modeling is the activity of creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modelling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Modeling can also refer to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema. Mapping, for instance, is an example of a spatial model. Workflow design is included as part of Modeling, using an object such as Process."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Modeling"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=35> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/36> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations. Theorizing relies on techniques such as reasoning, abstract thinking, conceptualizing and defining. A theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Theorizing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=36> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/34> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:scopeNote "Contextualization is the activity of creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object. Such contextualizing may build on existing annotations and/or metadata."@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Contextualizing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=34> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities> skos:hasTopConcept <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:narrower <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/100>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/101>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/102>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/103>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/104>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/105>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/106>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/107>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/108>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/110>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/111>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/112>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/113>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/114>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/115>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/116>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/117>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/118>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/119>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/120>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/121>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/122>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/123>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/124>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/125>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/126>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/127>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/93>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/94>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/95>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/96>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/97>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/99>;
+  skos:topConceptOf <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Research Techniques"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/111> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Migration > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Migration"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:00:05.876Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=111> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/110> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Mapping"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=110> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/106> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Georeferencing > Enrichment-Annotation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Georeferencing"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22>;
+  dcterms:modified "2020-06-05T12:58:30.260Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=106> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/105> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Gamification > Dissemination-Crowdsourcing"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Gamification"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/46>;
+  dcterms:modified "2020-06-05T12:57:53.764Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=105> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/127> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Web Crawling > Capture-Gathering"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Web Crawling"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/11>;
+  dcterms:modified "2020-06-05T13:02:59.462Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=127> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/108> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Linked open data > Enrichment-Annotation; Dissemination-Publishing"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Linked open data"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/47>;
+  dcterms:modified "2020-06-05T12:59:11.821Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=108> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/107> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Information Retrieval > Analysis-Content Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Information Retrieval"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>;
+  dcterms:modified "2020-06-05T12:58:49.070Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=107> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/102> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Durable Persistent Media > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Durable Persistent Media"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T12:57:24.386Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=102> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/124> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Technology Preservation > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Technology Preservation"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:02:24.001Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=124> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/101> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Distance Measures > Analysis-Stylistic Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Distance Measures"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31>;
+  dcterms:modified "2020-06-05T12:57:09.821Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=101> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/123> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Sequence Alignment > Analysis-Relational Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Sequence Alignment"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/28>;
+  dcterms:modified "2020-06-05T13:02:12.249Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=123> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/104> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Encoding"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=104> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/126> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Versioning > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Versioning"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:02:49.506Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=126> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/103> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Emulation > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Emulation"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T12:57:37.792Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=103> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/125> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Topic Modeling > Analysis-Content Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Topic Modeling"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>;
+  dcterms:modified "2020-06-05T13:02:36.085Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=125> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Machine Learning"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30>,
+    <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31>;
+  dcterms:modified "2020-06-05T12:59:47.023Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=109> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/97> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Collocation Analysis > Analysis- Structural Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Collocation Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30>;
+  dcterms:modified "2020-06-05T12:56:34.134Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=97> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/99> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Concordancing > Analysis-Structural Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Concordancing"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30>;
+  dcterms:modified "2020-06-05T12:56:52.590Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=99> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/120> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Scanning"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=120> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/100> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Debugging"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=100> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/122> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Sentiment Analysis > Analysis-Content Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Sentiment Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>;
+  dcterms:modified "2020-06-05T13:01:59.368Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=122> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/121> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Searching"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=121> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/117> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Preservation Metadata > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Preservation Metadata"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:01:18.905Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=117> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/116> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "POS-Tagging > Analysis-Structural Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "POS-Tagging"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30>;
+  dcterms:modified "2020-06-05T13:01:05.893Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=116> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/119> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Replication > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Replication"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:01:43.500Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=119> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/118> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Principal Component Analysis > Analysis-Stylistic Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Principal Component Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31>;
+  dcterms:modified "2020-06-05T13:01:30.855Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=118> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/113> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Open Archival Information Systems > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Open Archival Information Systems"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T13:00:39.031Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=113> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/112> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  rdfs:seeAlso dbpedia:Named-entity_recognition;
+  skos:hiddenLabel "Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Named Entity Recognition"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22>, <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26>;
+  dcterms:modified "2020-06-05T13:22:58.271Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=112> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/115> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Photography"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=115> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/114> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Pattern Recognition > Analysis-Relational Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Pattern Recognition"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/28>;
+  dcterms:modified "2020-06-05T13:00:50.770Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=114> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/93> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Bit Stream Preservation > Storage-Preservation"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Bit Stream Preservation"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41>;
+  dcterms:modified "2020-06-05T12:54:30.957Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=93> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/94> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Brainstorming"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=94> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/95> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Browsing"@en;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=95> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/96> a skos:Concept;
+  dcterms:created "2020-06-05T12:32:26.252Z"^^xsd:dateTime;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:hiddenLabel "Cluster Analysis > Analysis-Stylistic Analysis"@en;
+  skos:inScheme <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities>;
+  skos:prefLabel "Cluster Analysis"@en;
+  skos:related <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31>;
+  dcterms:modified "2020-06-05T12:55:05.378Z"^^xsd:dateTime;
+  owl:sameAs <http://vocabularyserver.com/tadirah/en/?tema=96> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/69> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/17> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/99> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/38> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/107> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/61> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/10> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/29> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/30> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/34> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/127> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/78> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/84> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/53> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/96> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/113> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/70> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/46> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/41> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/89> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/9> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/64> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/122> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/102> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/58> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/81> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/93> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/75> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/116> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/47> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/63> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/23> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/105> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/57> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/125> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/27> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/86> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/119> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/111> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/18> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/72> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/66> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/13> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/108> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/44> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/120> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/100> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/83> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/50> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/77> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/114> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/95> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/71> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/40> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/88> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/65> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/14> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/45> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/123> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/103> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/80> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/59> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/74> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/117> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/68> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/16> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/91> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/39> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/106> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/60> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/11> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/24> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/31> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/126> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/85> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/28> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/52> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/79> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/35> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/97> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/112> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/73> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/67> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/19> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/12> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/109> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/43> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/121> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/82> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/101> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/32> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/51> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/8> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/7> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/76> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/36> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/33> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/115> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/94> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/22> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/21> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/48> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/42> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/128> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/37> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/6> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/62> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/26> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/25> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/20> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/15> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/104> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/124> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/56> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/87> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/55> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/54> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/49> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/118> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
+
+<https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/110> skos:broader <https://sshoc.poolparty.biz/Vocabularies/tadirah-activities/92> .
