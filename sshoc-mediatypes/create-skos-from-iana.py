@@ -2,11 +2,6 @@ import requests
 import json
 import csv
 
-# Not used anymore - to delete
-non_url_safe_orig = ['"', '#', '$', '%', '&', '+',
-                ',', '/', ':', ';', '=', '?',
-                '@', '[', '\\', ']', '^', '`',
-                '{', '|', '}', '~', "'"]
 translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS'}
 
 def createSkos():
@@ -48,6 +43,9 @@ def createSkos():
             f.write("\tskos:prefLabel \"")
             f.write(template)
             f.write("\"@en;\n")
+            f.write("\trdfs:label \"")
+            f.write(template)
+            f.write("\"@en;\n")
             if template != dict(row).get('Name'):
                 f.write("\tskos:altLabel \"")
                 f.write(mime + ": " + dict(row).get('Name'))
@@ -62,10 +60,10 @@ def createSkos():
         f.write("\tskos:prefLabel \"")
         f.write(mime)
         f.write("\"@en;\n")
+        f.write("\trdfs:label \"")
+        f.write(mime)
+        f.write("\"@en;\n")
 
-        # f.write("\tskos:narrower ")
-        # f.write(narrowers)
-        # f.write(";\n")
         for narrower in narrowerList:
             f.write("\tskos:narrower ")
             f.write(narrower)
