@@ -1,57 +1,73 @@
 @prefix : <https://sshopencloud.eu/vocabularies#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://sshopencloud.eu/vocabularies> a owl:Ontology .
+<https://sshopencloud.eu/vocabularies> a owl:Ontology;
+  owl:imports <http://purl.org/dc/terms/> .
 
 :commandLine a skos:Concept;
+  rdfs:label "Command line"@en;
   skos:definition "You need to open a command line to invocate the tool."@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Command line"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :commandProcessor a skos:Concept;
+  rdfs:label "Command processor"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Command processor"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :instructionPage a skos:Concept;
+  rdfs:label "Instruction page"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Instruction page"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :library a skos:Concept;
+  rdfs:label "Library"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Library"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :localApplication a skos:Concept;
+  rdfs:label "Local application"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Local application"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :restfulWebservice a skos:Concept;
+  rdfs:label "RESTful webservice"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "RESTful webservice"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :schemaInvocationTypes a skos:ConceptScheme;
+  dct:title "Invocation types"@en;
+  rdfs:label "Invocation types"@en;
   skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
+  skos:hasTopConcept :commandLine, :commandProcessor, :instructionPage, :library, :localApplication,
+    :restfulWebservice, :script, :sourceCode, :webApplication;
   skos:note "Used in WP3 for solutions and in WP7 for different items but especially tools and services."@en;
   skos:prefLabel "Invocation types"@en .
 
 :script a skos:Concept;
+  rdfs:label " Script "@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Script"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :sourceCode a skos:Concept;
+  rdfs:label "Source code"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Source code"@en;
   skos:topConceptOf :schemaInvocationTypes .
 
 :webApplication a skos:Concept;
+  rdfs:label "Web application"@en;
   skos:inScheme :schemaInvocationTypes;
   skos:prefLabel "Web application"@en;
   skos:topConceptOf :schemaInvocationTypes .
