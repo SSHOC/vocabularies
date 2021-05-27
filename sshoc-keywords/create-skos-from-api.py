@@ -1,11 +1,6 @@
 import requests
 import json
 
-# Not used anymore - to delete
-non_url_safe_orig = ['"', '#', '$', '%', '&', '+',
-                     ',', '/', ':', ';', '=', '?',
-                     '@', '[', '\\', ']', '^', '`',
-                     '{', '|', '}', '~', "'"]
 translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS', ord('('): 'OPEN_PARENTHESIS', ord(')'): 'CLOSE_PARENTHESIS',
                    ord('&'): 'AMPERSAND', ord(','): 'COMMA'}
 
@@ -23,9 +18,16 @@ def createSkos():
     f.write("keyword:Schema a skos:ConceptScheme;\n")
     f.write("\trdfs:label \"Keywords from SSHOC MP\"@en;\n")
     f.write("\tdc:title \"Keywords from SSHOC MP\"@en;\n")
+
+    keyword_slugs = []
+    for keyword in keywords:
+        if slugify(keyword) not in keyword_slugs:
+            keyword_slugs.append(slugify(keyword))
+            f.write("\tskos:hasTopConcept keyword:")
+            f.write(slugify(keyword))
+            f.write(";\n")
     f.write("\tdc:description \"All the keywords used in the SSHOC Marketplace: coming from various sources, they are currently more than 800.\"@en .\n\n")
 
-    # Get only the name of the keyword
     keyword_slugs = []
     for keyword in keywords:
         if slugify(keyword) not in keyword_slugs:
@@ -34,6 +36,9 @@ def createSkos():
             f.write(slugify(keyword))
             f.write(" a skos:Concept;\n")
             f.write("\tskos:prefLabel \"")
+            f.write(keyword)
+            f.write("\"@en;\n")
+            f.write("\trdfs:label \"")
             f.write(keyword)
             f.write("\"@en;\n")
             f.write("\tskos:topConceptOf keyword:Schema .\n\n")
