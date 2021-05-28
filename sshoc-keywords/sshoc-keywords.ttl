@@ -2,10 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix keyword: <https://vocabs.dariah.eu/keyword/> .
 
 keyword:Schema a skos:ConceptScheme;
 	rdfs:label "Keywords from SSHOC MP"@en;
+	dct:title "Keywords from SSHOC MP"@en;
 	dc:title "Keywords from SSHOC MP"@en;
 	skos:hasTopConcept keyword:3d;
 	skos:hasTopConcept keyword:heritage_science;

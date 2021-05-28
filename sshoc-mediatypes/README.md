@@ -9,4 +9,4 @@ downloaded from [IANA's website](https://www.iana.org/assignments/media-types/me
 # How to use
 `python3 create-skos-from-iana.py`
 
-It will create `sshoc-media.ttl`
+It will create `media-type.ttl`

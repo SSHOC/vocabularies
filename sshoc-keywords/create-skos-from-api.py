@@ -13,10 +13,12 @@ def createSkos():
     f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
     f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
     f.write("@prefix dc: <http://purl.org/dc/elements/1.1/> .\n")
+    f.write("@prefix dct: <http://purl.org/dc/terms/> .\n")
     f.write("@prefix keyword: <https://vocabs.dariah.eu/keyword/> .\n\n")
 
     f.write("keyword:Schema a skos:ConceptScheme;\n")
     f.write("\trdfs:label \"Keywords from SSHOC MP\"@en;\n")
+    f.write("\tdct:title \"Keywords from SSHOC MP\"@en;\n")
     f.write("\tdc:title \"Keywords from SSHOC MP\"@en;\n")
 
     keyword_slugs = []
