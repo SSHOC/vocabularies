@@ -1,0 +1,1644 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Fri May 28 16:22:18 CEST 2021
+
+<https://vocabs.dariah.eu/tadirah/> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme, owl:Ontology, owl:NamedIndividual;
+  dcterms:title "TaDiRAH 2"@en;
+  dcterms:created "2020";
+  dcterms:description "Taxonomy of Digital Research Activities in the Humanities"@en;
+  owl:imports <http://www.w3.org/2004/02/skos/core>;
+  dcterms:modified "2020-12-02T16:08:35.110Z"^^xsd:dateTime;
+  dc:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande";
+  dc:creator "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger";
+  dc:language "English"@en;
+  dcterms:license "https://creativecommons.org/publicdomain/zero/1.0";
+  dcterms:rightsHolder "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson";
+  dcterms:issued "2020-09-28";
+  owl:versionInfo "2.0.0";
+  skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/analyzing> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:altLabel "Analysis"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/contentAnalysis>, <https://vocabs.dariah.eu/tadirah/networkAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/relationalAnalysis>, <https://vocabs.dariah.eu/tadirah/spatialAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/structuralAnalysis>, <https://vocabs.dariah.eu/tadirah/stylisticAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/visualAnalysis>;
+  skos:note "analyzing  refers to the activity of examining any kind of information from collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=25>, <http://tadirah.dariah.eu/vocab/index.php?tema=25>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "4_Analysis"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Analyzing"@en, "Analyse"@de, "Análisis"@es, "Analyse"@fr, "Analisi"@it,
+    "Análise"@pt, "Анализа"@sr;
+  dcterms:modified "2020-12-11T11:44:33.593Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/contentAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/namedEntityRecognition>, <https://vocabs.dariah.eu/tadirah/tagging>,
+    <https://vocabs.dariah.eu/tadirah/discourseAnalysis>, <https://vocabs.dariah.eu/tadirah/identifying>,
+    <https://vocabs.dariah.eu/tadirah/informationRetrieval>, <https://vocabs.dariah.eu/tadirah/machineLearning>,
+    <https://vocabs.dariah.eu/tadirah/sentimentAnalysis>, <https://vocabs.dariah.eu/tadirah/topicModeling>;
+  skos:note "content analysis includes researching/studying aspects of objects relating to their meaning, such as identifying concepts or meaningful units."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=26>, <http://tadirah.dariah.eu/vocab/index.php?tema=26&/content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Content Analysis"@en, "Inhaltsanalyse"@de, "Análisis de contenido"@es,
+    "Analyse de contenu"@fr, "Analisi Contenutistica"@it, "Análise de conteúdo"@pt, "Анализа садржаја"@sr .
+
+<https://vocabs.dariah.eu/tadirah/machineLearning> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en;
+  skos:altLabel "ML"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=109>, <http://tadirah.dariah.eu/vocab/?tema=109>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=109&/machine-learning-analysis-structural-analysis-analysis-stylistic-analysis-analysis-content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Machine Learning"@en;
+  dcterms:modified "2020-12-11T16:35:17.799Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/namedEntityRecognition> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en;
+  skos:altLabel "NER"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=112>, <http://tadirah.dariah.eu/vocab/?tema=112>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=112&/named-entity-recognition-enrichment-annotation-analysis-content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Named Entity Recognition"@en;
+  dcterms:modified "2020-12-11T16:37:45.238Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/informationRetrieval> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=107>, <http://tadirah.dariah.eu/vocab/?tema=107>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=107&/information-retrieval-analysis-content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Information Retrieval"@en;
+  dcterms:modified "2020-12-11T16:29:34.660Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/topicModeling> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=125>, <http://tadirah.dariah.eu/vocab/?tema=125>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=125&/topic-modeling-analysis-content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Topic Modeling"@en;
+  dcterms:modified "2020-12-11T16:48:29.565Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/sentimentAnalysis> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=122>, <http://tadirah.dariah.eu/vocab/?tema=122>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=122&/sentiment-analysis-analysis-content-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Sentiment Analysis"@en;
+  dcterms:modified "2020-12-11T16:46:27.030Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/tagging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "the act of labelling a piece of data or content wth a short string to express some metadata (Wikidata contributors, \"Q43401994,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q43401994&oldid=1198888121 (accessed September 4, 2020)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Tagging"@en .
+
+<https://vocabs.dariah.eu/tadirah/identifying> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/digitalObjectIdentifier>, <https://vocabs.dariah.eu/tadirah/identifier>,
+    <https://vocabs.dariah.eu/tadirah/namingConvention>, <https://vocabs.dariah.eu/tadirah/persistentIdentifier>,
+    <https://vocabs.dariah.eu/tadirah/uniformResourceIdentifier>;
+  skos:note "identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers such as a word, number, letter, symbol, or any combination to objects of enquiry or to any kind of digital object."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=39>, <http://tadirah.dariah.eu/vocab/index.php?tema=39&/identifying>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Identifying"@en, "Identifizieren"@de, "Identification"@fr, "Identificazione"@it,
+    "Идентификовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/namingConvention> a skos:Concept, owl:NamedIndividual;
+  skos:definition "set of rules for naming variables, types, functions, etc. in programming (Wikidata contributors, \"Q461984,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q461984&oldid=1221175218 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Naming Convention"@en .
+
+<https://vocabs.dariah.eu/tadirah/digitalObjectIdentifier> a skos:Concept, owl:NamedIndividual;
+  skos:definition "character string used as a permanent identifier for a digital object, in a format controlled by the International DOI Foundation (Wikidata contributors, \"Q25670,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25670&oldid=1280060100 (accessed September 24, 2020)."@en;
+  skos:altLabel "DOI"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Digital Object Identifier"@en .
+
+<https://vocabs.dariah.eu/tadirah/identifier> a skos:Concept, owl:NamedIndividual;
+  skos:definition "name that identifies either a unique object or a unique class of objects (Wikidata contributors, \"Q853614,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q853614&oldid=1265951822 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Identifier"@en .
+
+<https://vocabs.dariah.eu/tadirah/persistentIdentifier> a skos:Concept, owl:NamedIndividual;
+  skos:definition "long-lasting digital name (Wikidata contributors, \"Q420330,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q420330&oldid=1268700365 (accessed September 4, 2020)."@en;
+  skos:altLabel "PID"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Persistent Identifier"@en .
+
+<https://vocabs.dariah.eu/tadirah/uniformResourceIdentifier> a skos:Concept, owl:NamedIndividual;
+  skos:definition "string of characters used to identify a name of a resource on a network such as the internet (Wikidata contributors, \"Q61694,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61694&oldid=1253478595 (accessed September 4, 2020)."@en;
+  skos:altLabel "URI"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Uniform Resource Identifier"@en .
+
+<https://vocabs.dariah.eu/tadirah/discourseAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:definition "generic term for the analysis of social, language policy or historiographical discourse phenomena (Wikidata contributors, \"Q1129466,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1129466&oldid=1269534863 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Discourse Analysis"@en .
+
+<https://vocabs.dariah.eu/tadirah/visualAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Visualization"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/mapping>, <https://vocabs.dariah.eu/tadirah/dataVisualization>,
+    <https://vocabs.dariah.eu/tadirah/mindMapping>, <https://vocabs.dariah.eu/tadirah/plotting>;
+  skos:note "visual analysis refers to activities to aggregate and graphically represent patterns, structures, trends or points of interest in large and complex data sets using them analytically and making them visually explorable with methods of automatic data analysis in order to gain new insights. Virtually any type of data, information or knowledge can be visualized in static, dynamic or interactive visual formats such as images, maps, timelines, charts or tables, 2D, 3D and the like."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=32>, <http://tadirah.dariah.eu/vocab/index.php?tema=32&/visualization>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Visualisierung"@de, "Visual Analysis"@en, "Visualización"@es, "Visualisation"@fr,
+    "Visualizzazione"@it, "Visualização"@pt, "Визуализација"@sr .
+
+<https://vocabs.dariah.eu/tadirah/plotting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98846923,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846923&oldid=1270658999 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Plotting"@en .
+
+<https://vocabs.dariah.eu/tadirah/dataVisualization> a skos:Concept, owl:NamedIndividual;
+  skos:definition "creation and study of the visual representation of data (Wikidata contributors, \"Q6504956,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6504956&oldid=1258700005 (accessed September 4, 2020)."@en;
+  skos:prefLabel "Data Visualization"@en .
+
+<https://vocabs.dariah.eu/tadirah/mapping> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=110>, <http://tadirah.dariah.eu/vocab/?tema=110>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=110&/mapping>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Mapping"@en;
+  dcterms:modified "2020-12-11T16:36:05.949Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/mindMapping> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98846887,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846887&oldid=1270658470 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Mind Mapping"@en .
+
+<https://vocabs.dariah.eu/tadirah/stylisticAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/authorshipAttribution>, <https://vocabs.dariah.eu/tadirah/clusterAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/machineLearning>, <https://vocabs.dariah.eu/tadirah/contrastiveAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/distanceMeasures>, <https://vocabs.dariah.eu/tadirah/genreRecognition>,
+    <https://vocabs.dariah.eu/tadirah/principalComponentAnalysis>, <https://vocabs.dariah.eu/tadirah/stylometry>,
+    <https://vocabs.dariah.eu/tadirah/rhetoricalAnalysis>, <https://vocabs.dariah.eu/tadirah/textCategorization>;
+  skos:note "stylistic analysis consists of identifying stylistic or formal features as a particular variety of digital objects such as language, physical artifacts, painting, music or movies. Computational stylistics analysis is in many cases applied to texts and based on linguistic features."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=31>, <http://tadirah.dariah.eu/vocab/index.php?tema=31&/stylistic-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Stylistic Analysis"@en, "Stilistische Analyse"@de, "Análisis estilístico"@es,
+    "Analyse stylistique"@fr, "Analisi Stilistica"@it, "Análise estilística"@pt, "Стилистичка анализа"@sr .
+
+<https://vocabs.dariah.eu/tadirah/authorshipAttribution> a skos:Concept, owl:NamedIndividual;
+  skos:note "authorship attribution means the theory and method of determining the author of a given piece of work, e.g. a text by appropriate characterization of stylistic and thematic features."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Authorship Attribution"@en .
+
+<https://vocabs.dariah.eu/tadirah/contrastiveAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q614959,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q614959&oldid=1118155497 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Contrastive Analysis"@en .
+
+<https://vocabs.dariah.eu/tadirah/textCategorization> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q57771142,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q57771142&oldid=1072020823 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Text Categorization"@en .
+
+<https://vocabs.dariah.eu/tadirah/distanceMeasures> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=101>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Distance Measures"@en;
+  dcterms:modified "2020-12-11T15:20:40.108Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/clusterAnalysis> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=96>, <http://tadirah.dariah.eu/vocab/?tema=96>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=96&/cluster-analysis-analysis-stylistic-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Cluster Analysis"@en;
+  dcterms:modified "2020-12-11T16:53:27.896Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/rhetoricalAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845926,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845926&oldid=1270647161 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Rhetorical Analysis"@en .
+
+<https://vocabs.dariah.eu/tadirah/stylometry> a skos:Concept, owl:NamedIndividual;
+  skos:note "stylometry refers to research methods and techniques for analyzing, characterizing and comparing writing styles to determine authorship via statistical probability. A typical stylometric approach is based on the observation the frequency of occurrence of individual words, length of sentences, complexity of sentences, frequent words, spelling errors, etc."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Stylometry"@en .
+
+<https://vocabs.dariah.eu/tadirah/principalComponentAnalysis> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=118>, <http://tadirah.dariah.eu/vocab/?tema=118>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=118&/principal-component-analysis-analysis-stylistic-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Principal Component Analysis"@en;
+  dcterms:modified "2020-12-11T16:43:02.695Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/genreRecognition> a skos:Concept, owl:NamedIndividual;
+  skos:note "genre recognition refers to methods and technologies for analyzing pieces of art (e.g. literature, music, film), extracting and classifying features to associate them with different genres automatically or semi-automatically."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Genre Recognition"@en .
+
+<https://vocabs.dariah.eu/tadirah/structuralAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/posTagging>, <https://vocabs.dariah.eu/tadirah/collocationAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/concordance>, <https://vocabs.dariah.eu/tadirah/machineLearning>,
+    <https://vocabs.dariah.eu/tadirah/treeTagging>;
+  skos:note "structural analysis involves analysis of dimensions of the language system on the level of the relations between these structural elements such as morphology or syntax."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=30>, <http://tadirah.dariah.eu/vocab/index.php?tema=30&/structural-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Structural Analysis"@en, "Strukturanalyse"@de, "Análisis estructural"@es,
+    "Analyse structurelle"@fr, "Analisi Strutturale"@it, "Análise estrutural"@pt, "Структурална анализа"@sr .
+
+<https://vocabs.dariah.eu/tadirah/concordance> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en;
+  skos:altLabel "Concordancing"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=99>, <http://tadirah.dariah.eu/vocab/?tema=99>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=99&/concordancing-analysis-structural-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Concordance"@en;
+  dcterms:modified "2020-12-11T16:55:12.100Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/treeTagging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845582,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845582&oldid=1270642307 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Tree-Tagging"@en .
+
+<https://vocabs.dariah.eu/tadirah/collocationAnalysis> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:note "analysis of recurrent co-occurrences of two or more words in language."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=97>, <http://tadirah.dariah.eu/vocab/?tema=97>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=97&/collocation-analysis-analysis-structural-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Collocation Analysis"@en;
+  dcterms:modified "2020-12-11T16:54:11.349Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/posTagging> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en;
+  skos:altLabel "Part-of-Speech-Tagging"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=116>, <http://tadirah.dariah.eu/vocab/?tema=116>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=116&/pos-tagging-analysis-structural-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "POS-Tagging"@en;
+  dcterms:modified "2020-12-11T16:41:26.763Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/networkAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/namedEntityRecognition>, <https://vocabs.dariah.eu/tadirah/identifying>;
+  skos:note "network analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature. The resulting network is made up of nodes (entities) and edges (relations)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=27>, <http://tadirah.dariah.eu/vocab/index.php?tema=27&/network-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Network Analysis"@en, "Netzwerkanalyse"@de, "Análisis de redes"@es,
+    "Analyse de réseaux"@fr, "Analisi delle Reti"@it, "Análise de redes"@pt, "Анализа мреже"@sr .
+
+<https://vocabs.dariah.eu/tadirah/spatialAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/georeferencing>, <https://vocabs.dariah.eu/tadirah/namedEntityRecognition>;
+  skos:note "spatial analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis may lead to Visualization or Modeling in the form of maps."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=29>, <http://tadirah.dariah.eu/vocab/index.php?tema=29&/spatial-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Spatial Analysis"@en, "Räumliche Analyse"@de, "Análisis espacial"@es,
+    "Analyse spatiale"@fr, "Analisi dello Spazio"@it, "Análise espacial"@pt, "Просторна анализа"@sr .
+
+<https://vocabs.dariah.eu/tadirah/georeferencing> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=106>, <http://tadirah.dariah.eu/vocab/?tema=106>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=106&/georeferencing-enrichment-annotation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Georeferencing"@en;
+  dcterms:modified "2020-12-11T16:28:31.697Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/relationalAnalysis> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/clusterAnalysis>, <https://vocabs.dariah.eu/tadirah/collating>,
+    <https://vocabs.dariah.eu/tadirah/comparing>, <https://vocabs.dariah.eu/tadirah/identifying>,
+    <https://vocabs.dariah.eu/tadirah/machineLearning>, <https://vocabs.dariah.eu/tadirah/patternRecognition>,
+    <https://vocabs.dariah.eu/tadirah/principalComponentAnalysis>, <https://vocabs.dariah.eu/tadirah/sequenceAlignment>,
+    <https://vocabs.dariah.eu/tadirah/stylometry>;
+  skos:note "relational analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between different texts (e.g. text reuse or  plagiarism), or comparison of texts variations regarding completeness and correctness (e.g. collation), or assessing the similarity of texts in terms of stylistic features (e.g. stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=28>, <http://tadirah.dariah.eu/vocab/index.php?tema=28&/relational-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Relational Analysis"@en, "Analyse von Relationen"@de, "Análisis relacional"@es,
+    "Analyse relationnelle"@fr, "Analisi delle Relazioni"@it, "Análise relacional"@pt,
+    "Релациона анализа"@sr .
+
+<https://vocabs.dariah.eu/tadirah/comparing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845331,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845331&oldid=1270639313 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Comparing"@en .
+
+<https://vocabs.dariah.eu/tadirah/sequenceAlignment> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=123>, <http://tadirah.dariah.eu/vocab/?tema=123>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=123&/sequence-alignment-analysis-relational-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Sequence Alignment"@en;
+  dcterms:modified "2020-12-11T16:47:15.202Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/collating> a skos:Concept, owl:NamedIndividual;
+  skos:note "collating describes the activity of comparing two or more versions of written or spoken natural language data by aligning them into alphabetical or numerical order to identify similarities and differences. "@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Collating"@en .
+
+<https://vocabs.dariah.eu/tadirah/patternRecognition> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=114>, <http://tadirah.dariah.eu/vocab/?tema=114>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=114&/pattern-recognition-analysis-relational-analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Pattern Recognition"@en;
+  dcterms:modified "2020-12-11T16:38:55.526Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/capturing> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Capture"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/gathering>, <https://vocabs.dariah.eu/tadirah/recording>,
+    <https://vocabs.dariah.eu/tadirah/discovering>, <https://vocabs.dariah.eu/tadirah/converting>,
+    <https://vocabs.dariah.eu/tadirah/dataRecognition>, <https://vocabs.dariah.eu/tadirah/extracting>,
+    <https://vocabs.dariah.eu/tadirah/imaging>, <https://vocabs.dariah.eu/tadirah/transcribing>;
+  skos:note "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artifacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognition or recording). This also includes aggregating resources, information and data (as in gathering)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=7>, <http://tadirah.dariah.eu/vocab/index.php?tema=7>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "1_Capture"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Capturing"@en, "Erfassen"@de, "Captura"@es, "Acquisition"@fr, "Acquisizione"@it,
+    "Captura"@pt, "Захватање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/converting> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Conversion"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/compiling>, <https://vocabs.dariah.eu/tadirah/lemmatizing>,
+    <https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing>, <https://vocabs.dariah.eu/tadirah/parsing>,
+    <https://vocabs.dariah.eu/tadirah/transcoding>;
+  skos:note "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=8>, <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Konvertieren"@de, "Converting"@en, "Conversión"@es, "Conversion"@fr,
+    "Conversione"@it, "Conversão"@pt, "Конвертовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/compiling> a skos:Concept, owl:NamedIndividual;
+  skos:definition "translation of code written in a higher-level programming language to a lower-level form (Wikidata contributors, \"Q56248166,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56248166&oldid=1230644647 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Compiling"@en .
+
+<https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "field of computer science and linguistics (Wikidata contributors, \"Q30642,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q30642&oldid=1257963465 (accessed September 4, 2020)."@en;
+  skos:altLabel "NLP"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Natural Language Processing"@en .
+
+<https://vocabs.dariah.eu/tadirah/parsing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar (Wikidata contributors, \"Q194152,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Parsing"@en .
+
+<https://vocabs.dariah.eu/tadirah/lemmatizing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q2554325,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2554325&oldid=1114054839 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Lemmatizing"@en .
+
+<https://vocabs.dariah.eu/tadirah/transcoding> a skos:Concept, owl:NamedIndividual;
+  skos:definition "direct digital-to-digital conversion of one encoding to another (Wikidata contributors, \"Q1888734,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1888734&oldid=1225865439 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Transcoding"@en .
+
+<https://vocabs.dariah.eu/tadirah/extracting> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/dataMining>, <https://vocabs.dariah.eu/tadirah/informationMining>,
+    <https://vocabs.dariah.eu/tadirah/knowledgeDiscovery>, <https://vocabs.dariah.eu/tadirah/knowledgeExtraction>;
+  skos:note "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Extracting"@en .
+
+<https://vocabs.dariah.eu/tadirah/dataMining> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning (Wikidata contributors, \"Q172491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q172491&oldid=1268899513 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Data Mining"@en .
+
+<https://vocabs.dariah.eu/tadirah/knowledgeExtraction> a skos:Concept, owl:NamedIndividual;
+  skos:definition "creation of knowledge from structured and unstructured sources (Wikidata contributors, \"Q1582085,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1582085&oldid=1235011290 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Knowledge Extraction"@en .
+
+<https://vocabs.dariah.eu/tadirah/knowledgeDiscovery> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847144,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847144&oldid=1270662396 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Knowledge Discovery"@en .
+
+<https://vocabs.dariah.eu/tadirah/informationMining> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847165&oldid=1270662707 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Information Mining"@en .
+
+<https://vocabs.dariah.eu/tadirah/recording> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/audioRecording>, <https://vocabs.dariah.eu/tadirah/screencast>,
+    <https://vocabs.dariah.eu/tadirah/videoCapture>;
+  skos:note "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=13>, <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Recording"@en, "Aufzeichnen"@de, "Grabación"@es, "Enregistrement"@fr,
+    "Registrazione"@it, "Gravação"@pt, "Снимање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/screencast> a skos:Concept, owl:NamedIndividual;
+  skos:definition "digital recording of computer screen output (Wikidata contributors, \"Q1365447,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1365447&oldid=1234996090 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Screencast"@en .
+
+<https://vocabs.dariah.eu/tadirah/videoCapture> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q2778015,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2778015&oldid=1112440881 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Video Capture"@en .
+
+<https://vocabs.dariah.eu/tadirah/audioRecording> a skos:Concept, owl:NamedIndividual;
+  skos:definition "mechanical or digital record of a series of audio events (Wikidata contributors, \"Q3302947,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3302947&oldid=1254901544 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Audio Recording"@en .
+
+<https://vocabs.dariah.eu/tadirah/discovering> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/browsing>, <https://vocabs.dariah.eu/tadirah/informationRetrieval>,
+    <https://vocabs.dariah.eu/tadirah/exploration>, <https://vocabs.dariah.eu/tadirah/querying>,
+    <https://vocabs.dariah.eu/tadirah/searching>;
+  skos:note "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=10>, <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Discovering"@en, "Entdecken"@de, "Localización"@es, "Découverte"@fr,
+    "Scoperta"@it, "Localização"@pt, "Проналажење"@sr .
+
+<https://vocabs.dariah.eu/tadirah/exploration> a skos:Concept, owl:NamedIndividual;
+  skos:definition "act of searching or traveling around a terrain for the purpose of discovery (Wikidata contributors, \"Q6502154,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6502154&oldid=1238428839 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Exploration"@en .
+
+<https://vocabs.dariah.eu/tadirah/searching> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=121>, <http://tadirah.dariah.eu/vocab/?tema=121>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=121&/searching>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Searching"@en;
+  dcterms:modified "2020-12-11T16:45:27.205Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/browsing> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=95>, <http://tadirah.dariah.eu/vocab/?tema=95>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=95&/browsing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Browsing"@en;
+  dcterms:modified "2020-12-11T16:52:32.710Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/querying> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847088,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847088&oldid=1270661541 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Querying"@en .
+
+<https://vocabs.dariah.eu/tadirah/dataRecognition> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/encoding>, <https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition>,
+    <https://vocabs.dariah.eu/tadirah/opticalMusicRecognition>, <https://vocabs.dariah.eu/tadirah/preprocessing>;
+  skos:note "data recognition, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of music score, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=9>, <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Data Recognition"@en, "Datenerkennung"@de, "Reconocimiento de datos"@es,
+    "Reconnaissance de données"@fr, "Riconoscimento dei Dati"@it, "Reconhecimento de dados"@pt,
+    "Препознавање података"@sr .
+
+<https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q167555,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q167555&oldid=1257963956 (accessed September 4, 2020)."@en;
+  skos:altLabel "OCR"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Optical Character Recognition"@en .
+
+<https://vocabs.dariah.eu/tadirah/preprocessing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q28838080,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28838080&oldid=941780726 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Preprocessing"@en .
+
+<https://vocabs.dariah.eu/tadirah/opticalMusicRecognition> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q1243229,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1243229&oldid=1126910841 (accessed September 4, 2020)."@en;
+  skos:altLabel "OMR"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Optical Music Recognition"@en .
+
+<https://vocabs.dariah.eu/tadirah/encoding> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=104>, <http://tadirah.dariah.eu/vocab/?tema=104>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=104&/encoding>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Encoding"@en;
+  dcterms:modified "2020-12-11T16:26:08.874Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/gathering> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/aggregating>, <https://vocabs.dariah.eu/tadirah/archiving>,
+    <https://vocabs.dariah.eu/tadirah/cataloging>, <https://vocabs.dariah.eu/tadirah/collecting>,
+    <https://vocabs.dariah.eu/tadirah/webScraping>, <https://vocabs.dariah.eu/tadirah/preserving>,
+    <https://vocabs.dariah.eu/tadirah/collating>, <https://vocabs.dariah.eu/tadirah/webCrawling>;
+  skos:note "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=11>, <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Gathering"@en, "Sammeln"@de, "Recolección"@es, "Collecte"@fr, "Raccolta"@it,
+    "Recolección"@pt, "Прикупљање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/preserving> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Preservation"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/bitStreamPreservation>, <https://vocabs.dariah.eu/tadirah/description>,
+    <https://vocabs.dariah.eu/tadirah/emulation>, <https://vocabs.dariah.eu/tadirah/migration>,
+    <https://vocabs.dariah.eu/tadirah/preservationMetadata>, <https://vocabs.dariah.eu/tadirah/replication>,
+    <https://vocabs.dariah.eu/tadirah/versioning>;
+  skos:note "preserving refers to the application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=41>, <http://tadirah.dariah.eu/vocab/index.php?tema=41&/preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Preserving"@en, "Konservierung"@de, "Preservación"@es, "Conservation"@fr,
+    "Preservazione"@it, "Preservação"@pt, "Очување"@sr .
+
+<https://vocabs.dariah.eu/tadirah/migration> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=111>, <http://tadirah.dariah.eu/vocab/?tema=111>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=111&/migration-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Migration"@en;
+  dcterms:modified "2020-12-11T16:36:59.401Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/description> a skos:Concept, owl:NamedIndividual;
+  skos:definition "text for clarification; one of four rhetorical modes (Wikidata contributors, \"Q1200750,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1200750&oldid=1266102146 (accessed September 5, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Description"@en .
+
+<https://vocabs.dariah.eu/tadirah/preservationMetadata> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=117>, <http://tadirah.dariah.eu/vocab/?tema=117>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=117&/preservation-metadata-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Preservation Metadata"@en;
+  dcterms:modified "2020-12-11T16:42:12.554Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/emulation> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=103>, <http://tadirah.dariah.eu/vocab/?tema=103>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=103&/emulation-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Emulation"@en;
+  dcterms:modified "2020-12-11T16:24:05.025Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/replication> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=119>, <http://tadirah.dariah.eu/vocab/?tema=119>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=119&/replication-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Replication"@en;
+  dcterms:modified "2020-12-11T16:43:55.261Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/bitStreamPreservation> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=93>, <http://tadirah.dariah.eu/vocab/?tema=93>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=93&/bit-stream-preservation-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Bit Stream Preservation"@en;
+  dcterms:modified "2020-12-11T16:51:26.035Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/versioning> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:note "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=126>, <http://tadirah.dariah.eu/vocab/?tema=126>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=126&/versioning-storage-preservation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Versioning"@en;
+  dcterms:modified "2020-12-11T16:49:25.152Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/aggregating> a skos:Concept, owl:NamedIndividual;
+  skos:definition "act of collecting together physical or conceptual objects (Wikidata contributors, \"Q23007394,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23007394&oldid=1210318642 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Aggregating"@en .
+
+<https://vocabs.dariah.eu/tadirah/collecting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "purposefully gathering items (Wikidata contributors, \"Q208165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q208165&oldid=1249560517 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Collecting"@en .
+
+<https://vocabs.dariah.eu/tadirah/cataloging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process of listing information resources for inclusion in a database (Wikidata contributors, \"Q3535655,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3535655&oldid=1256785269 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Cataloging"@en .
+
+<https://vocabs.dariah.eu/tadirah/webCrawling> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=127>, <http://tadirah.dariah.eu/vocab/?tema=127>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=127&/web-crawling-capture-gathering>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Web Crawling"@en;
+  dcterms:modified "2020-12-11T16:50:44.546Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/archiving> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/cataloging>, <https://vocabs.dariah.eu/tadirah/collecting>,
+    <https://vocabs.dariah.eu/tadirah/dataIngestion>, <https://vocabs.dariah.eu/tadirah/scanning>,
+    <https://vocabs.dariah.eu/tadirah/webScraping>;
+  skos:note "archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=38>, <http://tadirah.dariah.eu/vocab/index.php?tema=38&/archiving>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Archiving"@en, "Archivieren"@de, "Archivage"@fr, "Archiviazione"@it,
+    "Архивирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/dataIngestion> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847455,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847455&oldid=1270665713 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Data Ingestion"@en .
+
+<https://vocabs.dariah.eu/tadirah/scanning> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=120>, <http://tadirah.dariah.eu/vocab/?tema=120>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=120&/scanning>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Scanning"@en;
+  dcterms:modified "2020-12-11T16:44:34.664Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/webScraping> a skos:Concept, owl:NamedIndividual;
+  skos:definition "data scraping used for extracting data from websites (Wikidata contributors, \"Q665452,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q665452&oldid=1203621822 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Web Scraping"@en .
+
+<https://vocabs.dariah.eu/tadirah/transcribing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en;
+  skos:altLabel "Transcription"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/speechRecognizing>;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=14>, <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Transcribing"@en, "Transkription"@de, "Transcripción"@es, "Transcription"@fr,
+    "Trascrizione"@it, "Transcrição"@pt, "Транскрипција"@sr .
+
+<https://vocabs.dariah.eu/tadirah/speechRecognizing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98846987,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846987&oldid=1270659968 (accessed September 4, 2020)."@en;
+  skos:prefLabel "Speech Recognizing"@en .
+
+<https://vocabs.dariah.eu/tadirah/imaging> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/scanning>, <https://vocabs.dariah.eu/tadirah/photographing>;
+  skos:note "imaging refers to capturing texts, images, artifacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=12>, <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Imaging"@en, "Bilderfassung"@de, "Captura en formato imagen"@es, "Imagerie"@fr,
+    "Gestione delle Immagini"@it, "Captura em formato de imagem"@pt, "Усликавање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/photographing> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en;
+  skos:altLabel "Photography"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=115>, <http://tadirah.dariah.eu/vocab/?tema=115>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=115&/photography>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Photographing"@en;
+  dcterms:modified "2020-12-11T16:40:29.420Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/creating> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Creation"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/designing>, <https://vocabs.dariah.eu/tadirah/programming>,
+    <https://vocabs.dariah.eu/tadirah/translating>, <https://vocabs.dariah.eu/tadirah/webDevelopment>,
+    <https://vocabs.dariah.eu/tadirah/writing>;
+  skos:note "creating generally refers to an achievement of producing born-digital objects as an own contribution, rather than creating an output by capturing and digitizing existing analog objects or enrichment of information. Creating can involve writing or translating natural language texts or could also concern other forms of expressions, such as creating an executable code (programming), composing a musical score, creating an image, or developing any design (designing) for any media or implementing these design concepts (web development)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=15>, <http://tadirah.dariah.eu/vocab/index.php?tema=15&/2_creation>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "2_Creation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Erzeugen"@de, "Creating"@en, "Creación"@es, "Création"@fr, "Creazione"@it,
+    "Criação"@pt, "Стварање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/webDevelopment> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Web development"@en;
+  skos:note "web development refers to the creation of websites by writing HTML/CSS, or other scripting languages, and building or configuring  a platform, content management system or framework such as Drupal, WordPress, Bootstrap, or Omeka, but also includes creating digital assets for browser-based applications."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=19>, <http://tadirah.dariah.eu/vocab/index.php?tema=19&/web-development>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Webentwicklung"@de, "Web Development"@en, "Desarrollo web"@es, "Développement Web"@fr,
+    "Sviluppo Web"@it, "Desenvolvimento web"@pt, "Развој мреже-Веб програмирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/writing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "writing designates the activity of creating new texts (instead of capturing existing text). Here, it primarily concerns research papers and reports, but may include other textually-oriented objects."@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/lettering>;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=20>, <http://tadirah.dariah.eu/vocab/index.php?tema=20&/writing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Writing"@en, "Schreiben"@de, "Escritura"@es, "Écriture"@fr, "Scrittura"@it,
+    "Escrita"@pt, "Писање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/lettering> a skos:Concept, owl:NamedIndividual;
+  skos:definition "creation of hand-drawn letters in graphic design and typography (Wikidata contributors, \"Q5538738,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5538738&oldid=1222349737 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Lettering"@en .
+
+<https://vocabs.dariah.eu/tadirah/translating> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Translation"@en;
+  skos:note "translating involves generating a new linguistic object based on a natural languages source document but written in a different language than the source."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=18>, <http://tadirah.dariah.eu/vocab/index.php?tema=18&/translation>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Translating"@en, "Übersetzen"@de, "Traducción"@es, "Traduction"@fr,
+    "Traduzione"@it, "Tradução"@pt, "Превођење"@sr .
+
+<https://vocabs.dariah.eu/tadirah/programming> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/encoding>, <https://vocabs.dariah.eu/tadirah/graphicsProgramming>,
+    <https://vocabs.dariah.eu/tadirah/pseudoCoding>;
+  skos:note "programming describes the process of creating executable code for a computer including scripts or application software. Often programming comprises pseudo coding and editing ac source code or algorithm and is varying for different programming languages."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=17>, <http://tadirah.dariah.eu/vocab/index.php?tema=17&/programming>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Programming"@en, "Programmieren"@de, "Programación"@es, "Programmation"@fr,
+    "Programmazione"@it, "Programação"@pt, "Програмирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/graphicsProgramming> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845304,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845304&oldid=1270638847 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Graphics Programming"@en .
+
+<https://vocabs.dariah.eu/tadirah/pseudoCoding> a skos:Concept, owl:NamedIndividual;
+  skos:note "pseudo coding refers to the basic process of breaking complex problems into modular algorithms and logical procedures described in plain text. It primarily aims at human readability."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Pseudo Coding"@en .
+
+<https://vocabs.dariah.eu/tadirah/designing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/diagramming>, <https://vocabs.dariah.eu/tadirah/drawing>,
+    <https://vocabs.dariah.eu/tadirah/wireframing>;
+  skos:note "designing refers to the development of a user or a graphical interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, user interaction, participation and usability aspects where a person’s perceptions and needs of the practical dimensions such as utility, ease of use, and efficiency of the system are taken into consideration."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=16>, <http://tadirah.dariah.eu/vocab/index.php?tema=16&/designing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Designing"@en, "Design"@de, "Diseño"@es, "Design"@fr, "Progettazione"@it,
+    "Design"@pt, "Дизајнирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/drawing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "visual artwork in two-dimensional medium (Wikidata contributors, \"Q93184,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q93184&oldid=1269736568 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Drawing"@en .
+
+<https://vocabs.dariah.eu/tadirah/wireframing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845203,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845203&oldid=1270637566 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Wireframing"@en .
+
+<https://vocabs.dariah.eu/tadirah/diagramming> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98845265,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845265&oldid=1270638355 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Diagramming"@en .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/disseminating> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Dissemination"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/publishing>, <https://vocabs.dariah.eu/tadirah/communicating>,
+    <https://vocabs.dariah.eu/tadirah/collaborating>, <https://vocabs.dariah.eu/tadirah/commenting>,
+    <https://vocabs.dariah.eu/tadirah/crowdsourcing>, <https://vocabs.dariah.eu/tadirah/sharing>,
+    <https://vocabs.dariah.eu/tadirah/teaching>;
+  skos:note "disseminating refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing (publishing and commenting) and sharing (collaborating, crowdsourcing, and communicating) of data using a variety of methods and techniques including the application of linked open data."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=42>, <http://tadirah.dariah.eu/vocab/index.php?tema=42&/7_dissemination>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "7_Dissemination"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Disseminating"@en, "Dissemination"@de, "Difusión"@es, "Dissémination"@fr,
+    "Divulgazione"@it, "Difusão"@pt, "Дисеминација"@sr .
+
+<https://vocabs.dariah.eu/tadirah/publishing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/academicPublishing>, <https://vocabs.dariah.eu/tadirah/linkedOpenData>,
+    <https://vocabs.dariah.eu/tadirah/blogging>, <https://vocabs.dariah.eu/tadirah/digitalPublishing>,
+    <https://vocabs.dariah.eu/tadirah/tweet>;
+  skos:note "publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=47>, <http://tadirah.dariah.eu/vocab/index.php?tema=47&/publishing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Publishing"@en, "Veröffentlichen"@de, "Publicación"@es, "Publication"@fr,
+    "Pubblicazione"@it, "Publicação"@pt, "Објављивање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/blogging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "action of writing articles or maintaining a weblog (Wikidata contributors, \"Q21124681,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21124681&oldid=1262333720 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Blogging"@en .
+
+<https://vocabs.dariah.eu/tadirah/academicPublishing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "subfield of publishing which distributes academic research and scholarship (Wikidata contributors, \"Q5246046,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5246046&oldid=1266348457 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Academic Publishing"@en .
+
+<https://vocabs.dariah.eu/tadirah/digitalPublishing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q1224844,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1224844&oldid=573797951 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Digital Publishing"@en .
+
+<https://vocabs.dariah.eu/tadirah/tweet> a skos:Concept, owl:NamedIndividual;
+  skos:definition "individual post on the Twitter microblogging service (Wikidata contributors, \"Q56119332,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56119332&oldid=1249804975 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Tweet"@en .
+
+<https://vocabs.dariah.eu/tadirah/linkedOpenData> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en;
+  skos:altLabel "LOD"@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=108>, <http://tadirah.dariah.eu/vocab/?tema=108>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=108&/linked-open-data-enrichment-annotation-dissemination-publishing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Linked Open Data"@en;
+  dcterms:modified "2020-12-11T16:34:10.008Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/communicating> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/audioConferencing>, <https://vocabs.dariah.eu/tadirah/eMailing>,
+    <https://vocabs.dariah.eu/tadirah/instantMessaging>, <https://vocabs.dariah.eu/tadirah/microblogging>,
+    <https://vocabs.dariah.eu/tadirah/textMessaging>, <https://vocabs.dariah.eu/tadirah/videoConference>;
+  skos:note "communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=45>, <http://tadirah.dariah.eu/vocab/index.php?tema=45&/communicating>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Communicating"@en, "Kommunizieren"@de, "Comunicación"@es, "Communication"@fr,
+    "Comunicazione"@it, "Comunicação"@pt, "Комуницирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/videoConference> a skos:Concept, owl:NamedIndividual;
+  skos:definition "type of conference (Wikidata contributors, \"Q238354,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q238354&oldid=1262194128 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Video Conference"@en .
+
+<https://vocabs.dariah.eu/tadirah/textMessaging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "act of typing and sending a brief, digital message (Wikidata contributors, \"Q17166101,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q17166101&oldid=1266645836 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Text Messaging"@en .
+
+<https://vocabs.dariah.eu/tadirah/audioConferencing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Audio Conferencing"@en .
+
+<https://vocabs.dariah.eu/tadirah/eMailing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q386274,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q386274&oldid=855343099 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "E-mailing"@en .
+
+<https://vocabs.dariah.eu/tadirah/microblogging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "broadcast medium (Wikidata contributors, \"Q92438,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q92438&oldid=1237465325 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Microblogging"@en .
+
+<https://vocabs.dariah.eu/tadirah/instantMessaging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "form of communication over the Internet (Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Instant Messaging"@en .
+
+<https://vocabs.dariah.eu/tadirah/teaching> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:altLabel "Teaching / Learning"@en;
+  skos:note "teaching refers to the activity of actively imparting knowledge, competences or skills."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=54>, <http://tadirah.dariah.eu/vocab/?tema=54>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=54&/meta-teaching-learning>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Teaching"@en;
+  dcterms:modified "2020-12-11T16:59:05.516Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/commenting> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/contextualizing>, <https://vocabs.dariah.eu/tadirah/expressingOpinion>;
+  skos:note "commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=44>, <http://tadirah.dariah.eu/vocab/index.php?tema=44&/commenting>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Commenting"@en, "Kommentieren"@de, "Comentario"@es, "Commentaire"@fr,
+    "Commento"@it, "Comentário"@pt, "Стављање коментара"@sr .
+
+<https://vocabs.dariah.eu/tadirah/contextualizing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/associate>, <https://vocabs.dariah.eu/tadirah/coOccurrence>,
+    <https://vocabs.dariah.eu/tadirah/integrating>, <https://vocabs.dariah.eu/tadirah/mapping>,
+    <https://vocabs.dariah.eu/tadirah/semantification>;
+  skos:note "contextualizing  refers to  creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=34>, <http://tadirah.dariah.eu/vocab/index.php?tema=34&/contextualizing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Contextualizing"@en, "Kontextualisieren"@de, "Contextualización"@es,
+    "Contextualisation"@fr, "Contestualizzazione"@it, "Contextualização"@pt, "Контекстуализовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/coOccurrence> a skos:Concept, owl:NamedIndividual;
+  skos:note "co-occurrence indicates the semantic proximity or an idiomatic expression of text corpora, based on the statistical-linguistic frequency of occurrence of at least two terms in a certain order."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Co-Occurrence"@en .
+
+<https://vocabs.dariah.eu/tadirah/associate> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q2868277,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2868277&oldid=1256900973 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Associate"@en .
+
+<https://vocabs.dariah.eu/tadirah/semantification> a skos:Concept, owl:NamedIndividual;
+  skos:note "semantification refers to the process of identifying and associating explicit information with each other by facing challenges such as ambiguity and formalization of implicit knowledge to improve access, automatically data analysis and reuse."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Semantification"@en .
+
+<https://vocabs.dariah.eu/tadirah/integrating> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847635,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847635&oldid=1270667187 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Integrating"@en .
+
+<https://vocabs.dariah.eu/tadirah/expressingOpinion> a skos:Concept, owl:NamedIndividual;
+  skos:note "expressing opinion refers to the activity of conveying one's feelings and/or thoughts about something to someone in writing or orally. Hereby existing opinions can be agreed or disagreed with, thus stimulating a discourse."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Expressing Opinion"@en .
+
+<https://vocabs.dariah.eu/tadirah/crowdsourcing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/gamification>, <https://vocabs.dariah.eu/tadirah/userGeneratedContent>;
+  skos:note "crowdsourcing refers to the paradigm of user-generated content by an open, large and constantly growing group of contributors in a collaborative and collective web context, applied here to the domain of digital humanities research."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=46>, <http://tadirah.dariah.eu/vocab/index.php?tema=46&/crowdsourcing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Crowdsourcing"@en, "Crowdsourcing"@de, "Crowdsourcing"@fr, "Cooperazione Collettiva"@it,
+    "Прибављање малих новчаних прилога од великог броја људи"@sr .
+
+<https://vocabs.dariah.eu/tadirah/gamification> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=105>, <http://tadirah.dariah.eu/vocab/?tema=105>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=105&/gamification-dissemination-crowdsourcing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Gamification"@en;
+  dcterms:modified "2020-12-11T16:27:31.277Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/userGeneratedContent> a skos:Concept, owl:NamedIndividual;
+  skos:definition "online content created by users (Wikidata contributors, \"Q579716,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q579716&oldid=1244820573 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "User Generated Content"@en .
+
+<https://vocabs.dariah.eu/tadirah/collaborating> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Collaboration"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/discussing>, <https://vocabs.dariah.eu/tadirah/organizing>,
+    <https://vocabs.dariah.eu/tadirah/socialNetworking>;
+  skos:note "collaborating  is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive digital research environments, but can also happen around more specific activities, such as communication or sharing of resources."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=43>, <http://tadirah.dariah.eu/vocab/index.php?tema=43&/collaboration>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Collaborating"@en, "Kollaboration"@de, "Colaboración"@es, "Collaboration"@fr,
+    "Collaborazione"@it, "Colaboração"@pt, "Колаборација/Сарадња"@sr .
+
+<https://vocabs.dariah.eu/tadirah/organizing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/sharing>, <https://vocabs.dariah.eu/tadirah/finding>,
+    <https://vocabs.dariah.eu/tadirah/managing>;
+  skos:note "organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=40>, <http://tadirah.dariah.eu/vocab/index.php?tema=40&/organizing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Organizing"@en, "Organisieren"@de, "Organisation"@fr, "Organizzazione"@it,
+    "Организовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/managing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "influence or authority over something; process of directing the operation of a device, system, or process (Wikidata contributors, \"Q29017603,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q29017603&oldid=1238420285 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Managing"@en .
+
+<https://vocabs.dariah.eu/tadirah/sharing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/posting>, <https://vocabs.dariah.eu/tadirah/upload>;
+  skos:note "sharing refers to the activity of making objects such as digital information, documents, files, software and other publically findable, accessible, interoperable and reusable according to the fair principles and in the sense of open science through communication channels such as blogs, code sharing sites such as GitHUB, social media sites or other web-based services, collaborative and network applications."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=48>, <http://tadirah.dariah.eu/vocab/index.php?tema=48&/sharing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Sharing"@en, "Teilen"@de, "Intercambio"@es, "Partage"@fr, "Condivisione"@it,
+    "Troca"@pt, "Дељење"@sr .
+
+<https://vocabs.dariah.eu/tadirah/upload> a skos:Concept, owl:NamedIndividual;
+  skos:definition "sending of data from a local system to a remote system (Wikidata contributors, \"Q7126699,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7126699&oldid=1267188395 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Upload"@en .
+
+<https://vocabs.dariah.eu/tadirah/posting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "content on a social media platform, a forum or a blog (Wikidata contributors, \"Q1453674,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1453674&oldid=1178826153 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Posting"@en .
+
+<https://vocabs.dariah.eu/tadirah/finding> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q28195064,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28195064&oldid=559043572 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Finding"@en .
+
+<https://vocabs.dariah.eu/tadirah/discussing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847226,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847226&oldid=1270663604 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Discussing"@en .
+
+<https://vocabs.dariah.eu/tadirah/socialNetworking> a skos:Concept, owl:NamedIndividual;
+  skos:definition "The process of building one's group of personal or business contacts (Wikidata contributors, \"Q19368491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q19368491&oldid=1132647061 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Social Networking"@en .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/enriching> .
+
+<https://vocabs.dariah.eu/tadirah/enriching> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Enrichment"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/editing>, <https://vocabs.dariah.eu/tadirah/annotating>,
+    <https://vocabs.dariah.eu/tadirah/dataCleansing>;
+  skos:note "enriching refers to the activity of annotating, editing, or cleaning information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=21>, <http://tadirah.dariah.eu/vocab/index.php?tema=21>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "3_Enrichment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Enriching"@en, "Anreichern"@de, "Enriquecimiento"@es, "Enrichissement"@fr,
+    "Arricchimento"@it, "Enriquecimento"@pt, "Обогаћивање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/annotating> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/associating>, <https://vocabs.dariah.eu/tadirah/audioAnnotation>,
+    <https://vocabs.dariah.eu/tadirah/contextualizing>, <https://vocabs.dariah.eu/tadirah/encoding>,
+    <https://vocabs.dariah.eu/tadirah/georeferencing>, <https://vocabs.dariah.eu/tadirah/highlighting>,
+    <https://vocabs.dariah.eu/tadirah/linkedOpenData>, <https://vocabs.dariah.eu/tadirah/namedEntityRecognition>,
+    <https://vocabs.dariah.eu/tadirah/posTagging>, <https://vocabs.dariah.eu/tadirah/segmenting>,
+    <https://vocabs.dariah.eu/tadirah/tagging>, <https://vocabs.dariah.eu/tadirah/visualAnnotation>;
+  skos:note "annotating  refers to the activity of making information about a digital object explicit by adding notes, metadata, keywords, tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage, annotations that make structural or linguistic information explicit, as linked open data making the relationships between objects machine-readable, or in the case of general metadata, adding information about the object as a whole."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=22>, <http://tadirah.dariah.eu/vocab/index.php?tema=22&/annotating>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Annotating"@en, "Annotieren"@de, "Anotación"@es, "Annotation"@fr,
+    "Annotazione"@it, "Anotação"@pt, "Анотирање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/audioAnnotation> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847703,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847703&oldid=1270667708 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Audio Annotation"@en .
+
+<https://vocabs.dariah.eu/tadirah/highlighting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847905,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847905&oldid=1270669260 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Highlighting"@en .
+
+<https://vocabs.dariah.eu/tadirah/associating> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847960,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847960&oldid=1270669574 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Associating"@en .
+
+<https://vocabs.dariah.eu/tadirah/segmenting> a skos:Concept, owl:NamedIndividual;
+  skos:note "segmenting refers to a management process or method of dividing something into smaller homogeneous parts/units to gain better understanding about an object or topic. Segmentation can range from demographic, geographical, ethical, behavioral, visual, linguistic, musical to other areas and can be multi-dimensional."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Segmenting"@en .
+
+<https://vocabs.dariah.eu/tadirah/visualAnnotation> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98847784,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847784&oldid=1270668347 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Visual Annotation"@en .
+
+<https://vocabs.dariah.eu/tadirah/dataCleansing> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Cleanup"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/correcting>, <https://vocabs.dariah.eu/tadirah/debugging>,
+    <https://vocabs.dariah.eu/tadirah/improving>, <https://vocabs.dariah.eu/tadirah/removing>;
+  skos:note "data cleansing involves improving the quality of an existing digital object. This could include correcting errors in a written text, errors in OCR results or  debugging code."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=23>, <http://tadirah.dariah.eu/vocab/index.php?tema=23&/cleanup>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Bereinigen"@de, "Data Cleansing"@en, "Limpieza de datos"@es, "Nettoyage"@fr,
+    "Pulizia"@it, "Limpeza de dados"@pt, "Чишћење"@sr .
+
+<https://vocabs.dariah.eu/tadirah/debugging> a skos:Concept, owl:NamedIndividual;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  skos:definition "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=100>, <http://tadirah.dariah.eu/vocab/?tema=100>,
+    <http://tadirah.dariah.eu/vocab/index.php?tema=100&/debugging>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Debugging"@en;
+  dcterms:modified "2020-12-11T17:01:00.144Z"^^xsd:dateTime .
+
+<https://vocabs.dariah.eu/tadirah/correcting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848041,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848041&oldid=1270670016 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Correcting"@en .
+
+<https://vocabs.dariah.eu/tadirah/improving> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process of a thing moving from one state to another that is considered to be better, usually through some action intended to bring about that better state (Wikidata contributors, \"Q21255975,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21255975&oldid=1264546813 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Improving"@en .
+
+<https://vocabs.dariah.eu/tadirah/removing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "dissociation of the original object with its old part; moving an object on distance of disconnect; process of moving, or the fact of being removed (Wikidata contributors, \"Q23009442,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23009442&oldid=1268618349 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Removing"@en .
+
+<https://vocabs.dariah.eu/tadirah/editing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/adding>, <https://vocabs.dariah.eu/tadirah/correcting>,
+    <https://vocabs.dariah.eu/tadirah/cropping>, <https://vocabs.dariah.eu/tadirah/formatting>,
+    <https://vocabs.dariah.eu/tadirah/merging>, <https://vocabs.dariah.eu/tadirah/modifying>,
+    <https://vocabs.dariah.eu/tadirah/subtracting>, <https://vocabs.dariah.eu/tadirah/supplementing>,
+    <https://vocabs.dariah.eu/tadirah/videoEditing>;
+  skos:note "editing refers to adding, correcting, condensating, organizing or in other form modifying information of a specific object with the intention to complete and finalize it by making structural, layout-related, semantic, or other scholarly explicit inline or stand-off markup."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=24>, <http://tadirah.dariah.eu/vocab/index.php?tema=24&/editing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Editing"@en, "Bearbeiten"@de, "Edición"@es, "Édition"@fr, "Editare"@it,
+    "Edição"@pt, "Уређивање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/videoEditing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "editing live television and video production (Wikidata contributors, \"Q1154312,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1154312&oldid=1149134104 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Video Editing"@en .
+
+<https://vocabs.dariah.eu/tadirah/merging> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848337,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848337&oldid=1270671768 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Merging"@en .
+
+<https://vocabs.dariah.eu/tadirah/subtracting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848418,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848418&oldid=1270672456 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Subtracting"@en .
+
+<https://vocabs.dariah.eu/tadirah/cropping> a skos:Concept, owl:NamedIndividual;
+  skos:definition "to remove unwanted outer parts of an image (Wikidata contributors, \"Q785116,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q785116&oldid=1110149634 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Cropping"@en .
+
+<https://vocabs.dariah.eu/tadirah/formatting> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848248,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848248&oldid=1270671201 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Formatting"@en .
+
+<https://vocabs.dariah.eu/tadirah/supplementing> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848097,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848097&oldid=1270670374 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Supplementing"@en .
+
+<https://vocabs.dariah.eu/tadirah/adding> a skos:Concept, owl:NamedIndividual;
+  skos:definition "arithmetic operation (Wikidata contributors, \"Q32043,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q32043&oldid=1268649023 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Adding"@en .
+
+<https://vocabs.dariah.eu/tadirah/modifying> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q98848358,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848358&oldid=1270671956 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Modifying"@en .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/interpreting> .
+
+<https://vocabs.dariah.eu/tadirah/interpreting> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Interpretation"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/theorizing>, <https://vocabs.dariah.eu/tadirah/contextualizing>,
+    <https://vocabs.dariah.eu/tadirah/modeling>;
+  skos:note "interpreting is the activity of explaining and ascribing the intended meaning to phenomena observed in analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis. It refers to processes opening up the discussed phenomenon to a wider debate (contextualisation), of deductive and inductive reasoning (theorizing), or  formalizing specific aspects (modeling)."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=33>, <http://tadirah.dariah.eu/vocab/index.php?tema=33&/5_interpretation>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "5_Interpretation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Interpreting"@en, "Interpretation"@de, "Interpretación"@es, "Interprétation"@fr,
+    "Interpretazione"@it, "Interpretação"@pt, "Тумачење"@sr .
+
+<https://vocabs.dariah.eu/tadirah/theorizing> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/abstractThinking>, <https://vocabs.dariah.eu/tadirah/conceptualizing>,
+    <https://vocabs.dariah.eu/tadirah/defining>, <https://vocabs.dariah.eu/tadirah/explanation>,
+    <https://vocabs.dariah.eu/tadirah/reasoning>;
+  skos:note "theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations that can be tested. Theorizing can take different forms while a theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=36>, <http://tadirah.dariah.eu/vocab/index.php?tema=36&/theorizing>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Theorizing"@en, "Theoriebildung"@de, "Teorización"@es, "Théorisation"@fr,
+    "Teorizzazione"@it, "Teorização"@pt, "Теоретизовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/defining> a skos:Concept, owl:NamedIndividual;
+  skos:definition "statement that attaches a meaning to a term (Wikidata contributors, \"Q101072,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q101072&oldid=1267587775 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Defining"@en .
+
+<https://vocabs.dariah.eu/tadirah/conceptualizing> a skos:Concept, owl:NamedIndividual;
+  skos:note "conceptualizing means the simplification, specification and formalization of an abstract idea, principle or part of the world in mind, speech, text or even in images. This design activity initially focuses on developing a common understanding of projects, topics, objects and elements and their relationship to one another."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Conceptualizing"@en .
+
+<https://vocabs.dariah.eu/tadirah/reasoning> a skos:Concept, owl:NamedIndividual;
+  skos:definition "type of thought (Wikidata contributors, \"Q1156402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1156402&oldid=1265618386 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Reasoning"@en .
+
+<https://vocabs.dariah.eu/tadirah/abstractThinking> a skos:Concept, owl:NamedIndividual;
+  skos:definition "Wikidata contributors, \"Q25501084,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25501084&oldid=1231655399 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Abstract Thinking"@en .
+
+<https://vocabs.dariah.eu/tadirah/explanation> a skos:Concept, owl:NamedIndividual;
+  skos:definition "set of statements constructed to describe a set of facts (Wikidata contributors, \"Q7958,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7958&oldid=1255429522 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Explanation"@en .
+
+<https://vocabs.dariah.eu/tadirah/modeling> a skos:Concept, owl:NamedIndividual;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/dataMapping>, <https://vocabs.dariah.eu/tadirah/transformation>;
+  skos:note "modeling refers to creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Further it refers to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=35>, <http://tadirah.dariah.eu/vocab/index.php?tema=35&/modeling>;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Modeling"@en, "Modellieren"@de, "Modelización"@es, "Modélisation"@fr,
+    "Modelizzazione"@it, "Modelagem"@pt, "Моделовање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/dataMapping> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process of linking data objects in distinct models (Wikidata contributors, \"Q2330408,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2330408&oldid=1185372641 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Data Mapping"@en .
+
+<https://vocabs.dariah.eu/tadirah/transformation> a skos:Concept, owl:NamedIndividual;
+  skos:definition "process involving change into a qualitatively different form (Wikidata contributors, \"Q65757353,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q65757353&oldid=1268189392 (accessed September 4, 2020)."@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Transformation"@en .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/storing> .
+
+<https://vocabs.dariah.eu/tadirah/storing> a skos:Concept, owl:NamedIndividual;
+  skos:altLabel "Storage"@en;
+  skos:narrower <https://vocabs.dariah.eu/tadirah/archiving>, <https://vocabs.dariah.eu/tadirah/preserving>,
+    <https://vocabs.dariah.eu/tadirah/organizing>, <https://vocabs.dariah.eu/tadirah/identifying>;
+  skos:note "storing refers to the activity of making digital copies of objects of inquiry, results of research, software and services, or any media keeping (preserving) them long-term accessible (archiving), without necessarily making them available to the public. This includes management activities (organizing) and processes of identifying the resource."@en;
+  skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=37>, <http://tadirah.dariah.eu/vocab/index.php?tema=37&/6_storage>;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:hiddenLabel "6_Storage"@en;
+  skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Storing"@en, "Speicherung"@de, "Almacenamiento"@es, "Stockage"@fr,
+    "Conservazione"@it, "Armazenamento"@pt, "Похрањивање"@sr .
+
+<https://vocabs.dariah.eu/tadirah/> skos:hasTopConcept <https://sshoc.poolparty.biz/Vocabularies/147b3972-7ba4-4392-9f1e-a11675d07966> .
+
+<https://sshoc.poolparty.biz/Vocabularies/147b3972-7ba4-4392-9f1e-a11675d07966> a
+    skos:Concept;
+  dcterms:creator <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:created "2020-12-14T07:55:48.612Z"^^xsd:dateTime;
+  skos:topConceptOf <https://vocabs.dariah.eu/tadirah/>;
+  skos:prefLabel "Suggested Concepts"@en;
+  <http://schema.semantic-web.at/ppx/excludeFromExtraction> true .
+
+<https://vocabs.dariah.eu/tadirah/posting> skos:broader <https://vocabs.dariah.eu/tadirah/sharing> .
+
+<https://vocabs.dariah.eu/tadirah/correcting> skos:broader <https://vocabs.dariah.eu/tadirah/dataCleansing> .
+
+<https://vocabs.dariah.eu/tadirah/converting> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/pseudoCoding> skos:broader <https://vocabs.dariah.eu/tadirah/programming> .
+
+<https://vocabs.dariah.eu/tadirah/replication> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/supplementing> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/blogging> skos:broader <https://vocabs.dariah.eu/tadirah/publishing> .
+
+<https://vocabs.dariah.eu/tadirah/formatting> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/scanning> skos:broader <https://vocabs.dariah.eu/tadirah/archiving> .
+
+<https://vocabs.dariah.eu/tadirah/associate> skos:broader <https://vocabs.dariah.eu/tadirah/contextualizing> .
+
+<https://vocabs.dariah.eu/tadirah/dataIngestion> skos:broader <https://vocabs.dariah.eu/tadirah/archiving> .
+
+<https://vocabs.dariah.eu/tadirah/imaging> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/videoEditing> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/treeTagging> skos:broader <https://vocabs.dariah.eu/tadirah/structuralAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/encoding> skos:broader <https://vocabs.dariah.eu/tadirah/programming> .
+
+<https://vocabs.dariah.eu/tadirah/cataloging> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/contrastiveAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/namedEntityRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/spatialAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/improving> skos:broader <https://vocabs.dariah.eu/tadirah/dataCleansing> .
+
+<https://vocabs.dariah.eu/tadirah/explanation> skos:broader <https://vocabs.dariah.eu/tadirah/theorizing> .
+
+<https://vocabs.dariah.eu/tadirah/cataloging> skos:broader <https://vocabs.dariah.eu/tadirah/archiving> .
+
+<https://vocabs.dariah.eu/tadirah/aggregating> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/machineLearning> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/dataMapping> skos:broader <https://vocabs.dariah.eu/tadirah/modeling> .
+
+<https://vocabs.dariah.eu/tadirah/associating> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/identifier> skos:broader <https://vocabs.dariah.eu/tadirah/identifying> .
+
+<https://vocabs.dariah.eu/tadirah/dataVisualization> skos:broader <https://vocabs.dariah.eu/tadirah/visualAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/subtracting> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/programming> skos:broader <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/lemmatizing> skos:broader <https://vocabs.dariah.eu/tadirah/converting> .
+
+<https://vocabs.dariah.eu/tadirah/translating> skos:broader <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/audioRecording> skos:broader <https://vocabs.dariah.eu/tadirah/recording> .
+
+<https://vocabs.dariah.eu/tadirah/mindMapping> skos:broader <https://vocabs.dariah.eu/tadirah/visualAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/videoCapture> skos:broader <https://vocabs.dariah.eu/tadirah/recording> .
+
+<https://vocabs.dariah.eu/tadirah/defining> skos:broader <https://vocabs.dariah.eu/tadirah/theorizing> .
+
+<https://vocabs.dariah.eu/tadirah/collating> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/querying> skos:broader <https://vocabs.dariah.eu/tadirah/discovering> .
+
+<https://vocabs.dariah.eu/tadirah/dataMining> skos:broader <https://vocabs.dariah.eu/tadirah/extracting> .
+
+<https://vocabs.dariah.eu/tadirah/structuralAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/identifying> skos:broader <https://vocabs.dariah.eu/tadirah/networkAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/compiling> skos:broader <https://vocabs.dariah.eu/tadirah/converting> .
+
+<https://vocabs.dariah.eu/tadirah/knowledgeDiscovery> skos:broader <https://vocabs.dariah.eu/tadirah/extracting> .
+
+<https://vocabs.dariah.eu/tadirah/webCrawling> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/screencast> skos:broader <https://vocabs.dariah.eu/tadirah/recording> .
+
+<https://vocabs.dariah.eu/tadirah/scanning> skos:broader <https://vocabs.dariah.eu/tadirah/imaging> .
+
+<https://vocabs.dariah.eu/tadirah/contentAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/sentimentAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/discovering> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/sharing> skos:broader <https://vocabs.dariah.eu/tadirah/organizing> .
+
+<https://vocabs.dariah.eu/tadirah/stylisticAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/namingConvention> skos:broader <https://vocabs.dariah.eu/tadirah/identifying> .
+
+<https://vocabs.dariah.eu/tadirah/merging> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/posTagging> skos:broader <https://vocabs.dariah.eu/tadirah/structuralAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/identifying> skos:broader <https://vocabs.dariah.eu/tadirah/storing> .
+
+<https://vocabs.dariah.eu/tadirah/webScraping> skos:broader <https://vocabs.dariah.eu/tadirah/archiving> .
+
+<https://vocabs.dariah.eu/tadirah/parsing> skos:broader <https://vocabs.dariah.eu/tadirah/converting> .
+
+<https://vocabs.dariah.eu/tadirah/drawing> skos:broader <https://vocabs.dariah.eu/tadirah/designing> .
+
+<https://vocabs.dariah.eu/tadirah/modeling> skos:broader <https://vocabs.dariah.eu/tadirah/interpreting> .
+
+<https://vocabs.dariah.eu/tadirah/digitalPublishing> skos:broader <https://vocabs.dariah.eu/tadirah/publishing> .
+
+<https://vocabs.dariah.eu/tadirah/modifying> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/identifying> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/patternRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/removing> skos:broader <https://vocabs.dariah.eu/tadirah/dataCleansing> .
+
+<https://vocabs.dariah.eu/tadirah/commenting> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/gamification> skos:broader <https://vocabs.dariah.eu/tadirah/crowdsourcing> .
+
+<https://vocabs.dariah.eu/tadirah/finding> skos:broader <https://vocabs.dariah.eu/tadirah/organizing> .
+
+<https://vocabs.dariah.eu/tadirah/webDevelopment> skos:broader <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/gathering> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/transcoding> skos:broader <https://vocabs.dariah.eu/tadirah/converting> .
+
+<https://vocabs.dariah.eu/tadirah/correcting> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/organizing> skos:broader <https://vocabs.dariah.eu/tadirah/storing> .
+
+<https://vocabs.dariah.eu/tadirah/searching> skos:broader <https://vocabs.dariah.eu/tadirah/discovering> .
+
+<https://vocabs.dariah.eu/tadirah/videoConference> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/visualAnnotation> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/crowdsourcing> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/dataRecognition> .
+
+<https://vocabs.dariah.eu/tadirah/informationMining> skos:broader <https://vocabs.dariah.eu/tadirah/extracting> .
+
+<https://vocabs.dariah.eu/tadirah/contextualizing> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/managing> skos:broader <https://vocabs.dariah.eu/tadirah/organizing> .
+
+<https://vocabs.dariah.eu/tadirah/eMailing> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/concordance> skos:broader <https://vocabs.dariah.eu/tadirah/structuralAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/sharing> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/machineLearning> skos:broader <https://vocabs.dariah.eu/tadirah/structuralAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing> skos:broader <https://vocabs.dariah.eu/tadirah/converting> .
+
+<https://vocabs.dariah.eu/tadirah/versioning> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/mapping> skos:broader <https://vocabs.dariah.eu/tadirah/visualAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/userGeneratedContent> skos:broader <https://vocabs.dariah.eu/tadirah/crowdsourcing> .
+
+<https://vocabs.dariah.eu/tadirah/tweet> skos:broader <https://vocabs.dariah.eu/tadirah/publishing> .
+
+<https://vocabs.dariah.eu/tadirah/preserving> skos:broader <https://vocabs.dariah.eu/tadirah/storing> .
+
+<https://vocabs.dariah.eu/tadirah/encoding> skos:broader <https://vocabs.dariah.eu/tadirah/dataRecognition> .
+
+<https://vocabs.dariah.eu/tadirah/collecting> skos:broader <https://vocabs.dariah.eu/tadirah/archiving> .
+
+<https://vocabs.dariah.eu/tadirah/namedEntityRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/networkAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/writing> skos:broader <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/rhetoricalAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/emulation> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/collecting> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/editing> skos:broader <https://vocabs.dariah.eu/tadirah/enriching> .
+
+<https://vocabs.dariah.eu/tadirah/designing> skos:broader <https://vocabs.dariah.eu/tadirah/creating> .
+
+<https://vocabs.dariah.eu/tadirah/academicPublishing> skos:broader <https://vocabs.dariah.eu/tadirah/publishing> .
+
+<https://vocabs.dariah.eu/tadirah/georeferencing> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/authorshipAttribution> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/tagging> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/annotating> skos:broader <https://vocabs.dariah.eu/tadirah/enriching> .
+
+<https://vocabs.dariah.eu/tadirah/posTagging> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/recording> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/extracting> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/migration> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/wireframing> skos:broader <https://vocabs.dariah.eu/tadirah/designing> .
+
+<https://vocabs.dariah.eu/tadirah/relationalAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/principalComponentAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/theorizing> skos:broader <https://vocabs.dariah.eu/tadirah/interpreting> .
+
+<https://vocabs.dariah.eu/tadirah/discussing> skos:broader <https://vocabs.dariah.eu/tadirah/collaborating> .
+
+<https://vocabs.dariah.eu/tadirah/digitalObjectIdentifier> skos:broader <https://vocabs.dariah.eu/tadirah/identifying> .
+
+<https://vocabs.dariah.eu/tadirah/opticalMusicRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/dataRecognition> .
+
+<https://vocabs.dariah.eu/tadirah/contextualizing> skos:broader <https://vocabs.dariah.eu/tadirah/commenting> .
+
+<https://vocabs.dariah.eu/tadirah/speechRecognizing> skos:broader <https://vocabs.dariah.eu/tadirah/transcribing> .
+
+<https://vocabs.dariah.eu/tadirah/identifying> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/stylometry> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/preserving> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/microblogging> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/comparing> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/collating> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/principalComponentAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/audioConferencing> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/plotting> skos:broader <https://vocabs.dariah.eu/tadirah/visualAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/uniformResourceIdentifier> skos:broader <https://vocabs.dariah.eu/tadirah/identifying> .
+
+<https://vocabs.dariah.eu/tadirah/bitStreamPreservation> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/organizing> skos:broader <https://vocabs.dariah.eu/tadirah/collaborating> .
+
+<https://vocabs.dariah.eu/tadirah/instantMessaging> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/reasoning> skos:broader <https://vocabs.dariah.eu/tadirah/theorizing> .
+
+<https://vocabs.dariah.eu/tadirah/mapping> skos:broader <https://vocabs.dariah.eu/tadirah/contextualizing> .
+
+<https://vocabs.dariah.eu/tadirah/discourseAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/publishing> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/lettering> skos:broader <https://vocabs.dariah.eu/tadirah/writing> .
+
+<https://vocabs.dariah.eu/tadirah/visualAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/webScraping> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/transformation> skos:broader <https://vocabs.dariah.eu/tadirah/modeling> .
+
+<https://vocabs.dariah.eu/tadirah/preprocessing> skos:broader <https://vocabs.dariah.eu/tadirah/dataRecognition> .
+
+<https://vocabs.dariah.eu/tadirah/description> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/textCategorization> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/expressingOpinion> skos:broader <https://vocabs.dariah.eu/tadirah/commenting> .
+
+<https://vocabs.dariah.eu/tadirah/distanceMeasures> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/textMessaging> skos:broader <https://vocabs.dariah.eu/tadirah/communicating> .
+
+<https://vocabs.dariah.eu/tadirah/persistentIdentifier> skos:broader <https://vocabs.dariah.eu/tadirah/identifying> .
+
+<https://vocabs.dariah.eu/tadirah/informationRetrieval> skos:broader <https://vocabs.dariah.eu/tadirah/discovering> .
+
+<https://vocabs.dariah.eu/tadirah/linkedOpenData> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/networkAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/topicModeling> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/archiving> skos:broader <https://vocabs.dariah.eu/tadirah/gathering> .
+
+<https://vocabs.dariah.eu/tadirah/machineLearning> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/collocationAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/structuralAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/spatialAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/analyzing> .
+
+<https://vocabs.dariah.eu/tadirah/knowledgeExtraction> skos:broader <https://vocabs.dariah.eu/tadirah/extracting> .
+
+<https://vocabs.dariah.eu/tadirah/semantification> skos:broader <https://vocabs.dariah.eu/tadirah/contextualizing> .
+
+<https://vocabs.dariah.eu/tadirah/sequenceAlignment> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/machineLearning> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/coOccurrence> skos:broader <https://vocabs.dariah.eu/tadirah/contextualizing> .
+
+<https://vocabs.dariah.eu/tadirah/dataRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/upload> skos:broader <https://vocabs.dariah.eu/tadirah/sharing> .
+
+<https://vocabs.dariah.eu/tadirah/tagging> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/adding> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/segmenting> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/linkedOpenData> skos:broader <https://vocabs.dariah.eu/tadirah/publishing> .
+
+<https://vocabs.dariah.eu/tadirah/stylometry> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/transcribing> skos:broader <https://vocabs.dariah.eu/tadirah/capturing> .
+
+<https://vocabs.dariah.eu/tadirah/integrating> skos:broader <https://vocabs.dariah.eu/tadirah/contextualizing> .
+
+<https://vocabs.dariah.eu/tadirah/teaching> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/socialNetworking> skos:broader <https://vocabs.dariah.eu/tadirah/collaborating> .
+
+<https://vocabs.dariah.eu/tadirah/cropping> skos:broader <https://vocabs.dariah.eu/tadirah/editing> .
+
+<https://vocabs.dariah.eu/tadirah/clusterAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/relationalAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/collaborating> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/namedEntityRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis>,
+    <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/contextualizing> skos:broader <https://vocabs.dariah.eu/tadirah/interpreting> .
+
+<https://vocabs.dariah.eu/tadirah/archiving> skos:broader <https://vocabs.dariah.eu/tadirah/storing> .
+
+<https://vocabs.dariah.eu/tadirah/photographing> skos:broader <https://vocabs.dariah.eu/tadirah/imaging> .
+
+<https://vocabs.dariah.eu/tadirah/preservationMetadata> skos:broader <https://vocabs.dariah.eu/tadirah/preserving> .
+
+<https://vocabs.dariah.eu/tadirah/abstractThinking> skos:broader <https://vocabs.dariah.eu/tadirah/theorizing> .
+
+<https://vocabs.dariah.eu/tadirah/exploration> skos:broader <https://vocabs.dariah.eu/tadirah/discovering> .
+
+<https://vocabs.dariah.eu/tadirah/diagramming> skos:broader <https://vocabs.dariah.eu/tadirah/designing> .
+
+<https://vocabs.dariah.eu/tadirah/dataCleansing> skos:broader <https://vocabs.dariah.eu/tadirah/enriching> .
+
+<https://vocabs.dariah.eu/tadirah/audioAnnotation> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/clusterAnalysis> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/encoding> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/georeferencing> skos:broader <https://vocabs.dariah.eu/tadirah/spatialAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/debugging> skos:broader <https://vocabs.dariah.eu/tadirah/dataCleansing> .
+
+<https://vocabs.dariah.eu/tadirah/genreRecognition> skos:broader <https://vocabs.dariah.eu/tadirah/stylisticAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/conceptualizing> skos:broader <https://vocabs.dariah.eu/tadirah/theorizing> .
+
+<https://vocabs.dariah.eu/tadirah/informationRetrieval> skos:broader <https://vocabs.dariah.eu/tadirah/contentAnalysis> .
+
+<https://vocabs.dariah.eu/tadirah/browsing> skos:broader <https://vocabs.dariah.eu/tadirah/discovering> .
+
+<https://vocabs.dariah.eu/tadirah/communicating> skos:broader <https://vocabs.dariah.eu/tadirah/disseminating> .
+
+<https://vocabs.dariah.eu/tadirah/highlighting> skos:broader <https://vocabs.dariah.eu/tadirah/annotating> .
+
+<https://vocabs.dariah.eu/tadirah/graphicsProgramming> skos:broader <https://vocabs.dariah.eu/tadirah/programming> .

@@ -1,73 +1,102 @@
-@prefix : <https://sshopencloud.eu/vocabularies#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
 
-<https://sshopencloud.eu/vocabularies> a owl:Ontology;
-  owl:imports <http://purl.org/dc/terms/> .
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Fri May 28 18:20:01 CEST 2021
 
-:commandLine a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  rdfs:label "Invocation types"@en;
+  dcterms:title "Invocation types"@en;
+  skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
+  skos:note "Used in WP3 for solutions and in WP7 for different items but especially tools and services."@en;
+  skos:prefLabel "Invocation types"@en;
+  skos:hasTopConcept <https://sshopencloud.eu/vocabularies#commandLine> .
+
+<https://sshopencloud.eu/vocabularies#commandLine> a skos:Concept;
   rdfs:label "Command line"@en;
   skos:definition "You need to open a command line to invocate the tool."@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Command line"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Command line"@en .
 
-:commandProcessor a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#commandProcessor> .
+
+<https://sshopencloud.eu/vocabularies#commandProcessor> a skos:Concept;
   rdfs:label "Command processor"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Command processor"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Command processor"@en .
 
-:instructionPage a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#instructionPage> .
+
+<https://sshopencloud.eu/vocabularies#instructionPage> a skos:Concept;
   rdfs:label "Instruction page"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Instruction page"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Instruction page"@en .
 
-:library a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#library> .
+
+<https://sshopencloud.eu/vocabularies#library> a skos:Concept;
   rdfs:label "Library"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Library"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Library"@en .
 
-:localApplication a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#localApplication> .
+
+<https://sshopencloud.eu/vocabularies#localApplication> a skos:Concept;
   rdfs:label "Local application"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Local application"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Local application"@en .
 
-:restfulWebservice a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#restfulWebservice> .
+
+<https://sshopencloud.eu/vocabularies#restfulWebservice> a skos:Concept;
   rdfs:label "RESTful webservice"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "RESTful webservice"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "RESTful webservice"@en .
 
-:schemaInvocationTypes a skos:ConceptScheme;
-  dct:title "Invocation types"@en;
-  rdfs:label "Invocation types"@en;
-  skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
-  skos:hasTopConcept :commandLine, :commandProcessor, :instructionPage, :library, :localApplication,
-    :restfulWebservice, :script, :sourceCode, :webApplication;
-  skos:note "Used in WP3 for solutions and in WP7 for different items but especially tools and services."@en;
-  skos:prefLabel "Invocation types"@en .
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#script> .
 
-:script a skos:Concept;
+<https://sshopencloud.eu/vocabularies#script> a skos:Concept;
   rdfs:label " Script "@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Script"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Script"@en .
 
-:sourceCode a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#sourceCode> .
+
+<https://sshopencloud.eu/vocabularies#sourceCode> a skos:Concept;
   rdfs:label "Source code"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Source code"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Source code"@en .
 
-:webApplication a skos:Concept;
+<https://sshopencloud.eu/vocabularies#schemaInvocationTypes> skos:hasTopConcept <https://sshopencloud.eu/vocabularies#webApplication> .
+
+<https://sshopencloud.eu/vocabularies#webApplication> a skos:Concept;
   rdfs:label "Web application"@en;
-  skos:inScheme :schemaInvocationTypes;
-  skos:prefLabel "Web application"@en;
-  skos:topConceptOf :schemaInvocationTypes .
+  skos:topConceptOf <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:inScheme <https://sshopencloud.eu/vocabularies#schemaInvocationTypes>;
+  skos:prefLabel "Web application"@en .
