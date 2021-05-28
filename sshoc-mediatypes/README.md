@@ -10,3 +10,8 @@ downloaded from [IANA's website](https://www.iana.org/assignments/media-types/me
 `python3 create-skos-from-iana.py`
 
 It will create `media-type.ttl`
+
+# How to update `VOCABS_mapping - Yoann_Exports.csv`
+On the Google Spreadsheet, go to the tab "Yoann_Exports" and do "Download current sheet as csv" in the file options.
+
+Put this csv document into the `humanities-data-same-csv` directory and launch the script.

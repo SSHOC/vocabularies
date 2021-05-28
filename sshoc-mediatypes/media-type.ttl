@@ -8,6 +8,7 @@
 media-type:Schema a skos:ConceptScheme;
 	rdfs:label "Media Types from IANA"@en;
 	dc:title "Media Types from IANA"@en;
+	dct:title "Media Types from IANA"@en;
 	skos:hasTopConcept media-type:application;
 	skos:hasTopConcept media-type:audio;
 	skos:hasTopConcept media-type:font;
@@ -173,6 +174,7 @@ media-type:applicationslashatomplusxml a skos:Concept;
 	skos:prefLabel "application/atom+xml"@en;
 	rdfs:label "application/atom+xml"@en;
 	skos:altLabel "application: atom+xml"@en;
+	skos:altLabel "Humanities Data: atom"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashatomcatplusxml a skos:Concept;
@@ -839,6 +841,7 @@ media-type:applicationslashgeoplusjson a skos:Concept;
 	skos:prefLabel "application/geo+json"@en;
 	rdfs:label "application/geo+json"@en;
 	skos:altLabel "application: geo+json"@en;
+	skos:altLabel "Humanities Data: GeoJSON"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashgeoplusjson-seq a skos:Concept;
@@ -875,6 +878,7 @@ media-type:applicationslashgzip a skos:Concept;
 	skos:prefLabel "application/gzip"@en;
 	rdfs:label "application/gzip"@en;
 	skos:altLabel "application: gzip"@en;
+	skos:altLabel "Humanities Data: gz"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashh224 a skos:Concept;
@@ -1001,6 +1005,7 @@ media-type:applicationslashjavascript a skos:Concept;
 	skos:prefLabel "application/javascript"@en;
 	rdfs:label "application/javascript"@en;
 	skos:altLabel "application: javascript"@en;
+	skos:altLabel "Humanities Data: js"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashjf2feedplusjson a skos:Concept;
@@ -1037,6 +1042,7 @@ media-type:applicationslashjson a skos:Concept;
 	skos:prefLabel "application/json"@en;
 	rdfs:label "application/json"@en;
 	skos:altLabel "application: json"@en;
+	skos:altLabel "Humanities Data: json"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashjson-patchplusjson a skos:Concept;
@@ -1583,6 +1589,7 @@ media-type:applicationslashpdf a skos:Concept;
 	skos:prefLabel "application/pdf"@en;
 	rdfs:label "application/pdf"@en;
 	skos:altLabel "application: pdf"@en;
+	skos:altLabel "Humanities Data: pdf"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashpdx a skos:Concept;
@@ -1799,6 +1806,7 @@ media-type:applicationslashrdfplusxml a skos:Concept;
 	skos:prefLabel "application/rdf+xml"@en;
 	rdfs:label "application/rdf+xml"@en;
 	skos:altLabel "application: rdf+xml"@en;
+	skos:altLabel "Humanities Data: rdf"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashroute-apdplusxml a skos:Concept;
@@ -2237,6 +2245,7 @@ media-type:applicationslashsql a skos:Concept;
 	skos:prefLabel "application/sql"@en;
 	rdfs:label "application/sql"@en;
 	skos:altLabel "application: sql"@en;
+	skos:altLabel "Humanities Data: sql"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashsrgs a skos:Concept;
@@ -2357,6 +2366,7 @@ media-type:applicationslashteiplusxml a skos:Concept;
 	skos:prefLabel "application/tei+xml"@en;
 	rdfs:label "application/tei+xml"@en;
 	skos:altLabel "application: tei+xml"@en;
+	skos:altLabel "Humanities Data: TEI XML"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashtetra_isi a skos:Concept;
@@ -5579,6 +5589,7 @@ media-type:applicationslashvnd.ms-excel a skos:Concept;
 	skos:prefLabel "application/vnd.ms-excel"@en;
 	rdfs:label "application/vnd.ms-excel"@en;
 	skos:altLabel "application: vnd.ms-excel"@en;
+	skos:altLabel "Humanities Data: xls"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashvnd.ms-excel.addin.macroenabled.12 a skos:Concept;
@@ -7697,6 +7708,7 @@ media-type:applicationslashvnd.sqlite3 a skos:Concept;
 	skos:prefLabel "application/vnd.sqlite3"@en;
 	rdfs:label "application/vnd.sqlite3"@en;
 	skos:altLabel "application: vnd.sqlite3"@en;
+	skos:altLabel "Humanities Data: sqlite"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashvnd.sss-cod a skos:Concept;
@@ -8561,6 +8573,7 @@ media-type:applicationslashxml a skos:Concept;
 	skos:prefLabel "application/xml"@en;
 	rdfs:label "application/xml"@en;
 	skos:altLabel "application: xml"@en;
+	skos:altLabel "Humanities Data: xml"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashxml-dtd a skos:Concept;
@@ -8645,6 +8658,7 @@ media-type:applicationslashzip a skos:Concept;
 	skos:prefLabel "application/zip"@en;
 	rdfs:label "application/zip"@en;
 	skos:altLabel "application: zip"@en;
+	skos:altLabel "Humanities Data: zip"@en;
 	skos:broader media-type:application .
 
 media-type:applicationslashzlib a skos:Concept;
@@ -10168,6 +10182,7 @@ media-type:audioslashasc a skos:Concept;
 	skos:prefLabel "audio/asc"@en;
 	rdfs:label "audio/asc"@en;
 	skos:altLabel "audio: asc"@en;
+	skos:altLabel "Humanities Data: asc"@en;
 	skos:broader media-type:audio .
 
 media-type:audioslashatrac-advanced-lossless a skos:Concept;
@@ -11388,6 +11403,7 @@ media-type:imageslashjp2 a skos:Concept;
 media-type:jpeg a skos:Concept;
 	skos:prefLabel "jpeg"@en;
 	rdfs:label "jpeg"@en;
+	skos:altLabel "Humanities Data: jpg"@en;
 	skos:broader media-type:image .
 
 media-type:imageslashjph a skos:Concept;
@@ -11478,6 +11494,7 @@ media-type:imageslashpng a skos:Concept;
 	skos:prefLabel "image/png"@en;
 	rdfs:label "image/png"@en;
 	skos:altLabel "image: png"@en;
+	skos:altLabel "Humanities Data: png"@en;
 	skos:broader media-type:image .
 
 media-type:imageslashprs.btif a skos:Concept;
@@ -12331,12 +12348,14 @@ media-type:textslashcss a skos:Concept;
 	skos:prefLabel "text/css"@en;
 	rdfs:label "text/css"@en;
 	skos:altLabel "text: css"@en;
+	skos:altLabel "Humanities Data: css"@en;
 	skos:broader media-type:text .
 
 media-type:textslashcsv a skos:Concept;
 	skos:prefLabel "text/csv"@en;
 	rdfs:label "text/csv"@en;
 	skos:altLabel "text: csv"@en;
+	skos:altLabel "Humanities Data: csv"@en;
 	skos:broader media-type:text .
 
 media-type:textslashcsv-schema a skos:Concept;
@@ -12414,6 +12433,7 @@ media-type:textslashhtml a skos:Concept;
 	skos:prefLabel "text/html"@en;
 	rdfs:label "text/html"@en;
 	skos:altLabel "text: html"@en;
+	skos:altLabel "Humanities Data: html"@en;
 	skos:broader media-type:text .
 
 media-type:textslashjavascript a skos:Concept;
@@ -12432,6 +12452,7 @@ media-type:textslashmarkdown a skos:Concept;
 	skos:prefLabel "text/markdown"@en;
 	rdfs:label "text/markdown"@en;
 	skos:altLabel "text: markdown"@en;
+	skos:altLabel "Humanities Data: md"@en;
 	skos:broader media-type:text .
 
 media-type:textslashmizar a skos:Concept;
@@ -12574,6 +12595,7 @@ media-type:textslashtab-separated-values a skos:Concept;
 	skos:prefLabel "text/tab-separated-values"@en;
 	rdfs:label "text/tab-separated-values"@en;
 	skos:altLabel "text: tab-separated-values"@en;
+	skos:altLabel "Humanities Data: tsv"@en;
 	skos:broader media-type:text .
 
 media-type:textslashtroff a skos:Concept;

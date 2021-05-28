@@ -5,6 +5,14 @@ import csv
 translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS'}
 
 def createSkos():
+    # Before anything, get the mapping between those media types and Humanities Data file endings
+    mappingfile = open("humanities-data-same-csv/VOCABS_mapping - Yoann_Exports.csv")
+    readermapping = csv.DictReader(mappingfile)
+    mappings = {}
+    for row in readermapping:
+        if len(dict(row)["name"]) != 0:
+            mappings[dict(row)["name"]] = dict(row)["fileending"]
+
     mimes = ['application', 'audio', 'font', 'image', 'message', 'model', 'multipart', 'text', 'video']
 
     f = open("media-type.ttl", "w")
@@ -18,6 +26,7 @@ def createSkos():
     f.write("media-type:Schema a skos:ConceptScheme;\n")
     f.write("\trdfs:label \"Media Types from IANA\"@en;\n")
     f.write("\tdc:title \"Media Types from IANA\"@en;\n")
+    f.write("\tdct:title \"Media Types from IANA\"@en;\n")
 
     for mime in mimes:
         f.write("\tskos:hasTopConcept media-type:")
@@ -50,6 +59,10 @@ def createSkos():
             if template != dict(row).get('Name'):
                 f.write("\tskos:altLabel \"")
                 f.write(mime + ": " + dict(row).get('Name'))
+                f.write("\"@en;\n")
+            if template in mappings:
+                f.write("\tskos:altLabel \"")
+                f.write("Humanities Data: " + mappings[template])
                 f.write("\"@en;\n")
             f.write("\tskos:broader media-type:")
             f.write(slugify(mime))
