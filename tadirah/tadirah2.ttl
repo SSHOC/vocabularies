@@ -1,3 +1,4 @@
+@prefix : <https://vocabs.dariah.eu/tadirah/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -24,8 +25,10 @@
   csw:hierarchyRootType skos:ConceptScheme;
   a skos:ConceptScheme, owl:Ontology, owl:NamedIndividual;
   dcterms:title "TaDiRAH 2"@en;
+  rdfs:label "TaDiRAH 2"@en;
   dcterms:created "2020";
   dcterms:description "Taxonomy of Digital Research Activities in the Humanities"@en;
+  rdfs:comment "Taxonomy of Digital Research Activities in the Humanities"@en;
   owl:imports <http://www.w3.org/2004/02/skos/core>;
   dcterms:modified "2020-12-02T16:08:35.110Z"^^xsd:dateTime;
   dc:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande";

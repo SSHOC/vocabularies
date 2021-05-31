@@ -15,6 +15,7 @@
 @prefix opencyc: <http://sw.opencyc.org/concept/> .
 @prefix cyc: <http://sw.cyc.com/concept/> .
 @prefix ctag: <http://commontag.org/ns#> .
+@prefix : <https://sshopencloud.eu/vocabularies#> .
 
 # RDF data export created by PoolParty.
 # This file contains a hierarchical subtree of a SKOS thesaurus.
@@ -26,6 +27,7 @@
   rdfs:label "Invocation types"@en;
   dcterms:title "Invocation types"@en;
   skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
+  rdfs:comment "Gives information about how something (usually a tools or service) is invocated."@en;
   skos:note "Used in WP3 for solutions and in WP7 for different items but especially tools and services."@en;
   skos:prefLabel "Invocation types"@en;
   skos:hasTopConcept <https://sshopencloud.eu/vocabularies#commandLine> .
