@@ -16,7 +16,7 @@ class EoscSkos:
         response = requests.get("https://api.eosc-portal.eu/vocabulary/byType/" + self.data_type)
         results = response.json()
 
-        f = open("eosc-" + self.schema_name + "_original.ttl", "w")
+        f = open(self.schema_name + "_original.ttl", "w")
         f.write("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n")
         f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
         f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
