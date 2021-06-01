@@ -1,5 +1,8 @@
 * Original source: https://vocabs.dariah.eu/rest/v1/tadirah2/data?format=text/turtle
-* Current source: export from PoolParty
+* Current source: export from PoolParty and manual addition:
+** added namespace (line 1): `@prefix : <https://vocabs.dariah.eu/tadirah/> .`
+** added in schema below dcterms:title (around line 27): `rdfs:label "TaDiRAH 2"@en;` (should contain the same value as dcterms:title)
+** added in schema below dcterms:description (around line 30): `rdfs:comment "Taxonomy of Digital Research Activities in the Humanities"@en;` (should contain the same value as dcterms:description)
 
 Contains the current version 2 of TaDiRAH https://vocabs.dariah.eu/tadirah2/en/ that is in use for the MP.
 

@@ -19,7 +19,7 @@
 
 # RDF data export created by PoolParty.
 # This file contains a hierarchical subtree of a SKOS thesaurus.
-# Export date: Fri May 28 16:22:18 CEST 2021
+# Export date: Tue Jun 01 15:29:02 CEST 2021
 
 <https://vocabs.dariah.eu/tadirah/> csw:hierarchyRoot true;
   csw:hierarchyRootType skos:ConceptScheme;
@@ -41,7 +41,7 @@
   skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/analyzing> .
 
 <https://vocabs.dariah.eu/tadirah/analyzing> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:altLabel "Analysis"@en;
   skos:narrower <https://vocabs.dariah.eu/tadirah/contentAnalysis>, <https://vocabs.dariah.eu/tadirah/networkAnalysis>,
     <https://vocabs.dariah.eu/tadirah/relationalAnalysis>, <https://vocabs.dariah.eu/tadirah/spatialAnalysis>,
@@ -68,7 +68,7 @@
     "Analyse de contenu"@fr, "Analisi Contenutistica"@it, "Análise de conteúdo"@pt, "Анализа садржаја"@sr .
 
 <https://vocabs.dariah.eu/tadirah/machineLearning> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en;
   skos:altLabel "ML"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=109>, <http://tadirah.dariah.eu/vocab/?tema=109>,
@@ -78,7 +78,7 @@
   dcterms:modified "2020-12-11T16:35:17.799Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/namedEntityRecognition> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en;
   skos:altLabel "NER"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=112>, <http://tadirah.dariah.eu/vocab/?tema=112>,
@@ -88,7 +88,7 @@
   dcterms:modified "2020-12-11T16:37:45.238Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/informationRetrieval> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=107>, <http://tadirah.dariah.eu/vocab/?tema=107>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=107&/information-retrieval-analysis-content-analysis>;
@@ -97,7 +97,7 @@
   dcterms:modified "2020-12-11T16:29:34.660Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/topicModeling> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=125>, <http://tadirah.dariah.eu/vocab/?tema=125>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=125&/topic-modeling-analysis-content-analysis>;
@@ -106,7 +106,7 @@
   dcterms:modified "2020-12-11T16:48:29.565Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/sentimentAnalysis> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=122>, <http://tadirah.dariah.eu/vocab/?tema=122>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=122&/sentiment-analysis-analysis-content-analysis>;
@@ -182,7 +182,7 @@
   skos:prefLabel "Data Visualization"@en .
 
 <https://vocabs.dariah.eu/tadirah/mapping> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=110>, <http://tadirah.dariah.eu/vocab/?tema=110>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=110&/mapping>;
@@ -223,7 +223,7 @@
   skos:prefLabel "Text Categorization"@en .
 
 <https://vocabs.dariah.eu/tadirah/distanceMeasures> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=101>;
   skos:inScheme <https://vocabs.dariah.eu/tadirah/>;
@@ -231,7 +231,7 @@
   dcterms:modified "2020-12-11T15:20:40.108Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/clusterAnalysis> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=96>, <http://tadirah.dariah.eu/vocab/?tema=96>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=96&/cluster-analysis-analysis-stylistic-analysis>;
@@ -250,7 +250,7 @@
   skos:prefLabel "Stylometry"@en .
 
 <https://vocabs.dariah.eu/tadirah/principalComponentAnalysis> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=118>, <http://tadirah.dariah.eu/vocab/?tema=118>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=118&/principal-component-analysis-analysis-stylistic-analysis>;
@@ -274,7 +274,7 @@
     "Analyse structurelle"@fr, "Analisi Strutturale"@it, "Análise estrutural"@pt, "Структурална анализа"@sr .
 
 <https://vocabs.dariah.eu/tadirah/concordance> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en;
   skos:altLabel "Concordancing"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=99>, <http://tadirah.dariah.eu/vocab/?tema=99>,
@@ -289,7 +289,7 @@
   skos:prefLabel "Tree-Tagging"@en .
 
 <https://vocabs.dariah.eu/tadirah/collocationAnalysis> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:note "analysis of recurrent co-occurrences of two or more words in language."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=97>, <http://tadirah.dariah.eu/vocab/?tema=97>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=97&/collocation-analysis-analysis-structural-analysis>;
@@ -298,7 +298,7 @@
   dcterms:modified "2020-12-11T16:54:11.349Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/posTagging> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en;
   skos:altLabel "Part-of-Speech-Tagging"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=116>, <http://tadirah.dariah.eu/vocab/?tema=116>,
@@ -324,7 +324,7 @@
     "Analyse spatiale"@fr, "Analisi dello Spazio"@it, "Análise espacial"@pt, "Просторна анализа"@sr .
 
 <https://vocabs.dariah.eu/tadirah/georeferencing> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=106>, <http://tadirah.dariah.eu/vocab/?tema=106>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=106&/georeferencing-enrichment-annotation>;
@@ -351,7 +351,7 @@
   skos:prefLabel "Comparing"@en .
 
 <https://vocabs.dariah.eu/tadirah/sequenceAlignment> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=123>, <http://tadirah.dariah.eu/vocab/?tema=123>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=123&/sequence-alignment-analysis-relational-analysis>;
@@ -365,7 +365,7 @@
   skos:prefLabel "Collating"@en .
 
 <https://vocabs.dariah.eu/tadirah/patternRecognition> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=114>, <http://tadirah.dariah.eu/vocab/?tema=114>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=114&/pattern-recognition-analysis-relational-analysis>;
@@ -493,7 +493,7 @@
   skos:prefLabel "Exploration"@en .
 
 <https://vocabs.dariah.eu/tadirah/searching> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=121>, <http://tadirah.dariah.eu/vocab/?tema=121>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=121&/searching>;
@@ -502,7 +502,7 @@
   dcterms:modified "2020-12-11T16:45:27.205Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/browsing> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=95>, <http://tadirah.dariah.eu/vocab/?tema=95>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=95&/browsing>;
@@ -543,7 +543,7 @@
   skos:prefLabel "Optical Music Recognition"@en .
 
 <https://vocabs.dariah.eu/tadirah/encoding> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=104>, <http://tadirah.dariah.eu/vocab/?tema=104>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=104&/encoding>;
@@ -575,7 +575,7 @@
     "Preservazione"@it, "Preservação"@pt, "Очување"@sr .
 
 <https://vocabs.dariah.eu/tadirah/migration> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=111>, <http://tadirah.dariah.eu/vocab/?tema=111>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=111&/migration-storage-preservation>;
@@ -589,7 +589,7 @@
   skos:prefLabel "Description"@en .
 
 <https://vocabs.dariah.eu/tadirah/preservationMetadata> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=117>, <http://tadirah.dariah.eu/vocab/?tema=117>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=117&/preservation-metadata-storage-preservation>;
@@ -598,7 +598,7 @@
   dcterms:modified "2020-12-11T16:42:12.554Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/emulation> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=103>, <http://tadirah.dariah.eu/vocab/?tema=103>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=103&/emulation-storage-preservation>;
@@ -607,7 +607,7 @@
   dcterms:modified "2020-12-11T16:24:05.025Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/replication> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=119>, <http://tadirah.dariah.eu/vocab/?tema=119>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=119&/replication-storage-preservation>;
@@ -616,7 +616,7 @@
   dcterms:modified "2020-12-11T16:43:55.261Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/bitStreamPreservation> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=93>, <http://tadirah.dariah.eu/vocab/?tema=93>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=93&/bit-stream-preservation-storage-preservation>;
@@ -625,7 +625,7 @@
   dcterms:modified "2020-12-11T16:51:26.035Z"^^xsd:dateTime .
 
 <https://vocabs.dariah.eu/tadirah/versioning> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:note "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=126>, <http://tadirah.dariah.eu/vocab/?tema=126>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=126&/versioning-storage-preservation>;
@@ -649,7 +649,7 @@
   skos:prefLabel "Cataloging"@en .
 
 <https://vocabs.dariah.eu/tadirah/webCrawling> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=127>, <http://tadirah.dariah.eu/vocab/?tema=127>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=127&/web-crawling-capture-gathering>;
@@ -673,7 +673,7 @@
   skos:prefLabel "Data Ingestion"@en .
 
 <https://vocabs.dariah.eu/tadirah/scanning> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=120>, <http://tadirah.dariah.eu/vocab/?tema=120>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=120&/scanning>;
@@ -708,7 +708,7 @@
     "Gestione delle Immagini"@it, "Captura em formato de imagem"@pt, "Усликавање"@sr .
 
 <https://vocabs.dariah.eu/tadirah/photographing> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en;
   skos:altLabel "Photography"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=115>, <http://tadirah.dariah.eu/vocab/?tema=115>,
@@ -851,7 +851,7 @@
   skos:prefLabel "Tweet"@en .
 
 <https://vocabs.dariah.eu/tadirah/linkedOpenData> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en;
   skos:altLabel "LOD"@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=108>, <http://tadirah.dariah.eu/vocab/?tema=108>,
@@ -901,7 +901,7 @@
   skos:prefLabel "Instant Messaging"@en .
 
 <https://vocabs.dariah.eu/tadirah/teaching> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:altLabel "Teaching / Learning"@en;
   skos:note "teaching refers to the activity of actively imparting knowledge, competences or skills."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=54>, <http://tadirah.dariah.eu/vocab/?tema=54>,
@@ -962,7 +962,7 @@
     "Прибављање малих новчаних прилога од великог броја људи"@sr .
 
 <https://vocabs.dariah.eu/tadirah/gamification> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=105>, <http://tadirah.dariah.eu/vocab/?tema=105>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=105&/gamification-dissemination-crowdsourcing>;
@@ -1095,7 +1095,7 @@
     "Pulizia"@it, "Limpeza de dados"@pt, "Чишћење"@sr .
 
 <https://vocabs.dariah.eu/tadirah/debugging> a skos:Concept, owl:NamedIndividual;
-  dcterms:contributor <https://sshoc.poolparty.biz/user/superadmin>;
+  dcterms:contributor <https://sshoc.poolparty.biz/user/klausI>;
   skos:definition "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en;
   skos:closeMatch <http://vocabularyserver.com/tadirah/en/?tema=100>, <http://tadirah.dariah.eu/vocab/?tema=100>,
     <http://tadirah.dariah.eu/vocab/index.php?tema=100&/debugging>;

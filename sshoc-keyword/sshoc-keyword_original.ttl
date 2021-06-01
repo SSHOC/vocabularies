@@ -1,0 +1,5908 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix : <https://vocabs.dariah.eu/sshoc-keyword/> .
+
+:Schema a skos:ConceptScheme;
+	rdfs:label "Keywords from SSHOC MP"@en;
+	dct:title "Keywords from SSHOC MP"@en;
+	dc:title "Keywords from SSHOC MP"@en;
+	skos:hasTopConcept :3d;
+	skos:hasTopConcept :heritage_science;
+	skos:hasTopConcept :cultural-analytics;
+	skos:hasTopConcept :historical;
+	skos:hasTopConcept :literature;
+	skos:hasTopConcept :ocr_htr;
+	skos:hasTopConcept :python;
+	skos:hasTopConcept :linguistics;
+	skos:hasTopConcept :digitization;
+	skos:hasTopConcept :data-manipulation;
+	skos:hasTopConcept :historical-data;
+	skos:hasTopConcept :network-analysis;
+	skos:hasTopConcept :book-history;
+	skos:hasTopConcept :nlp;
+	skos:hasTopConcept :odd;
+	skos:hasTopConcept :rdf;
+	skos:hasTopConcept :english;
+	skos:hasTopConcept :metadata;
+	skos:hasTopConcept :twitter;
+	skos:hasTopConcept :novels;
+	skos:hasTopConcept :tei;
+	skos:hasTopConcept :australia;
+	skos:hasTopConcept :fiction;
+	skos:hasTopConcept :ftir;
+	skos:hasTopConcept :humanities;
+	skos:hasTopConcept :lexicaldata;
+	skos:hasTopConcept :raman;
+	skos:hasTopConcept :audio;
+	skos:hasTopConcept :distant-reading;
+	skos:hasTopConcept :geographical-data;
+	skos:hasTopConcept :mapping;
+	skos:hasTopConcept :poetry;
+	skos:hasTopConcept :recommended;
+	skos:hasTopConcept :social_sciences;
+	skos:hasTopConcept :corpus;
+	skos:hasTopConcept :data_management;
+	skos:hasTopConcept :images;
+	skos:hasTopConcept :social-network;
+	skos:hasTopConcept :text;
+	skos:hasTopConcept :united-states;
+	skos:hasTopConcept :web-scraping;
+	skos:hasTopConcept :xml;
+	skos:hasTopConcept :cidoc-crm;
+	skos:hasTopConcept :ead;
+	skos:hasTopConcept :other_humanities;
+	skos:hasTopConcept :api;
+	skos:hasTopConcept :gender;
+	skos:hasTopConcept :language-variation;
+	skos:hasTopConcept :newspapers;
+	skos:hasTopConcept :website;
+	skos:hasTopConcept :anonymization;
+	skos:hasTopConcept :cmdi;
+	skos:hasTopConcept :linguisticannotation;
+	skos:hasTopConcept :other_social_sciences;
+	skos:hasTopConcept :british-literature;
+	skos:hasTopConcept :get-ready;
+	skos:hasTopConcept :movies;
+	skos:hasTopConcept :reception;
+	skos:hasTopConcept :religion;
+	skos:hasTopConcept :speech;
+	skos:hasTopConcept :dtabf;
+	skos:hasTopConcept :discovery;
+	skos:hasTopConcept :dublin_core;
+	skos:hasTopConcept :chinese;
+	skos:hasTopConcept :corpora;
+	skos:hasTopConcept :full-text;
+	skos:hasTopConcept :machine-learning;
+	skos:hasTopConcept :manuscripts;
+	skos:hasTopConcept :natural-language-processing;
+	skos:hasTopConcept :reviews;
+	skos:hasTopConcept :open_parenthesismetaclose_parenthesisdata;
+	skos:hasTopConcept :open_parenthesisquantitativeclose_parenthesis_survey_research;
+	skos:hasTopConcept :clarin;
+	skos:hasTopConcept :displaced_persons;
+	skos:hasTopConcept :emigrants;
+	skos:hasTopConcept :ethnic_minorities;
+	skos:hasTopConcept :ethnic_studies;
+	skos:hasTopConcept :europe;
+	skos:hasTopConcept :fair_principles;
+	skos:hasTopConcept :ipr_issues;
+	skos:hasTopConcept :immigrants;
+	skos:hasTopConcept :integration;
+	skos:hasTopConcept :languages_ampersand_literature;
+	skos:hasTopConcept :mets;
+	skos:hasTopConcept :migrants;
+	skos:hasTopConcept :migration;
+	skos:hasTopConcept :migration_studies;
+	skos:hasTopConcept :minorities;
+	skos:hasTopConcept :refugees;
+	skos:hasTopConcept :schematron;
+	skos:hasTopConcept :american-south;
+	skos:hasTopConcept :artificial-intelligence;
+	skos:hasTopConcept :bibliographic-data;
+	skos:hasTopConcept :book-history-data;
+	skos:hasTopConcept :books;
+	skos:hasTopConcept :canon;
+	skos:hasTopConcept :computational-linguistics;
+	skos:hasTopConcept :computer-vision;
+	skos:hasTopConcept :crime;
+	skos:hasTopConcept :customization;
+	skos:hasTopConcept :data-management;
+	skos:hasTopConcept :drama;
+	skos:hasTopConcept :economics;
+	skos:hasTopConcept :french;
+	skos:hasTopConcept :german;
+	skos:hasTopConcept :language-typology;
+	skos:hasTopConcept :media;
+	skos:hasTopConcept :microsoft;
+	skos:hasTopConcept :music;
+	skos:hasTopConcept :pos;
+	skos:hasTopConcept :race;
+	skos:hasTopConcept :sentiment-analysis;
+	skos:hasTopConcept :southern-united-states;
+	skos:hasTopConcept :spanish;
+	skos:hasTopConcept :test-data;
+	skos:hasTopConcept :training-data;
+	skos:hasTopConcept :video;
+	skos:hasTopConcept :18th-century;
+	skos:hasTopConcept :18th-century-literature;
+	skos:hasTopConcept :data;
+	skos:hasTopConcept :metadata_search;
+	skos:hasTopConcept :open_science;
+	skos:hasTopConcept :psychology;
+	skos:hasTopConcept :sociology;
+	skos:hasTopConcept :toolsservices;
+	skos:hasTopConcept :xrf;
+	skos:hasTopConcept :xrf_mapping;
+	skos:hasTopConcept :xsl;
+	skos:hasTopConcept :african-american;
+	skos:hasTopConcept :ancient-greek;
+	skos:hasTopConcept :audio-transcription;
+	skos:hasTopConcept :character;
+	skos:hasTopConcept :classification;
+	skos:hasTopConcept :csv;
+	skos:hasTopConcept :digital-humanities;
+	skos:hasTopConcept :eighteenth-century-poetry;
+	skos:hasTopConcept :goodreads;
+	skos:hasTopConcept :greek;
+	skos:hasTopConcept :hand-corrected;
+	skos:hasTopConcept :handwritten-text-recognition;
+	skos:hasTopConcept :legal;
+	skos:hasTopConcept :library;
+	skos:hasTopConcept :maps;
+	skos:hasTopConcept :multiple-languages;
+	skos:hasTopConcept :newspaper;
+	skos:hasTopConcept :ocr;
+	skos:hasTopConcept :personal-narratives;
+	skos:hasTopConcept :politics;
+	skos:hasTopConcept :portuguese;
+	skos:hasTopConcept :readership;
+	skos:hasTopConcept :thai;
+	skos:hasTopConcept :ariadne;
+	skos:hasTopConcept :aggregators_ampersand_integrators;
+	skos:hasTopConcept :applications;
+	skos:hasTopConcept :arts;
+	skos:hasTopConcept :cnr-ilc;
+	skos:hasTopConcept :chaining_odds;
+	skos:hasTopConcept :data_analysis;
+	skos:hasTopConcept :educational_sciences;
+	skos:hasTopConcept :ethics;
+	skos:hasTopConcept :fair;
+	skos:hasTopConcept :facetted_search;
+	skos:hasTopConcept :hisco;
+	skos:hasTopConcept :historical_corpora;
+	skos:hasTopConcept :history_ampersand_archaeology;
+	skos:hasTopConcept :iso;
+	skos:hasTopConcept :licenses;
+	skos:hasTopConcept :lido;
+	skos:hasTopConcept :mei;
+	skos:hasTopConcept :mei_score_editor_open_parenthesismeiseclose_parenthesis;
+	skos:hasTopConcept :media_format;
+	skos:hasTopConcept :mermeid;
+	skos:hasTopConcept :omeka;
+	skos:hasTopConcept :philosophycomma_ethics_ampersand_religion;
+	skos:hasTopConcept :pigments;
+	skos:hasTopConcept :policies;
+	skos:hasTopConcept :political_sciences;
+	skos:hasTopConcept :r;
+	skos:hasTopConcept :spss;
+	skos:hasTopConcept :ssk:annotation;
+	skos:hasTopConcept :verovio;
+	skos:hasTopConcept :vexflow;
+	skos:hasTopConcept :african-american-history;
+	skos:hasTopConcept :annotated-texts;
+	skos:hasTopConcept :arabic;
+	skos:hasTopConcept :archeology;
+	skos:hasTopConcept :articles;
+	skos:hasTopConcept :authorship-attribution;
+	skos:hasTopConcept :baby-names;
+	skos:hasTopConcept :brazil;
+	skos:hasTopConcept :brazilian-portuguese;
+	skos:hasTopConcept :bulgaria;
+	skos:hasTopConcept :bulgarian-history;
+	skos:hasTopConcept :byu;
+	skos:hasTopConcept :canada;
+	skos:hasTopConcept :chat-format;
+	skos:hasTopConcept :china;
+	skos:hasTopConcept :citations;
+	skos:hasTopConcept :clan;
+	skos:hasTopConcept :data_catalogue;
+	skos:hasTopConcept :data_discovery;
+	skos:hasTopConcept :dates;
+	skos:hasTopConcept :dialectology;
+	skos:hasTopConcept :dialogue;
+	skos:hasTopConcept :diversity;
+	skos:hasTopConcept :dutch;
+	skos:hasTopConcept :ecco;
+	skos:hasTopConcept :ecco-tcp;
+	skos:hasTopConcept :european-history;
+	skos:hasTopConcept :film;
+	skos:hasTopConcept :flickr;
+	skos:hasTopConcept :geo-data;
+	skos:hasTopConcept :government;
+	skos:hasTopConcept :greece;
+	skos:hasTopConcept :historical-maps;
+	skos:hasTopConcept :image-recognition;
+	skos:hasTopConcept :interoperability;
+	skos:hasTopConcept :ipr;
+	skos:hasTopConcept :islamic-history;
+	skos:hasTopConcept :japan;
+	skos:hasTopConcept :json;
+	skos:hasTopConcept :language_resources;
+	skos:hasTopConcept :language-contact;
+	skos:hasTopConcept :law;
+	skos:hasTopConcept :libraries;
+	skos:hasTopConcept :linguistic-variation;
+	skos:hasTopConcept :magazines;
+	skos:hasTopConcept :medieval;
+	skos:hasTopConcept :medieval-history;
+	skos:hasTopConcept :morphology;
+	skos:hasTopConcept :news;
+	skos:hasTopConcept :nonfiction;
+	skos:hasTopConcept :ontology;
+	skos:hasTopConcept :open_access;
+	skos:hasTopConcept :phonetics;
+	skos:hasTopConcept :plaintext;
+	skos:hasTopConcept :research;
+	skos:hasTopConcept :scholarly-communications;
+	skos:hasTopConcept :slavic;
+	skos:hasTopConcept :slovak;
+	skos:hasTopConcept :stopwords;
+	skos:hasTopConcept :syntax;
+	skos:hasTopConcept :television;
+	skos:hasTopConcept :text-mining;
+	skos:hasTopConcept :tool;
+	skos:hasTopConcept :topic-modeling;
+	skos:hasTopConcept :transcripts;
+	skos:hasTopConcept :txtlab;
+	skos:hasTopConcept :united-kingdom;
+	skos:hasTopConcept :urdu;
+	skos:hasTopConcept :video-games;
+	skos:hasTopConcept :violence;
+	skos:hasTopConcept :wikipedia;
+	skos:hasTopConcept :womens-history;
+	skos:hasTopConcept :1-grams;
+	skos:hasTopConcept :19th-century;
+	skos:hasTopConcept :19th-century-literature;
+	skos:hasTopConcept :3d-graphics;
+	skos:hasTopConcept :acquisition_condition;
+	skos:hasTopConcept :anonymity;
+	skos:hasTopConcept :applications_repository;
+	skos:hasTopConcept :archaeology;
+	skos:hasTopConcept :biological_sciences;
+	skos:hasTopConcept :cnr-iliesi;
+	skos:hasTopConcept :codata;
+	skos:hasTopConcept :calibration_routine;
+	skos:hasTopConcept :checklists;
+	skos:hasTopConcept :colour_measurements;
+	skos:hasTopConcept :communication;
+	skos:hasTopConcept :components;
+	skos:hasTopConcept :compton_scatter;
+	skos:hasTopConcept :controlled_vocabularies;
+	skos:hasTopConcept :cultural_heritage;
+	skos:hasTopConcept :dasish;
+	skos:hasTopConcept :ddi;
+	skos:hasTopConcept :dita;
+	skos:hasTopConcept :data-managementcomma_faircomma_data_publicationcomma_data_archive;
+	skos:hasTopConcept :database_of_polymer_spectra;
+	skos:hasTopConcept :eac;
+	skos:hasTopConcept :edm;
+	skos:hasTopConcept :earth_observations;
+	skos:hasTopConcept :economics_ampersand_business;
+	skos:hasTopConcept :education_ampersand_training;
+	skos:hasTopConcept :electrochemical_impedance_spectroscopy;
+	skos:hasTopConcept :europeana;
+	skos:hasTopConcept :ftir_reflectance_spectroscopy;
+	skos:hasTopConcept :formats;
+	skos:hasTopConcept :group_on_earth_observations;
+	skos:hasTopConcept :history;
+	skos:hasTopConcept :human_subjects_research;
+	skos:hasTopConcept :isco;
+	skos:hasTopConcept :isocat;
+	skos:hasTopConcept :in_situ_analysis;
+	skos:hasTopConcept :in_situ_measurements;
+	skos:hasTopConcept :institutional_research_board;
+	skos:hasTopConcept :knowledgebases;
+	skos:hasTopConcept :libs;
+	skos:hasTopConcept :laser_analysis;
+	skos:hasTopConcept :laser_cleaning;
+	skos:hasTopConcept :legal_requirements;
+	skos:hasTopConcept :manuscript_encoding;
+	skos:hasTopConcept :media_ampersand_communications;
+	skos:hasTopConcept :metrics;
+	skos:hasTopConcept :models;
+	skos:hasTopConcept :museum_collections;
+	skos:hasTopConcept :natural_sciences;
+	skos:hasTopConcept :neuma_quality_dashboard;
+	skos:hasTopConcept :non-invasive_analysis;
+	skos:hasTopConcept :ontologies;
+	skos:hasTopConcept :open_data;
+	skos:hasTopConcept :ottoman_palette;
+	skos:hasTopConcept :outdoor_bronze_monuments;
+	skos:hasTopConcept :pspp;
+	skos:hasTopConcept :painted_stone_sculptures;
+	skos:hasTopConcept :paintings;
+	skos:hasTopConcept :plastics;
+	skos:hasTopConcept :portable_ftir;
+	skos:hasTopConcept :portable_techniques;
+	skos:hasTopConcept :publication;
+	skos:hasTopConcept :raman_spectroscopy;
+	skos:hasTopConcept :reporting_guidelines;
+	skos:hasTopConcept :repositories;
+	skos:hasTopConcept :required_training;
+	skos:hasTopConcept :stata;
+	skos:hasTopConcept :scholarly_communication;
+	skos:hasTopConcept :services;
+	skos:hasTopConcept :sibelius;
+	skos:hasTopConcept :social_ampersand_economic_geography;
+	skos:hasTopConcept :software;
+	skos:hasTopConcept :software_repository;
+	skos:hasTopConcept :standards;
+	skos:hasTopConcept :standardscomma_databases;
+	skos:hasTopConcept :synchrotron_radiation;
+	skos:hasTopConcept :tbx-in-tei;
+	skos:hasTopConcept :task_2.1.2;
+	skos:hasTopConcept :task_2.1.3;
+	skos:hasTopConcept :terminologies;
+	skos:hasTopConcept :text_annotation;
+	skos:hasTopConcept :thesauruscomma_social_sciencecomma_resource_discovery;
+	skos:hasTopConcept :tools;
+	skos:hasTopConcept :trainingcomma_education;
+	skos:hasTopConcept :users_needs;
+	skos:hasTopConcept :vlo;
+	skos:hasTopConcept :volcanic_rock;
+	skos:hasTopConcept :wavelength_dispersive_spectrometer;
+	skos:hasTopConcept :weblicht;
+	skos:hasTopConcept :workflows;
+	skos:hasTopConcept :x-ray_absorption;
+	skos:hasTopConcept :x-ray_diffraction;
+	skos:hasTopConcept :x-ray_fluorescence;
+	skos:hasTopConcept :absorption;
+	skos:hasTopConcept :abstracts;
+	skos:hasTopConcept :academia;
+	skos:hasTopConcept :academic_blogging;
+	skos:hasTopConcept :academic-articles;
+	skos:hasTopConcept :academic-publishing;
+	skos:hasTopConcept :academic-research;
+	skos:hasTopConcept :acoustic;
+	skos:hasTopConcept :african-history;
+	skos:hasTopConcept :african-languages;
+	skos:hasTopConcept :african-names-database;
+	skos:hasTopConcept :afrikaans;
+	skos:hasTopConcept :ages;
+	skos:hasTopConcept :aggregate_data;
+	skos:hasTopConcept :ai;
+	skos:hasTopConcept :airbnb;
+	skos:hasTopConcept :albania;
+	skos:hasTopConcept :albanian;
+	skos:hasTopConcept :album-covers;
+	skos:hasTopConcept :albums;
+	skos:hasTopConcept :alignment;
+	skos:hasTopConcept :amazon;
+	skos:hasTopConcept :america;
+	skos:hasTopConcept :american-civil-war;
+	skos:hasTopConcept :american-english;
+	skos:hasTopConcept :american-literature;
+	skos:hasTopConcept :ancient-documents;
+	skos:hasTopConcept :ancient-history;
+	skos:hasTopConcept :ancient-roman;
+	skos:hasTopConcept :ancient-rome;
+	skos:hasTopConcept :ancient-world;
+	skos:hasTopConcept :anglo-saxons;
+	skos:hasTopConcept :animation;
+	skos:hasTopConcept :anime;
+	skos:hasTopConcept :anthropology;
+	skos:hasTopConcept :aragonese;
+	skos:hasTopConcept :architecture;
+	skos:hasTopConcept :argument;
+	skos:hasTopConcept :armenian;
+	skos:hasTopConcept :art;
+	skos:hasTopConcept :asia;
+	skos:hasTopConcept :asr;
+	skos:hasTopConcept :attitudes;
+	skos:hasTopConcept :audio-transcriptions;
+	skos:hasTopConcept :australian-poetry;
+	skos:hasTopConcept :author;
+	skos:hasTopConcept :authority-files;
+	skos:hasTopConcept :autocorrection;
+	skos:hasTopConcept :azerbaijani;
+	skos:hasTopConcept :baltimore;
+	skos:hasTopConcept :basque;
+	skos:hasTopConcept :belarusian;
+	skos:hasTopConcept :benefits_analysis;
+	skos:hasTopConcept :bengali;
+	skos:hasTopConcept :best_practices_guidelines;
+	skos:hasTopConcept :bestellers;
+	skos:hasTopConcept :bias;
+	skos:hasTopConcept :bibliographic-records;
+	skos:hasTopConcept :bibliography;
+	skos:hasTopConcept :billboard;
+	skos:hasTopConcept :bloggers;
+	skos:hasTopConcept :blogs;
+	skos:hasTopConcept :bosnian;
+	skos:hasTopConcept :boundaries;
+	skos:hasTopConcept :breast-cancer;
+	skos:hasTopConcept :breton;
+	skos:hasTopConcept :brightkite;
+	skos:hasTopConcept :british-newspapers;
+	skos:hasTopConcept :buddhism;
+	skos:hasTopConcept :bulgarian;
+	skos:hasTopConcept :byzantine;
+	skos:hasTopConcept :canadian-history;
+	skos:hasTopConcept :captions;
+	skos:hasTopConcept :catalan;
+	skos:hasTopConcept :categories;
+	skos:hasTopConcept :cdc;
+	skos:hasTopConcept :censorship;
+	skos:hasTopConcept :census-data;
+	skos:hasTopConcept :ceramic-studies;
+	skos:hasTopConcept :ceramics;
+	skos:hasTopConcept :certification;
+	skos:hasTopConcept :chicago;
+	skos:hasTopConcept :church;
+	skos:hasTopConcept :circulation;
+	skos:hasTopConcept :citizen_science;
+	skos:hasTopConcept :clinical;
+	skos:hasTopConcept :clustering;
+	skos:hasTopConcept :code-switching;
+	skos:hasTopConcept :college;
+	skos:hasTopConcept :collocates;
+	skos:hasTopConcept :computational-social-science;
+	skos:hasTopConcept :conference-program;
+	skos:hasTopConcept :contemporary-literature;
+	skos:hasTopConcept :cover-art;
+	skos:hasTopConcept :covid-19;
+	skos:hasTopConcept :credit;
+	skos:hasTopConcept :creoles;
+	skos:hasTopConcept :crf-parsing;
+	skos:hasTopConcept :croatian;
+	skos:hasTopConcept :cultural-heritage;
+	skos:hasTopConcept :culture;
+	skos:hasTopConcept :cuneiform;
+	skos:hasTopConcept :czech;
+	skos:hasTopConcept :danish;
+	skos:hasTopConcept :data_access;
+	skos:hasTopConcept :data_archive;
+	skos:hasTopConcept :data_deposit;
+	skos:hasTopConcept :data-extraction;
+	skos:hasTopConcept :deaths;
+	skos:hasTopConcept :debt;
+	skos:hasTopConcept :demographic;
+	skos:hasTopConcept :demographics;
+	skos:hasTopConcept :dependency-grammar;
+	skos:hasTopConcept :dependency-trees;
+	skos:hasTopConcept :description;
+	skos:hasTopConcept :dh2013;
+	skos:hasTopConcept :dh2014;
+	skos:hasTopConcept :dh2015;
+	skos:hasTopConcept :digital_behavioral_data;
+	skos:hasTopConcept :diplomacy;
+	skos:hasTopConcept :directed;
+	skos:hasTopConcept :download;
+	skos:hasTopConcept :dpla;
+	skos:hasTopConcept :ds;
+	skos:hasTopConcept :dutch-literature;
+	skos:hasTopConcept :earnings;
+	skos:hasTopConcept :east-asian-history;
+	skos:hasTopConcept :eastern-mediterranean;
+	skos:hasTopConcept :economic;
+	skos:hasTopConcept :edges;
+	skos:hasTopConcept :education;
+	skos:hasTopConcept :egypt;
+	skos:hasTopConcept :eigen-decomposition;
+	skos:hasTopConcept :eighteenth-century;
+	skos:hasTopConcept :elections;
+	skos:hasTopConcept :electromagnetic_radiation;
+	skos:hasTopConcept :email;
+	skos:hasTopConcept :emolex;
+	skos:hasTopConcept :emotion;
+	skos:hasTopConcept :employment;
+	skos:hasTopConcept :end_user_requirements;
+	skos:hasTopConcept :england;
+	skos:hasTopConcept :epidemiology;
+	skos:hasTopConcept :esperanto;
+	skos:hasTopConcept :estonian;
+	skos:hasTopConcept :event-detection;
+	skos:hasTopConcept :facebook;
+	skos:hasTopConcept :fan-fiction;
+	skos:hasTopConcept :faroese;
+	skos:hasTopConcept :film-history;
+	skos:hasTopConcept :finnish;
+	skos:hasTopConcept :fluorescence;
+	skos:hasTopConcept :folklore;
+	skos:hasTopConcept :forced-alignment;
+	skos:hasTopConcept :framework;
+	skos:hasTopConcept :function-words;
+	skos:hasTopConcept :galician;
+	skos:hasTopConcept :game-of-thrones;
+	skos:hasTopConcept :gameboiy-advance;
+	skos:hasTopConcept :gameboy;
+	skos:hasTopConcept :genome-data;
+	skos:hasTopConcept :gentrification;
+	skos:hasTopConcept :george-r-r-martin;
+	skos:hasTopConcept :georgian;
+	skos:hasTopConcept :geospatial-data;
+	skos:hasTopConcept :github;
+	skos:hasTopConcept :global-data;
+	skos:hasTopConcept :global-english;
+	skos:hasTopConcept :global-history;
+	skos:hasTopConcept :google-books;
+	skos:hasTopConcept :gowalla;
+	skos:hasTopConcept :groceries;
+	skos:hasTopConcept :guidelines;
+	skos:hasTopConcept :gujarati;
+	skos:hasTopConcept :haitian-creole;
+	skos:hasTopConcept :handwriting;
+	skos:hasTopConcept :hate-crimes;
+	skos:hasTopConcept :health-data;
+	skos:hasTopConcept :healthcare;
+	skos:hasTopConcept :hebrew;
+	skos:hasTopConcept :higgs-boson;
+	skos:hasTopConcept :hindi;
+	skos:hasTopConcept :hiring;
+	skos:hasTopConcept :historical-linguistics;
+	skos:hasTopConcept :historical-manuscripts;
+	skos:hasTopConcept :historical-records;
+	skos:hasTopConcept :historiography;
+	skos:hasTopConcept :history-of-science;
+	skos:hasTopConcept :hollywood;
+	skos:hasTopConcept :homicide;
+	skos:hasTopConcept :hotels;
+	skos:hasTopConcept :housing;
+	skos:hasTopConcept :html;
+	skos:hasTopConcept :humor;
+	skos:hasTopConcept :hungarian;
+	skos:hasTopConcept :i-vectors;
+	skos:hasTopConcept :icelandic;
+	skos:hasTopConcept :identity;
+	skos:hasTopConcept :ido;
+	skos:hasTopConcept :image;
+	skos:hasTopConcept :incarceration;
+	skos:hasTopConcept :india;
+	skos:hasTopConcept :indian-history;
+	skos:hasTopConcept :indonesian;
+	skos:hasTopConcept :instagram;
+	skos:hasTopConcept :interlingua;
+	skos:hasTopConcept :internet-trolls;
+	skos:hasTopConcept :irish;
+	skos:hasTopConcept :isbn;
+	skos:hasTopConcept :islam;
+	skos:hasTopConcept :italian;
+	skos:hasTopConcept :italy;
+	skos:hasTopConcept :james-joyce;
+	skos:hasTopConcept :japanese;
+	skos:hasTopConcept :javascript;
+	skos:hasTopConcept :jeopardy;
+	skos:hasTopConcept :jewish-history;
+	skos:hasTopConcept :job-listings;
+	skos:hasTopConcept :jokes;
+	skos:hasTopConcept :kannada;
+	skos:hasTopConcept :keywords;
+	skos:hasTopConcept :khmer;
+	skos:hasTopConcept :kirghiz;
+	skos:hasTopConcept :knowledge-graph;
+	skos:hasTopConcept :koineization;
+	skos:hasTopConcept :korean;
+	skos:hasTopConcept :kurdish;
+	skos:hasTopConcept :land-use;
+	skos:hasTopConcept :language;
+	skos:hasTopConcept :language-change;
+	skos:hasTopConcept :large-scale-repository;
+	skos:hasTopConcept :laser_ablation;
+	skos:hasTopConcept :latin;
+	skos:hasTopConcept :latvian;
+	skos:hasTopConcept :legal-history;
+	skos:hasTopConcept :lemmas;
+	skos:hasTopConcept :lesbian-and-gay-history;
+	skos:hasTopConcept :letter-writing;
+	skos:hasTopConcept :letters;
+	skos:hasTopConcept :lgbt-history;
+	skos:hasTopConcept :liberia;
+	skos:hasTopConcept :library-data;
+	skos:hasTopConcept :life-expectancy;
+	skos:hasTopConcept :linked-open-data;
+	skos:hasTopConcept :literary-careers;
+	skos:hasTopConcept :literary-characters;
+	skos:hasTopConcept :literary-fiction;
+	skos:hasTopConcept :literary-plot;
+	skos:hasTopConcept :literary-prizes;
+	skos:hasTopConcept :lithuanian;
+	skos:hasTopConcept :livejournal;
+	skos:hasTopConcept :loc;
+	skos:hasTopConcept :locations;
+	skos:hasTopConcept :lod;
+	skos:hasTopConcept :london;
+	skos:hasTopConcept :los-angeles;
+	skos:hasTopConcept :luxembourgish;
+	skos:hasTopConcept :lynching;
+	skos:hasTopConcept :macedonian;
+	skos:hasTopConcept :machine_learning;
+	skos:hasTopConcept :machine-translation;
+	skos:hasTopConcept :malay;
+	skos:hasTopConcept :maltese;
+	skos:hasTopConcept :mandarin;
+	skos:hasTopConcept :marathi;
+	skos:hasTopConcept :marc;
+	skos:hasTopConcept :mary-russell-mitford;
+	skos:hasTopConcept :medicine;
+	skos:hasTopConcept :medieval-archaeology;
+	skos:hasTopConcept :medieval-music;
+	skos:hasTopConcept :mesh;
+	skos:hasTopConcept :meter;
+	skos:hasTopConcept :modern-south-arabian;
+	skos:hasTopConcept :monographs;
+	skos:hasTopConcept :movie-reviews;
+	skos:hasTopConcept :movie-scripts;
+	skos:hasTopConcept :mp3;
+	skos:hasTopConcept :multiclass-classification;
+	skos:hasTopConcept :multimedia;
+	skos:hasTopConcept :multiresolution;
+	skos:hasTopConcept :museums;
+	skos:hasTopConcept :mushrooms;
+	skos:hasTopConcept :muslim-history;
+	skos:hasTopConcept :names;
+	skos:hasTopConcept :nepali;
+	skos:hasTopConcept :ner;
+	skos:hasTopConcept :nes;
+	skos:hasTopConcept :netflix;
+	skos:hasTopConcept :new-york-times;
+	skos:hasTopConcept :newgate;
+	skos:hasTopConcept :news-articles;
+	skos:hasTopConcept :nexus;
+	skos:hasTopConcept :ngrams;
+	skos:hasTopConcept :nineteenth-century;
+	skos:hasTopConcept :noaa;
+	skos:hasTopConcept :nodes;
+	skos:hasTopConcept :north-america;
+	skos:hasTopConcept :northern-ireland;
+	skos:hasTopConcept :norwegian.norwegian;
+	skos:hasTopConcept :nutrition;
+	skos:hasTopConcept :obesity;
+	skos:hasTopConcept :old-bailey;
+	skos:hasTopConcept :old-english;
+	skos:hasTopConcept :open_research;
+	skos:hasTopConcept :oral-history;
+	skos:hasTopConcept :oral-literature;
+	skos:hasTopConcept :ottoman;
+	skos:hasTopConcept :pakistan;
+	skos:hasTopConcept :paris;
+	skos:hasTopConcept :parliament;
+	skos:hasTopConcept :pdf;
+	skos:hasTopConcept :peer_review;
+	skos:hasTopConcept :persian;
+	skos:hasTopConcept :personography;
+	skos:hasTopConcept :photodecomposition;
+	skos:hasTopConcept :photos;
+	skos:hasTopConcept :phrases;
+	skos:hasTopConcept :pidgins;
+	skos:hasTopConcept :pill;
+	skos:hasTopConcept :place-names;
+	skos:hasTopConcept :placeography;
+	skos:hasTopConcept :plays;
+	skos:hasTopConcept :podcast;
+	skos:hasTopConcept :point-cloud;
+	skos:hasTopConcept :pokec;
+	skos:hasTopConcept :police-data;
+	skos:hasTopConcept :policy-positions;
+	skos:hasTopConcept :polish;
+	skos:hasTopConcept :pop;
+	skos:hasTopConcept :portrait;
+	skos:hasTopConcept :portugal;
+	skos:hasTopConcept :post-45;
+	skos:hasTopConcept :post-medieval-archaeology;
+	skos:hasTopConcept :predicates;
+	skos:hasTopConcept :predictions;
+	skos:hasTopConcept :prescriptions;
+	skos:hasTopConcept :prison;
+	skos:hasTopConcept :production;
+	skos:hasTopConcept :products;
+	skos:hasTopConcept :pronunciation;
+	skos:hasTopConcept :proper-name-disambiguation;
+	skos:hasTopConcept :prosopography;
+	skos:hasTopConcept :publishers-weekly;
+	skos:hasTopConcept :publishing-industry;
+	skos:hasTopConcept :pubs;
+	skos:hasTopConcept :qualitative_data;
+	skos:hasTopConcept :questions;
+	skos:hasTopConcept :race-films;
+	skos:hasTopConcept :racism;
+	skos:hasTopConcept :random_forest;
+	skos:hasTopConcept :ratings;
+	skos:hasTopConcept :raw;
+	skos:hasTopConcept :reasoning;
+	skos:hasTopConcept :recommendation;
+	skos:hasTopConcept :records;
+	skos:hasTopConcept :reddit;
+	skos:hasTopConcept :reference;
+	skos:hasTopConcept :regression;
+	skos:hasTopConcept :religious-documents;
+	skos:hasTopConcept :requirements_for_tools_and_services;
+	skos:hasTopConcept :research_data_center;
+	skos:hasTopConcept :research_notebook;
+	skos:hasTopConcept :research_scenario;
+	skos:hasTopConcept :research-institutes;
+	skos:hasTopConcept :resolutions;
+	skos:hasTopConcept :roman-empire;
+	skos:hasTopConcept :romanian;
+	skos:hasTopConcept :romansh;
+	skos:hasTopConcept :russian;
+	skos:hasTopConcept :sacred-texts;
+	skos:hasTopConcept :saudi-arabic;
+	skos:hasTopConcept :scholarly-publishing;
+	skos:hasTopConcept :scottish;
+	skos:hasTopConcept :search;
+	skos:hasTopConcept :sega-genesis;
+	skos:hasTopConcept :segmentation;
+	skos:hasTopConcept :semeval;
+	skos:hasTopConcept :sentiment;
+	skos:hasTopConcept :serbian;
+	skos:hasTopConcept :serial-fiction;
+	skos:hasTopConcept :sermons;
+	skos:hasTopConcept :shakespeare;
+	skos:hasTopConcept :sign-languages;
+	skos:hasTopConcept :signed-languages;
+	skos:hasTopConcept :silent-films;
+	skos:hasTopConcept :silicon-valley;
+	skos:hasTopConcept :similarity;
+	skos:hasTopConcept :sin;
+	skos:hasTopConcept :singapore;
+	skos:hasTopConcept :singapore-english;
+	skos:hasTopConcept :slave-trade;
+	skos:hasTopConcept :slavery;
+	skos:hasTopConcept :slovakia;
+	skos:hasTopConcept :slovene;
+	skos:hasTopConcept :sms;
+	skos:hasTopConcept :snes;
+	skos:hasTopConcept :social;
+	skos:hasTopConcept :social_media_data;
+	skos:hasTopConcept :social-computing;
+	skos:hasTopConcept :social-links;
+	skos:hasTopConcept :social-networks;
+	skos:hasTopConcept :social-policy;
+	skos:hasTopConcept :societal_challenges;
+	skos:hasTopConcept :sociolinguistics;
+	skos:hasTopConcept :song-of-ice-and-fire;
+	skos:hasTopConcept :sonnets;
+	skos:hasTopConcept :soqotra;
+	skos:hasTopConcept :soqotri;
+	skos:hasTopConcept :speech-recognition;
+	skos:hasTopConcept :spelling;
+	skos:hasTopConcept :spelling-correction;
+	skos:hasTopConcept :spelling-errors;
+	skos:hasTopConcept :spelling-variation;
+	skos:hasTopConcept :spotify;
+	skos:hasTopConcept :squeeze;
+	skos:hasTopConcept :statistical-analysis;
+	skos:hasTopConcept :stop-words;
+	skos:hasTopConcept :subsets;
+	skos:hasTopConcept :subtitles;
+	skos:hasTopConcept :sumerian;
+	skos:hasTopConcept :survey;
+	skos:hasTopConcept :survey_data;
+	skos:hasTopConcept :swahili;
+	skos:hasTopConcept :sweden;
+	skos:hasTopConcept :swedish;
+	skos:hasTopConcept :sydney;
+	skos:hasTopConcept :syllables;
+	skos:hasTopConcept :symmetry-calculations;
+	skos:hasTopConcept :t_docs;
+	skos:hasTopConcept :t_resource;
+	skos:hasTopConcept :tagalog;
+	skos:hasTopConcept :tagger;
+	skos:hasTopConcept :tamil;
+	skos:hasTopConcept :tcp;
+	skos:hasTopConcept :technology;
+	skos:hasTopConcept :telugu;
+	skos:hasTopConcept :term-frequencies;
+	skos:hasTopConcept :text-messaging;
+	skos:hasTopConcept :textual-reuse;
+	skos:hasTopConcept :theater;
+	skos:hasTopConcept :thermal_effects;
+	skos:hasTopConcept :thomas-gray;
+	skos:hasTopConcept :tibet;
+	skos:hasTopConcept :tibetan-buddhim;
+	skos:hasTopConcept :title;
+	skos:hasTopConcept :tokens;
+	skos:hasTopConcept :topics;
+	skos:hasTopConcept :trademarks;
+	skos:hasTopConcept :translation;
+	skos:hasTopConcept :trivia;
+	skos:hasTopConcept :turkey;
+	skos:hasTopConcept :turkish;
+	skos:hasTopConcept :turkmen;
+	skos:hasTopConcept :tutorial;
+	skos:hasTopConcept :tweets;
+	skos:hasTopConcept :twitch;
+	skos:hasTopConcept :type;
+	skos:hasTopConcept :typos;
+	skos:hasTopConcept :uav;
+	skos:hasTopConcept :ukrainian;
+	skos:hasTopConcept :united-nations;
+	skos:hasTopConcept :usa;
+	skos:hasTopConcept :use_case;
+	skos:hasTopConcept :uzbek;
+	skos:hasTopConcept :vai-script;
+	skos:hasTopConcept :value_of_open_data;
+	skos:hasTopConcept :venice;
+	skos:hasTopConcept :vietnamese;
+	skos:hasTopConcept :viewer;
+	skos:hasTopConcept :volapük;
+	skos:hasTopConcept :voting;
+	skos:hasTopConcept :voyages;
+	skos:hasTopConcept :walloon;
+	skos:hasTopConcept :weather;
+	skos:hasTopConcept :web-data;
+	skos:hasTopConcept :web3d;
+	skos:hasTopConcept :webgl;
+	skos:hasTopConcept :websites;
+	skos:hasTopConcept :welsh;
+	skos:hasTopConcept :western-frisian;
+	skos:hasTopConcept :who;
+	skos:hasTopConcept :word-counts;
+	skos:hasTopConcept :workplace;
+	skos:hasTopConcept :world-english;
+	skos:hasTopConcept :world-literature;
+	skos:hasTopConcept :world-religion;
+	skos:hasTopConcept :writing-systems;
+	skos:hasTopConcept :yahoo;
+	skos:hasTopConcept :yemen;
+	skos:hasTopConcept :yiddish;
+	skos:hasTopConcept :youtube;
+	skos:hasTopConcept :zip;
+	dc:description "All the keywords used in the SSHOC Marketplace: coming from various sources."@en ;
+	rdfs:comment "All the keywords used in the SSHOC Marketplace: coming from various sources."@en .
+
+:3d a skos:Concept;
+	skos:prefLabel "3D"@en;
+	rdfs:label "3D"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:heritage_science a skos:Concept;
+	skos:prefLabel "Heritage Science"@en;
+	rdfs:label "Heritage Science"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cultural-analytics a skos:Concept;
+	skos:prefLabel "cultural-analytics"@en;
+	rdfs:label "cultural-analytics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical a skos:Concept;
+	skos:prefLabel "historical"@en;
+	rdfs:label "historical"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literature a skos:Concept;
+	skos:prefLabel "literature"@en;
+	rdfs:label "literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ocr_htr a skos:Concept;
+	skos:prefLabel "OCR HTR"@en;
+	rdfs:label "OCR HTR"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:python a skos:Concept;
+	skos:prefLabel "python"@en;
+	rdfs:label "python"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:linguistics a skos:Concept;
+	skos:prefLabel "linguistics"@en;
+	rdfs:label "linguistics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:digitization a skos:Concept;
+	skos:prefLabel "Digitization"@en;
+	rdfs:label "Digitization"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data-manipulation a skos:Concept;
+	skos:prefLabel "data-manipulation"@en;
+	rdfs:label "data-manipulation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical-data a skos:Concept;
+	skos:prefLabel "historical-data"@en;
+	rdfs:label "historical-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:network-analysis a skos:Concept;
+	skos:prefLabel "network-analysis"@en;
+	rdfs:label "network-analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:book-history a skos:Concept;
+	skos:prefLabel "book-history"@en;
+	rdfs:label "book-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nlp a skos:Concept;
+	skos:prefLabel "nlp"@en;
+	rdfs:label "nlp"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:odd a skos:Concept;
+	skos:prefLabel "ODD"@en;
+	rdfs:label "ODD"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:rdf a skos:Concept;
+	skos:prefLabel "RDF"@en;
+	rdfs:label "RDF"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:english a skos:Concept;
+	skos:prefLabel "english"@en;
+	rdfs:label "english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:metadata a skos:Concept;
+	skos:prefLabel "metadata"@en;
+	rdfs:label "metadata"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:twitter a skos:Concept;
+	skos:prefLabel "twitter"@en;
+	rdfs:label "twitter"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:novels a skos:Concept;
+	skos:prefLabel "novels"@en;
+	rdfs:label "novels"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tei a skos:Concept;
+	skos:prefLabel "TEI"@en;
+	rdfs:label "TEI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:australia a skos:Concept;
+	skos:prefLabel "australia"@en;
+	rdfs:label "australia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:fiction a skos:Concept;
+	skos:prefLabel "fiction"@en;
+	rdfs:label "fiction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ftir a skos:Concept;
+	skos:prefLabel "FTIR"@en;
+	rdfs:label "FTIR"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:humanities a skos:Concept;
+	skos:prefLabel "Humanities"@en;
+	rdfs:label "Humanities"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lexicaldata a skos:Concept;
+	skos:prefLabel "LexicalData"@en;
+	rdfs:label "LexicalData"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:raman a skos:Concept;
+	skos:prefLabel "Raman"@en;
+	rdfs:label "Raman"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:audio a skos:Concept;
+	skos:prefLabel "audio"@en;
+	rdfs:label "audio"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:distant-reading a skos:Concept;
+	skos:prefLabel "distant-reading"@en;
+	rdfs:label "distant-reading"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:geographical-data a skos:Concept;
+	skos:prefLabel "geographical-data"@en;
+	rdfs:label "geographical-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mapping a skos:Concept;
+	skos:prefLabel "mapping"@en;
+	rdfs:label "mapping"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:poetry a skos:Concept;
+	skos:prefLabel "poetry"@en;
+	rdfs:label "poetry"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:recommended a skos:Concept;
+	skos:prefLabel "recommended"@en;
+	rdfs:label "recommended"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social_sciences a skos:Concept;
+	skos:prefLabel "Social Sciences"@en;
+	rdfs:label "Social Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:corpus a skos:Concept;
+	skos:prefLabel "corpus"@en;
+	rdfs:label "corpus"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_management a skos:Concept;
+	skos:prefLabel "Data Management"@en;
+	rdfs:label "Data Management"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:images a skos:Concept;
+	skos:prefLabel "images"@en;
+	rdfs:label "images"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social-network a skos:Concept;
+	skos:prefLabel "social-network"@en;
+	rdfs:label "social-network"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:text a skos:Concept;
+	skos:prefLabel "text"@en;
+	rdfs:label "text"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:united-states a skos:Concept;
+	skos:prefLabel "united-states"@en;
+	rdfs:label "united-states"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:web-scraping a skos:Concept;
+	skos:prefLabel "web-scraping"@en;
+	rdfs:label "web-scraping"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:xml a skos:Concept;
+	skos:prefLabel "xml"@en;
+	rdfs:label "xml"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cidoc-crm a skos:Concept;
+	skos:prefLabel "CIDOC-CRM"@en;
+	rdfs:label "CIDOC-CRM"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ead a skos:Concept;
+	skos:prefLabel "EAD"@en;
+	rdfs:label "EAD"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:other_humanities a skos:Concept;
+	skos:prefLabel "Other Humanities"@en;
+	rdfs:label "Other Humanities"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:api a skos:Concept;
+	skos:prefLabel "api"@en;
+	rdfs:label "api"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gender a skos:Concept;
+	skos:prefLabel "gender"@en;
+	rdfs:label "gender"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language-variation a skos:Concept;
+	skos:prefLabel "language-variation"@en;
+	rdfs:label "language-variation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:newspapers a skos:Concept;
+	skos:prefLabel "newspapers"@en;
+	rdfs:label "newspapers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:website a skos:Concept;
+	skos:prefLabel "website"@en;
+	rdfs:label "website"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:anonymization a skos:Concept;
+	skos:prefLabel "Anonymization"@en;
+	rdfs:label "Anonymization"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cmdi a skos:Concept;
+	skos:prefLabel "CMDI"@en;
+	rdfs:label "CMDI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:linguisticannotation a skos:Concept;
+	skos:prefLabel "LinguisticAnnotation"@en;
+	rdfs:label "LinguisticAnnotation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:other_social_sciences a skos:Concept;
+	skos:prefLabel "Other Social Sciences"@en;
+	rdfs:label "Other Social Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:british-literature a skos:Concept;
+	skos:prefLabel "british-literature"@en;
+	rdfs:label "british-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:get-ready a skos:Concept;
+	skos:prefLabel "get-ready"@en;
+	rdfs:label "get-ready"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:movies a skos:Concept;
+	skos:prefLabel "movies"@en;
+	rdfs:label "movies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reception a skos:Concept;
+	skos:prefLabel "reception"@en;
+	rdfs:label "reception"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:religion a skos:Concept;
+	skos:prefLabel "religion"@en;
+	rdfs:label "religion"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:speech a skos:Concept;
+	skos:prefLabel "speech"@en;
+	rdfs:label "speech"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dtabf a skos:Concept;
+	skos:prefLabel "DTABf"@en;
+	rdfs:label "DTABf"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:discovery a skos:Concept;
+	skos:prefLabel "Discovery"@en;
+	rdfs:label "Discovery"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dublin_core a skos:Concept;
+	skos:prefLabel "Dublin Core"@en;
+	rdfs:label "Dublin Core"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:chinese a skos:Concept;
+	skos:prefLabel "chinese"@en;
+	rdfs:label "chinese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:corpora a skos:Concept;
+	skos:prefLabel "corpora"@en;
+	rdfs:label "corpora"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:full-text a skos:Concept;
+	skos:prefLabel "full-text"@en;
+	rdfs:label "full-text"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:machine-learning a skos:Concept;
+	skos:prefLabel "machine-learning"@en;
+	rdfs:label "machine-learning"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:manuscripts a skos:Concept;
+	skos:prefLabel "manuscripts"@en;
+	rdfs:label "manuscripts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:natural-language-processing a skos:Concept;
+	skos:prefLabel "natural-language-processing"@en;
+	rdfs:label "natural-language-processing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reviews a skos:Concept;
+	skos:prefLabel "reviews"@en;
+	rdfs:label "reviews"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_parenthesismetaclose_parenthesisdata a skos:Concept;
+	skos:prefLabel "(Meta)data"@en;
+	rdfs:label "(Meta)data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_parenthesisquantitativeclose_parenthesis_survey_research a skos:Concept;
+	skos:prefLabel "(Quantitative) survey research"@en;
+	rdfs:label "(Quantitative) survey research"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:clarin a skos:Concept;
+	skos:prefLabel "CLARIN"@en;
+	rdfs:label "CLARIN"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:displaced_persons a skos:Concept;
+	skos:prefLabel "Displaced persons"@en;
+	rdfs:label "Displaced persons"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:emigrants a skos:Concept;
+	skos:prefLabel "Emigrants"@en;
+	rdfs:label "Emigrants"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ethnic_minorities a skos:Concept;
+	skos:prefLabel "Ethnic minorities"@en;
+	rdfs:label "Ethnic minorities"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ethnic_studies a skos:Concept;
+	skos:prefLabel "Ethnic studies"@en;
+	rdfs:label "Ethnic studies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:europe a skos:Concept;
+	skos:prefLabel "Europe"@en;
+	rdfs:label "Europe"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:fair_principles a skos:Concept;
+	skos:prefLabel "FAIR principles"@en;
+	rdfs:label "FAIR principles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ipr_issues a skos:Concept;
+	skos:prefLabel "IPR ISSUES"@en;
+	rdfs:label "IPR ISSUES"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:immigrants a skos:Concept;
+	skos:prefLabel "Immigrants"@en;
+	rdfs:label "Immigrants"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:integration a skos:Concept;
+	skos:prefLabel "Integration"@en;
+	rdfs:label "Integration"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:languages_ampersand_literature a skos:Concept;
+	skos:prefLabel "Languages & Literature"@en;
+	rdfs:label "Languages & Literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mets a skos:Concept;
+	skos:prefLabel "METS"@en;
+	rdfs:label "METS"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:migrants a skos:Concept;
+	skos:prefLabel "Migrants"@en;
+	rdfs:label "Migrants"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:migration a skos:Concept;
+	skos:prefLabel "Migration"@en;
+	rdfs:label "Migration"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:migration_studies a skos:Concept;
+	skos:prefLabel "Migration studies"@en;
+	rdfs:label "Migration studies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:minorities a skos:Concept;
+	skos:prefLabel "Minorities"@en;
+	rdfs:label "Minorities"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:refugees a skos:Concept;
+	skos:prefLabel "Refugees"@en;
+	rdfs:label "Refugees"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:schematron a skos:Concept;
+	skos:prefLabel "Schematron"@en;
+	rdfs:label "Schematron"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:american-south a skos:Concept;
+	skos:prefLabel "american-south"@en;
+	rdfs:label "american-south"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:artificial-intelligence a skos:Concept;
+	skos:prefLabel "artificial-intelligence"@en;
+	rdfs:label "artificial-intelligence"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bibliographic-data a skos:Concept;
+	skos:prefLabel "bibliographic-data"@en;
+	rdfs:label "bibliographic-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:book-history-data a skos:Concept;
+	skos:prefLabel "book-history-data"@en;
+	rdfs:label "book-history-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:books a skos:Concept;
+	skos:prefLabel "books"@en;
+	rdfs:label "books"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:canon a skos:Concept;
+	skos:prefLabel "canon"@en;
+	rdfs:label "canon"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:computational-linguistics a skos:Concept;
+	skos:prefLabel "computational-linguistics"@en;
+	rdfs:label "computational-linguistics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:computer-vision a skos:Concept;
+	skos:prefLabel "computer-vision"@en;
+	rdfs:label "computer-vision"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:crime a skos:Concept;
+	skos:prefLabel "crime"@en;
+	rdfs:label "crime"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:customization a skos:Concept;
+	skos:prefLabel "customization"@en;
+	rdfs:label "customization"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data-management a skos:Concept;
+	skos:prefLabel "data-management"@en;
+	rdfs:label "data-management"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:drama a skos:Concept;
+	skos:prefLabel "drama"@en;
+	rdfs:label "drama"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:economics a skos:Concept;
+	skos:prefLabel "economics"@en;
+	rdfs:label "economics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:french a skos:Concept;
+	skos:prefLabel "french"@en;
+	rdfs:label "french"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:german a skos:Concept;
+	skos:prefLabel "german"@en;
+	rdfs:label "german"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language-typology a skos:Concept;
+	skos:prefLabel "language-typology"@en;
+	rdfs:label "language-typology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:media a skos:Concept;
+	skos:prefLabel "media"@en;
+	rdfs:label "media"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:microsoft a skos:Concept;
+	skos:prefLabel "microsoft"@en;
+	rdfs:label "microsoft"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:music a skos:Concept;
+	skos:prefLabel "music"@en;
+	rdfs:label "music"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pos a skos:Concept;
+	skos:prefLabel "pos"@en;
+	rdfs:label "pos"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:race a skos:Concept;
+	skos:prefLabel "race"@en;
+	rdfs:label "race"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sentiment-analysis a skos:Concept;
+	skos:prefLabel "sentiment-analysis"@en;
+	rdfs:label "sentiment-analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:southern-united-states a skos:Concept;
+	skos:prefLabel "southern-united-states"@en;
+	rdfs:label "southern-united-states"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spanish a skos:Concept;
+	skos:prefLabel "spanish"@en;
+	rdfs:label "spanish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:test-data a skos:Concept;
+	skos:prefLabel "test-data"@en;
+	rdfs:label "test-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:training-data a skos:Concept;
+	skos:prefLabel "training-data"@en;
+	rdfs:label "training-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:video a skos:Concept;
+	skos:prefLabel "video"@en;
+	rdfs:label "video"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:18th-century a skos:Concept;
+	skos:prefLabel "18th-century"@en;
+	rdfs:label "18th-century"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:18th-century-literature a skos:Concept;
+	skos:prefLabel "18th-century-literature"@en;
+	rdfs:label "18th-century-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data a skos:Concept;
+	skos:prefLabel "Data"@en;
+	rdfs:label "Data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:metadata_search a skos:Concept;
+	skos:prefLabel "Metadata search"@en;
+	rdfs:label "Metadata search"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_science a skos:Concept;
+	skos:prefLabel "Open Science"@en;
+	rdfs:label "Open Science"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:psychology a skos:Concept;
+	skos:prefLabel "Psychology"@en;
+	rdfs:label "Psychology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sociology a skos:Concept;
+	skos:prefLabel "Sociology"@en;
+	rdfs:label "Sociology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:toolsservices a skos:Concept;
+	skos:prefLabel "ToolsServices"@en;
+	rdfs:label "ToolsServices"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:xrf a skos:Concept;
+	skos:prefLabel "XRF"@en;
+	rdfs:label "XRF"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:xrf_mapping a skos:Concept;
+	skos:prefLabel "XRF mapping"@en;
+	rdfs:label "XRF mapping"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:xsl a skos:Concept;
+	skos:prefLabel "XSL"@en;
+	rdfs:label "XSL"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:african-american a skos:Concept;
+	skos:prefLabel "african-american"@en;
+	rdfs:label "african-american"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-greek a skos:Concept;
+	skos:prefLabel "ancient-greek"@en;
+	rdfs:label "ancient-greek"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:audio-transcription a skos:Concept;
+	skos:prefLabel "audio-transcription"@en;
+	rdfs:label "audio-transcription"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:character a skos:Concept;
+	skos:prefLabel "character"@en;
+	rdfs:label "character"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:classification a skos:Concept;
+	skos:prefLabel "classification"@en;
+	rdfs:label "classification"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:csv a skos:Concept;
+	skos:prefLabel "csv"@en;
+	rdfs:label "csv"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:digital-humanities a skos:Concept;
+	skos:prefLabel "digital-humanities"@en;
+	rdfs:label "digital-humanities"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:eighteenth-century-poetry a skos:Concept;
+	skos:prefLabel "eighteenth-century-poetry"@en;
+	rdfs:label "eighteenth-century-poetry"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:goodreads a skos:Concept;
+	skos:prefLabel "goodreads"@en;
+	rdfs:label "goodreads"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:greek a skos:Concept;
+	skos:prefLabel "greek"@en;
+	rdfs:label "greek"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hand-corrected a skos:Concept;
+	skos:prefLabel "hand-corrected"@en;
+	rdfs:label "hand-corrected"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:handwritten-text-recognition a skos:Concept;
+	skos:prefLabel "handwritten-text-recognition"@en;
+	rdfs:label "handwritten-text-recognition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:legal a skos:Concept;
+	skos:prefLabel "legal"@en;
+	rdfs:label "legal"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:library a skos:Concept;
+	skos:prefLabel "library"@en;
+	rdfs:label "library"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:maps a skos:Concept;
+	skos:prefLabel "maps"@en;
+	rdfs:label "maps"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:multiple-languages a skos:Concept;
+	skos:prefLabel "multiple-languages"@en;
+	rdfs:label "multiple-languages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:newspaper a skos:Concept;
+	skos:prefLabel "newspaper"@en;
+	rdfs:label "newspaper"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ocr a skos:Concept;
+	skos:prefLabel "ocr"@en;
+	rdfs:label "ocr"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:personal-narratives a skos:Concept;
+	skos:prefLabel "personal-narratives"@en;
+	rdfs:label "personal-narratives"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:politics a skos:Concept;
+	skos:prefLabel "politics"@en;
+	rdfs:label "politics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:portuguese a skos:Concept;
+	skos:prefLabel "portuguese"@en;
+	rdfs:label "portuguese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:readership a skos:Concept;
+	skos:prefLabel "readership"@en;
+	rdfs:label "readership"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:thai a skos:Concept;
+	skos:prefLabel "thai"@en;
+	rdfs:label "thai"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ariadne a skos:Concept;
+	skos:prefLabel "ARIADNE"@en;
+	rdfs:label "ARIADNE"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:aggregators_ampersand_integrators a skos:Concept;
+	skos:prefLabel "Aggregators & Integrators"@en;
+	rdfs:label "Aggregators & Integrators"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:applications a skos:Concept;
+	skos:prefLabel "Applications"@en;
+	rdfs:label "Applications"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:arts a skos:Concept;
+	skos:prefLabel "Arts"@en;
+	rdfs:label "Arts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cnr-ilc a skos:Concept;
+	skos:prefLabel "CNR-ILC"@en;
+	rdfs:label "CNR-ILC"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:chaining_odds a skos:Concept;
+	skos:prefLabel "Chaining ODDs"@en;
+	rdfs:label "Chaining ODDs"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_analysis a skos:Concept;
+	skos:prefLabel "Data Analysis"@en;
+	rdfs:label "Data Analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:educational_sciences a skos:Concept;
+	skos:prefLabel "Educational Sciences"@en;
+	rdfs:label "Educational Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ethics a skos:Concept;
+	skos:prefLabel "Ethics"@en;
+	rdfs:label "Ethics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:fair a skos:Concept;
+	skos:prefLabel "FAIR"@en;
+	rdfs:label "FAIR"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:facetted_search a skos:Concept;
+	skos:prefLabel "Facetted search"@en;
+	rdfs:label "Facetted search"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hisco a skos:Concept;
+	skos:prefLabel "HISCO"@en;
+	rdfs:label "HISCO"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical_corpora a skos:Concept;
+	skos:prefLabel "Historical Corpora"@en;
+	rdfs:label "Historical Corpora"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:history_ampersand_archaeology a skos:Concept;
+	skos:prefLabel "History & Archaeology"@en;
+	rdfs:label "History & Archaeology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:iso a skos:Concept;
+	skos:prefLabel "ISO"@en;
+	rdfs:label "ISO"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:licenses a skos:Concept;
+	skos:prefLabel "LICENSES"@en;
+	rdfs:label "LICENSES"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lido a skos:Concept;
+	skos:prefLabel "LIDO"@en;
+	rdfs:label "LIDO"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mei a skos:Concept;
+	skos:prefLabel "MEI"@en;
+	rdfs:label "MEI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mei_score_editor_open_parenthesismeiseclose_parenthesis a skos:Concept;
+	skos:prefLabel "MEI Score Editor (MEISE)"@en;
+	rdfs:label "MEI Score Editor (MEISE)"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:media_format a skos:Concept;
+	skos:prefLabel "Media format"@en;
+	rdfs:label "Media format"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mermeid a skos:Concept;
+	skos:prefLabel "MerMEId"@en;
+	rdfs:label "MerMEId"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:omeka a skos:Concept;
+	skos:prefLabel "Omeka"@en;
+	rdfs:label "Omeka"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:philosophycomma_ethics_ampersand_religion a skos:Concept;
+	skos:prefLabel "Philosophy, Ethics & Religion"@en;
+	rdfs:label "Philosophy, Ethics & Religion"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pigments a skos:Concept;
+	skos:prefLabel "Pigments"@en;
+	rdfs:label "Pigments"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:policies a skos:Concept;
+	skos:prefLabel "Policies"@en;
+	rdfs:label "Policies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:political_sciences a skos:Concept;
+	skos:prefLabel "Political Sciences"@en;
+	rdfs:label "Political Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:r a skos:Concept;
+	skos:prefLabel "R"@en;
+	rdfs:label "R"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spss a skos:Concept;
+	skos:prefLabel "SPSS"@en;
+	rdfs:label "SPSS"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ssk:annotation a skos:Concept;
+	skos:prefLabel "SSK:annotation"@en;
+	rdfs:label "SSK:annotation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:verovio a skos:Concept;
+	skos:prefLabel "Verovio"@en;
+	rdfs:label "Verovio"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:vexflow a skos:Concept;
+	skos:prefLabel "VexFlow"@en;
+	rdfs:label "VexFlow"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:african-american-history a skos:Concept;
+	skos:prefLabel "african-american-history"@en;
+	rdfs:label "african-american-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:annotated-texts a skos:Concept;
+	skos:prefLabel "annotated-texts"@en;
+	rdfs:label "annotated-texts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:arabic a skos:Concept;
+	skos:prefLabel "arabic"@en;
+	rdfs:label "arabic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:archeology a skos:Concept;
+	skos:prefLabel "archeology"@en;
+	rdfs:label "archeology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:articles a skos:Concept;
+	skos:prefLabel "articles"@en;
+	rdfs:label "articles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:authorship-attribution a skos:Concept;
+	skos:prefLabel "authorship-attribution"@en;
+	rdfs:label "authorship-attribution"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:baby-names a skos:Concept;
+	skos:prefLabel "baby-names"@en;
+	rdfs:label "baby-names"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:brazil a skos:Concept;
+	skos:prefLabel "brazil"@en;
+	rdfs:label "brazil"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:brazilian-portuguese a skos:Concept;
+	skos:prefLabel "brazilian-portuguese"@en;
+	rdfs:label "brazilian-portuguese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bulgaria a skos:Concept;
+	skos:prefLabel "bulgaria"@en;
+	rdfs:label "bulgaria"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bulgarian-history a skos:Concept;
+	skos:prefLabel "bulgarian-history"@en;
+	rdfs:label "bulgarian-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:byu a skos:Concept;
+	skos:prefLabel "byu"@en;
+	rdfs:label "byu"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:canada a skos:Concept;
+	skos:prefLabel "canada"@en;
+	rdfs:label "canada"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:chat-format a skos:Concept;
+	skos:prefLabel "chat-format"@en;
+	rdfs:label "chat-format"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:china a skos:Concept;
+	skos:prefLabel "china"@en;
+	rdfs:label "china"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:citations a skos:Concept;
+	skos:prefLabel "citations"@en;
+	rdfs:label "citations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:clan a skos:Concept;
+	skos:prefLabel "clan"@en;
+	rdfs:label "clan"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_catalogue a skos:Concept;
+	skos:prefLabel "data catalogue"@en;
+	rdfs:label "data catalogue"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_discovery a skos:Concept;
+	skos:prefLabel "data discovery"@en;
+	rdfs:label "data discovery"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dates a skos:Concept;
+	skos:prefLabel "dates"@en;
+	rdfs:label "dates"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dialectology a skos:Concept;
+	skos:prefLabel "dialectology"@en;
+	rdfs:label "dialectology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dialogue a skos:Concept;
+	skos:prefLabel "dialogue"@en;
+	rdfs:label "dialogue"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:diversity a skos:Concept;
+	skos:prefLabel "diversity"@en;
+	rdfs:label "diversity"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dutch a skos:Concept;
+	skos:prefLabel "dutch"@en;
+	rdfs:label "dutch"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ecco a skos:Concept;
+	skos:prefLabel "ecco"@en;
+	rdfs:label "ecco"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ecco-tcp a skos:Concept;
+	skos:prefLabel "ecco-tcp"@en;
+	rdfs:label "ecco-tcp"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:european-history a skos:Concept;
+	skos:prefLabel "european-history"@en;
+	rdfs:label "european-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:film a skos:Concept;
+	skos:prefLabel "film"@en;
+	rdfs:label "film"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:flickr a skos:Concept;
+	skos:prefLabel "flickr"@en;
+	rdfs:label "flickr"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:geo-data a skos:Concept;
+	skos:prefLabel "geo-data"@en;
+	rdfs:label "geo-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:government a skos:Concept;
+	skos:prefLabel "government"@en;
+	rdfs:label "government"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:greece a skos:Concept;
+	skos:prefLabel "greece"@en;
+	rdfs:label "greece"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical-maps a skos:Concept;
+	skos:prefLabel "historical-maps"@en;
+	rdfs:label "historical-maps"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:image-recognition a skos:Concept;
+	skos:prefLabel "image-recognition"@en;
+	rdfs:label "image-recognition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:interoperability a skos:Concept;
+	skos:prefLabel "interoperability"@en;
+	rdfs:label "interoperability"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ipr a skos:Concept;
+	skos:prefLabel "ipr"@en;
+	rdfs:label "ipr"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:islamic-history a skos:Concept;
+	skos:prefLabel "islamic-history"@en;
+	rdfs:label "islamic-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:japan a skos:Concept;
+	skos:prefLabel "japan"@en;
+	rdfs:label "japan"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:json a skos:Concept;
+	skos:prefLabel "json"@en;
+	rdfs:label "json"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language_resources a skos:Concept;
+	skos:prefLabel "language resources"@en;
+	rdfs:label "language resources"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language-contact a skos:Concept;
+	skos:prefLabel "language-contact"@en;
+	rdfs:label "language-contact"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:law a skos:Concept;
+	skos:prefLabel "law"@en;
+	rdfs:label "law"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:libraries a skos:Concept;
+	skos:prefLabel "libraries"@en;
+	rdfs:label "libraries"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:linguistic-variation a skos:Concept;
+	skos:prefLabel "linguistic-variation"@en;
+	rdfs:label "linguistic-variation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:magazines a skos:Concept;
+	skos:prefLabel "magazines"@en;
+	rdfs:label "magazines"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:medieval a skos:Concept;
+	skos:prefLabel "medieval"@en;
+	rdfs:label "medieval"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:medieval-history a skos:Concept;
+	skos:prefLabel "medieval-history"@en;
+	rdfs:label "medieval-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:morphology a skos:Concept;
+	skos:prefLabel "morphology"@en;
+	rdfs:label "morphology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:news a skos:Concept;
+	skos:prefLabel "news"@en;
+	rdfs:label "news"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nonfiction a skos:Concept;
+	skos:prefLabel "nonfiction"@en;
+	rdfs:label "nonfiction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ontology a skos:Concept;
+	skos:prefLabel "ontology"@en;
+	rdfs:label "ontology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_access a skos:Concept;
+	skos:prefLabel "open access"@en;
+	rdfs:label "open access"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:phonetics a skos:Concept;
+	skos:prefLabel "phonetics"@en;
+	rdfs:label "phonetics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:plaintext a skos:Concept;
+	skos:prefLabel "plaintext"@en;
+	rdfs:label "plaintext"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:research a skos:Concept;
+	skos:prefLabel "research"@en;
+	rdfs:label "research"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:scholarly-communications a skos:Concept;
+	skos:prefLabel "scholarly-communications"@en;
+	rdfs:label "scholarly-communications"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slavic a skos:Concept;
+	skos:prefLabel "slavic"@en;
+	rdfs:label "slavic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slovak a skos:Concept;
+	skos:prefLabel "slovak"@en;
+	rdfs:label "slovak"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:stopwords a skos:Concept;
+	skos:prefLabel "stopwords"@en;
+	rdfs:label "stopwords"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:syntax a skos:Concept;
+	skos:prefLabel "syntax"@en;
+	rdfs:label "syntax"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:television a skos:Concept;
+	skos:prefLabel "television"@en;
+	rdfs:label "television"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:text-mining a skos:Concept;
+	skos:prefLabel "text-mining"@en;
+	rdfs:label "text-mining"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tool a skos:Concept;
+	skos:prefLabel "tool"@en;
+	rdfs:label "tool"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:topic-modeling a skos:Concept;
+	skos:prefLabel "topic-modeling"@en;
+	rdfs:label "topic-modeling"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:transcripts a skos:Concept;
+	skos:prefLabel "transcripts"@en;
+	rdfs:label "transcripts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:txtlab a skos:Concept;
+	skos:prefLabel "txtlab"@en;
+	rdfs:label "txtlab"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:united-kingdom a skos:Concept;
+	skos:prefLabel "united-kingdom"@en;
+	rdfs:label "united-kingdom"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:urdu a skos:Concept;
+	skos:prefLabel "urdu"@en;
+	rdfs:label "urdu"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:video-games a skos:Concept;
+	skos:prefLabel "video-games"@en;
+	rdfs:label "video-games"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:violence a skos:Concept;
+	skos:prefLabel "violence"@en;
+	rdfs:label "violence"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:wikipedia a skos:Concept;
+	skos:prefLabel "wikipedia"@en;
+	rdfs:label "wikipedia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:womens-history a skos:Concept;
+	skos:prefLabel "womens-history"@en;
+	rdfs:label "womens-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:1-grams a skos:Concept;
+	skos:prefLabel "1-grams"@en;
+	rdfs:label "1-grams"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:19th-century a skos:Concept;
+	skos:prefLabel "19th-century"@en;
+	rdfs:label "19th-century"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:19th-century-literature a skos:Concept;
+	skos:prefLabel "19th-century-literature"@en;
+	rdfs:label "19th-century-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:3d-graphics a skos:Concept;
+	skos:prefLabel "3d-graphics"@en;
+	rdfs:label "3d-graphics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:acquisition_condition a skos:Concept;
+	skos:prefLabel "Acquisition Condition"@en;
+	rdfs:label "Acquisition Condition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:anonymity a skos:Concept;
+	skos:prefLabel "Anonymity"@en;
+	rdfs:label "Anonymity"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:applications_repository a skos:Concept;
+	skos:prefLabel "Applications Repository"@en;
+	rdfs:label "Applications Repository"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:archaeology a skos:Concept;
+	skos:prefLabel "Archaeology"@en;
+	rdfs:label "Archaeology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:biological_sciences a skos:Concept;
+	skos:prefLabel "Biological Sciences"@en;
+	rdfs:label "Biological Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cnr-iliesi a skos:Concept;
+	skos:prefLabel "CNR-ILIESI"@en;
+	rdfs:label "CNR-ILIESI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:codata a skos:Concept;
+	skos:prefLabel "CODATA"@en;
+	rdfs:label "CODATA"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:calibration_routine a skos:Concept;
+	skos:prefLabel "Calibration Routine"@en;
+	rdfs:label "Calibration Routine"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:checklists a skos:Concept;
+	skos:prefLabel "Checklists"@en;
+	rdfs:label "Checklists"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:colour_measurements a skos:Concept;
+	skos:prefLabel "Colour measurements"@en;
+	rdfs:label "Colour measurements"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:communication a skos:Concept;
+	skos:prefLabel "Communication"@en;
+	rdfs:label "Communication"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:components a skos:Concept;
+	skos:prefLabel "Components"@en;
+	rdfs:label "Components"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:compton_scatter a skos:Concept;
+	skos:prefLabel "Compton Scatter"@en;
+	rdfs:label "Compton Scatter"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:controlled_vocabularies a skos:Concept;
+	skos:prefLabel "Controlled Vocabularies"@en;
+	rdfs:label "Controlled Vocabularies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cultural_heritage a skos:Concept;
+	skos:prefLabel "Cultural Heritage"@en;
+	rdfs:label "Cultural Heritage"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dasish a skos:Concept;
+	skos:prefLabel "DASISH"@en;
+	rdfs:label "DASISH"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ddi a skos:Concept;
+	skos:prefLabel "DDI"@en;
+	rdfs:label "DDI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dita a skos:Concept;
+	skos:prefLabel "DITA"@en;
+	rdfs:label "DITA"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data-managementcomma_faircomma_data_publicationcomma_data_archive a skos:Concept;
+	skos:prefLabel "Data-Management, FAIR, Data publication, Data archive"@en;
+	rdfs:label "Data-Management, FAIR, Data publication, Data archive"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:database_of_polymer_spectra a skos:Concept;
+	skos:prefLabel "Database of polymer spectra"@en;
+	rdfs:label "Database of polymer spectra"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:eac a skos:Concept;
+	skos:prefLabel "EAC"@en;
+	rdfs:label "EAC"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:edm a skos:Concept;
+	skos:prefLabel "EDM"@en;
+	rdfs:label "EDM"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:earth_observations a skos:Concept;
+	skos:prefLabel "Earth Observations"@en;
+	rdfs:label "Earth Observations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:economics_ampersand_business a skos:Concept;
+	skos:prefLabel "Economics & Business"@en;
+	rdfs:label "Economics & Business"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:education_ampersand_training a skos:Concept;
+	skos:prefLabel "Education & Training"@en;
+	rdfs:label "Education & Training"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:electrochemical_impedance_spectroscopy a skos:Concept;
+	skos:prefLabel "Electrochemical impedance spectroscopy"@en;
+	rdfs:label "Electrochemical impedance spectroscopy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:europeana a skos:Concept;
+	skos:prefLabel "Europeana"@en;
+	rdfs:label "Europeana"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ftir_reflectance_spectroscopy a skos:Concept;
+	skos:prefLabel "FTIR reflectance spectroscopy"@en;
+	rdfs:label "FTIR reflectance spectroscopy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:formats a skos:Concept;
+	skos:prefLabel "Formats"@en;
+	rdfs:label "Formats"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:group_on_earth_observations a skos:Concept;
+	skos:prefLabel "Group on Earth Observations"@en;
+	rdfs:label "Group on Earth Observations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:history a skos:Concept;
+	skos:prefLabel "History"@en;
+	rdfs:label "History"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:human_subjects_research a skos:Concept;
+	skos:prefLabel "Human Subjects Research"@en;
+	rdfs:label "Human Subjects Research"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:isco a skos:Concept;
+	skos:prefLabel "ISCO"@en;
+	rdfs:label "ISCO"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:isocat a skos:Concept;
+	skos:prefLabel "ISOcat"@en;
+	rdfs:label "ISOcat"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:in_situ_analysis a skos:Concept;
+	skos:prefLabel "In situ analysis"@en;
+	rdfs:label "In situ analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:in_situ_measurements a skos:Concept;
+	skos:prefLabel "In situ measurements"@en;
+	rdfs:label "In situ measurements"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:institutional_research_board a skos:Concept;
+	skos:prefLabel "Institutional Research Board"@en;
+	rdfs:label "Institutional Research Board"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:knowledgebases a skos:Concept;
+	skos:prefLabel "Knowledgebases"@en;
+	rdfs:label "Knowledgebases"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:libs a skos:Concept;
+	skos:prefLabel "LIBS"@en;
+	rdfs:label "LIBS"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:laser_analysis a skos:Concept;
+	skos:prefLabel "Laser analysis"@en;
+	rdfs:label "Laser analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:laser_cleaning a skos:Concept;
+	skos:prefLabel "Laser cleaning"@en;
+	rdfs:label "Laser cleaning"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:legal_requirements a skos:Concept;
+	skos:prefLabel "Legal requirements"@en;
+	rdfs:label "Legal requirements"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:manuscript_encoding a skos:Concept;
+	skos:prefLabel "Manuscript encoding"@en;
+	rdfs:label "Manuscript encoding"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:media_ampersand_communications a skos:Concept;
+	skos:prefLabel "Media & Communications"@en;
+	rdfs:label "Media & Communications"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:metrics a skos:Concept;
+	skos:prefLabel "Metrics"@en;
+	rdfs:label "Metrics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:models a skos:Concept;
+	skos:prefLabel "Models"@en;
+	rdfs:label "Models"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:museum_collections a skos:Concept;
+	skos:prefLabel "Museum collections"@en;
+	rdfs:label "Museum collections"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:natural_sciences a skos:Concept;
+	skos:prefLabel "Natural Sciences"@en;
+	rdfs:label "Natural Sciences"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:neuma_quality_dashboard a skos:Concept;
+	skos:prefLabel "Neuma Quality dashboard"@en;
+	rdfs:label "Neuma Quality dashboard"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:non-invasive_analysis a skos:Concept;
+	skos:prefLabel "Non-invasive analysis"@en;
+	rdfs:label "Non-invasive analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ontologies a skos:Concept;
+	skos:prefLabel "Ontologies"@en;
+	rdfs:label "Ontologies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_data a skos:Concept;
+	skos:prefLabel "Open Data"@en;
+	rdfs:label "Open Data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ottoman_palette a skos:Concept;
+	skos:prefLabel "Ottoman palette"@en;
+	rdfs:label "Ottoman palette"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:outdoor_bronze_monuments a skos:Concept;
+	skos:prefLabel "Outdoor bronze monuments"@en;
+	rdfs:label "Outdoor bronze monuments"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pspp a skos:Concept;
+	skos:prefLabel "PSPP"@en;
+	rdfs:label "PSPP"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:painted_stone_sculptures a skos:Concept;
+	skos:prefLabel "Painted stone sculptures"@en;
+	rdfs:label "Painted stone sculptures"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:paintings a skos:Concept;
+	skos:prefLabel "Paintings"@en;
+	rdfs:label "Paintings"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:plastics a skos:Concept;
+	skos:prefLabel "Plastics"@en;
+	rdfs:label "Plastics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:portable_ftir a skos:Concept;
+	skos:prefLabel "Portable FTIR"@en;
+	rdfs:label "Portable FTIR"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:portable_techniques a skos:Concept;
+	skos:prefLabel "Portable techniques"@en;
+	rdfs:label "Portable techniques"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:publication a skos:Concept;
+	skos:prefLabel "Publication"@en;
+	rdfs:label "Publication"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:raman_spectroscopy a skos:Concept;
+	skos:prefLabel "Raman spectroscopy"@en;
+	rdfs:label "Raman spectroscopy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reporting_guidelines a skos:Concept;
+	skos:prefLabel "Reporting Guidelines"@en;
+	rdfs:label "Reporting Guidelines"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:repositories a skos:Concept;
+	skos:prefLabel "Repositories"@en;
+	rdfs:label "Repositories"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:required_training a skos:Concept;
+	skos:prefLabel "Required Training"@en;
+	rdfs:label "Required Training"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:stata a skos:Concept;
+	skos:prefLabel "STATA"@en;
+	rdfs:label "STATA"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:scholarly_communication a skos:Concept;
+	skos:prefLabel "Scholarly Communication"@en;
+	rdfs:label "Scholarly Communication"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:services a skos:Concept;
+	skos:prefLabel "Services"@en;
+	rdfs:label "Services"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sibelius a skos:Concept;
+	skos:prefLabel "Sibelius"@en;
+	rdfs:label "Sibelius"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social_ampersand_economic_geography a skos:Concept;
+	skos:prefLabel "Social & Economic Geography"@en;
+	rdfs:label "Social & Economic Geography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:software a skos:Concept;
+	skos:prefLabel "Software"@en;
+	rdfs:label "Software"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:software_repository a skos:Concept;
+	skos:prefLabel "Software Repository"@en;
+	rdfs:label "Software Repository"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:standards a skos:Concept;
+	skos:prefLabel "Standards"@en;
+	rdfs:label "Standards"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:standardscomma_databases a skos:Concept;
+	skos:prefLabel "Standards, Databases"@en;
+	rdfs:label "Standards, Databases"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:synchrotron_radiation a skos:Concept;
+	skos:prefLabel "Synchrotron radiation"@en;
+	rdfs:label "Synchrotron radiation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tbx-in-tei a skos:Concept;
+	skos:prefLabel "TBX-in-TEI"@en;
+	rdfs:label "TBX-in-TEI"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:task_2.1.2 a skos:Concept;
+	skos:prefLabel "Task 2.1.2"@en;
+	rdfs:label "Task 2.1.2"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:task_2.1.3 a skos:Concept;
+	skos:prefLabel "Task 2.1.3"@en;
+	rdfs:label "Task 2.1.3"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:terminologies a skos:Concept;
+	skos:prefLabel "Terminologies"@en;
+	rdfs:label "Terminologies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:text_annotation a skos:Concept;
+	skos:prefLabel "Text annotation"@en;
+	rdfs:label "Text annotation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:thesauruscomma_social_sciencecomma_resource_discovery a skos:Concept;
+	skos:prefLabel "Thesaurus, Social Science, Resource Discovery"@en;
+	rdfs:label "Thesaurus, Social Science, Resource Discovery"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tools a skos:Concept;
+	skos:prefLabel "Tools"@en;
+	rdfs:label "Tools"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trainingcomma_education a skos:Concept;
+	skos:prefLabel "Training, Education"@en;
+	rdfs:label "Training, Education"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:users_needs a skos:Concept;
+	skos:prefLabel "Users NEEDS"@en;
+	rdfs:label "Users NEEDS"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:vlo a skos:Concept;
+	skos:prefLabel "VLO"@en;
+	rdfs:label "VLO"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:volcanic_rock a skos:Concept;
+	skos:prefLabel "Volcanic Rock"@en;
+	rdfs:label "Volcanic Rock"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:wavelength_dispersive_spectrometer a skos:Concept;
+	skos:prefLabel "Wavelength Dispersive Spectrometer"@en;
+	rdfs:label "Wavelength Dispersive Spectrometer"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:weblicht a skos:Concept;
+	skos:prefLabel "WebLicht"@en;
+	rdfs:label "WebLicht"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:workflows a skos:Concept;
+	skos:prefLabel "Workflows"@en;
+	rdfs:label "Workflows"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:x-ray_absorption a skos:Concept;
+	skos:prefLabel "X-ray absorption"@en;
+	rdfs:label "X-ray absorption"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:x-ray_diffraction a skos:Concept;
+	skos:prefLabel "X-ray diffraction"@en;
+	rdfs:label "X-ray diffraction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:x-ray_fluorescence a skos:Concept;
+	skos:prefLabel "X-ray fluorescence"@en;
+	rdfs:label "X-ray fluorescence"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:absorption a skos:Concept;
+	skos:prefLabel "absorption"@en;
+	rdfs:label "absorption"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:abstracts a skos:Concept;
+	skos:prefLabel "abstracts"@en;
+	rdfs:label "abstracts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:academia a skos:Concept;
+	skos:prefLabel "academia"@en;
+	rdfs:label "academia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:academic_blogging a skos:Concept;
+	skos:prefLabel "academic blogging"@en;
+	rdfs:label "academic blogging"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:academic-articles a skos:Concept;
+	skos:prefLabel "academic-articles"@en;
+	rdfs:label "academic-articles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:academic-publishing a skos:Concept;
+	skos:prefLabel "academic-publishing"@en;
+	rdfs:label "academic-publishing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:academic-research a skos:Concept;
+	skos:prefLabel "academic-research"@en;
+	rdfs:label "academic-research"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:acoustic a skos:Concept;
+	skos:prefLabel "acoustic"@en;
+	rdfs:label "acoustic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:african-history a skos:Concept;
+	skos:prefLabel "african-history"@en;
+	rdfs:label "african-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:african-languages a skos:Concept;
+	skos:prefLabel "african-languages"@en;
+	rdfs:label "african-languages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:african-names-database a skos:Concept;
+	skos:prefLabel "african-names-database"@en;
+	rdfs:label "african-names-database"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:afrikaans a skos:Concept;
+	skos:prefLabel "afrikaans"@en;
+	rdfs:label "afrikaans"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ages a skos:Concept;
+	skos:prefLabel "ages"@en;
+	rdfs:label "ages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:aggregate_data a skos:Concept;
+	skos:prefLabel "aggregate data"@en;
+	rdfs:label "aggregate data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ai a skos:Concept;
+	skos:prefLabel "ai"@en;
+	rdfs:label "ai"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:airbnb a skos:Concept;
+	skos:prefLabel "airbnb"@en;
+	rdfs:label "airbnb"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:albania a skos:Concept;
+	skos:prefLabel "albania"@en;
+	rdfs:label "albania"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:albanian a skos:Concept;
+	skos:prefLabel "albanian"@en;
+	rdfs:label "albanian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:album-covers a skos:Concept;
+	skos:prefLabel "album-covers"@en;
+	rdfs:label "album-covers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:albums a skos:Concept;
+	skos:prefLabel "albums"@en;
+	rdfs:label "albums"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:alignment a skos:Concept;
+	skos:prefLabel "alignment"@en;
+	rdfs:label "alignment"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:amazon a skos:Concept;
+	skos:prefLabel "amazon"@en;
+	rdfs:label "amazon"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:america a skos:Concept;
+	skos:prefLabel "america"@en;
+	rdfs:label "america"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:american-civil-war a skos:Concept;
+	skos:prefLabel "american-civil-war"@en;
+	rdfs:label "american-civil-war"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:american-english a skos:Concept;
+	skos:prefLabel "american-english"@en;
+	rdfs:label "american-english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:american-literature a skos:Concept;
+	skos:prefLabel "american-literature"@en;
+	rdfs:label "american-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-documents a skos:Concept;
+	skos:prefLabel "ancient-documents"@en;
+	rdfs:label "ancient-documents"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-history a skos:Concept;
+	skos:prefLabel "ancient-history"@en;
+	rdfs:label "ancient-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-roman a skos:Concept;
+	skos:prefLabel "ancient-roman"@en;
+	rdfs:label "ancient-roman"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-rome a skos:Concept;
+	skos:prefLabel "ancient-rome"@en;
+	rdfs:label "ancient-rome"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ancient-world a skos:Concept;
+	skos:prefLabel "ancient-world"@en;
+	rdfs:label "ancient-world"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:anglo-saxons a skos:Concept;
+	skos:prefLabel "anglo-saxons"@en;
+	rdfs:label "anglo-saxons"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:animation a skos:Concept;
+	skos:prefLabel "animation"@en;
+	rdfs:label "animation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:anime a skos:Concept;
+	skos:prefLabel "anime"@en;
+	rdfs:label "anime"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:anthropology a skos:Concept;
+	skos:prefLabel "anthropology"@en;
+	rdfs:label "anthropology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:aragonese a skos:Concept;
+	skos:prefLabel "aragonese"@en;
+	rdfs:label "aragonese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:architecture a skos:Concept;
+	skos:prefLabel "architecture"@en;
+	rdfs:label "architecture"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:argument a skos:Concept;
+	skos:prefLabel "argument"@en;
+	rdfs:label "argument"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:armenian a skos:Concept;
+	skos:prefLabel "armenian"@en;
+	rdfs:label "armenian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:art a skos:Concept;
+	skos:prefLabel "art"@en;
+	rdfs:label "art"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:asia a skos:Concept;
+	skos:prefLabel "asia"@en;
+	rdfs:label "asia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:asr a skos:Concept;
+	skos:prefLabel "asr"@en;
+	rdfs:label "asr"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:attitudes a skos:Concept;
+	skos:prefLabel "attitudes"@en;
+	rdfs:label "attitudes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:audio-transcriptions a skos:Concept;
+	skos:prefLabel "audio-transcriptions"@en;
+	rdfs:label "audio-transcriptions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:australian-poetry a skos:Concept;
+	skos:prefLabel "australian-poetry"@en;
+	rdfs:label "australian-poetry"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:author a skos:Concept;
+	skos:prefLabel "author"@en;
+	rdfs:label "author"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:authority-files a skos:Concept;
+	skos:prefLabel "authority-files"@en;
+	rdfs:label "authority-files"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:autocorrection a skos:Concept;
+	skos:prefLabel "autocorrection"@en;
+	rdfs:label "autocorrection"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:azerbaijani a skos:Concept;
+	skos:prefLabel "azerbaijani"@en;
+	rdfs:label "azerbaijani"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:baltimore a skos:Concept;
+	skos:prefLabel "baltimore"@en;
+	rdfs:label "baltimore"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:basque a skos:Concept;
+	skos:prefLabel "basque"@en;
+	rdfs:label "basque"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:belarusian a skos:Concept;
+	skos:prefLabel "belarusian"@en;
+	rdfs:label "belarusian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:benefits_analysis a skos:Concept;
+	skos:prefLabel "benefits analysis"@en;
+	rdfs:label "benefits analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bengali a skos:Concept;
+	skos:prefLabel "bengali"@en;
+	rdfs:label "bengali"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:best_practices_guidelines a skos:Concept;
+	skos:prefLabel "best practices guidelines"@en;
+	rdfs:label "best practices guidelines"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bestellers a skos:Concept;
+	skos:prefLabel "bestellers"@en;
+	rdfs:label "bestellers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bias a skos:Concept;
+	skos:prefLabel "bias"@en;
+	rdfs:label "bias"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bibliographic-records a skos:Concept;
+	skos:prefLabel "bibliographic-records"@en;
+	rdfs:label "bibliographic-records"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bibliography a skos:Concept;
+	skos:prefLabel "bibliography"@en;
+	rdfs:label "bibliography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:billboard a skos:Concept;
+	skos:prefLabel "billboard"@en;
+	rdfs:label "billboard"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bloggers a skos:Concept;
+	skos:prefLabel "bloggers"@en;
+	rdfs:label "bloggers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:blogs a skos:Concept;
+	skos:prefLabel "blogs"@en;
+	rdfs:label "blogs"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bosnian a skos:Concept;
+	skos:prefLabel "bosnian"@en;
+	rdfs:label "bosnian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:boundaries a skos:Concept;
+	skos:prefLabel "boundaries"@en;
+	rdfs:label "boundaries"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:breast-cancer a skos:Concept;
+	skos:prefLabel "breast-cancer"@en;
+	rdfs:label "breast-cancer"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:breton a skos:Concept;
+	skos:prefLabel "breton"@en;
+	rdfs:label "breton"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:brightkite a skos:Concept;
+	skos:prefLabel "brightkite"@en;
+	rdfs:label "brightkite"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:british-newspapers a skos:Concept;
+	skos:prefLabel "british-newspapers"@en;
+	rdfs:label "british-newspapers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:buddhism a skos:Concept;
+	skos:prefLabel "buddhism"@en;
+	rdfs:label "buddhism"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:bulgarian a skos:Concept;
+	skos:prefLabel "bulgarian"@en;
+	rdfs:label "bulgarian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:byzantine a skos:Concept;
+	skos:prefLabel "byzantine"@en;
+	rdfs:label "byzantine"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:canadian-history a skos:Concept;
+	skos:prefLabel "canadian-history"@en;
+	rdfs:label "canadian-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:captions a skos:Concept;
+	skos:prefLabel "captions"@en;
+	rdfs:label "captions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:catalan a skos:Concept;
+	skos:prefLabel "catalan"@en;
+	rdfs:label "catalan"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:categories a skos:Concept;
+	skos:prefLabel "categories"@en;
+	rdfs:label "categories"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cdc a skos:Concept;
+	skos:prefLabel "cdc"@en;
+	rdfs:label "cdc"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:censorship a skos:Concept;
+	skos:prefLabel "censorship"@en;
+	rdfs:label "censorship"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:census-data a skos:Concept;
+	skos:prefLabel "census-data"@en;
+	rdfs:label "census-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ceramic-studies a skos:Concept;
+	skos:prefLabel "ceramic-studies"@en;
+	rdfs:label "ceramic-studies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ceramics a skos:Concept;
+	skos:prefLabel "ceramics"@en;
+	rdfs:label "ceramics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:certification a skos:Concept;
+	skos:prefLabel "certification"@en;
+	rdfs:label "certification"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:chicago a skos:Concept;
+	skos:prefLabel "chicago"@en;
+	rdfs:label "chicago"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:church a skos:Concept;
+	skos:prefLabel "church"@en;
+	rdfs:label "church"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:circulation a skos:Concept;
+	skos:prefLabel "circulation"@en;
+	rdfs:label "circulation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:citizen_science a skos:Concept;
+	skos:prefLabel "citizen science"@en;
+	rdfs:label "citizen science"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:clinical a skos:Concept;
+	skos:prefLabel "clinical"@en;
+	rdfs:label "clinical"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:clustering a skos:Concept;
+	skos:prefLabel "clustering"@en;
+	rdfs:label "clustering"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:code-switching a skos:Concept;
+	skos:prefLabel "code-switching"@en;
+	rdfs:label "code-switching"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:college a skos:Concept;
+	skos:prefLabel "college"@en;
+	rdfs:label "college"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:collocates a skos:Concept;
+	skos:prefLabel "collocates"@en;
+	rdfs:label "collocates"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:computational-social-science a skos:Concept;
+	skos:prefLabel "computational-social-science"@en;
+	rdfs:label "computational-social-science"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:conference-program a skos:Concept;
+	skos:prefLabel "conference-program"@en;
+	rdfs:label "conference-program"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:contemporary-literature a skos:Concept;
+	skos:prefLabel "contemporary-literature"@en;
+	rdfs:label "contemporary-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cover-art a skos:Concept;
+	skos:prefLabel "cover-art"@en;
+	rdfs:label "cover-art"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:covid-19 a skos:Concept;
+	skos:prefLabel "covid-19"@en;
+	rdfs:label "covid-19"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:credit a skos:Concept;
+	skos:prefLabel "credit"@en;
+	rdfs:label "credit"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:creoles a skos:Concept;
+	skos:prefLabel "creoles"@en;
+	rdfs:label "creoles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:crf-parsing a skos:Concept;
+	skos:prefLabel "crf-parsing"@en;
+	rdfs:label "crf-parsing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:croatian a skos:Concept;
+	skos:prefLabel "croatian"@en;
+	rdfs:label "croatian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cultural-heritage a skos:Concept;
+	skos:prefLabel "cultural-heritage"@en;
+	rdfs:label "cultural-heritage"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:culture a skos:Concept;
+	skos:prefLabel "culture"@en;
+	rdfs:label "culture"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:cuneiform a skos:Concept;
+	skos:prefLabel "cuneiform"@en;
+	rdfs:label "cuneiform"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:czech a skos:Concept;
+	skos:prefLabel "czech"@en;
+	rdfs:label "czech"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:danish a skos:Concept;
+	skos:prefLabel "danish"@en;
+	rdfs:label "danish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_access a skos:Concept;
+	skos:prefLabel "data access"@en;
+	rdfs:label "data access"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_archive a skos:Concept;
+	skos:prefLabel "data archive"@en;
+	rdfs:label "data archive"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data_deposit a skos:Concept;
+	skos:prefLabel "data deposit"@en;
+	rdfs:label "data deposit"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:data-extraction a skos:Concept;
+	skos:prefLabel "data-extraction"@en;
+	rdfs:label "data-extraction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:deaths a skos:Concept;
+	skos:prefLabel "deaths"@en;
+	rdfs:label "deaths"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:debt a skos:Concept;
+	skos:prefLabel "debt"@en;
+	rdfs:label "debt"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:demographic a skos:Concept;
+	skos:prefLabel "demographic"@en;
+	rdfs:label "demographic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:demographics a skos:Concept;
+	skos:prefLabel "demographics"@en;
+	rdfs:label "demographics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dependency-grammar a skos:Concept;
+	skos:prefLabel "dependency-grammar"@en;
+	rdfs:label "dependency-grammar"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dependency-trees a skos:Concept;
+	skos:prefLabel "dependency-trees"@en;
+	rdfs:label "dependency-trees"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:description a skos:Concept;
+	skos:prefLabel "description"@en;
+	rdfs:label "description"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dh2013 a skos:Concept;
+	skos:prefLabel "dh2013"@en;
+	rdfs:label "dh2013"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dh2014 a skos:Concept;
+	skos:prefLabel "dh2014"@en;
+	rdfs:label "dh2014"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dh2015 a skos:Concept;
+	skos:prefLabel "dh2015"@en;
+	rdfs:label "dh2015"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:digital_behavioral_data a skos:Concept;
+	skos:prefLabel "digital behavioral data"@en;
+	rdfs:label "digital behavioral data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:diplomacy a skos:Concept;
+	skos:prefLabel "diplomacy"@en;
+	rdfs:label "diplomacy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:directed a skos:Concept;
+	skos:prefLabel "directed"@en;
+	rdfs:label "directed"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:download a skos:Concept;
+	skos:prefLabel "download"@en;
+	rdfs:label "download"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dpla a skos:Concept;
+	skos:prefLabel "dpla"@en;
+	rdfs:label "dpla"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ds a skos:Concept;
+	skos:prefLabel "ds"@en;
+	rdfs:label "ds"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:dutch-literature a skos:Concept;
+	skos:prefLabel "dutch-literature"@en;
+	rdfs:label "dutch-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:earnings a skos:Concept;
+	skos:prefLabel "earnings"@en;
+	rdfs:label "earnings"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:east-asian-history a skos:Concept;
+	skos:prefLabel "east-asian-history"@en;
+	rdfs:label "east-asian-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:eastern-mediterranean a skos:Concept;
+	skos:prefLabel "eastern-mediterranean"@en;
+	rdfs:label "eastern-mediterranean"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:economic a skos:Concept;
+	skos:prefLabel "economic"@en;
+	rdfs:label "economic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:edges a skos:Concept;
+	skos:prefLabel "edges"@en;
+	rdfs:label "edges"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:education a skos:Concept;
+	skos:prefLabel "education"@en;
+	rdfs:label "education"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:egypt a skos:Concept;
+	skos:prefLabel "egypt"@en;
+	rdfs:label "egypt"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:eigen-decomposition a skos:Concept;
+	skos:prefLabel "eigen-decomposition"@en;
+	rdfs:label "eigen-decomposition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:eighteenth-century a skos:Concept;
+	skos:prefLabel "eighteenth-century"@en;
+	rdfs:label "eighteenth-century"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:elections a skos:Concept;
+	skos:prefLabel "elections"@en;
+	rdfs:label "elections"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:electromagnetic_radiation a skos:Concept;
+	skos:prefLabel "electromagnetic radiation"@en;
+	rdfs:label "electromagnetic radiation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:email a skos:Concept;
+	skos:prefLabel "email"@en;
+	rdfs:label "email"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:emolex a skos:Concept;
+	skos:prefLabel "emolex"@en;
+	rdfs:label "emolex"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:emotion a skos:Concept;
+	skos:prefLabel "emotion"@en;
+	rdfs:label "emotion"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:employment a skos:Concept;
+	skos:prefLabel "employment"@en;
+	rdfs:label "employment"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:end_user_requirements a skos:Concept;
+	skos:prefLabel "end user requirements"@en;
+	rdfs:label "end user requirements"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:england a skos:Concept;
+	skos:prefLabel "england"@en;
+	rdfs:label "england"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:epidemiology a skos:Concept;
+	skos:prefLabel "epidemiology"@en;
+	rdfs:label "epidemiology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:esperanto a skos:Concept;
+	skos:prefLabel "esperanto"@en;
+	rdfs:label "esperanto"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:estonian a skos:Concept;
+	skos:prefLabel "estonian"@en;
+	rdfs:label "estonian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:event-detection a skos:Concept;
+	skos:prefLabel "event-detection"@en;
+	rdfs:label "event-detection"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:facebook a skos:Concept;
+	skos:prefLabel "facebook"@en;
+	rdfs:label "facebook"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:fan-fiction a skos:Concept;
+	skos:prefLabel "fan-fiction"@en;
+	rdfs:label "fan-fiction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:faroese a skos:Concept;
+	skos:prefLabel "faroese"@en;
+	rdfs:label "faroese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:film-history a skos:Concept;
+	skos:prefLabel "film-history"@en;
+	rdfs:label "film-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:finnish a skos:Concept;
+	skos:prefLabel "finnish"@en;
+	rdfs:label "finnish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:fluorescence a skos:Concept;
+	skos:prefLabel "fluorescence"@en;
+	rdfs:label "fluorescence"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:folklore a skos:Concept;
+	skos:prefLabel "folklore"@en;
+	rdfs:label "folklore"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:forced-alignment a skos:Concept;
+	skos:prefLabel "forced-alignment"@en;
+	rdfs:label "forced-alignment"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:framework a skos:Concept;
+	skos:prefLabel "framework"@en;
+	rdfs:label "framework"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:function-words a skos:Concept;
+	skos:prefLabel "function-words"@en;
+	rdfs:label "function-words"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:galician a skos:Concept;
+	skos:prefLabel "galician"@en;
+	rdfs:label "galician"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:game-of-thrones a skos:Concept;
+	skos:prefLabel "game-of-thrones"@en;
+	rdfs:label "game-of-thrones"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gameboiy-advance a skos:Concept;
+	skos:prefLabel "gameboiy-advance"@en;
+	rdfs:label "gameboiy-advance"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gameboy a skos:Concept;
+	skos:prefLabel "gameboy"@en;
+	rdfs:label "gameboy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:genome-data a skos:Concept;
+	skos:prefLabel "genome-data"@en;
+	rdfs:label "genome-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gentrification a skos:Concept;
+	skos:prefLabel "gentrification"@en;
+	rdfs:label "gentrification"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:george-r-r-martin a skos:Concept;
+	skos:prefLabel "george-r-r-martin"@en;
+	rdfs:label "george-r-r-martin"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:georgian a skos:Concept;
+	skos:prefLabel "georgian"@en;
+	rdfs:label "georgian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:geospatial-data a skos:Concept;
+	skos:prefLabel "geospatial-data"@en;
+	rdfs:label "geospatial-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:github a skos:Concept;
+	skos:prefLabel "github"@en;
+	rdfs:label "github"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:global-data a skos:Concept;
+	skos:prefLabel "global-data"@en;
+	rdfs:label "global-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:global-english a skos:Concept;
+	skos:prefLabel "global-english"@en;
+	rdfs:label "global-english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:global-history a skos:Concept;
+	skos:prefLabel "global-history"@en;
+	rdfs:label "global-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:google-books a skos:Concept;
+	skos:prefLabel "google-books"@en;
+	rdfs:label "google-books"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gowalla a skos:Concept;
+	skos:prefLabel "gowalla"@en;
+	rdfs:label "gowalla"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:groceries a skos:Concept;
+	skos:prefLabel "groceries"@en;
+	rdfs:label "groceries"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:guidelines a skos:Concept;
+	skos:prefLabel "guidelines"@en;
+	rdfs:label "guidelines"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:gujarati a skos:Concept;
+	skos:prefLabel "gujarati"@en;
+	rdfs:label "gujarati"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:haitian-creole a skos:Concept;
+	skos:prefLabel "haitian-creole"@en;
+	rdfs:label "haitian-creole"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:handwriting a skos:Concept;
+	skos:prefLabel "handwriting"@en;
+	rdfs:label "handwriting"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hate-crimes a skos:Concept;
+	skos:prefLabel "hate-crimes"@en;
+	rdfs:label "hate-crimes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:health-data a skos:Concept;
+	skos:prefLabel "health-data"@en;
+	rdfs:label "health-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:healthcare a skos:Concept;
+	skos:prefLabel "healthcare"@en;
+	rdfs:label "healthcare"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hebrew a skos:Concept;
+	skos:prefLabel "hebrew"@en;
+	rdfs:label "hebrew"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:higgs-boson a skos:Concept;
+	skos:prefLabel "higgs-boson"@en;
+	rdfs:label "higgs-boson"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hindi a skos:Concept;
+	skos:prefLabel "hindi"@en;
+	rdfs:label "hindi"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hiring a skos:Concept;
+	skos:prefLabel "hiring"@en;
+	rdfs:label "hiring"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical-linguistics a skos:Concept;
+	skos:prefLabel "historical-linguistics"@en;
+	rdfs:label "historical-linguistics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical-manuscripts a skos:Concept;
+	skos:prefLabel "historical-manuscripts"@en;
+	rdfs:label "historical-manuscripts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historical-records a skos:Concept;
+	skos:prefLabel "historical-records"@en;
+	rdfs:label "historical-records"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:historiography a skos:Concept;
+	skos:prefLabel "historiography"@en;
+	rdfs:label "historiography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:history-of-science a skos:Concept;
+	skos:prefLabel "history-of-science"@en;
+	rdfs:label "history-of-science"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hollywood a skos:Concept;
+	skos:prefLabel "hollywood"@en;
+	rdfs:label "hollywood"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:homicide a skos:Concept;
+	skos:prefLabel "homicide"@en;
+	rdfs:label "homicide"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hotels a skos:Concept;
+	skos:prefLabel "hotels"@en;
+	rdfs:label "hotels"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:housing a skos:Concept;
+	skos:prefLabel "housing"@en;
+	rdfs:label "housing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:html a skos:Concept;
+	skos:prefLabel "html"@en;
+	rdfs:label "html"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:humor a skos:Concept;
+	skos:prefLabel "humor"@en;
+	rdfs:label "humor"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:hungarian a skos:Concept;
+	skos:prefLabel "hungarian"@en;
+	rdfs:label "hungarian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:i-vectors a skos:Concept;
+	skos:prefLabel "i-vectors"@en;
+	rdfs:label "i-vectors"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:icelandic a skos:Concept;
+	skos:prefLabel "icelandic"@en;
+	rdfs:label "icelandic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:identity a skos:Concept;
+	skos:prefLabel "identity"@en;
+	rdfs:label "identity"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ido a skos:Concept;
+	skos:prefLabel "ido"@en;
+	rdfs:label "ido"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:image a skos:Concept;
+	skos:prefLabel "image"@en;
+	rdfs:label "image"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:incarceration a skos:Concept;
+	skos:prefLabel "incarceration"@en;
+	rdfs:label "incarceration"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:india a skos:Concept;
+	skos:prefLabel "india"@en;
+	rdfs:label "india"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:indian-history a skos:Concept;
+	skos:prefLabel "indian-history"@en;
+	rdfs:label "indian-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:indonesian a skos:Concept;
+	skos:prefLabel "indonesian"@en;
+	rdfs:label "indonesian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:instagram a skos:Concept;
+	skos:prefLabel "instagram"@en;
+	rdfs:label "instagram"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:interlingua a skos:Concept;
+	skos:prefLabel "interlingua"@en;
+	rdfs:label "interlingua"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:internet-trolls a skos:Concept;
+	skos:prefLabel "internet-trolls"@en;
+	rdfs:label "internet-trolls"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:irish a skos:Concept;
+	skos:prefLabel "irish"@en;
+	rdfs:label "irish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:isbn a skos:Concept;
+	skos:prefLabel "isbn"@en;
+	rdfs:label "isbn"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:islam a skos:Concept;
+	skos:prefLabel "islam"@en;
+	rdfs:label "islam"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:italian a skos:Concept;
+	skos:prefLabel "italian"@en;
+	rdfs:label "italian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:italy a skos:Concept;
+	skos:prefLabel "italy"@en;
+	rdfs:label "italy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:james-joyce a skos:Concept;
+	skos:prefLabel "james-joyce"@en;
+	rdfs:label "james-joyce"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:japanese a skos:Concept;
+	skos:prefLabel "japanese"@en;
+	rdfs:label "japanese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:javascript a skos:Concept;
+	skos:prefLabel "javascript"@en;
+	rdfs:label "javascript"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:jeopardy a skos:Concept;
+	skos:prefLabel "jeopardy"@en;
+	rdfs:label "jeopardy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:jewish-history a skos:Concept;
+	skos:prefLabel "jewish-history"@en;
+	rdfs:label "jewish-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:job-listings a skos:Concept;
+	skos:prefLabel "job-listings"@en;
+	rdfs:label "job-listings"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:jokes a skos:Concept;
+	skos:prefLabel "jokes"@en;
+	rdfs:label "jokes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:kannada a skos:Concept;
+	skos:prefLabel "kannada"@en;
+	rdfs:label "kannada"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:keywords a skos:Concept;
+	skos:prefLabel "keywords"@en;
+	rdfs:label "keywords"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:khmer a skos:Concept;
+	skos:prefLabel "khmer"@en;
+	rdfs:label "khmer"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:kirghiz a skos:Concept;
+	skos:prefLabel "kirghiz"@en;
+	rdfs:label "kirghiz"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:knowledge-graph a skos:Concept;
+	skos:prefLabel "knowledge-graph"@en;
+	rdfs:label "knowledge-graph"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:koineization a skos:Concept;
+	skos:prefLabel "koineization"@en;
+	rdfs:label "koineization"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:korean a skos:Concept;
+	skos:prefLabel "korean"@en;
+	rdfs:label "korean"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:kurdish a skos:Concept;
+	skos:prefLabel "kurdish"@en;
+	rdfs:label "kurdish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:land-use a skos:Concept;
+	skos:prefLabel "land-use"@en;
+	rdfs:label "land-use"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language a skos:Concept;
+	skos:prefLabel "language"@en;
+	rdfs:label "language"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:language-change a skos:Concept;
+	skos:prefLabel "language-change"@en;
+	rdfs:label "language-change"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:large-scale-repository a skos:Concept;
+	skos:prefLabel "large-scale-repository"@en;
+	rdfs:label "large-scale-repository"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:laser_ablation a skos:Concept;
+	skos:prefLabel "laser ablation"@en;
+	rdfs:label "laser ablation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:latin a skos:Concept;
+	skos:prefLabel "latin"@en;
+	rdfs:label "latin"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:latvian a skos:Concept;
+	skos:prefLabel "latvian"@en;
+	rdfs:label "latvian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:legal-history a skos:Concept;
+	skos:prefLabel "legal-history"@en;
+	rdfs:label "legal-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lemmas a skos:Concept;
+	skos:prefLabel "lemmas"@en;
+	rdfs:label "lemmas"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lesbian-and-gay-history a skos:Concept;
+	skos:prefLabel "lesbian-and-gay-history"@en;
+	rdfs:label "lesbian-and-gay-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:letter-writing a skos:Concept;
+	skos:prefLabel "letter-writing"@en;
+	rdfs:label "letter-writing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:letters a skos:Concept;
+	skos:prefLabel "letters"@en;
+	rdfs:label "letters"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lgbt-history a skos:Concept;
+	skos:prefLabel "lgbt-history"@en;
+	rdfs:label "lgbt-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:liberia a skos:Concept;
+	skos:prefLabel "liberia"@en;
+	rdfs:label "liberia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:library-data a skos:Concept;
+	skos:prefLabel "library-data"@en;
+	rdfs:label "library-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:life-expectancy a skos:Concept;
+	skos:prefLabel "life-expectancy"@en;
+	rdfs:label "life-expectancy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:linked-open-data a skos:Concept;
+	skos:prefLabel "linked-open-data"@en;
+	rdfs:label "linked-open-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literary-careers a skos:Concept;
+	skos:prefLabel "literary-careers"@en;
+	rdfs:label "literary-careers"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literary-characters a skos:Concept;
+	skos:prefLabel "literary-characters"@en;
+	rdfs:label "literary-characters"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literary-fiction a skos:Concept;
+	skos:prefLabel "literary-fiction"@en;
+	rdfs:label "literary-fiction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literary-plot a skos:Concept;
+	skos:prefLabel "literary-plot"@en;
+	rdfs:label "literary-plot"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:literary-prizes a skos:Concept;
+	skos:prefLabel "literary-prizes"@en;
+	rdfs:label "literary-prizes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lithuanian a skos:Concept;
+	skos:prefLabel "lithuanian"@en;
+	rdfs:label "lithuanian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:livejournal a skos:Concept;
+	skos:prefLabel "livejournal"@en;
+	rdfs:label "livejournal"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:loc a skos:Concept;
+	skos:prefLabel "loc"@en;
+	rdfs:label "loc"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:locations a skos:Concept;
+	skos:prefLabel "locations"@en;
+	rdfs:label "locations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lod a skos:Concept;
+	skos:prefLabel "lod"@en;
+	rdfs:label "lod"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:london a skos:Concept;
+	skos:prefLabel "london"@en;
+	rdfs:label "london"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:los-angeles a skos:Concept;
+	skos:prefLabel "los-angeles"@en;
+	rdfs:label "los-angeles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:luxembourgish a skos:Concept;
+	skos:prefLabel "luxembourgish"@en;
+	rdfs:label "luxembourgish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:lynching a skos:Concept;
+	skos:prefLabel "lynching"@en;
+	rdfs:label "lynching"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:macedonian a skos:Concept;
+	skos:prefLabel "macedonian"@en;
+	rdfs:label "macedonian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:machine_learning a skos:Concept;
+	skos:prefLabel "machine learning"@en;
+	rdfs:label "machine learning"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:machine-translation a skos:Concept;
+	skos:prefLabel "machine-translation"@en;
+	rdfs:label "machine-translation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:malay a skos:Concept;
+	skos:prefLabel "malay"@en;
+	rdfs:label "malay"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:maltese a skos:Concept;
+	skos:prefLabel "maltese"@en;
+	rdfs:label "maltese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mandarin a skos:Concept;
+	skos:prefLabel "mandarin"@en;
+	rdfs:label "mandarin"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:marathi a skos:Concept;
+	skos:prefLabel "marathi"@en;
+	rdfs:label "marathi"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:marc a skos:Concept;
+	skos:prefLabel "marc"@en;
+	rdfs:label "marc"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mary-russell-mitford a skos:Concept;
+	skos:prefLabel "mary-russell-mitford"@en;
+	rdfs:label "mary-russell-mitford"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:medicine a skos:Concept;
+	skos:prefLabel "medicine"@en;
+	rdfs:label "medicine"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:medieval-archaeology a skos:Concept;
+	skos:prefLabel "medieval-archaeology"@en;
+	rdfs:label "medieval-archaeology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:medieval-music a skos:Concept;
+	skos:prefLabel "medieval-music"@en;
+	rdfs:label "medieval-music"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mesh a skos:Concept;
+	skos:prefLabel "mesh"@en;
+	rdfs:label "mesh"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:meter a skos:Concept;
+	skos:prefLabel "meter"@en;
+	rdfs:label "meter"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:modern-south-arabian a skos:Concept;
+	skos:prefLabel "modern-south-arabian"@en;
+	rdfs:label "modern-south-arabian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:monographs a skos:Concept;
+	skos:prefLabel "monographs"@en;
+	rdfs:label "monographs"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:movie-reviews a skos:Concept;
+	skos:prefLabel "movie-reviews"@en;
+	rdfs:label "movie-reviews"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:movie-scripts a skos:Concept;
+	skos:prefLabel "movie-scripts"@en;
+	rdfs:label "movie-scripts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mp3 a skos:Concept;
+	skos:prefLabel "mp3"@en;
+	rdfs:label "mp3"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:multiclass-classification a skos:Concept;
+	skos:prefLabel "multiclass-classification"@en;
+	rdfs:label "multiclass-classification"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:multimedia a skos:Concept;
+	skos:prefLabel "multimedia"@en;
+	rdfs:label "multimedia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:multiresolution a skos:Concept;
+	skos:prefLabel "multiresolution"@en;
+	rdfs:label "multiresolution"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:museums a skos:Concept;
+	skos:prefLabel "museums"@en;
+	rdfs:label "museums"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:mushrooms a skos:Concept;
+	skos:prefLabel "mushrooms"@en;
+	rdfs:label "mushrooms"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:muslim-history a skos:Concept;
+	skos:prefLabel "muslim-history"@en;
+	rdfs:label "muslim-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:names a skos:Concept;
+	skos:prefLabel "names"@en;
+	rdfs:label "names"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nepali a skos:Concept;
+	skos:prefLabel "nepali"@en;
+	rdfs:label "nepali"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ner a skos:Concept;
+	skos:prefLabel "ner"@en;
+	rdfs:label "ner"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nes a skos:Concept;
+	skos:prefLabel "nes"@en;
+	rdfs:label "nes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:netflix a skos:Concept;
+	skos:prefLabel "netflix"@en;
+	rdfs:label "netflix"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:new-york-times a skos:Concept;
+	skos:prefLabel "new-york-times"@en;
+	rdfs:label "new-york-times"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:newgate a skos:Concept;
+	skos:prefLabel "newgate"@en;
+	rdfs:label "newgate"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:news-articles a skos:Concept;
+	skos:prefLabel "news-articles"@en;
+	rdfs:label "news-articles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nexus a skos:Concept;
+	skos:prefLabel "nexus"@en;
+	rdfs:label "nexus"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ngrams a skos:Concept;
+	skos:prefLabel "ngrams"@en;
+	rdfs:label "ngrams"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nineteenth-century a skos:Concept;
+	skos:prefLabel "nineteenth-century"@en;
+	rdfs:label "nineteenth-century"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:noaa a skos:Concept;
+	skos:prefLabel "noaa"@en;
+	rdfs:label "noaa"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nodes a skos:Concept;
+	skos:prefLabel "nodes"@en;
+	rdfs:label "nodes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:north-america a skos:Concept;
+	skos:prefLabel "north-america"@en;
+	rdfs:label "north-america"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:northern-ireland a skos:Concept;
+	skos:prefLabel "northern-ireland"@en;
+	rdfs:label "northern-ireland"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:norwegian.norwegian a skos:Concept;
+	skos:prefLabel "norwegian.norwegian"@en;
+	rdfs:label "norwegian.norwegian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:nutrition a skos:Concept;
+	skos:prefLabel "nutrition"@en;
+	rdfs:label "nutrition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:obesity a skos:Concept;
+	skos:prefLabel "obesity"@en;
+	rdfs:label "obesity"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:old-bailey a skos:Concept;
+	skos:prefLabel "old-bailey"@en;
+	rdfs:label "old-bailey"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:old-english a skos:Concept;
+	skos:prefLabel "old-english"@en;
+	rdfs:label "old-english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:open_research a skos:Concept;
+	skos:prefLabel "open research"@en;
+	rdfs:label "open research"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:oral-history a skos:Concept;
+	skos:prefLabel "oral-history"@en;
+	rdfs:label "oral-history"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:oral-literature a skos:Concept;
+	skos:prefLabel "oral-literature"@en;
+	rdfs:label "oral-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ottoman a skos:Concept;
+	skos:prefLabel "ottoman"@en;
+	rdfs:label "ottoman"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pakistan a skos:Concept;
+	skos:prefLabel "pakistan"@en;
+	rdfs:label "pakistan"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:paris a skos:Concept;
+	skos:prefLabel "paris"@en;
+	rdfs:label "paris"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:parliament a skos:Concept;
+	skos:prefLabel "parliament"@en;
+	rdfs:label "parliament"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pdf a skos:Concept;
+	skos:prefLabel "pdf"@en;
+	rdfs:label "pdf"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:peer_review a skos:Concept;
+	skos:prefLabel "peer review"@en;
+	rdfs:label "peer review"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:persian a skos:Concept;
+	skos:prefLabel "persian"@en;
+	rdfs:label "persian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:personography a skos:Concept;
+	skos:prefLabel "personography"@en;
+	rdfs:label "personography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:photodecomposition a skos:Concept;
+	skos:prefLabel "photodecomposition"@en;
+	rdfs:label "photodecomposition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:photos a skos:Concept;
+	skos:prefLabel "photos"@en;
+	rdfs:label "photos"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:phrases a skos:Concept;
+	skos:prefLabel "phrases"@en;
+	rdfs:label "phrases"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pidgins a skos:Concept;
+	skos:prefLabel "pidgins"@en;
+	rdfs:label "pidgins"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pill a skos:Concept;
+	skos:prefLabel "pill"@en;
+	rdfs:label "pill"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:place-names a skos:Concept;
+	skos:prefLabel "place-names"@en;
+	rdfs:label "place-names"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:placeography a skos:Concept;
+	skos:prefLabel "placeography"@en;
+	rdfs:label "placeography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:plays a skos:Concept;
+	skos:prefLabel "plays"@en;
+	rdfs:label "plays"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:podcast a skos:Concept;
+	skos:prefLabel "podcast"@en;
+	rdfs:label "podcast"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:point-cloud a skos:Concept;
+	skos:prefLabel "point-cloud"@en;
+	rdfs:label "point-cloud"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pokec a skos:Concept;
+	skos:prefLabel "pokec"@en;
+	rdfs:label "pokec"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:police-data a skos:Concept;
+	skos:prefLabel "police-data"@en;
+	rdfs:label "police-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:policy-positions a skos:Concept;
+	skos:prefLabel "policy-positions"@en;
+	rdfs:label "policy-positions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:polish a skos:Concept;
+	skos:prefLabel "polish"@en;
+	rdfs:label "polish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pop a skos:Concept;
+	skos:prefLabel "pop"@en;
+	rdfs:label "pop"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:portrait a skos:Concept;
+	skos:prefLabel "portrait"@en;
+	rdfs:label "portrait"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:portugal a skos:Concept;
+	skos:prefLabel "portugal"@en;
+	rdfs:label "portugal"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:post-45 a skos:Concept;
+	skos:prefLabel "post-45"@en;
+	rdfs:label "post-45"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:post-medieval-archaeology a skos:Concept;
+	skos:prefLabel "post-medieval-archaeology"@en;
+	rdfs:label "post-medieval-archaeology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:predicates a skos:Concept;
+	skos:prefLabel "predicates"@en;
+	rdfs:label "predicates"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:predictions a skos:Concept;
+	skos:prefLabel "predictions"@en;
+	rdfs:label "predictions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:prescriptions a skos:Concept;
+	skos:prefLabel "prescriptions"@en;
+	rdfs:label "prescriptions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:prison a skos:Concept;
+	skos:prefLabel "prison"@en;
+	rdfs:label "prison"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:production a skos:Concept;
+	skos:prefLabel "production"@en;
+	rdfs:label "production"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:products a skos:Concept;
+	skos:prefLabel "products"@en;
+	rdfs:label "products"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pronunciation a skos:Concept;
+	skos:prefLabel "pronunciation"@en;
+	rdfs:label "pronunciation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:proper-name-disambiguation a skos:Concept;
+	skos:prefLabel "proper-name-disambiguation"@en;
+	rdfs:label "proper-name-disambiguation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:prosopography a skos:Concept;
+	skos:prefLabel "prosopography"@en;
+	rdfs:label "prosopography"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:publishers-weekly a skos:Concept;
+	skos:prefLabel "publishers-weekly"@en;
+	rdfs:label "publishers-weekly"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:publishing-industry a skos:Concept;
+	skos:prefLabel "publishing-industry"@en;
+	rdfs:label "publishing-industry"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:pubs a skos:Concept;
+	skos:prefLabel "pubs"@en;
+	rdfs:label "pubs"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:qualitative_data a skos:Concept;
+	skos:prefLabel "qualitative data"@en;
+	rdfs:label "qualitative data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:questions a skos:Concept;
+	skos:prefLabel "questions"@en;
+	rdfs:label "questions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:race-films a skos:Concept;
+	skos:prefLabel "race-films"@en;
+	rdfs:label "race-films"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:racism a skos:Concept;
+	skos:prefLabel "racism"@en;
+	rdfs:label "racism"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:random_forest a skos:Concept;
+	skos:prefLabel "random forest"@en;
+	rdfs:label "random forest"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ratings a skos:Concept;
+	skos:prefLabel "ratings"@en;
+	rdfs:label "ratings"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:raw a skos:Concept;
+	skos:prefLabel "raw"@en;
+	rdfs:label "raw"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reasoning a skos:Concept;
+	skos:prefLabel "reasoning"@en;
+	rdfs:label "reasoning"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:recommendation a skos:Concept;
+	skos:prefLabel "recommendation"@en;
+	rdfs:label "recommendation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:records a skos:Concept;
+	skos:prefLabel "records"@en;
+	rdfs:label "records"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reddit a skos:Concept;
+	skos:prefLabel "reddit"@en;
+	rdfs:label "reddit"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:reference a skos:Concept;
+	skos:prefLabel "reference"@en;
+	rdfs:label "reference"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:regression a skos:Concept;
+	skos:prefLabel "regression"@en;
+	rdfs:label "regression"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:religious-documents a skos:Concept;
+	skos:prefLabel "religious-documents"@en;
+	rdfs:label "religious-documents"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:requirements_for_tools_and_services a skos:Concept;
+	skos:prefLabel "requirements for tools and services"@en;
+	rdfs:label "requirements for tools and services"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:research_data_center a skos:Concept;
+	skos:prefLabel "research data center"@en;
+	rdfs:label "research data center"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:research_notebook a skos:Concept;
+	skos:prefLabel "research notebook"@en;
+	rdfs:label "research notebook"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:research_scenario a skos:Concept;
+	skos:prefLabel "research scenario"@en;
+	rdfs:label "research scenario"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:research-institutes a skos:Concept;
+	skos:prefLabel "research-institutes"@en;
+	rdfs:label "research-institutes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:resolutions a skos:Concept;
+	skos:prefLabel "resolutions"@en;
+	rdfs:label "resolutions"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:roman-empire a skos:Concept;
+	skos:prefLabel "roman-empire"@en;
+	rdfs:label "roman-empire"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:romanian a skos:Concept;
+	skos:prefLabel "romanian"@en;
+	rdfs:label "romanian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:romansh a skos:Concept;
+	skos:prefLabel "romansh"@en;
+	rdfs:label "romansh"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:russian a skos:Concept;
+	skos:prefLabel "russian"@en;
+	rdfs:label "russian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sacred-texts a skos:Concept;
+	skos:prefLabel "sacred-texts"@en;
+	rdfs:label "sacred-texts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:saudi-arabic a skos:Concept;
+	skos:prefLabel "saudi-arabic"@en;
+	rdfs:label "saudi-arabic"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:scholarly-publishing a skos:Concept;
+	skos:prefLabel "scholarly-publishing"@en;
+	rdfs:label "scholarly-publishing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:scottish a skos:Concept;
+	skos:prefLabel "scottish"@en;
+	rdfs:label "scottish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:search a skos:Concept;
+	skos:prefLabel "search"@en;
+	rdfs:label "search"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sega-genesis a skos:Concept;
+	skos:prefLabel "sega-genesis"@en;
+	rdfs:label "sega-genesis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:segmentation a skos:Concept;
+	skos:prefLabel "segmentation"@en;
+	rdfs:label "segmentation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:semeval a skos:Concept;
+	skos:prefLabel "semeval"@en;
+	rdfs:label "semeval"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sentiment a skos:Concept;
+	skos:prefLabel "sentiment"@en;
+	rdfs:label "sentiment"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:serbian a skos:Concept;
+	skos:prefLabel "serbian"@en;
+	rdfs:label "serbian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:serial-fiction a skos:Concept;
+	skos:prefLabel "serial-fiction"@en;
+	rdfs:label "serial-fiction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sermons a skos:Concept;
+	skos:prefLabel "sermons"@en;
+	rdfs:label "sermons"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:shakespeare a skos:Concept;
+	skos:prefLabel "shakespeare"@en;
+	rdfs:label "shakespeare"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sign-languages a skos:Concept;
+	skos:prefLabel "sign-languages"@en;
+	rdfs:label "sign-languages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:signed-languages a skos:Concept;
+	skos:prefLabel "signed-languages"@en;
+	rdfs:label "signed-languages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:silent-films a skos:Concept;
+	skos:prefLabel "silent-films"@en;
+	rdfs:label "silent-films"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:silicon-valley a skos:Concept;
+	skos:prefLabel "silicon-valley"@en;
+	rdfs:label "silicon-valley"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:similarity a skos:Concept;
+	skos:prefLabel "similarity"@en;
+	rdfs:label "similarity"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sin a skos:Concept;
+	skos:prefLabel "sin"@en;
+	rdfs:label "sin"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:singapore a skos:Concept;
+	skos:prefLabel "singapore"@en;
+	rdfs:label "singapore"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:singapore-english a skos:Concept;
+	skos:prefLabel "singapore-english"@en;
+	rdfs:label "singapore-english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slave-trade a skos:Concept;
+	skos:prefLabel "slave-trade"@en;
+	rdfs:label "slave-trade"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slavery a skos:Concept;
+	skos:prefLabel "slavery"@en;
+	rdfs:label "slavery"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slovakia a skos:Concept;
+	skos:prefLabel "slovakia"@en;
+	rdfs:label "slovakia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:slovene a skos:Concept;
+	skos:prefLabel "slovene"@en;
+	rdfs:label "slovene"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sms a skos:Concept;
+	skos:prefLabel "sms"@en;
+	rdfs:label "sms"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:snes a skos:Concept;
+	skos:prefLabel "snes"@en;
+	rdfs:label "snes"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social a skos:Concept;
+	skos:prefLabel "social"@en;
+	rdfs:label "social"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social_media_data a skos:Concept;
+	skos:prefLabel "social media data"@en;
+	rdfs:label "social media data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social-computing a skos:Concept;
+	skos:prefLabel "social-computing"@en;
+	rdfs:label "social-computing"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social-links a skos:Concept;
+	skos:prefLabel "social-links"@en;
+	rdfs:label "social-links"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social-networks a skos:Concept;
+	skos:prefLabel "social-networks"@en;
+	rdfs:label "social-networks"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:social-policy a skos:Concept;
+	skos:prefLabel "social-policy"@en;
+	rdfs:label "social-policy"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:societal_challenges a skos:Concept;
+	skos:prefLabel "societal challenges"@en;
+	rdfs:label "societal challenges"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sociolinguistics a skos:Concept;
+	skos:prefLabel "sociolinguistics"@en;
+	rdfs:label "sociolinguistics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:song-of-ice-and-fire a skos:Concept;
+	skos:prefLabel "song-of-ice-and-fire"@en;
+	rdfs:label "song-of-ice-and-fire"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sonnets a skos:Concept;
+	skos:prefLabel "sonnets"@en;
+	rdfs:label "sonnets"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:soqotra a skos:Concept;
+	skos:prefLabel "soqotra"@en;
+	rdfs:label "soqotra"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:soqotri a skos:Concept;
+	skos:prefLabel "soqotri"@en;
+	rdfs:label "soqotri"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:speech-recognition a skos:Concept;
+	skos:prefLabel "speech-recognition"@en;
+	rdfs:label "speech-recognition"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spelling a skos:Concept;
+	skos:prefLabel "spelling"@en;
+	rdfs:label "spelling"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spelling-correction a skos:Concept;
+	skos:prefLabel "spelling-correction"@en;
+	rdfs:label "spelling-correction"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spelling-errors a skos:Concept;
+	skos:prefLabel "spelling-errors"@en;
+	rdfs:label "spelling-errors"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spelling-variation a skos:Concept;
+	skos:prefLabel "spelling-variation"@en;
+	rdfs:label "spelling-variation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:spotify a skos:Concept;
+	skos:prefLabel "spotify"@en;
+	rdfs:label "spotify"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:squeeze a skos:Concept;
+	skos:prefLabel "squeeze"@en;
+	rdfs:label "squeeze"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:statistical-analysis a skos:Concept;
+	skos:prefLabel "statistical-analysis"@en;
+	rdfs:label "statistical-analysis"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:stop-words a skos:Concept;
+	skos:prefLabel "stop-words"@en;
+	rdfs:label "stop-words"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:subsets a skos:Concept;
+	skos:prefLabel "subsets"@en;
+	rdfs:label "subsets"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:subtitles a skos:Concept;
+	skos:prefLabel "subtitles"@en;
+	rdfs:label "subtitles"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sumerian a skos:Concept;
+	skos:prefLabel "sumerian"@en;
+	rdfs:label "sumerian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:survey a skos:Concept;
+	skos:prefLabel "survey"@en;
+	rdfs:label "survey"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:survey_data a skos:Concept;
+	skos:prefLabel "survey data"@en;
+	rdfs:label "survey data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:swahili a skos:Concept;
+	skos:prefLabel "swahili"@en;
+	rdfs:label "swahili"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sweden a skos:Concept;
+	skos:prefLabel "sweden"@en;
+	rdfs:label "sweden"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:swedish a skos:Concept;
+	skos:prefLabel "swedish"@en;
+	rdfs:label "swedish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:sydney a skos:Concept;
+	skos:prefLabel "sydney"@en;
+	rdfs:label "sydney"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:syllables a skos:Concept;
+	skos:prefLabel "syllables"@en;
+	rdfs:label "syllables"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:symmetry-calculations a skos:Concept;
+	skos:prefLabel "symmetry-calculations"@en;
+	rdfs:label "symmetry-calculations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:t_docs a skos:Concept;
+	skos:prefLabel "t_docs"@en;
+	rdfs:label "t_docs"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:t_resource a skos:Concept;
+	skos:prefLabel "t_resource"@en;
+	rdfs:label "t_resource"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tagalog a skos:Concept;
+	skos:prefLabel "tagalog"@en;
+	rdfs:label "tagalog"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tagger a skos:Concept;
+	skos:prefLabel "tagger"@en;
+	rdfs:label "tagger"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tamil a skos:Concept;
+	skos:prefLabel "tamil"@en;
+	rdfs:label "tamil"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tcp a skos:Concept;
+	skos:prefLabel "tcp"@en;
+	rdfs:label "tcp"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:technology a skos:Concept;
+	skos:prefLabel "technology"@en;
+	rdfs:label "technology"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:telugu a skos:Concept;
+	skos:prefLabel "telugu"@en;
+	rdfs:label "telugu"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:term-frequencies a skos:Concept;
+	skos:prefLabel "term-frequencies"@en;
+	rdfs:label "term-frequencies"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:text-messaging a skos:Concept;
+	skos:prefLabel "text-messaging"@en;
+	rdfs:label "text-messaging"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:textual-reuse a skos:Concept;
+	skos:prefLabel "textual-reuse"@en;
+	rdfs:label "textual-reuse"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:theater a skos:Concept;
+	skos:prefLabel "theater"@en;
+	rdfs:label "theater"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:thermal_effects a skos:Concept;
+	skos:prefLabel "thermal effects"@en;
+	rdfs:label "thermal effects"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:thomas-gray a skos:Concept;
+	skos:prefLabel "thomas-gray"@en;
+	rdfs:label "thomas-gray"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tibet a skos:Concept;
+	skos:prefLabel "tibet"@en;
+	rdfs:label "tibet"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tibetan-buddhim a skos:Concept;
+	skos:prefLabel "tibetan-buddhim"@en;
+	rdfs:label "tibetan-buddhim"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:title a skos:Concept;
+	skos:prefLabel "title"@en;
+	rdfs:label "title"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tokens a skos:Concept;
+	skos:prefLabel "tokens"@en;
+	rdfs:label "tokens"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:topics a skos:Concept;
+	skos:prefLabel "topics"@en;
+	rdfs:label "topics"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trademarks a skos:Concept;
+	skos:prefLabel "trademarks"@en;
+	rdfs:label "trademarks"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:translation a skos:Concept;
+	skos:prefLabel "translation"@en;
+	rdfs:label "translation"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trivia a skos:Concept;
+	skos:prefLabel "trivia"@en;
+	rdfs:label "trivia"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:turkey a skos:Concept;
+	skos:prefLabel "turkey"@en;
+	rdfs:label "turkey"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:turkish a skos:Concept;
+	skos:prefLabel "turkish"@en;
+	rdfs:label "turkish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:turkmen a skos:Concept;
+	skos:prefLabel "turkmen"@en;
+	rdfs:label "turkmen"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tutorial a skos:Concept;
+	skos:prefLabel "tutorial"@en;
+	rdfs:label "tutorial"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:tweets a skos:Concept;
+	skos:prefLabel "tweets"@en;
+	rdfs:label "tweets"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:twitch a skos:Concept;
+	skos:prefLabel "twitch"@en;
+	rdfs:label "twitch"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:type a skos:Concept;
+	skos:prefLabel "type"@en;
+	rdfs:label "type"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:typos a skos:Concept;
+	skos:prefLabel "typos"@en;
+	rdfs:label "typos"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:uav a skos:Concept;
+	skos:prefLabel "uav"@en;
+	rdfs:label "uav"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:ukrainian a skos:Concept;
+	skos:prefLabel "ukrainian"@en;
+	rdfs:label "ukrainian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:united-nations a skos:Concept;
+	skos:prefLabel "united-nations"@en;
+	rdfs:label "united-nations"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:usa a skos:Concept;
+	skos:prefLabel "usa"@en;
+	rdfs:label "usa"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:use_case a skos:Concept;
+	skos:prefLabel "use case"@en;
+	rdfs:label "use case"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:uzbek a skos:Concept;
+	skos:prefLabel "uzbek"@en;
+	rdfs:label "uzbek"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:vai-script a skos:Concept;
+	skos:prefLabel "vai-script"@en;
+	rdfs:label "vai-script"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:value_of_open_data a skos:Concept;
+	skos:prefLabel "value of Open Data"@en;
+	rdfs:label "value of Open Data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:venice a skos:Concept;
+	skos:prefLabel "venice"@en;
+	rdfs:label "venice"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:vietnamese a skos:Concept;
+	skos:prefLabel "vietnamese"@en;
+	rdfs:label "vietnamese"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:viewer a skos:Concept;
+	skos:prefLabel "viewer"@en;
+	rdfs:label "viewer"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:volapük a skos:Concept;
+	skos:prefLabel "volapük"@en;
+	rdfs:label "volapük"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:voting a skos:Concept;
+	skos:prefLabel "voting"@en;
+	rdfs:label "voting"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:voyages a skos:Concept;
+	skos:prefLabel "voyages"@en;
+	rdfs:label "voyages"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:walloon a skos:Concept;
+	skos:prefLabel "walloon"@en;
+	rdfs:label "walloon"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:weather a skos:Concept;
+	skos:prefLabel "weather"@en;
+	rdfs:label "weather"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:web-data a skos:Concept;
+	skos:prefLabel "web-data"@en;
+	rdfs:label "web-data"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:web3d a skos:Concept;
+	skos:prefLabel "web3d"@en;
+	rdfs:label "web3d"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:webgl a skos:Concept;
+	skos:prefLabel "webgl"@en;
+	rdfs:label "webgl"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:websites a skos:Concept;
+	skos:prefLabel "websites"@en;
+	rdfs:label "websites"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:welsh a skos:Concept;
+	skos:prefLabel "welsh"@en;
+	rdfs:label "welsh"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:western-frisian a skos:Concept;
+	skos:prefLabel "western-frisian"@en;
+	rdfs:label "western-frisian"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:who a skos:Concept;
+	skos:prefLabel "who"@en;
+	rdfs:label "who"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:word-counts a skos:Concept;
+	skos:prefLabel "word-counts"@en;
+	rdfs:label "word-counts"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:workplace a skos:Concept;
+	skos:prefLabel "workplace"@en;
+	rdfs:label "workplace"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:world-english a skos:Concept;
+	skos:prefLabel "world-english"@en;
+	rdfs:label "world-english"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:world-literature a skos:Concept;
+	skos:prefLabel "world-literature"@en;
+	rdfs:label "world-literature"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:world-religion a skos:Concept;
+	skos:prefLabel "world-religion"@en;
+	rdfs:label "world-religion"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:writing-systems a skos:Concept;
+	skos:prefLabel "writing-systems"@en;
+	rdfs:label "writing-systems"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:yahoo a skos:Concept;
+	skos:prefLabel "yahoo"@en;
+	rdfs:label "yahoo"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:yemen a skos:Concept;
+	skos:prefLabel "yemen"@en;
+	rdfs:label "yemen"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:yiddish a skos:Concept;
+	skos:prefLabel "yiddish"@en;
+	rdfs:label "yiddish"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:youtube a skos:Concept;
+	skos:prefLabel "youtube"@en;
+	rdfs:label "youtube"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:zip a skos:Concept;
+	skos:prefLabel "zip"@en;
+	rdfs:label "zip"@en;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+

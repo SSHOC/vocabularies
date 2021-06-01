@@ -1,11 +1,11 @@
-@prefix : <https://sshopencloud.eu/vocabularies#> .
+@prefix : <https://vocabs.dariah.eu/sshoc-invocation-type/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://sshopencloud.eu/vocabularies> a owl:Ontology;
+<https://vocabs.dariah.eu/sshoc-invocation-type/> a owl:Ontology;
   owl:imports <http://purl.org/dc/terms/> .
 
 :commandLine a skos:Concept;
@@ -47,6 +47,7 @@
 
 :schemaInvocationTypes a skos:ConceptScheme;
   dct:title "Invocation types"@en;
+  rdfs:comment "Gives information about how something (usually a tools or service) is invocated."@en;
   rdfs:label "Invocation types"@en;
   skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
   skos:hasTopConcept :commandLine, :commandProcessor, :instructionPage, :library, :localApplication,
