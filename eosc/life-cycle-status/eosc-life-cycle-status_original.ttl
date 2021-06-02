@@ -122,4 +122,3 @@
 	dc:description "Resource dissolution, dismantling"@en;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
-
