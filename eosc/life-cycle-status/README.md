@@ -1,6 +1,6 @@
 * Original source: https://api.eosc-portal.eu/vocabulary/byType/LIFE_CYCLE_STATUS (processed with the script provided in this directory)
 * Current source: export from PoolParty and manual addition:
-** added namespace (line 1): `@prefix : <https://vocabs.dariah.eu/eosc-geographical-availability/> .`
+** added namespace (line 1): `@prefix : <https://vocabs.dariah.eu/eosc-life-cycle-status/> .`
 
 # How to use
 `pip install requests` (if not already installed)

@@ -15,7 +15,7 @@ def createSkos():
 
     mimes = ['application', 'audio', 'font', 'image', 'message', 'model', 'multipart', 'text', 'video']
 
-    f = open("media-type.ttl", "w")
+    f = open("media-type_original.ttl", "w")
     f.write("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n")
     f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
     f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
@@ -33,7 +33,8 @@ def createSkos():
         f.write(mime)
         f.write(";\n")
 
-    f.write("\tdc:description \"List of all Media Types from IANA with 9 top levels and all concepts below\"@en .\n\n")
+    f.write("\tdc:description \"List of all Media Types from IANA with 9 top levels and all concepts below\"@en ;\n")
+    f.write("\trdfs:comment \"List of all Media Types from IANA with 9 top levels and all concepts below\"@en .\n\n")
 
     # Get only the name of the keyword
     for mime in mimes:
@@ -64,6 +65,7 @@ def createSkos():
                 f.write("\tskos:altLabel \"")
                 f.write("Humanities Data: " + mappings[template])
                 f.write("\"@en;\n")
+            f.write("\tskos:inScheme media-type:Schema;\n")
             f.write("\tskos:broader media-type:")
             f.write(slugify(mime))
             f.write(" .\n\n")
