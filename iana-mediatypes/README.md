@@ -13,7 +13,7 @@ downloaded from [IANA's website](https://www.iana.org/assignments/media-types/me
 # How to use
 `python3 create-skos-from-iana.py`
 
-It will create `media-type_original.ttl`
+It will create `iana-media-type_original.ttl`
 
 # How to update `VOCABS_mapping - Yoann_Exports.csv`
 On the Google Spreadsheet, go to the tab "Yoann_Exports" and do "Download current sheet as csv" in the file options.

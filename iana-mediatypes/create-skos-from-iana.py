@@ -15,7 +15,7 @@ def createSkos():
 
     mimes = ['application', 'audio', 'font', 'image', 'message', 'model', 'multipart', 'text', 'video']
 
-    f = open("media-type_original.ttl", "w")
+    f = open("iana_media-type_original.ttl", "w")
     f.write("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n")
     f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
     f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
