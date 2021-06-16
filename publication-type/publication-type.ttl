@@ -1,0 +1,70 @@
+@prefix : <http://purl.org/ontology/bibo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Tue Jun 15 18:27:47 CEST 2021
+
+<http://purl.org/ontology/bibo/publicationTypeVocabulary> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  rdfs:label "The Bibliographic Ontology Concept Scheme"@en;
+  dcterms:title "The Bibliographic Ontology Concept Scheme"@en;
+  rdfs:comment "The Bibliographic Ontology describes bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources."@en;
+  dc:title "The Bibliographic Ontology Concept Scheme"@en;
+  dc:description "The Bibliographic Ontology describes bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources."@en;
+  skos:hasTopConcept <http://purl.org/ontology/bibo/Article> .
+
+<http://purl.org/ontology/bibo/Article> a skos:Concept;
+  rdfs:label "Article"@en;
+  skos:topConceptOf <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:inScheme <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:prefLabel "Article"@en .
+
+<http://purl.org/ontology/bibo/publicationTypeVocabulary> skos:hasTopConcept <http://purl.org/ontology/bibo/Book> .
+
+<http://purl.org/ontology/bibo/Book> a skos:Concept;
+  rdfs:label "Book"@en;
+  skos:topConceptOf <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:inScheme <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:prefLabel "Book"@en .
+
+<http://purl.org/ontology/bibo/publicationTypeVocabulary> skos:hasTopConcept <http://purl.org/ontology/bibo/Conference> .
+
+<http://purl.org/ontology/bibo/Conference> a skos:Concept;
+  rdfs:label "Conference"@en;
+  skos:topConceptOf <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:inScheme <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:prefLabel "Conference"@en .
+
+<http://purl.org/ontology/bibo/publicationTypeVocabulary> skos:hasTopConcept <http://purl.org/ontology/bibo/Journal> .
+
+<http://purl.org/ontology/bibo/Journal> a skos:Concept;
+  rdfs:label "Journal"@en;
+  skos:topConceptOf <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:inScheme <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:prefLabel "Journal"@en .
+
+<http://purl.org/ontology/bibo/publicationTypeVocabulary> skos:hasTopConcept <http://purl.org/ontology/bibo/Pre-Print> .
+
+<http://purl.org/ontology/bibo/Pre-Print> a skos:Concept;
+  rdfs:label "Pre-Print"@en;
+  skos:topConceptOf <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:inScheme <http://purl.org/ontology/bibo/publicationTypeVocabulary>;
+  skos:prefLabel "Pre-Print"@en .
