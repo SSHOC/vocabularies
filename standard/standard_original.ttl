@@ -1,0 +1,329 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix : <https://vocabs.dariah.eu/ssk-standards/> .
+
+:Schema a skos:ConceptScheme ;
+  rdfs:label "SSK Standards List"@en ;
+  dct:title "SSK Standards List"@en ;
+  dc:title "SSK Standards List"@en ;
+  skos:hasTopConcept :acscii ;
+  skos:hasTopConcept :alto-xml ;
+  skos:hasTopConcept :ascii ;
+  skos:hasTopConcept :cidoc-crm ;
+  skos:hasTopConcept :cidoc-crmsci ;
+  skos:hasTopConcept :cmdi ;
+  skos:hasTopConcept :csv ;
+  skos:hasTopConcept :eac-cpf ;
+  skos:hasTopConcept :ead ;
+  skos:hasTopConcept :fls ;
+  skos:hasTopConcept :foaf ;
+  skos:hasTopConcept :fws ;
+  skos:hasTopConcept :gnd ;
+  skos:hasTopConcept :iso-28590-2017 ;
+  skos:hasTopConcept :jcamp-dx ;
+  skos:hasTopConcept :jpeg ;
+  skos:hasTopConcept :laf ;
+  skos:hasTopConcept :libs ;
+  skos:hasTopConcept :mets ;
+  skos:hasTopConcept :oai-pmh ;
+  skos:hasTopConcept :obj ;
+  skos:hasTopConcept :opac ;
+  skos:hasTopConcept :ply ;
+  skos:hasTopConcept :png ;
+  skos:hasTopConcept :page-xml ;
+  skos:hasTopConcept :rdfs ;
+  skos:hasTopConcept :spc ;
+  skos:hasTopConcept :stl-file-format ;
+  skos:hasTopConcept :schematron ;
+  skos:hasTopConcept :tcf ;
+  skos:hasTopConcept :tei ;
+  skos:hasTopConcept :tiff ;
+  skos:hasTopConcept :viaf ;
+  skos:hasTopConcept :xml ;
+  skos:hasTopConcept :hocr ;
+  dc:description "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en ;
+  rdfs:comment "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en .
+
+:acscii a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "ACSCII"@en ;
+  rdfs:label "ACSCII"@en ;
+  skos:note "Standard: ACSCII"@en ;
+  dc:description "Standard: ACSCII"@en .
+
+:alto-xml a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "ALTO-XML"@en ;
+  rdfs:label "ALTO-XML"@en ;
+  skos:note "Standard: ALTO-XML"@en ;
+  dc:description "Standard: ALTO-XML"@en .
+
+:ascii a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "ASCII"@en ;
+  rdfs:label "ASCII"@en ;
+  skos:note "Standard: ASCII"@en ;
+  dc:description "Standard: ASCII"@en .
+
+:cidoc-crm a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "CIDOC-CRM"@en ;
+  rdfs:label "CIDOC-CRM"@en ;
+  skos:note "Standard: CIDOC-CRM"@en ;
+  dc:description "Standard: CIDOC-CRM"@en .
+
+:cidoc-crmsci a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "CIDOC-CRMsci"@en ;
+  rdfs:label "CIDOC-CRMsci"@en ;
+  skos:note "Standard: CIDOC-CRMsci"@en ;
+  dc:description "Standard: CIDOC-CRMsci"@en .
+
+:cmdi a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "CMDI"@en ;
+  rdfs:label "CMDI"@en ;
+  skos:note "Standard: CMDI"@en ;
+  dc:description "Standard: CMDI"@en .
+
+:csv a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "CSV"@en ;
+  rdfs:label "CSV"@en ;
+  skos:note "Standard: CSV"@en ;
+  dc:description "Standard: CSV"@en .
+
+:eac-cpf a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "EAC-CPF"@en ;
+  rdfs:label "EAC-CPF"@en ;
+  skos:note "Standard: EAC-CPF"@en ;
+  dc:description "Standard: EAC-CPF"@en .
+
+:ead a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "EAD"@en ;
+  rdfs:label "EAD"@en ;
+  skos:note "Standard: EAD"@en ;
+  dc:description "Standard: EAD"@en .
+
+:fls a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "FLS"@en ;
+  rdfs:label "FLS"@en ;
+  skos:note "Standard: FLS"@en ;
+  dc:description "Standard: FLS"@en .
+
+:foaf a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "FOAF"@en ;
+  rdfs:label "FOAF"@en ;
+  skos:note "Standard: FOAF"@en ;
+  dc:description "Standard: FOAF"@en .
+
+:fws a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "FWS"@en ;
+  rdfs:label "FWS"@en ;
+  skos:note "Standard: FWS"@en ;
+  dc:description "Standard: FWS"@en .
+
+:gnd a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "GND"@en ;
+  rdfs:label "GND"@en ;
+  skos:note "Standard: GND"@en ;
+  dc:description "Standard: GND"@en .
+
+:iso-28590-2017 a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "ISO 28590:2017"@en ;
+  rdfs:label "ISO 28590:2017"@en ;
+  skos:note "Standard: ISO 28590:2017"@en ;
+  dc:description "Standard: ISO 28590:2017"@en .
+
+:jcamp-dx a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "JCAMP-DX"@en ;
+  rdfs:label "JCAMP-DX"@en ;
+  skos:note "Standard: JCAMP-DX"@en ;
+  dc:description "Standard: JCAMP-DX"@en .
+
+:jpeg a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "JPEG"@en ;
+  rdfs:label "JPEG"@en ;
+  skos:note "Standard: JPEG"@en ;
+  dc:description "Standard: JPEG"@en .
+
+:laf a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "LAF"@en ;
+  rdfs:label "LAF"@en ;
+  skos:note "Standard: LAF"@en ;
+  dc:description "Standard: LAF"@en .
+
+:libs a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "LIBS"@en ;
+  rdfs:label "LIBS"@en ;
+  skos:note "Standard: LIBS"@en ;
+  dc:description "Standard: LIBS"@en .
+
+:mets a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "METS"@en ;
+  rdfs:label "METS"@en ;
+  skos:note "Standard: METS"@en ;
+  dc:description "Standard: METS"@en .
+
+:oai-pmh a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "OAI-PMH"@en ;
+  rdfs:label "OAI-PMH"@en ;
+  skos:note "Standard: OAI-PMH"@en ;
+  dc:description "Standard: OAI-PMH"@en .
+
+:obj a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "OBJ"@en ;
+  rdfs:label "OBJ"@en ;
+  skos:note "Standard: OBJ"@en ;
+  dc:description "Standard: OBJ"@en .
+
+:opac a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "OPAC"@en ;
+  rdfs:label "OPAC"@en ;
+  skos:note "Standard: OPAC"@en ;
+  dc:description "Standard: OPAC"@en .
+
+:ply a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "PLY"@en ;
+  rdfs:label "PLY"@en ;
+  skos:note "Standard: PLY"@en ;
+  dc:description "Standard: PLY"@en .
+
+:png a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "PNG"@en ;
+  rdfs:label "PNG"@en ;
+  skos:note "Standard: PNG"@en ;
+  dc:description "Standard: PNG"@en .
+
+:page-xml a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "PÄGE XML"@en ;
+  rdfs:label "PÄGE XML"@en ;
+  skos:note "Standard: PÄGE XML"@en ;
+  dc:description "Standard: PÄGE XML"@en .
+
+:rdfs a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "RDFS"@en ;
+  rdfs:label "RDFS"@en ;
+  skos:note "Standard: RDFS"@en ;
+  dc:description "Standard: RDFS"@en .
+
+:spc a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "SPC"@en ;
+  rdfs:label "SPC"@en ;
+  skos:note "Standard: SPC"@en ;
+  dc:description "Standard: SPC"@en .
+
+:stl-file-format a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "STL (file format)"@en ;
+  rdfs:label "STL (file format)"@en ;
+  skos:note "Standard: STL (file format)"@en ;
+  dc:description "Standard: STL (file format)"@en .
+
+:schematron a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "Schematron"@en ;
+  rdfs:label "Schematron"@en ;
+  skos:note "Standard: Schematron"@en ;
+  dc:description "Standard: Schematron"@en .
+
+:tcf a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "TCF"@en ;
+  rdfs:label "TCF"@en ;
+  skos:note "Standard: TCF"@en ;
+  dc:description "Standard: TCF"@en .
+
+:tei a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "TEI"@en ;
+  rdfs:label "TEI"@en ;
+  skos:note "Standard: TEI"@en ;
+  dc:description "Standard: TEI"@en .
+
+:tiff a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "TIFF"@en ;
+  rdfs:label "TIFF"@en ;
+  skos:note "Standard: TIFF"@en ;
+  dc:description "Standard: TIFF"@en .
+
+:viaf a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "VIAF"@en ;
+  rdfs:label "VIAF"@en ;
+  skos:note "Standard: VIAF"@en ;
+  dc:description "Standard: VIAF"@en .
+
+:xml a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "XML"@en ;
+  rdfs:label "XML"@en ;
+  skos:note "Standard: XML"@en ;
+  dc:description "Standard: XML"@en .
+
+:hocr a skos:Concept ;
+  skos:topConceptOf :Schema ;
+  skos:inScheme :Schema ;
+  skos:prefLabel "hOCR"@en ;
+  rdfs:label "hOCR"@en ;
+  skos:note "Standard: hOCR"@en ;
+  dc:description "Standard: hOCR"@en .
+

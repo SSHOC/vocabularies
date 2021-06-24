@@ -1,0 +1,380 @@
+@prefix : <https://vocabs.dariah.eu/ssk-standards/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Thu Jun 24 16:17:12 CEST 2021
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  dcterms:title "SSK Standards List"@en;
+  rdfs:comment "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en;
+  rdfs:label "SSK Standards List"@en;
+  dc:title "SSK Standards List"@en;
+  dc:description "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/acscii> .
+
+<https://vocabs.dariah.eu/ssk-standards/acscii> a skos:Concept;
+  skos:prefLabel "ACSCII"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: ACSCII"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "ACSCII"@en;
+  dc:description "Standard: ACSCII"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/alto-xml> .
+
+<https://vocabs.dariah.eu/ssk-standards/alto-xml> a skos:Concept;
+  skos:prefLabel "ALTO-XML"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: ALTO-XML"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "ALTO-XML"@en;
+  dc:description "Standard: ALTO-XML"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ascii> .
+
+<https://vocabs.dariah.eu/ssk-standards/ascii> a skos:Concept;
+  skos:prefLabel "ASCII"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: ASCII"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "ASCII"@en;
+  dc:description "Standard: ASCII"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cidoc-crm> .
+
+<https://vocabs.dariah.eu/ssk-standards/cidoc-crm> a skos:Concept;
+  skos:prefLabel "CIDOC-CRM"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: CIDOC-CRM"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "CIDOC-CRM"@en;
+  dc:description "Standard: CIDOC-CRM"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cidoc-crmsci> .
+
+<https://vocabs.dariah.eu/ssk-standards/cidoc-crmsci> a skos:Concept;
+  skos:prefLabel "CIDOC-CRMsci"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: CIDOC-CRMsci"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "CIDOC-CRMsci"@en;
+  dc:description "Standard: CIDOC-CRMsci"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cmdi> .
+
+<https://vocabs.dariah.eu/ssk-standards/cmdi> a skos:Concept;
+  skos:prefLabel "CMDI"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: CMDI"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "CMDI"@en;
+  dc:description "Standard: CMDI"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/csv> .
+
+<https://vocabs.dariah.eu/ssk-standards/csv> a skos:Concept;
+  skos:prefLabel "CSV"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: CSV"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "CSV"@en;
+  dc:description "Standard: CSV"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/eac-cpf> .
+
+<https://vocabs.dariah.eu/ssk-standards/eac-cpf> a skos:Concept;
+  skos:prefLabel "EAC-CPF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: EAC-CPF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "EAC-CPF"@en;
+  dc:description "Standard: EAC-CPF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ead> .
+
+<https://vocabs.dariah.eu/ssk-standards/ead> a skos:Concept;
+  skos:prefLabel "EAD"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: EAD"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "EAD"@en;
+  dc:description "Standard: EAD"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/fls> .
+
+<https://vocabs.dariah.eu/ssk-standards/fls> a skos:Concept;
+  skos:prefLabel "FLS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: FLS"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "FLS"@en;
+  dc:description "Standard: FLS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/foaf> .
+
+<https://vocabs.dariah.eu/ssk-standards/foaf> a skos:Concept;
+  skos:prefLabel "FOAF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: FOAF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "FOAF"@en;
+  dc:description "Standard: FOAF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/fws> .
+
+<https://vocabs.dariah.eu/ssk-standards/fws> a skos:Concept;
+  skos:prefLabel "FWS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: FWS"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "FWS"@en;
+  dc:description "Standard: FWS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/gnd> .
+
+<https://vocabs.dariah.eu/ssk-standards/gnd> a skos:Concept;
+  skos:prefLabel "GND"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: GND"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "GND"@en;
+  dc:description "Standard: GND"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iso-28590-2017> .
+
+<https://vocabs.dariah.eu/ssk-standards/iso-28590-2017> a skos:Concept;
+  skos:prefLabel "ISO 28590:2017"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: ISO 28590:2017"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "ISO 28590:2017"@en;
+  dc:description "Standard: ISO 28590:2017"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/jcamp-dx> .
+
+<https://vocabs.dariah.eu/ssk-standards/jcamp-dx> a skos:Concept;
+  skos:prefLabel "JCAMP-DX"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: JCAMP-DX"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "JCAMP-DX"@en;
+  dc:description "Standard: JCAMP-DX"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/jpeg> .
+
+<https://vocabs.dariah.eu/ssk-standards/jpeg> a skos:Concept;
+  skos:prefLabel "JPEG"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: JPEG"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "JPEG"@en;
+  dc:description "Standard: JPEG"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/laf> .
+
+<https://vocabs.dariah.eu/ssk-standards/laf> a skos:Concept;
+  skos:prefLabel "LAF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: LAF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "LAF"@en;
+  dc:description "Standard: LAF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/libs> .
+
+<https://vocabs.dariah.eu/ssk-standards/libs> a skos:Concept;
+  skos:prefLabel "LIBS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: LIBS"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "LIBS"@en;
+  dc:description "Standard: LIBS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/mets> .
+
+<https://vocabs.dariah.eu/ssk-standards/mets> a skos:Concept;
+  skos:prefLabel "METS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: METS"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "METS"@en;
+  dc:description "Standard: METS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/oai-pmh> .
+
+<https://vocabs.dariah.eu/ssk-standards/oai-pmh> a skos:Concept;
+  skos:prefLabel "OAI-PMH"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: OAI-PMH"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "OAI-PMH"@en;
+  dc:description "Standard: OAI-PMH"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/obj> .
+
+<https://vocabs.dariah.eu/ssk-standards/obj> a skos:Concept;
+  skos:prefLabel "OBJ"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: OBJ"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "OBJ"@en;
+  dc:description "Standard: OBJ"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/opac> .
+
+<https://vocabs.dariah.eu/ssk-standards/opac> a skos:Concept;
+  skos:prefLabel "OPAC"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: OPAC"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "OPAC"@en;
+  dc:description "Standard: OPAC"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ply> .
+
+<https://vocabs.dariah.eu/ssk-standards/ply> a skos:Concept;
+  skos:prefLabel "PLY"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: PLY"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "PLY"@en;
+  dc:description "Standard: PLY"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/png> .
+
+<https://vocabs.dariah.eu/ssk-standards/png> a skos:Concept;
+  skos:prefLabel "PNG"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: PNG"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "PNG"@en;
+  dc:description "Standard: PNG"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/page-xml> .
+
+<https://vocabs.dariah.eu/ssk-standards/page-xml> a skos:Concept;
+  skos:prefLabel "PÄGE XML"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: PÄGE XML"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "PÄGE XML"@en;
+  dc:description "Standard: PÄGE XML"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/rdfs> .
+
+<https://vocabs.dariah.eu/ssk-standards/rdfs> a skos:Concept;
+  skos:prefLabel "RDFS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: RDFS"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "RDFS"@en;
+  dc:description "Standard: RDFS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/spc> .
+
+<https://vocabs.dariah.eu/ssk-standards/spc> a skos:Concept;
+  skos:prefLabel "SPC"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: SPC"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "SPC"@en;
+  dc:description "Standard: SPC"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/stl-file-format> .
+
+<https://vocabs.dariah.eu/ssk-standards/stl-file-format> a skos:Concept;
+  skos:prefLabel "STL (file format)"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: STL (file format)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "STL (file format)"@en;
+  dc:description "Standard: STL (file format)"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/schematron> .
+
+<https://vocabs.dariah.eu/ssk-standards/schematron> a skos:Concept;
+  skos:prefLabel "Schematron"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: Schematron"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "Schematron"@en;
+  dc:description "Standard: Schematron"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tcf> .
+
+<https://vocabs.dariah.eu/ssk-standards/tcf> a skos:Concept;
+  skos:prefLabel "TCF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: TCF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "TCF"@en;
+  dc:description "Standard: TCF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tei> .
+
+<https://vocabs.dariah.eu/ssk-standards/tei> a skos:Concept;
+  skos:prefLabel "TEI"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: TEI"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "TEI"@en;
+  dc:description "Standard: TEI"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tiff> .
+
+<https://vocabs.dariah.eu/ssk-standards/tiff> a skos:Concept;
+  skos:prefLabel "TIFF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: TIFF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "TIFF"@en;
+  dc:description "Standard: TIFF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/viaf> .
+
+<https://vocabs.dariah.eu/ssk-standards/viaf> a skos:Concept;
+  skos:prefLabel "VIAF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: VIAF"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "VIAF"@en;
+  dc:description "Standard: VIAF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/xml> .
+
+<https://vocabs.dariah.eu/ssk-standards/xml> a skos:Concept;
+  skos:prefLabel "XML"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: XML"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "XML"@en;
+  dc:description "Standard: XML"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/hocr> .
+
+<https://vocabs.dariah.eu/ssk-standards/hocr> a skos:Concept;
+  skos:prefLabel "hOCR"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:note "Standard: hOCR"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  rdfs:label "hOCR"@en;
+  dc:description "Standard: hOCR"@en .
