@@ -7,3 +7,5 @@
 ** added namespace (line 1): `@prefix : <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/> .`
 
 Used for the property `discipline`.
+
+Vocabulary aure-hal was another potential candidate for the discipline list. Leaving it here for documentation.
