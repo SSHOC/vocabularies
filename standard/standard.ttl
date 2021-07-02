@@ -19,7 +19,7 @@
 
 # RDF data export created by PoolParty.
 # This file contains a hierarchical subtree of a SKOS thesaurus.
-# Export date: Thu Jun 24 16:17:12 CEST 2021
+# Export date: Fri Jul 02 18:32:36 CEST 2021
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> csw:hierarchyRoot true;
   csw:hierarchyRootType skos:ConceptScheme;
@@ -29,352 +29,778 @@
   rdfs:label "SSK Standards List"@en;
   dc:title "SSK Standards List"@en;
   dc:description "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en;
-  skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/acscii> .
-
-<https://vocabs.dariah.eu/ssk-standards/acscii> a skos:Concept;
-  skos:prefLabel "ACSCII"@en;
-  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: ACSCII"@en;
-  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "ACSCII"@en;
-  dc:description "Standard: ACSCII"@en .
-
-<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/alto-xml> .
+  skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/alto-xml> .
 
 <https://vocabs.dariah.eu/ssk-standards/alto-xml> a skos:Concept;
   skos:prefLabel "ALTO-XML"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: ALTO-XML"@en;
+  skos:definition "ALTO (Analyzed Layout and Text Object) is an open XML Schema developed by the EU-funded project called METAe. The standard was initially developed for the description of text OCR and layout information of pages for digitized material. The goal was to describe the layout and text in a form to be able to reconstruct the original appearance based on the digitized information - similar to the approach of a lossless image saving operation. ALTO is often used in combination with Metadata Encoding and Transmission Standard (METS) for the description of the whole digitized object and creation of references across the ALTO files, e.g. reading sequence description."@en;
+  skos:altLabel "Analyzed Layout and Text Object"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "ALTO-XML"@en;
-  dc:description "Standard: ALTO-XML"@en .
+  skos:notation "ALTO-XML"@en;
+  rdfs:label "ALTO-XML"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ascii> .
 
 <https://vocabs.dariah.eu/ssk-standards/ascii> a skos:Concept;
   skos:prefLabel "ASCII"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: ASCII"@en;
+  skos:definition "ASCII abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters. ASCII is the traditional name for the encoding system."@en;
+  skos:altLabel "American Standard Code for Information Interchange"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "ASCII"@en;
-  dc:description "Standard: ASCII"@en .
+  skos:notation "ASCII"@en;
+  rdfs:label "ASCII"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cidoc-crm> .
 
 <https://vocabs.dariah.eu/ssk-standards/cidoc-crm> a skos:Concept;
   skos:prefLabel "CIDOC-CRM"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: CIDOC-CRM"@en;
+  skos:definition "The CIDOC Conceptual Reference Model (CRM) provides an extensible ontology for concepts and information in cultural heritage and museum documentation. It is the international standard (ISO 21127:2014) for the controlled exchange of cultural heritage information. Galleries, libraries, archives, museums (GLAMs), and other cultural institutions are encouraged to use the CIDOC CRM to enhance accessibility to museum-related information and knowledge."@en;
+  skos:altLabel "CIDOC Conceptual Reference Model"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "CIDOC-CRM"@en;
-  dc:description "Standard: CIDOC-CRM"@en .
+  skos:notation "CIDOC-CRM"@en;
+  rdfs:label "CIDOC-CRM"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cidoc-crmsci> .
 
 <https://vocabs.dariah.eu/ssk-standards/cidoc-crmsci> a skos:Concept;
   skos:prefLabel "CIDOC-CRMsci"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: CIDOC-CRMsci"@en;
+  skos:definition "Standard: CIDOC-CRMsci (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "CIDOC-CRMsci"@en;
-  dc:description "Standard: CIDOC-CRMsci"@en .
+  skos:notation "CIDOC-CRMsci"@en;
+  rdfs:label "CIDOC-CRMsci"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cmdi> .
 
 <https://vocabs.dariah.eu/ssk-standards/cmdi> a skos:Concept;
   skos:prefLabel "CMDI"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: CMDI"@en;
+  skos:definition "Component MetaData Infrastructure(CMDI)describes a model that enables the flexible construction of interoperable metadata schemas for Language Resources (LRs). The metadata schemas based on this model can be used to describe resources at different levels of granularity (e.g. descriptions both on the collection level and on the level of individual resources)."@en;
+  skos:altLabel "Component MetaData Infrastructure"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "CMDI"@en;
-  dc:description "Standard: CMDI"@en .
+  skos:notation "CMDI"@en;
+  rdfs:label "CMDI"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/csv> .
 
 <https://vocabs.dariah.eu/ssk-standards/csv> a skos:Concept;
   skos:prefLabel "CSV"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: CSV"@en;
+  skos:definition "A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. RFC 4180 formalized CSV. It defines the MIME type \"text/csv\", and CSV files that follow its rules should be very widely portable"@en;
+  skos:altLabel "Comma-separated values"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "CSV"@en;
-  dc:description "Standard: CSV"@en .
+  skos:notation "CSV"@en;
+  rdfs:label "CSV"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/eac-cpf> .
 
 <https://vocabs.dariah.eu/ssk-standards/eac-cpf> a skos:Concept;
   skos:prefLabel "EAC-CPF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: EAC-CPF"@en;
+  skos:definition "Standard: EAC-CPF (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "EAC-CPF"@en;
-  dc:description "Standard: EAC-CPF"@en .
+  skos:notation "EAC-CPF"@en;
+  rdfs:label "EAC-CPF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ead> .
 
 <https://vocabs.dariah.eu/ssk-standards/ead> a skos:Concept;
   skos:prefLabel "EAD"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: EAD"@en;
+  skos:definition "EAD stands for Encoded Archival Description, and is a non-proprietary de facto standard for the encoding of finding aids for use in a networked (online) environment. Finding aids are inventories, indexes, or guides that are created by archival and manuscript repositories to provide information about specific collections. While the finding aids may vary somewhat in style, their common purpose is to provide detailed description of the content and intellectual organization of collections of archival materials. EAD allows the standardization of collection information in finding aids within and across repositories."@en;
+  skos:altLabel "Encoded Archival Description"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "EAD"@en;
-  dc:description "Standard: EAD"@en .
+  skos:notation "EAD"@en;
+  rdfs:label "EAD"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/fls> .
 
 <https://vocabs.dariah.eu/ssk-standards/fls> a skos:Concept;
   skos:prefLabel "FLS"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: FLS"@en;
+  skos:definition "Standard: FLS (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "FLS"@en;
-  dc:description "Standard: FLS"@en .
+  skos:notation "FLS"@en;
+  rdfs:label "FLS"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/foaf> .
 
 <https://vocabs.dariah.eu/ssk-standards/foaf> a skos:Concept;
   skos:prefLabel "FOAF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: FOAF"@en;
+  skos:definition "FOAF (an acronym of friend of a friend) is a machine-readable ontology describing persons, their activities and their relations to other people and objects. Anyone can use FOAF to describe themselves. FOAF allows groups of people to describe social networks without the need for a centralised database. FOAF is a descriptive vocabulary expressed using the Resource Description Framework (RDF) and the Web Ontology Language (OWL)."@en;
+  skos:altLabel "Friend of a friend"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "FOAF"@en;
-  dc:description "Standard: FOAF"@en .
+  skos:notation "FOAF"@en;
+  rdfs:label "FOAF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/fws> .
 
 <https://vocabs.dariah.eu/ssk-standards/fws> a skos:Concept;
   skos:prefLabel "FWS"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: FWS"@en;
+  skos:definition "Standard: FWS (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "FWS"@en;
-  dc:description "Standard: FWS"@en .
+  skos:notation "FWS"@en;
+  rdfs:label "FWS"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/gnd> .
 
 <https://vocabs.dariah.eu/ssk-standards/gnd> a skos:Concept;
   skos:prefLabel "GND"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: GND"@en;
+  skos:definition "The Integrated Authority File (German: Gemeinsame Normdatei, also known as: Universal Authority File) or GND is an international authority file for the organisation of personal names, subject headings and corporate bodies from catalogues. It is used mainly for documentation in libraries and increasingly also by archives and museums."@en;
+  skos:altLabel "Gemeinsame Normdatei"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "GND"@en;
-  dc:description "Standard: GND"@en .
+  skos:notation "GND"@en;
+  rdfs:label "GND"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iso-28590-2017> .
 
 <https://vocabs.dariah.eu/ssk-standards/iso-28590-2017> a skos:Concept;
   skos:prefLabel "ISO 28590:2017"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: ISO 28590:2017"@en;
+  skos:definition "Standard: ISO 28590:2017 (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "ISO 28590:2017"@en;
-  dc:description "Standard: ISO 28590:2017"@en .
+  skos:notation "ISO 28590:2017"@en;
+  rdfs:label "ISO 28590:2017"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/jcamp-dx> .
 
 <https://vocabs.dariah.eu/ssk-standards/jcamp-dx> a skos:Concept;
   skos:prefLabel "JCAMP-DX"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: JCAMP-DX"@en;
+  skos:definition "CAMP-DX is a standard file form for exchange of infrared spectra and related chemical and physical information between spectrometer data systems of different manufacture, main-frame time-sharing systems, general purpose lab computers, and personal computers. It is compatible with all media: telephone, magnetic and optical disk, magnetic tape, and even the printed page (via optical reader). All data are stored as labeled fields of variable length using printable ASCII characters. A JCAMP-DX spectrum is a text file which can be viewed, corrected, and annotated with a text editor. The present focus is on infrared spectra, but JCAMP-DX can easily accommodate Raman, UV, NMR, mass, and other types of spectra, x-ray powder patterns, chromatograms, thermograms, and other plots which require the capability of representing contours as well as peak position and intensity. JCAMP-DX also provides for combining adequate information about the sample and method of observation with its spectrum."@en;
+  skos:altLabel "JCAMP-DX: A Standard Form for the Exchange of Infrared Spectra in Computer Readable Form"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "JCAMP-DX"@en;
-  dc:description "Standard: JCAMP-DX"@en .
+  skos:notation "JCAMP-DX"@en;
+  rdfs:label "JCAMP-DX"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/jpeg> .
 
 <https://vocabs.dariah.eu/ssk-standards/jpeg> a skos:Concept;
   skos:prefLabel "JPEG"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: JPEG"@en;
+  skos:definition "JPEG ( JAY-peg) is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality. JPEG compression is used in a number of image file formats. JPEG/Exif is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/JFIF, it is the most common format for storing and transmitting photographic images on the World Wide Web. These format variations are often not distinguished, and are simply called JPEG. The term \"JPEG\" is an initialism/acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MIME type of image/pjpeg when uploading JPEG images. JPEG files usually have a filename extension of .jpg or .jpeg. JPEG/JFIF supports a maximum image size of 65,53565,535 pixels, hence up to 4 gigapixels for an aspect ratio of 1:1."@en;
+  skos:altLabel "Joint Photographic Experts Group"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "JPEG"@en;
-  dc:description "Standard: JPEG"@en .
+  skos:notation "JPEG"@en;
+  rdfs:label "JPEG"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/laf> .
 
 <https://vocabs.dariah.eu/ssk-standards/laf> a skos:Concept;
   skos:prefLabel "LAF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: LAF"@en;
+  skos:definition "LAF, linguistic annotation framework, is a standard ISO for representing linguistic annotations of language data such as corpora, speech signal and video. The framework includes an abstract data model and an XML serialization of that model for representing annotations of primary data. The serialization serves as a pivot format to allow annotations expressed in one representation format to be mapped onto another."@en;
+  skos:altLabel "Linguistic annotation framework"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "LAF"@en;
-  dc:description "Standard: LAF"@en .
+  skos:notation "LAF"@en;
+  rdfs:label "LAF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/libs> .
 
 <https://vocabs.dariah.eu/ssk-standards/libs> a skos:Concept;
   skos:prefLabel "LIBS"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: LIBS"@en;
+  skos:definition "Laser Induced Breakdown Spectroscopy (LIBS) is an analytical technique that enables the determination of the elemental composition of materials on the basis of the characteristic atomic emission from a micro-plasma produced by focusing a high-power laser on or in a material."@en;
+  skos:altLabel "Laser-induced breakdown spectroscopy"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "LIBS"@en;
-  dc:description "Standard: LIBS"@en .
+  skos:notation "LIBS"@en;
+  rdfs:label "LIBS"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/mets> .
 
 <https://vocabs.dariah.eu/ssk-standards/mets> a skos:Concept;
   skos:prefLabel "METS"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: METS"@en;
+  skos:definition "The Metadata Encoding and Transmission Standard (METS) is a metadata standard for encoding descriptive, administrative, and structural metadata regarding objects within a digital library, expressed using the XML schema language of the World Wide Web Consortium (W3C)."@en;
+  skos:altLabel "Metadata Encoding and Transmission Standard"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "METS"@en;
-  dc:description "Standard: METS"@en .
+  skos:notation "METS"@en;
+  rdfs:label "METS"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/oai-pmh> .
 
 <https://vocabs.dariah.eu/ssk-standards/oai-pmh> a skos:Concept;
   skos:prefLabel "OAI-PMH"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: OAI-PMH"@en;
+  skos:definition "The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a protocol developed for harvesting (or collecting) metadata descriptions of records in an archive so that services can be built using metadata from many archives. An implementation of OAI-PMH must support representing metadata in Dublin Core, but may also support additional representations."@en;
+  skos:altLabel "Open Archives Initiative Protocol for Metadata Harvesting"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "OAI-PMH"@en;
-  dc:description "Standard: OAI-PMH"@en .
+  skos:notation "OAI-PMH"@en;
+  rdfs:label "OAI-PMH"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/obj> .
 
 <https://vocabs.dariah.eu/ssk-standards/obj> a skos:Concept;
   skos:prefLabel "OBJ"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: OBJ"@en;
+  skos:definition "OBJ (or .OBJ) is a geometry definition file format first developed by Wavefront Technologies for its Advanced Visualizer animation package. The file format is open and has been adopted by other 3D graphics application vendors. The OBJ file format is a simple data-format that represents 3D geometry alone  namely, the position of each vertex, the UV position of each texture coordinate vertex, vertex normals, and the faces that make each polygon defined as a list of vertices, and texture vertices. Vertices are stored in a counter-clockwise order by default, making explicit declaration of face normals unnecessary. OBJ coordinates have no units, but OBJ files can contain scale information in a human readable comment line."@en;
+  skos:altLabel "Wavefront .obj file"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "OBJ"@en;
-  dc:description "Standard: OBJ"@en .
+  skos:notation "OBJ"@en;
+  rdfs:label "OBJ"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/opac> .
 
 <https://vocabs.dariah.eu/ssk-standards/opac> a skos:Concept;
   skos:prefLabel "OPAC"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: OPAC"@en;
+  skos:definition "Standard: OPAC (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "OPAC"@en;
-  dc:description "Standard: OPAC"@en .
+  skos:notation "OPAC"@en;
+  rdfs:label "OPAC"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ply> .
 
 <https://vocabs.dariah.eu/ssk-standards/ply> a skos:Concept;
   skos:prefLabel "PLY"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: PLY"@en;
+  skos:definition "PLY is a computer file format known as the Polygon File Format or the Stanford Triangle Format. It was principally designed to store three-dimensional data from 3D scanners. The data storage format supports a relatively simple description of a single object as a list of nominally flat polygons. A variety of properties can be stored, including: color and transparency, surface normals, texture coordinates and data confidence values. The format permits one to have different properties for the front and back of a polygon. There are two versions of the file format, one in ASCII, the other in binary."@en;
+  skos:altLabel "Polygon File Format"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "PLY"@en;
-  dc:description "Standard: PLY"@en .
+  skos:notation "PLY"@en;
+  rdfs:label "PLY"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/png> .
 
 <https://vocabs.dariah.eu/ssk-standards/png> a skos:Concept;
   skos:prefLabel "PNG"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: PNG"@en;
+  skos:definition "Portable Network Graphics (PNG, pronounced PEE-en-JEE or PING) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet. PNG supports palette-based images (with palettes of 24-bit RGB or 32-bit RGBA colors), grayscale images (with or without alpha channel for transparency), and full-color non-palette-based RGB/RGBA images (with or without alpha channel). PNG was designed for transferring images on the Internet, not for professional-quality print graphics, and therefore does not support non-RGB color spaces such as CMYK. A PNG file contains a single image in an extensible structure of \"chunks\", encoding the basic pixels and other information such as textual comments and integrity checks documented in RFC 2083. PNG files nearly always use file extension PNG or png and are assigned MIME media type image/png. PNG was published as informational RFC 2083 in March 1997 and as an ISO/IEC standard in 2004."@en;
+  skos:altLabel "Portable Network Graphics"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "PNG"@en;
-  dc:description "Standard: PNG"@en .
+  skos:notation "PNG"@en;
+  rdfs:label "PNG"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/page-xml> .
 
 <https://vocabs.dariah.eu/ssk-standards/page-xml> a skos:Concept;
-  skos:prefLabel "PÄGE XML"@en;
+  skos:prefLabel "PAGE XML"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: PÄGE XML"@en;
+  skos:definition "There is a plethora of established and proposed document representation formats but none that can adequately support individual stages within an entire sequence of document image analysis methods (from document image enhancement to layout analysis to OCR) and their evaluation. This paper describes PAGE, a new XML-based page image representation framework that records information on image characteristics (image borders, geometric distortions and corresponding corrections, binarisation etc.) in addition to layout structure and page content. The suitability of the framework to the evaluation of entire workflows as well as individual stages has been extensively validated by using it in high-profile applications such as in public contemporary and historical ground-truthed datasets and in the ICDAR Page Segmentation competition series."@en;
+  skos:altLabel "Page Analysis and Ground-Truth Elements"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "PÄGE XML"@en;
-  dc:description "Standard: PÄGE XML"@en .
+  skos:notation "PAGE XML"@en;
+  rdfs:label "PAGE XML"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/rdfs> .
 
 <https://vocabs.dariah.eu/ssk-standards/rdfs> a skos:Concept;
   skos:prefLabel "RDFS"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: RDFS"@en;
+  skos:definition "Standard: RDFS (no further description available)"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "RDFS"@en;
-  dc:description "Standard: RDFS"@en .
+  skos:notation "RDFS"@en;
+  rdfs:label "RDFS"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/spc> .
 
 <https://vocabs.dariah.eu/ssk-standards/spc> a skos:Concept;
   skos:prefLabel "SPC"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: SPC"@en;
+  skos:definition "The Thermo Scientific SPC file format is a generic format used in all of Thermo Scientific\\'s software products. In addition, many spectrometer vendors\\' software packages offer capabilities to export spectral data to the Thermo Scientific SPC format or use it as their native file format. All the converters and translators used on this site create Thermo Scientific SPC files from the submitted spectral data files before presenting them to the library search engine on this site. Submitting data files in the Thermo Scientific SPC format is the most reliable way to guarantee that your data is interpreted correctly for searching against the databases. The Thermo Scientific SPC file format is completely public domain information."@en;
+  skos:altLabel "Thermo Scientific SPC file format"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "SPC"@en;
-  dc:description "Standard: SPC"@en .
+  skos:notation "SPC"@en;
+  rdfs:label "SPC"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/stl-file-format> .
 
 <https://vocabs.dariah.eu/ssk-standards/stl-file-format> a skos:Concept;
   skos:prefLabel "STL (file format)"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: STL (file format)"@en;
+  skos:definition "STL (an abbreviation of \"stereolithography\") is a file format native to the stereolithography CAD software created by 3D Systems. STL has several after-the-fact backronyms such as \"Standard Triangle Language\" and \"Standard Tessellation Language\". This file format is supported by many other software packages; it is widely used for rapid prototyping, 3D printing and computer-aided manufacturing. STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes. The STL format specifies both ASCII and binary representations. Binary files are more common, since they are more compact. An STL file describes a raw, unstructured triangulated surface by the unit normal and vertices (ordered by the right-hand rule) of the triangles using a three-dimensional Cartesian coordinate system. In the original specification, all STL coordinates were required to be positive numbers, but this restriction is no longer enforced and negative coordinates are commonly encountered in STL files today. STL files contain no scale information, and the units are arbitrary."@en;
+  skos:altLabel "stereolithography"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "STL (file format)"@en;
-  dc:description "Standard: STL (file format)"@en .
+  skos:notation "STL (file format)"@en;
+  rdfs:label "STL (file format)"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/schematron> .
 
 <https://vocabs.dariah.eu/ssk-standards/schematron> a skos:Concept;
   skos:prefLabel "Schematron"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: Schematron"@en;
+  skos:definition "Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of elements and XPath."@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "Schematron"@en;
-  dc:description "Standard: Schematron"@en .
+  skos:notation "Schematron"@en;
+  rdfs:label "Schematron"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tcf> .
 
 <https://vocabs.dariah.eu/ssk-standards/tcf> a skos:Concept;
   skos:prefLabel "TCF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: TCF"@en;
+  skos:definition "The TCF format (Text Corpus Format) is used by WebLicht services as a machine-readable format for representing and exchanging linguistically annotated texts. It enables interoperability of linguistic tools. WebLicht developer manual provides detailed information on the TCF format and its background."@en;
+  skos:altLabel "Text Corpus Format"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "TCF"@en;
-  dc:description "Standard: TCF"@en .
+  skos:notation "TCF"@en;
+  rdfs:label "TCF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tei> .
 
 <https://vocabs.dariah.eu/ssk-standards/tei> a skos:Concept;
   skos:prefLabel "TEI"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: TEI"@en;
+  skos:definition "The Text Encoding Initiative (TEI) is a text-centric community of practice in the academic field of digital humanities, operating continuously since the 1980s. The community currently runs a mailing list, meetings and conference series, and maintains an eponymous technical standard, a journal, a wiki, a GitHub repository and a toolchain."@en;
+  skos:altLabel "The Text Encoding Initiative "@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "TEI"@en;
-  dc:description "Standard: TEI"@en .
+  skos:notation "TEI"@en;
+  rdfs:label "TEI"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tiff> .
 
 <https://vocabs.dariah.eu/ssk-standards/tiff> a skos:Concept;
   skos:prefLabel "TIFF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: TIFF"@en;
+  skos:definition "Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry, and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing, and page-layout applications. The format was created by Aldus Corporation for use in desktop publishing. It published the latest version 6.0 in 1992, subsequently updated with an Adobe Systems copyright after the latter acquired Aldus in 1994. Several Aldus or Adobe technical notes have been published with minor extensions to the format, and several specifications have been based on TIFF 6.0, including TIFF/EP (ISO 12234-2), TIFF/IT (ISO 12639), TIFF-F (RFC 2306) and TIFF-FX (RFC 3949)."@en;
+  skos:altLabel "Tagged Image File Format"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "TIFF"@en;
-  dc:description "Standard: TIFF"@en .
+  skos:notation "TIFF"@en;
+  rdfs:label "TIFF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/viaf> .
 
 <https://vocabs.dariah.eu/ssk-standards/viaf> a skos:Concept;
   skos:prefLabel "VIAF"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: VIAF"@en;
+  skos:definition "The Virtual International Authority File (VIAF) is an international authority file. It is a joint project of several national libraries and operated by the Online Computer Library Center (OCLC). The aim is to link the national authority files (such as the German Name Authority File) to a single virtual authority file. In this file, identical records from the different data sets are linked together."@en;
+  skos:altLabel "Virtual International Authority File"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "VIAF"@en;
-  dc:description "Standard: VIAF"@en .
+  skos:notation "VIAF"@en;
+  rdfs:label "VIAF"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/xml> .
 
 <https://vocabs.dariah.eu/ssk-standards/xml> a skos:Concept;
   skos:prefLabel "XML"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: XML"@en;
+  skos:definition "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."@en;
+  skos:altLabel "Extensible Markup Language"@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "XML"@en;
-  dc:description "Standard: XML"@en .
+  skos:notation "XML"@en;
+  rdfs:label "XML"@en .
 
 <https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/hocr> .
 
 <https://vocabs.dariah.eu/ssk-standards/hocr> a skos:Concept;
   skos:prefLabel "hOCR"@en;
   skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  skos:note "Standard: hOCR"@en;
+  skos:definition "hOCR is an open standard for representing document layout analysis and OCR results as a subset of HTML. The goal is to reuse as much existing technology as possible, and to arrive at a representation that makes it easy to store, share, process and display OCR results. This specification defines many features that can represent a variety of OCR-related information. However, being built on top of HTML, hOCR is designed to make it easy to start simple and gradually use more complex constructs when necessary. Consider you have an HTML document that encodes a book: Wrapping page elements in <div class=\"ocr_page\"> tags will convey the page boundaries to hOCR-capable agents and turn the HTML document into an hOCR document."@en;
   skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
-  rdfs:label "hOCR"@en;
-  dc:description "Standard: hOCR"@en .
+  skos:notation "hOCR"@en;
+  rdfs:label "hOCR"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/3ds> .
+
+<https://vocabs.dariah.eu/ssk-standards/3ds> a skos:Concept;
+  skos:prefLabel ".3ds"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "3DS is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software. It was the native file format of the old Autodesk 3D Studio DOS (releases 1 to 4), which was popular until its successor (3D Studio MAX 1.0) replaced it in April 1996. Having been around since 1990 (when the first version of 3D Studio DOS was launched), it has grown to become a de facto industry standard for transferring models between 3D programs, or for storing models for 3D resource catalogs (along with OBJ, which is more frequently used as a model archiving file format). While the 3DS format aims to provide an import/export format, retaining only essential geometry, texture and lighting data, the related MAX format (now superseded by the PRJ format) also contains extra information specific to Autodesk 3ds Max, to allow a scene to be completely saved/loaded."@en;
+  skos:altLabel "3D studio"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation ".3ds"@en;
+  rdfs:label ".3ds"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/apache-fop> .
+
+<https://vocabs.dariah.eu/ssk-standards/apache-fop> a skos:Concept;
+  skos:prefLabel "Apache FOP"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Apache FOP (Formatting Objects Processor) is a print formatter driven by XSL formatting objects (XSL-FO) and an output independent formatter. It is a Java application that reads a formatting object (FO) tree and renders the resulting pages to a specified output. Output formats currently supported include PDF, PS, PCL, AFP, XML (area tree representation), Print, AWT and PNG, and to a lesser extent, RTF and TXT. The primary output target is PDF"@en;
+  skos:altLabel "Apache Formatting Objects Processor"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "Apache FOP"@en;
+  rdfs:label "Apache FOP"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/autocad-dxf> .
+
+<https://vocabs.dariah.eu/ssk-standards/autocad-dxf> a skos:Concept;
+  skos:prefLabel "AutoCAD DXF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "AutoCAD DXF (Drawing Interchange Format, or Drawing Exchange Format) is a CAD data file format developed by Autodesk for enabling data interoperability between AutoCAD and other programs. DXF was originally introduced in December 1982 as part of AutoCAD 1.0, and was intended to provide an exact representation of the data in the AutoCAD native file format, DWG (Drawing), for which Autodesk for many years did not publish specifications. Because of this, correct imports of DXF files have been difficult. Autodesk now publishes the DXF specifications as a PDF on its website. Versions of AutoCAD from Release 10 (October 1988) and up support both ASCII and binary forms of DXF. Earlier versions support only ASCII. As AutoCAD has become more powerful, supporting more complex object types, DXF has become less useful. Certain object types, including ACIS solids and regions, are not documented. Other object types, including AutoCAD 2006's dynamic blocks, and all of the objects specific to the vertical market versions of AutoCAD, are partially documented, but not well enough to allow other developers to support them. For these reasons many CAD applications use the DWG format which can be licensed from Autodesk or non-natively from the Open Design Alliance. DXF coordinates are always without dimensions so that the reader or user needs to know the drawing unit or has to extract it from the textual comments in the sheets."@en;
+  skos:altLabel "AutoCAD Drawing Exchange Format"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "AutoCAD DXF"@en;
+  rdfs:label "AutoCAD DXF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/bmp> .
+
+<https://vocabs.dariah.eu/ssk-standards/bmp> a skos:Concept;
+  skos:prefLabel "BMP"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The BMP file format, also known as bitmap image file or device independent bitmap (DIB) file format or simply a bitmap, is a raster graphics image file format used to store bitmap digital images, independently of the display device (such as a graphics adapter), especially on Microsoft Windows and OS/2 operating systems. The BMP file format is capable of storing two-dimensional digital images both monochrome and color, in various color depths, and optionally with data compression, alpha channels, and color profiles. The Windows Metafile (WMF) specification covers the BMP file format. Among others, wingdi.h defines BMP constants and structures."@en;
+  skos:altLabel "bitmap image file"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "BMP"@en;
+  rdfs:label "BMP"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cen-ts-16163-2014> .
+
+<https://vocabs.dariah.eu/ssk-standards/cen-ts-16163-2014> a skos:Concept;
+  skos:prefLabel "CEN/TS 16163:2014"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "This European standard applies to porous inorganic materials constituting cultural heritage. It provides the fundamental requirements of the laser parameters and guidelines for the choice of the laser operational parameters, in order to optimize the cleaning procedure."@en;
+  skos:altLabel "Conservation of cultural heritage - Cleaning of porous inorganic materials - Laser cleaning techniques for cultural heritage"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "CEN/TS 16163:2014"@en;
+  rdfs:label "CEN/TS 16163:2014"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/cendari-archival-extension> .
+
+<https://vocabs.dariah.eu/ssk-standards/cendari-archival-extension> a skos:Concept;
+  skos:prefLabel "Cendari Archival Extension"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The standard installation of AtoM is used in conjunction with a CENDARI theme. In addition CENDARI developed a Shibboleth authentication extension and a script to upload AtoM archival descriptions in EAD and EAG to the CENDARI repository."@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "Cendari Archival Extension"@en;
+  rdfs:label "Cendari Archival Extension"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/collada> .
+
+<https://vocabs.dariah.eu/ssk-standards/collada> a skos:Concept;
+  skos:prefLabel "COLLADA"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "COLLADA (COLLAborative Design Activity) is an interchange file format for interactive 3D applications. It is managed by the nonprofit technology consortium, the Khronos Group, and has been adopted by ISO as a publicly available specification, ISO/PAS 17506. COLLADA defines an open standard XML schema for exchanging digital assets among various graphics software applications that might otherwise store their assets in incompatible file formats. COLLADA documents that describe digital assets are XML files, usually identified with a .dae (digital asset exchange) filename extension."@en;
+  skos:altLabel "Collaborative Design Activity"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "COLLADA"@en;
+  rdfs:label "COLLADA"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/css> .
+
+<https://vocabs.dariah.eu/ssk-standards/css> a skos:Concept;
+  skos:prefLabel "CSS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content."@en;
+  skos:altLabel "Cascading Style Sheets"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "CSS"@en;
+  rdfs:label "CSS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/css-paged-media> .
+
+<https://vocabs.dariah.eu/ssk-standards/css-paged-media> a skos:Concept;
+  skos:prefLabel "CSS Paged Media"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "This CSS module specifies how pages are generated and laid out to hold fragmented content in a paged presentation. It adds functionality for controlling page margins, page size and orientation, and headers and footers, and extends generated content to enable page numbering and running headers/footers. The process of paginating a flow into such generated pages is covered in CSS3-BREAK. CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, etc."@en;
+  skos:altLabel "Cascading Style Sheets Paged Media"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "CSS Paged Media"@en;
+  rdfs:label "CSS Paged Media"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ddi> .
+
+<https://vocabs.dariah.eu/ssk-standards/ddi> a skos:Concept;
+  skos:prefLabel "DDI"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Data Documentation Initiative (also known as DDI or DDI Metadata) is an international standard for describing surveys, questionnaires, statistical data files, and social sciences study-level information. This information is described as metadata by the standard."@en;
+  skos:altLabel "Data Documentation Initiative"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "DDI"@en;
+  rdfs:label "DDI"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/dm2e> .
+
+<https://vocabs.dariah.eu/ssk-standards/dm2e> a skos:Concept;
+  skos:prefLabel "DM2E"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "DM2E (Data Model to Europeana) is building the tools and communities to enable humanities researchers to work with manuscripts in the Linked Open Web."@en;
+  skos:altLabel "Data Model to Europeana"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "DM2E"@en;
+  rdfs:label "DM2E"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/dublin-core> .
+
+<https://vocabs.dariah.eu/ssk-standards/dublin-core> a skos:Concept;
+  skos:prefLabel "DUBLIN CORE"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources (video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like artworks. The full set of Dublin Core metadata terms can be found on the Dublin Core Metadata Initiative (DCMI) website."@en;
+  skos:altLabel "Dublin Core Schema"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "DUBLIN CORE"@en;
+  rdfs:label "DUBLIN CORE"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/eac> .
+
+<https://vocabs.dariah.eu/ssk-standards/eac> a skos:Concept;
+  skos:prefLabel "EAC"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Encoded Archival Context - Corporate bodies, Persons and Families (EAC-CPF) is an XML standard for encoding information about the creators of archival materials -- i.e., a corporate body, person or family -- including their relationships to (a) resources (books, collections, papers, etc.) and (b) other corporate bodies, persons and families. The goal is to provide contextual information regarding the circumstances of record creation and use. EAC-CPF can be used in conjunction with Encoded Archival Description (EAD) for enhancement of EAD's capabilities in encoding finding aids, but can also be used in conjunction with other standards or for standalone authority file encoding."@en;
+  skos:altLabel "Encoded Archival Context"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "EAC"@en;
+  rdfs:label "EAC"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/eag> .
+
+<https://vocabs.dariah.eu/ssk-standards/eag> a skos:Concept;
+  skos:prefLabel "EAG"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Encoded Archival Guide (EAG) is intended to provide a standard for the description of archives. The Spanish Ministry of Culture has developed EAG 2002 for the Spanish-language archive portal \"Censo-Gua de Archivos de Espaa e Iberoamrica\", together with the corresponding XML structure, to encode information about archives, such as address, opening hours, technical equipment, etc. A corresponding ICA standard was published in 2008 as the International Standard for Describing Institutions with Archival Holdings (ISDIAH)."@en;
+  skos:altLabel "Encoded Archival Guide"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "EAG"@en;
+  rdfs:label "EAG"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/edm> .
+
+<https://vocabs.dariah.eu/ssk-standards/edm> a skos:Concept;
+  skos:prefLabel "EDM"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Europeana Data Model (EDM) is a richer metadata standard introduced to help give users more and better information."@en;
+  skos:altLabel "Europeana Data Model"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "EDM"@en;
+  rdfs:label "EDM"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/en-16782-2016> .
+
+<https://vocabs.dariah.eu/ssk-standards/en-16782-2016> a skos:Concept;
+  skos:prefLabel "EN 16782:2016"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Standard: EN 16782:2016 (no further description available)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "EN 16782:2016"@en;
+  rdfs:label "EN 16782:2016"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/hisco> .
+
+<https://vocabs.dariah.eu/ssk-standards/hisco> a skos:Concept;
+  skos:prefLabel "HISCO"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Historical International Standard of Classification of Occupations or HISCO is a theoretical model used to code social class and occupational status. Formulated in 2002, the model complements the ILO's ISCO68 scheme, as it prescribes a universal code system for examining occupation descriptions."@en;
+  skos:altLabel "Historical International Standard of Classification of Occupations"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "HISCO"@en;
+  rdfs:label "HISCO"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/idml> .
+
+<https://vocabs.dariah.eu/ssk-standards/idml> a skos:Concept;
+  skos:prefLabel "IDML"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "is an XML-based format for representing InDesign content. Essentially, it is a major revision of INX, InDesigns previous XML-based file format. IDML addresses INX shortcomings, in an effort to represent InDesign content in a human-readable formatsomething that can be reasonably assembled and  disassembled by a competent XML programmer."@en;
+  skos:altLabel "InDesign Markup Language"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "IDML"@en;
+  rdfs:label "IDML"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iiif> .
+
+<https://vocabs.dariah.eu/ssk-standards/iiif> a skos:Concept;
+  skos:prefLabel "IIIF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The International Image Interoperability Framework (IIIF) is a set of shared application programming interface (API) specifications for interoperable functionality in digital image repositories. The IIIF is comprised of and driven by a community of libraries, museums, archives, software companies, and other organizations working together to create, test, refine, implement and promote the IIIF specifications. Using JSON-LD, linked data, and standard W3C web protocols such as Web Annotation, IIIF makes it easy to parse and share digital image data, migrate across technology systems, and provide enhanced image access for scholars and researchers. In short, IIIF enables better, faster and cheaper image delivery. It lets you leverage interoperability and the fabric of the Web to access new possibilities and new users for your image-based resources, while reducing long term maintenance and technological lock in. IIIF gives users a rich set of baseline functionality for viewing, zooming, and assembling the best mix of resources and tools to view, compare, manipulate and work with images on the Web, an experience made portableshareable, citable, and embeddable. (source: https://iiif.io/community/faq/)<br>"@en;
+  skos:altLabel "International Image Interoperability Framework"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "IIIF"@en;
+  rdfs:label "IIIF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/isco> .
+
+<https://vocabs.dariah.eu/ssk-standards/isco> a skos:Concept;
+  skos:prefLabel "ISCO"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The International Standard Classification of Occupations (ISCO) is an International Labour Organization (ILO) classification structure for organizing information on labour and jobs."@en;
+  skos:altLabel "International Standard Classification of Occupations"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "ISCO"@en;
+  rdfs:label "ISCO"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iso-tr-21254-4-2011> .
+
+<https://vocabs.dariah.eu/ssk-standards/iso-tr-21254-4-2011> a skos:Concept;
+  skos:prefLabel "ISO/TR 21254-4:2011"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "ISO/TR 21254-4:2011 describes selected techniques for the inspection of optical surfaces prior to and after damage testing, and damage detection techniques integrated in detection facilities. The described damage detection methods are examples of practical solutions tested and often applied in detection facilities. Also, this direct information on the state of damage can be processed in the course of the running test to determine energy levels for the following interrogations optimised to minimise detection uncertainties. This inspection of the interrogated sites is essential for an accurate determination of the damage thresholds because it is the final and most sensitive assessment of the state of damage."@en;
+  skos:altLabel "Lasers and laser-related equipment -- Test methods for laser-induced damage threshold -- Part 4: Inspection, detection and measurement"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "ISO/TR 21254-4:2011"@en;
+  rdfs:label "ISO/TR 21254-4:2011"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iso-11554-2017> .
+
+<https://vocabs.dariah.eu/ssk-standards/iso-11554-2017> a skos:Concept;
+  skos:prefLabel "ISO 11554:2017"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "ISO 11554:2017 specifies test methods for determining the power and energy of continuous wave and pulsed laser beams, as well as their temporal characteristics of pulse shape, pulse duration and pulse repetition rate. Test and evaluation methods are also given for the power stability of cw-lasers, energy stability of pulsed lasers and pulse duration stability."@en;
+  skos:altLabel "Optics and photonics -- Lasers and laser-related equipment -- Test methods for laser beam power, energy and temporal characteristics"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "ISO 11554:2017"@en;
+  rdfs:label "ISO 11554:2017"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/iso-12234-2-2001> .
+
+<https://vocabs.dariah.eu/ssk-standards/iso-12234-2-2001> a skos:Concept;
+  skos:prefLabel "ISO 12234-2:2001"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Tag Image File Format/Electronic Photography (TIFF/EP) is a digital image file format standard  ISO 12234-2, titled \"Electronic still-picture imaging  Removable memory  Part 2: TIFF/EP image data format\". The TIFF/EP standard is based on a subset of the Adobe TIFF standard, and a subset of the JEITA Exif standard, with some differences and extensions."@en;
+  skos:altLabel "Electronic still-picture imaging -- Removable memory -- Part 2: TIFF/EP image data format"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "ISO 12234-2:2001"@en;
+  rdfs:label "ISO 12234-2:2001"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/lido> .
+
+<https://vocabs.dariah.eu/ssk-standards/lido> a skos:Concept;
+  skos:prefLabel "LIDO"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "LIDO (Lightweight Information Describing Objects) is an XML schema for describing museum objects. It is applicable to all kinds of objects: art, natural history, technology, cultural objects. LIDO is widely used for harvesting museum data in union catalogs, and as a preliminary step for converting to semantic formats like CIDOC CRM or EDM."@en;
+  skos:altLabel "Lightweight Information Describing Objects"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "LIDO"@en;
+  rdfs:label "LIDO"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/lif> .
+
+<https://vocabs.dariah.eu/ssk-standards/lif> a skos:Concept;
+  skos:prefLabel "LIF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Laser-induced fluorescence (LIF) is a spectroscopic method in which an atom or molecule is excited to a higher energy level by the absorption of laser light followed by spontaneous emission of light. LIF is used for studying structure of molecules, detection of selective species and flow visualization and measurements. The excitation wavelength is often selected to be the one at which the species has its largest cross section. The excited species decay usually after a few nanoseconds to microseconds, and emit light at a wavelength longer than the excitation wavelength."@en;
+  skos:altLabel "Laser-induced fluorescence"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "LIF"@en;
+  rdfs:label "LIF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/maf> .
+
+<https://vocabs.dariah.eu/ssk-standards/maf> a skos:Concept;
+  skos:prefLabel "MAF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Morpho-syntactic annotation framework(MAF)provides a framework for the representation of annotations of word-forms in texts; such annotations concern tokens, their relationship with lexical units, and their morpho-syntactic properties."@en;
+  skos:altLabel "Morpho-syntactic annotation framework"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "MAF"@en;
+  rdfs:label "MAF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/mdv> .
+
+<https://vocabs.dariah.eu/ssk-standards/mdv> a skos:Concept;
+  skos:prefLabel "MDV"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "MDV is MeDieVal Extension of DM2E model developed by SISMEL for the study of medieval manuscripts."@en;
+  skos:altLabel "MeDieVal Extension of DM2E"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "MDV"@en;
+  rdfs:label "MDV"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/mei> .
+
+<https://vocabs.dariah.eu/ssk-standards/mei> a skos:Concept;
+  skos:prefLabel "MEI"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Music Encoding Initiative (MEI) is an open-source effort to create a system for representation musical documents in a machine-readable structure. MEI closely mirrors work done by text scholars in the Text Encoding Initiative (TEI) and while the two encoding initiatives are not formally related, they share many common characteristics and development practices. The term \"MEI\", like \"TEI\", describes the governing organization and the markup language."@en;
+  skos:altLabel "Music Encoding Initiative"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "MEI"@en;
+  rdfs:label "MEI"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/mods> .
+
+<https://vocabs.dariah.eu/ssk-standards/mods> a skos:Concept;
+  skos:prefLabel "MODS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "The Metadata Object Description Schema (MODS) is an XML-based bibliographic description schema developed by the United States Library of Congress' Network Development and Standards Office. MODS was designed as a compromise between the complexity of the MARC format used by libraries and the extreme simplicity of Dublin Core metadata."@en;
+  skos:altLabel "Metadata Object Description Schema"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "MODS"@en;
+  rdfs:label "MODS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/multispectral-imaging> .
+
+<https://vocabs.dariah.eu/ssk-standards/multispectral-imaging> a skos:Concept;
+  skos:prefLabel "Multispectral Imaging"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Multispectral imaging, like other spectral imaging, collects and processes information from across the electromagnetic spectrum. The goal of Multispectral imaging is to obtain the spectrum for each pixel in the image of a scene, with the purpose of finding objects, identifying materials, or detecting processes."@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "Multispectral Imaging"@en;
+  rdfs:label "Multispectral Imaging"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/oais> .
+
+<https://vocabs.dariah.eu/ssk-standards/oais> a skos:Concept;
+  skos:prefLabel "OAIS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "An Open Archival Information System (or OAIS) is an archive, consisting of an organization of people and systems, that has accepted the responsibility to preserve information and make it available for a Designated Community. The term OAIS also refers, by extension, to the ISO OAIS Reference Model for an OAIS. This reference model is defined by recommendation CCSDS 650.0-B-2 of the Consultative Committee for Space Data Systems; this text is identical to ISO 14721:2012. The CCSDS's purview is space agencies, but the OAIS model it developed has proved useful to a wide variety of other organizations and institutions with digital archiving needs."@en;
+  skos:altLabel "Open Archival Information System"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "OAIS"@en;
+  rdfs:label "OAIS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/raman-spectroscopy> .
+
+<https://vocabs.dariah.eu/ssk-standards/raman-spectroscopy> a skos:Concept;
+  skos:prefLabel "Raman spectroscopy"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Raman spectroscopy is a spectroscopic technique used to observe vibrational, rotational, and other low-frequency modes in a system. Raman spectroscopy is commonly used in chemistry to provide a structural fingerprint by which molecules can be identified."@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "Raman spectroscopy"@en;
+  rdfs:label "Raman spectroscopy"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/serds> .
+
+<https://vocabs.dariah.eu/ssk-standards/serds> a skos:Concept;
+  skos:prefLabel "SERDS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Standard: SERDS (no further description available)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "SERDS"@en;
+  rdfs:label "SERDS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/ssrs> .
+
+<https://vocabs.dariah.eu/ssk-standards/ssrs> a skos:Concept;
+  skos:prefLabel "SSRS"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Standard: SSRS (no further description available)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "SSRS"@en;
+  rdfs:label "SSRS"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/tiff-ep-iso-12234-2> .
+
+<https://vocabs.dariah.eu/ssk-standards/tiff-ep-iso-12234-2> a skos:Concept;
+  skos:prefLabel "TIFF/EP (ISO 12234-2)"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "Standard: TIFF/EP (ISO 12234-2) (no further description available)"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "TIFF/EP (ISO 12234-2)"@en;
+  rdfs:label "TIFF/EP (ISO 12234-2)"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/xrf> .
+
+<https://vocabs.dariah.eu/ssk-standards/xrf> a skos:Concept;
+  skos:prefLabel "XRF"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "X-ray fluorescence is the emission of characteristic \"secondary\" (or fluorescent) X-rays from a material that has been excited by bombarding with high-energy X-rays or gamma rays. The phenomenon is widely used for elemental analysis and chemical analysis, particularly in the investigation of metals, glass, ceramics and building materials, and for research in geochemistry, forensic science, archaeology and art objects such as paintings and murals."@en;
+  skos:altLabel "X-ray fluorescence spectroscopy"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "XRF"@en;
+  rdfs:label "XRF"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/xsl> .
+
+<https://vocabs.dariah.eu/ssk-standards/xsl> a skos:Concept;
+  skos:prefLabel "XSL"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "XSL is a language for expressing style sheets. An XSL style sheet is, like with CSS, a file that describes how to display an XML document of a given type. XSL shares the functionality and is compatible with CSS2 (although it uses a different syntax). It also adds a transformation language for XML documents: XSLT. Originally intended to perform complex styling operations, like the generation of tables of contents and indexes, it is now used as a general purpose XML processing language. XSLT is thus widely used for purposes other than XSL, like generating HTML web pages from XML data."@en;
+  skos:altLabel "Extensible Stylesheet Language"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "XSL"@en;
+  rdfs:label "XSL"@en .
+
+<https://vocabs.dariah.eu/ssk-standards/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/ssk-standards/xsl-fo> .
+
+<https://vocabs.dariah.eu/ssk-standards/xsl-fo> a skos:Concept;
+  skos:prefLabel "XSL-FO"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:definition "XSL-FO (XSL Formatting Objects) is a markup language for XML document formatting that is most often used to generate PDF files. XSL-FO is part of XSL (Extensible Stylesheet Language), a set of W3C technologies designed for the transformation and formatting of XML data. The other parts of XSL are XSLT and XPath. Version 1.1 of XSL-FO was published in 2006."@en;
+  skos:altLabel "XSL Formatting Objects"@en;
+  skos:inScheme <https://vocabs.dariah.eu/ssk-standards/Schema>;
+  skos:notation "XSL-FO"@en;
+  rdfs:label "XSL-FO"@en .
