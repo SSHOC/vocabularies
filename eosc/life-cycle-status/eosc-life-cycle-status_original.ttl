@@ -5,121 +5,108 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix : <https://vocabs.dariah.eu/eosc-life-cycle-status/> .
 
-:Schema a skos:ConceptScheme;
-	rdfs:label "EOSC Life Cycle Status List"@en;
-	dct:title "EOSC Life Cycle Status List"@en;
-	dc:title "EOSC Life Cycle Status List"@en;
-	skos:hasTopConcept :life_cycle_status-alpha;
-	skos:hasTopConcept :life_cycle_status-beta;
-	skos:hasTopConcept :life_cycle_status-concept;
-	skos:hasTopConcept :life_cycle_status-design;
-	skos:hasTopConcept :life_cycle_status-discovery;
-	skos:hasTopConcept :life_cycle_status-implementation;
-	skos:hasTopConcept :life_cycle_status-in_containment;
-	skos:hasTopConcept :life_cycle_status-operation;
-	skos:hasTopConcept :life_cycle_status-other;
-	skos:hasTopConcept :life_cycle_status-planned;
-	skos:hasTopConcept :life_cycle_status-preparation;
-	skos:hasTopConcept :life_cycle_status-production;
-	skos:hasTopConcept :life_cycle_status-retirement;
-	skos:hasTopConcept :life_cycle_status-termination;
+:Schema a skos:ConceptScheme ;
+	rdfs:label "EOSC Life Cycle Status List"@en ;
+	dct:title "EOSC Life Cycle Status List"@en ;
+	dc:title "EOSC Life Cycle Status List"@en ;
+	skos:hasTopConcept :life_cycle_status-alpha, :life_cycle_status-beta, :life_cycle_status-concept, :life_cycle_status-design, :life_cycle_status-discovery, :life_cycle_status-implementation, :life_cycle_status-in_containment, :life_cycle_status-operation, :life_cycle_status-other, :life_cycle_status-planned, :life_cycle_status-preparation, :life_cycle_status-production, :life_cycle_status-retirement, :life_cycle_status-termination ;
 	dc:description "EOSC Life Cycle Status List from https://api.eosc-portal.eu/vocabulary/byType/LIFE_CYCLE_STATUS"@en ;
 	rdfs:comment "EOSC Life Cycle Status List from https://api.eosc-portal.eu/vocabulary/byType/LIFE_CYCLE_STATUS"@en .
 
-:life_cycle_status-alpha a skos:Concept;
-	skos:prefLabel "Alpha"@en;
-	rdfs:label "Alpha"@en;
-	dc:description "Resource prototype available for closed set of users"@en;
+:life_cycle_status-alpha a skos:Concept ;
+	skos:prefLabel "Alpha"@en ;
+	rdfs:label "Alpha"@en ;
+	dc:description "Resource prototype available for closed set of users"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-beta a skos:Concept;
-	skos:prefLabel "Beta"@en;
-	rdfs:label "Beta"@en;
-	dc:description "Resource being developed while available for testing publicly"@en;
+:life_cycle_status-beta a skos:Concept ;
+	skos:prefLabel "Beta"@en ;
+	rdfs:label "Beta"@en ;
+	dc:description "Resource being developed while available for testing publicly"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-concept a skos:Concept;
-	skos:prefLabel "Concept"@en;
-	rdfs:label "Concept"@en;
-	dc:description "Concept development"@en;
+:life_cycle_status-concept a skos:Concept ;
+	skos:prefLabel "Concept"@en ;
+	rdfs:label "Concept"@en ;
+	dc:description "Concept development"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-design a skos:Concept;
-	skos:prefLabel "Design"@en;
-	rdfs:label "Design"@en;
-	dc:description "Resource in design"@en;
+:life_cycle_status-design a skos:Concept ;
+	skos:prefLabel "Design"@en ;
+	rdfs:label "Design"@en ;
+	dc:description "Resource in design"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-discovery a skos:Concept;
-	skos:prefLabel "Discovery"@en;
-	rdfs:label "Discovery"@en;
-	dc:description "Researching users needs, exploring technological or policy constraints"@en;
+:life_cycle_status-discovery a skos:Concept ;
+	skos:prefLabel "Discovery"@en ;
+	rdfs:label "Discovery"@en ;
+	dc:description "Researching users needs, exploring technological or policy constraints"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-implementation a skos:Concept;
-	skos:prefLabel "Implementation"@en;
-	rdfs:label "Implementation"@en;
-	dc:description "Resource in deployment"@en;
+:life_cycle_status-implementation a skos:Concept ;
+	skos:prefLabel "Implementation"@en ;
+	rdfs:label "Implementation"@en ;
+	dc:description "Resource in deployment"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-in_containment a skos:Concept;
-	skos:prefLabel "In containment"@en;
-	rdfs:label "In containment"@en;
-	dc:description "Resource active, but generally not available to new users"@en;
+:life_cycle_status-in_containment a skos:Concept ;
+	skos:prefLabel "In containment"@en ;
+	rdfs:label "In containment"@en ;
+	dc:description "Resource active, but generally not available to new users"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-operation a skos:Concept;
-	skos:prefLabel "Operation"@en;
-	rdfs:label "Operation"@en;
-	dc:description "Resource offered"@en;
+:life_cycle_status-operation a skos:Concept ;
+	skos:prefLabel "Operation"@en ;
+	rdfs:label "Operation"@en ;
+	dc:description "Resource offered"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-other a skos:Concept;
-	skos:prefLabel "Other"@en;
-	rdfs:label "Other"@en;
+:life_cycle_status-other a skos:Concept ;
+	skos:prefLabel "Other"@en ;
+	rdfs:label "Other"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-planned a skos:Concept;
-	skos:prefLabel "Planned"@en;
-	rdfs:label "Planned"@en;
-	dc:description "Resource plan defined"@en;
+:life_cycle_status-planned a skos:Concept ;
+	skos:prefLabel "Planned"@en ;
+	rdfs:label "Planned"@en ;
+	dc:description "Resource plan defined"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-preparation a skos:Concept;
-	skos:prefLabel "Preparation"@en;
-	rdfs:label "Preparation"@en;
-	dc:description "Resource in preparatory phase"@en;
+:life_cycle_status-preparation a skos:Concept ;
+	skos:prefLabel "Preparation"@en ;
+	rdfs:label "Preparation"@en ;
+	dc:description "Resource in preparatory phase"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-production a skos:Concept;
-	skos:prefLabel "Production"@en;
-	rdfs:label "Production"@en;
-	dc:description "Resource available in the live environment"@en;
+:life_cycle_status-production a skos:Concept ;
+	skos:prefLabel "Production"@en ;
+	rdfs:label "Production"@en ;
+	dc:description "Resource available in the live environment"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-retirement a skos:Concept;
-	skos:prefLabel "Retirement"@en;
-	rdfs:label "Retirement"@en;
-	dc:description "Resource is not anymore offered"@en;
+:life_cycle_status-retirement a skos:Concept ;
+	skos:prefLabel "Retirement"@en ;
+	rdfs:label "Retirement"@en ;
+	dc:description "Resource is not anymore offered"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:life_cycle_status-termination a skos:Concept;
-	skos:prefLabel "Termination"@en;
-	rdfs:label "Termination"@en;
-	dc:description "Resource dissolution, dismantling"@en;
+:life_cycle_status-termination a skos:Concept ;
+	skos:prefLabel "Termination"@en ;
+	rdfs:label "Termination"@en ;
+	dc:description "Resource dissolution, dismantling"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
