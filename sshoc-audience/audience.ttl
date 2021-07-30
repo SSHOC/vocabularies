@@ -1,0 +1,93 @@
+@prefix : <https://vocabs.dariah.eu/sshoc-audience/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Fri Jul 30 15:27:29 CEST 2021
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  skos:prefLabel "Intended audience"@en;
+  dcterms:title "Intended audience"@en;
+  skos:definition "Intended audience of an item."@en;
+  skos:note "Used in the SSHOC projects SSH Open Marketplace and SSH Training Discovery Toolkit."@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/dataCreator> .
+
+<https://vocabs.dariah.eu/sshoc-audience/dataCreator> a skos:Concept;
+  skos:prefLabel "Data creator"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/dataEngineer> .
+
+<https://vocabs.dariah.eu/sshoc-audience/dataEngineer> a skos:Concept;
+  skos:prefLabel "Data engineer"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:note "Includes data scientists/analysts - more specific it could be a research data engineer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/dataProvider> .
+
+<https://vocabs.dariah.eu/sshoc-audience/dataProvider> a skos:Concept;
+  skos:prefLabel "Data provider"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/dataSteward> .
+
+<https://vocabs.dariah.eu/sshoc-audience/dataSteward> a skos:Concept;
+  skos:prefLabel "Data steward"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/public> .
+
+<https://vocabs.dariah.eu/sshoc-audience/public> a skos:Concept;
+  skos:prefLabel "Public"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/researcher> .
+
+<https://vocabs.dariah.eu/sshoc-audience/researcher> a skos:Concept;
+  skos:prefLabel "Researcher"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/serviceProvider> .
+
+<https://vocabs.dariah.eu/sshoc-audience/serviceProvider> a skos:Concept;
+  skos:prefLabel "Service provider"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/student> .
+
+<https://vocabs.dariah.eu/sshoc-audience/student> a skos:Concept;
+  skos:prefLabel "Student"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .
+
+<https://vocabs.dariah.eu/sshoc-audience/schemaAudience> skos:hasTopConcept <https://vocabs.dariah.eu/sshoc-audience/trainer> .
+
+<https://vocabs.dariah.eu/sshoc-audience/trainer> a skos:Concept;
+  skos:prefLabel "Trainer"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/sshoc-audience/schemaAudience>;
+  skos:inScheme <https://vocabs.dariah.eu/sshoc-audience/schemaAudience> .

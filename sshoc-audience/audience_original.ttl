@@ -1,0 +1,62 @@
+@prefix : <https://vocabs.dariah.eu/sshoc-audience/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://vocabs.dariah.eu/sshoc-audience/> a owl:Ontology;
+  owl:imports <http://purl.org/dc/terms/> .
+
+:schemaAudience a skos:ConceptScheme;
+  dct:title "Intended audience"@en;
+  skos:definition "Intended audience of an item."@en;
+  skos:hasTopConcept :dataCreator, :dataEngineer, :dataProvider, :dataSteward, :public,
+    :researcher, :serviceProvider, :student, :trainer;
+  skos:note "Used in the SSHOC projects SSH Open Marketplace and SSH Training Discovery Toolkit."@en;
+  skos:prefLabel "Intended audience"@en .
+
+:dataCreator a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Data creator"@en;
+  skos:topConceptOf :schemaAudience .
+
+:dataProvider a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Data provider"@en;
+  skos:topConceptOf :schemaAudience .
+
+:dataSteward a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Data steward"@en;
+  skos:topConceptOf :schemaAudience .
+
+:public a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Public"@en;
+  skos:topConceptOf :schemaAudience .
+
+:researcher a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Researcher"@en;
+  skos:topConceptOf :schemaAudience .
+
+:serviceProvider a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Service provider"@en;
+  skos:topConceptOf :schemaAudience .
+
+:student a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Student"@en;
+  skos:topConceptOf :schemaAudience .
+
+:trainer a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:prefLabel "Trainer"@en;
+  skos:topConceptOf :schemaAudience .
+
+:dataEngineer a skos:Concept;
+  skos:inScheme :schemaAudience;
+  skos:note "Includes data scientists/analysts - more specific it could be a research data engineer"@en;
+  skos:prefLabel "Data engineer"@en;
+  skos:topConceptOf :schemaAudience .
