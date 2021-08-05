@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix : <https://vocabs.dariah.eu/eosc-technology-readiness-level/> .
+
+:Schema a skos:ConceptScheme ;
+	rdfs:label "EOSC Technology Readiness Level"@en ;
+	dct:title "EOSC Technology Readiness Level"@en ;
+	dc:title "EOSC Technology Readiness Level"@en ;
+	skos:hasTopConcept :trl-1, :trl-2, :trl-3, :trl-4, :trl-5, :trl-6, :trl-7, :trl-8, :trl-9 ;
+	dc:description "EOSC Technology Readiness Level from https://api.eosc-portal.eu/vocabulary/byType/TRL"@en ;
+	rdfs:comment "EOSC Technology Readiness Level from https://api.eosc-portal.eu/vocabulary/byType/TRL"@en .
+
+:trl-1 a skos:Concept ;
+	skos:prefLabel "1 - basic principles observed"@en ;
+	rdfs:label "1 - basic principles observed"@en ;
+	dc:description "Scientific research has led to observation and reports of basic principles which has evolved to applied research and development."@en ;
+	skos:definition "Scientific research has led to observation and reports of basic principles which has evolved to applied research and development."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-2 a skos:Concept ;
+	skos:prefLabel "2 - technology concept formulated"@en ;
+	rdfs:label "2 - technology concept formulated"@en ;
+	dc:description "Practical applications for the observed basic physical principles is found and reported."@en ;
+	skos:definition "Practical applications for the observed basic physical principles is found and reported."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-3 a skos:Concept ;
+	skos:prefLabel "3 - experimental proof of concept"@en ;
+	rdfs:label "3 - experimental proof of concept"@en ;
+	dc:description "The most critical functions of the new technology is validated by using both analytical and experimental methods."@en ;
+	skos:definition "The most critical functions of the new technology is validated by using both analytical and experimental methods."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-4 a skos:Concept ;
+	skos:prefLabel "4 - technology validated in lab"@en ;
+	rdfs:label "4 - technology validated in lab"@en ;
+	dc:description "The concept is tested to assure that the technical elements can be integrated together and achieve the desired performance, at a component and/or breadboard level."@en ;
+	skos:definition "The concept is tested to assure that the technical elements can be integrated together and achieve the desired performance, at a component and/or breadboard level."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-5 a skos:Concept ;
+	skos:prefLabel "5 - technology validated in relevant environment"@en ;
+	rdfs:label "5 - technology validated in relevant environment"@en ;
+	dc:description "The components making up the concept is tested individually in realistic environment."@en ;
+	skos:definition "The components making up the concept is tested individually in realistic environment."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-6 a skos:Concept ;
+	skos:prefLabel "6 - technology demonstrated in relevant environment"@en ;
+	rdfs:label "6 - technology demonstrated in relevant environment"@en ;
+	dc:description "A model or prototype of the concept, not individual components, is tested in a relevant environment."@en ;
+	skos:definition "A model or prototype of the concept, not individual components, is tested in a relevant environment."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-7 a skos:Concept ;
+	skos:prefLabel "7 - system prototype demonstration in operational environment"@en ;
+	rdfs:label "7 - system prototype demonstration in operational environment"@en ;
+	dc:description "A prototype is tested in the environment in which the final product will operate, e.g. in the original NASA framework this meant to test the technology in space."@en ;
+	skos:definition "A prototype is tested in the environment in which the final product will operate, e.g. in the original NASA framework this meant to test the technology in space."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-8 a skos:Concept ;
+	skos:prefLabel "8 - system complete and qualified"@en ;
+	rdfs:label "8 - system complete and qualified"@en ;
+	dc:description "The technology is built to the specifications of the final product and is tested in the operational environment alongside all systems it will interact with."@en ;
+	skos:definition "The technology is built to the specifications of the final product and is tested in the operational environment alongside all systems it will interact with."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
+:trl-9 a skos:Concept ;
+	skos:prefLabel "9 - actual system proven in operational environment"@en ;
+	rdfs:label "9 - actual system proven in operational environment"@en ;
+	dc:description "At this level the all technology development has been completed and the technology is performing as intended in the real-world environment."@en ;
+	skos:definition "At this level the all technology development has been completed and the technology is performing as intended in the real-world environment."@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+

@@ -5,11 +5,12 @@ class EoscSkos:
     translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS', ord('('): 'OPEN_PARENTHESIS', ord(')'): 'CLOSE_PARENTHESIS',
                        ord('&'): 'AMPERSAND', ord(','): 'COMMA'}
 
-    def __init__(self, data_type, schema_name, title, description):
+    def __init__(self, data_type, schema_name, title, description, additional_description_tag = ''):
         self.data_type = data_type
         self.schema_name = schema_name
         self.title = title
         self.description = description
+        self.additional_description_tag = additional_description_tag
 
     def slugify(self, text):
         text = text.translate(self.translate_table)
@@ -47,6 +48,7 @@ class EoscSkos:
             + "\tskos:prefLabel \"" + conceptName + "\"@en ;\n"
             + "\trdfs:label \""  + conceptName + "\"@en ;\n"
             + (("\tdc:description \"" + conceptDescription + "\"@en ;\n") if (conceptDescription is not None and conceptDescription != "") else "")
+            + ((("\t" + self.additional_description_tag + " \"" + conceptDescription + "\"@en ;\n") if (conceptDescription is not None and conceptDescription != "") else "") if (self.additional_description_tag != "") else "")
             + ("\tskos:topConceptOf :Schema ;\n" if isTopConcept else "")
             + (("\tskos:broader :" + self.slugify(broaderConcept) + " ;\n") if broaderConcept else "")
             + (("\tskos:narrower " + narrowerConcept + " ;\n") if narrowerConcept else "")
