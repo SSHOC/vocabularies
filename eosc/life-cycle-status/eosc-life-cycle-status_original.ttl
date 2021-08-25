@@ -17,6 +17,7 @@
 	skos:prefLabel "Alpha"@en ;
 	rdfs:label "Alpha"@en ;
 	dc:description "Resource prototype available for closed set of users"@en ;
+	skos:definition "Resource prototype available for closed set of users"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -24,6 +25,7 @@
 	skos:prefLabel "Beta"@en ;
 	rdfs:label "Beta"@en ;
 	dc:description "Resource being developed while available for testing publicly"@en ;
+	skos:definition "Resource being developed while available for testing publicly"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -31,6 +33,7 @@
 	skos:prefLabel "Concept"@en ;
 	rdfs:label "Concept"@en ;
 	dc:description "Concept development"@en ;
+	skos:definition "Concept development"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -38,6 +41,7 @@
 	skos:prefLabel "Design"@en ;
 	rdfs:label "Design"@en ;
 	dc:description "Resource in design"@en ;
+	skos:definition "Resource in design"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -45,6 +49,7 @@
 	skos:prefLabel "Discovery"@en ;
 	rdfs:label "Discovery"@en ;
 	dc:description "Researching users needs, exploring technological or policy constraints"@en ;
+	skos:definition "Researching users needs, exploring technological or policy constraints"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -52,6 +57,7 @@
 	skos:prefLabel "Implementation"@en ;
 	rdfs:label "Implementation"@en ;
 	dc:description "Resource in deployment"@en ;
+	skos:definition "Resource in deployment"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -59,6 +65,7 @@
 	skos:prefLabel "In containment"@en ;
 	rdfs:label "In containment"@en ;
 	dc:description "Resource active, but generally not available to new users"@en ;
+	skos:definition "Resource active, but generally not available to new users"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -66,6 +73,7 @@
 	skos:prefLabel "Operation"@en ;
 	rdfs:label "Operation"@en ;
 	dc:description "Resource offered"@en ;
+	skos:definition "Resource offered"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -79,6 +87,7 @@
 	skos:prefLabel "Planned"@en ;
 	rdfs:label "Planned"@en ;
 	dc:description "Resource plan defined"@en ;
+	skos:definition "Resource plan defined"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -86,6 +95,7 @@
 	skos:prefLabel "Preparation"@en ;
 	rdfs:label "Preparation"@en ;
 	dc:description "Resource in preparatory phase"@en ;
+	skos:definition "Resource in preparatory phase"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -93,6 +103,7 @@
 	skos:prefLabel "Production"@en ;
 	rdfs:label "Production"@en ;
 	dc:description "Resource available in the live environment"@en ;
+	skos:definition "Resource available in the live environment"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -100,6 +111,7 @@
 	skos:prefLabel "Retirement"@en ;
 	rdfs:label "Retirement"@en ;
 	dc:description "Resource is not anymore offered"@en ;
+	skos:definition "Resource is not anymore offered"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
@@ -107,6 +119,7 @@
 	skos:prefLabel "Termination"@en ;
 	rdfs:label "Termination"@en ;
 	dc:description "Resource dissolution, dismantling"@en ;
+	skos:definition "Resource dissolution, dismantling"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
