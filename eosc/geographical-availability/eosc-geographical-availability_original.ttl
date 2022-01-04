@@ -3,1801 +3,1555 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix : <https://vocabs.dariah.eu/eosc-geographical-availability/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/eosc-geographical-availability/> .
 
-:Schema a skos:ConceptScheme;
-	rdfs:label "EOSC Geographical Availability List"@en;
-	dct:title "EOSC Geographical Availability List"@en;
-	dc:title "EOSC Geographical Availability List"@en;
-	skos:hasTopConcept :ad;
-	skos:hasTopConcept :ae;
-	skos:hasTopConcept :af;
-	skos:hasTopConcept :ag;
-	skos:hasTopConcept :ah;
-	skos:hasTopConcept :ai;
-	skos:hasTopConcept :al;
-	skos:hasTopConcept :am;
-	skos:hasTopConcept :ao;
-	skos:hasTopConcept :aq;
-	skos:hasTopConcept :ar;
-	skos:hasTopConcept :as;
-	skos:hasTopConcept :at;
-	skos:hasTopConcept :au;
-	skos:hasTopConcept :aw;
-	skos:hasTopConcept :ax;
-	skos:hasTopConcept :az;
-	skos:hasTopConcept :ba;
-	skos:hasTopConcept :bb;
-	skos:hasTopConcept :bd;
-	skos:hasTopConcept :be;
-	skos:hasTopConcept :bf;
-	skos:hasTopConcept :bg;
-	skos:hasTopConcept :bh;
-	skos:hasTopConcept :bi;
-	skos:hasTopConcept :bj;
-	skos:hasTopConcept :bl;
-	skos:hasTopConcept :bm;
-	skos:hasTopConcept :bn;
-	skos:hasTopConcept :bo;
-	skos:hasTopConcept :bq;
-	skos:hasTopConcept :br;
-	skos:hasTopConcept :bs;
-	skos:hasTopConcept :bt;
-	skos:hasTopConcept :bv;
-	skos:hasTopConcept :bw;
-	skos:hasTopConcept :by;
-	skos:hasTopConcept :bz;
-	skos:hasTopConcept :ca;
-	skos:hasTopConcept :cc;
-	skos:hasTopConcept :cd;
-	skos:hasTopConcept :cf;
-	skos:hasTopConcept :cg;
-	skos:hasTopConcept :ch;
-	skos:hasTopConcept :ci;
-	skos:hasTopConcept :ck;
-	skos:hasTopConcept :cl;
-	skos:hasTopConcept :cm;
-	skos:hasTopConcept :cn;
-	skos:hasTopConcept :co;
-	skos:hasTopConcept :cr;
-	skos:hasTopConcept :cu;
-	skos:hasTopConcept :cv;
-	skos:hasTopConcept :cw;
-	skos:hasTopConcept :cx;
-	skos:hasTopConcept :cy;
-	skos:hasTopConcept :cz;
-	skos:hasTopConcept :de;
-	skos:hasTopConcept :dj;
-	skos:hasTopConcept :dk;
-	skos:hasTopConcept :dm;
-	skos:hasTopConcept :do;
-	skos:hasTopConcept :dz;
-	skos:hasTopConcept :ec;
-	skos:hasTopConcept :ee;
-	skos:hasTopConcept :eg;
-	skos:hasTopConcept :eh;
-	skos:hasTopConcept :el;
-	skos:hasTopConcept :eo;
-	skos:hasTopConcept :er;
-	skos:hasTopConcept :es;
-	skos:hasTopConcept :et;
-	skos:hasTopConcept :eu;
-	skos:hasTopConcept :ez;
-	skos:hasTopConcept :fi;
-	skos:hasTopConcept :fj;
-	skos:hasTopConcept :fk;
-	skos:hasTopConcept :fm;
-	skos:hasTopConcept :fo;
-	skos:hasTopConcept :fr;
-	skos:hasTopConcept :ga;
-	skos:hasTopConcept :gd;
-	skos:hasTopConcept :ge;
-	skos:hasTopConcept :gf;
-	skos:hasTopConcept :gg;
-	skos:hasTopConcept :gh;
-	skos:hasTopConcept :gi;
-	skos:hasTopConcept :gl;
-	skos:hasTopConcept :gm;
-	skos:hasTopConcept :gn;
-	skos:hasTopConcept :gp;
-	skos:hasTopConcept :gq;
-	skos:hasTopConcept :gs;
-	skos:hasTopConcept :gt;
-	skos:hasTopConcept :gu;
-	skos:hasTopConcept :gw;
-	skos:hasTopConcept :gy;
-	skos:hasTopConcept :hk;
-	skos:hasTopConcept :hm;
-	skos:hasTopConcept :hn;
-	skos:hasTopConcept :hr;
-	skos:hasTopConcept :ht;
-	skos:hasTopConcept :hu;
-	skos:hasTopConcept :id;
-	skos:hasTopConcept :ie;
-	skos:hasTopConcept :il;
-	skos:hasTopConcept :im;
-	skos:hasTopConcept :in;
-	skos:hasTopConcept :io;
-	skos:hasTopConcept :iq;
-	skos:hasTopConcept :ir;
-	skos:hasTopConcept :is;
-	skos:hasTopConcept :it;
-	skos:hasTopConcept :je;
-	skos:hasTopConcept :jm;
-	skos:hasTopConcept :jo;
-	skos:hasTopConcept :jp;
-	skos:hasTopConcept :ke;
-	skos:hasTopConcept :kg;
-	skos:hasTopConcept :kh;
-	skos:hasTopConcept :ki;
-	skos:hasTopConcept :km;
-	skos:hasTopConcept :kn;
-	skos:hasTopConcept :kp;
-	skos:hasTopConcept :kr;
-	skos:hasTopConcept :kw;
-	skos:hasTopConcept :ky;
-	skos:hasTopConcept :kz;
-	skos:hasTopConcept :la;
-	skos:hasTopConcept :lb;
-	skos:hasTopConcept :lc;
-	skos:hasTopConcept :li;
-	skos:hasTopConcept :lk;
-	skos:hasTopConcept :lr;
-	skos:hasTopConcept :ls;
-	skos:hasTopConcept :lt;
-	skos:hasTopConcept :lu;
-	skos:hasTopConcept :lv;
-	skos:hasTopConcept :ly;
-	skos:hasTopConcept :ma;
-	skos:hasTopConcept :mc;
-	skos:hasTopConcept :md;
-	skos:hasTopConcept :me;
-	skos:hasTopConcept :mf;
-	skos:hasTopConcept :mg;
-	skos:hasTopConcept :mh;
-	skos:hasTopConcept :mk;
-	skos:hasTopConcept :ml;
-	skos:hasTopConcept :mm;
-	skos:hasTopConcept :mn;
-	skos:hasTopConcept :mo;
-	skos:hasTopConcept :mp;
-	skos:hasTopConcept :mq;
-	skos:hasTopConcept :mr;
-	skos:hasTopConcept :ms;
-	skos:hasTopConcept :mt;
-	skos:hasTopConcept :mu;
-	skos:hasTopConcept :mv;
-	skos:hasTopConcept :mw;
-	skos:hasTopConcept :mx;
-	skos:hasTopConcept :my;
-	skos:hasTopConcept :mz;
-	skos:hasTopConcept :na;
-	skos:hasTopConcept :nc;
-	skos:hasTopConcept :ne;
-	skos:hasTopConcept :nf;
-	skos:hasTopConcept :ng;
-	skos:hasTopConcept :ni;
-	skos:hasTopConcept :nl;
-	skos:hasTopConcept :no;
-	skos:hasTopConcept :np;
-	skos:hasTopConcept :nr;
-	skos:hasTopConcept :nu;
-	skos:hasTopConcept :nz;
-	skos:hasTopConcept :om;
-	skos:hasTopConcept :ot;
-	skos:hasTopConcept :pa;
-	skos:hasTopConcept :pe;
-	skos:hasTopConcept :pf;
-	skos:hasTopConcept :pg;
-	skos:hasTopConcept :ph;
-	skos:hasTopConcept :pk;
-	skos:hasTopConcept :pl;
-	skos:hasTopConcept :pm;
-	skos:hasTopConcept :pn;
-	skos:hasTopConcept :pr;
-	skos:hasTopConcept :ps;
-	skos:hasTopConcept :pt;
-	skos:hasTopConcept :pw;
-	skos:hasTopConcept :py;
-	skos:hasTopConcept :qa;
-	skos:hasTopConcept :re;
-	skos:hasTopConcept :ro;
-	skos:hasTopConcept :rs;
-	skos:hasTopConcept :ru;
-	skos:hasTopConcept :rw;
-	skos:hasTopConcept :sa;
-	skos:hasTopConcept :sb;
-	skos:hasTopConcept :sc;
-	skos:hasTopConcept :sd;
-	skos:hasTopConcept :se;
-	skos:hasTopConcept :sg;
-	skos:hasTopConcept :sh;
-	skos:hasTopConcept :si;
-	skos:hasTopConcept :sj;
-	skos:hasTopConcept :sk;
-	skos:hasTopConcept :sl;
-	skos:hasTopConcept :sm;
-	skos:hasTopConcept :sn;
-	skos:hasTopConcept :so;
-	skos:hasTopConcept :sr;
-	skos:hasTopConcept :ss;
-	skos:hasTopConcept :st;
-	skos:hasTopConcept :sv;
-	skos:hasTopConcept :sx;
-	skos:hasTopConcept :sy;
-	skos:hasTopConcept :sz;
-	skos:hasTopConcept :tc;
-	skos:hasTopConcept :td;
-	skos:hasTopConcept :tf;
-	skos:hasTopConcept :tg;
-	skos:hasTopConcept :th;
-	skos:hasTopConcept :tj;
-	skos:hasTopConcept :tk;
-	skos:hasTopConcept :tl;
-	skos:hasTopConcept :tm;
-	skos:hasTopConcept :tn;
-	skos:hasTopConcept :to;
-	skos:hasTopConcept :tr;
-	skos:hasTopConcept :tt;
-	skos:hasTopConcept :tv;
-	skos:hasTopConcept :tw;
-	skos:hasTopConcept :tz;
-	skos:hasTopConcept :ua;
-	skos:hasTopConcept :ug;
-	skos:hasTopConcept :uk;
-	skos:hasTopConcept :um;
-	skos:hasTopConcept :us;
-	skos:hasTopConcept :uy;
-	skos:hasTopConcept :uz;
-	skos:hasTopConcept :va;
-	skos:hasTopConcept :vc;
-	skos:hasTopConcept :ve;
-	skos:hasTopConcept :vg;
-	skos:hasTopConcept :vi;
-	skos:hasTopConcept :vn;
-	skos:hasTopConcept :vu;
-	skos:hasTopConcept :wf;
-	skos:hasTopConcept :ws;
-	skos:hasTopConcept :ww;
-	skos:hasTopConcept :ye;
-	skos:hasTopConcept :yt;
-	skos:hasTopConcept :za;
-	skos:hasTopConcept :zm;
-	skos:hasTopConcept :zw;
+:Schema a skos:ConceptScheme ;
+	rdfs:label "EOSC Geographical Availability List"@en ;
+	dct:title "EOSC Geographical Availability List"@en ;
+	dc:title "EOSC Geographical Availability List"@en ;
+	skos:hasTopConcept :ad, :ae, :af, :ag, :ah, :ai, :al, :am, :ao, :aq, :ar, :as, :at, :au, :aw, :ax, :az, :ba, :bb, :bd, :be, :bf, :bg, :bh, :bi, :bj, :bl, :bm, :bn, :bo, :bq, :br, :bs, :bt, :bv, :bw, :by, :bz, :ca, :cc, :cd, :cf, :cg, :ch, :ci, :ck, :cl, :cm, :cn, :co, :cr, :cu, :cv, :cw, :cx, :cy, :cz, :de, :dj, :dk, :dm, :do, :dz, :ec, :ee, :eg, :eh, :el, :eo, :er, :es, :et, :eu, :ez, :fi, :fj, :fk, :fm, :fo, :fr, :ga, :gd, :ge, :gf, :gg, :gh, :gi, :gl, :gm, :gn, :gp, :gq, :gs, :gt, :gu, :gw, :gy, :hk, :hm, :hn, :hr, :ht, :hu, :id, :ie, :il, :im, :in, :io, :iq, :ir, :is, :it, :je, :jm, :jo, :jp, :ke, :kg, :kh, :ki, :km, :kn, :kp, :kr, :kw, :ky, :kz, :la, :lb, :lc, :li, :lk, :lr, :ls, :lt, :lu, :lv, :ly, :ma, :mc, :md, :me, :mf, :mg, :mh, :mk, :ml, :mm, :mn, :mo, :mp, :mq, :mr, :ms, :mt, :mu, :mv, :mw, :mx, :my, :mz, :na, :nc, :ne, :nf, :ng, :ni, :nl, :no, :np, :nr, :nu, :nz, :om, :ot, :pa, :pe, :pf, :pg, :ph, :pk, :pl, :pm, :pn, :pr, :ps, :pt, :pw, :py, :qa, :re, :ro, :rs, :ru, :rw, :sa, :sb, :sc, :sd, :se, :sg, :sh, :si, :sj, :sk, :sl, :sm, :sn, :so, :sr, :ss, :st, :sv, :sx, :sy, :sz, :tc, :td, :tf, :tg, :th, :tj, :tk, :tl, :tm, :tn, :to, :tr, :tt, :tv, :tw, :tz, :ua, :ug, :uk, :um, :us, :uy, :uz, :va, :vc, :ve, :vg, :vi, :vn, :vu, :wf, :ws, :ww, :ye, :yt, :za, :zm, :zw, :country-middle_earth ;
 	dc:description "EOSC Geographical Availability List from https://api.eosc-portal.eu/vocabulary/byType/COUNTRY"@en ;
 	rdfs:comment "EOSC Geographical Availability List from https://api.eosc-portal.eu/vocabulary/byType/COUNTRY"@en .
 
-:ad a skos:Concept;
-	skos:prefLabel "Andorra"@en;
-	rdfs:label "Andorra"@en;
+:ad a skos:Concept ;
+	skos:prefLabel "Andorra"@en ;
+	rdfs:label "Andorra"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ae a skos:Concept;
-	skos:prefLabel "United Arab Emirates (the)"@en;
-	rdfs:label "United Arab Emirates (the)"@en;
+:ae a skos:Concept ;
+	skos:prefLabel "United Arab Emirates (the)"@en ;
+	rdfs:label "United Arab Emirates (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:af a skos:Concept;
-	skos:prefLabel "Afghanistan"@en;
-	rdfs:label "Afghanistan"@en;
+:af a skos:Concept ;
+	skos:prefLabel "Afghanistan"@en ;
+	rdfs:label "Afghanistan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ag a skos:Concept;
-	skos:prefLabel "Antigua and Barbuda"@en;
-	rdfs:label "Antigua and Barbuda"@en;
+:ag a skos:Concept ;
+	skos:prefLabel "Antigua and Barbuda"@en ;
+	rdfs:label "Antigua and Barbuda"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ah a skos:Concept;
-	skos:prefLabel "Schengen Area"@en;
-	rdfs:label "Schengen Area"@en;
-	dc:description "All Schengen Area countries."@en;
+:ah a skos:Concept ;
+	skos:prefLabel "Schengen Area"@en ;
+	rdfs:label "Schengen Area"@en ;
+	dc:description "All Schengen Area countries."@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ai a skos:Concept;
-	skos:prefLabel "Anguilla"@en;
-	rdfs:label "Anguilla"@en;
+:ai a skos:Concept ;
+	skos:prefLabel "Anguilla"@en ;
+	rdfs:label "Anguilla"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:al a skos:Concept;
-	skos:prefLabel "Albania"@en;
-	rdfs:label "Albania"@en;
+:al a skos:Concept ;
+	skos:prefLabel "Albania"@en ;
+	rdfs:label "Albania"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:am a skos:Concept;
-	skos:prefLabel "Armenia"@en;
-	rdfs:label "Armenia"@en;
+:am a skos:Concept ;
+	skos:prefLabel "Armenia"@en ;
+	rdfs:label "Armenia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ao a skos:Concept;
-	skos:prefLabel "Angola"@en;
-	rdfs:label "Angola"@en;
+:ao a skos:Concept ;
+	skos:prefLabel "Angola"@en ;
+	rdfs:label "Angola"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:aq a skos:Concept;
-	skos:prefLabel "Antarctica"@en;
-	rdfs:label "Antarctica"@en;
+:aq a skos:Concept ;
+	skos:prefLabel "Antarctica"@en ;
+	rdfs:label "Antarctica"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ar a skos:Concept;
-	skos:prefLabel "Argentina"@en;
-	rdfs:label "Argentina"@en;
+:ar a skos:Concept ;
+	skos:prefLabel "Argentina"@en ;
+	rdfs:label "Argentina"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:as a skos:Concept;
-	skos:prefLabel "American Samoa"@en;
-	rdfs:label "American Samoa"@en;
+:as a skos:Concept ;
+	skos:prefLabel "American Samoa"@en ;
+	rdfs:label "American Samoa"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:at a skos:Concept;
-	skos:prefLabel "Austria"@en;
-	rdfs:label "Austria"@en;
+:at a skos:Concept ;
+	skos:prefLabel "Austria"@en ;
+	rdfs:label "Austria"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:au a skos:Concept;
-	skos:prefLabel "Australia"@en;
-	rdfs:label "Australia"@en;
+:au a skos:Concept ;
+	skos:prefLabel "Australia"@en ;
+	rdfs:label "Australia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:aw a skos:Concept;
-	skos:prefLabel "Aruba"@en;
-	rdfs:label "Aruba"@en;
+:aw a skos:Concept ;
+	skos:prefLabel "Aruba"@en ;
+	rdfs:label "Aruba"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ax a skos:Concept;
-	skos:prefLabel "Åland Islands"@en;
-	rdfs:label "Åland Islands"@en;
+:ax a skos:Concept ;
+	skos:prefLabel "Åland Islands"@en ;
+	rdfs:label "Åland Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:az a skos:Concept;
-	skos:prefLabel "Azerbaijan"@en;
-	rdfs:label "Azerbaijan"@en;
+:az a skos:Concept ;
+	skos:prefLabel "Azerbaijan"@en ;
+	rdfs:label "Azerbaijan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ba a skos:Concept;
-	skos:prefLabel "Bosnia and Herzegovina"@en;
-	rdfs:label "Bosnia and Herzegovina"@en;
+:ba a skos:Concept ;
+	skos:prefLabel "Bosnia and Herzegovina"@en ;
+	rdfs:label "Bosnia and Herzegovina"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bb a skos:Concept;
-	skos:prefLabel "Barbados"@en;
-	rdfs:label "Barbados"@en;
+:bb a skos:Concept ;
+	skos:prefLabel "Barbados"@en ;
+	rdfs:label "Barbados"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bd a skos:Concept;
-	skos:prefLabel "Bangladesh"@en;
-	rdfs:label "Bangladesh"@en;
+:bd a skos:Concept ;
+	skos:prefLabel "Bangladesh"@en ;
+	rdfs:label "Bangladesh"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:be a skos:Concept;
-	skos:prefLabel "Belgium"@en;
-	rdfs:label "Belgium"@en;
+:be a skos:Concept ;
+	skos:prefLabel "Belgium"@en ;
+	rdfs:label "Belgium"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bf a skos:Concept;
-	skos:prefLabel "Burkina Faso"@en;
-	rdfs:label "Burkina Faso"@en;
+:bf a skos:Concept ;
+	skos:prefLabel "Burkina Faso"@en ;
+	rdfs:label "Burkina Faso"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bg a skos:Concept;
-	skos:prefLabel "Bulgaria"@en;
-	rdfs:label "Bulgaria"@en;
+:bg a skos:Concept ;
+	skos:prefLabel "Bulgaria"@en ;
+	rdfs:label "Bulgaria"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bh a skos:Concept;
-	skos:prefLabel "Bahrain"@en;
-	rdfs:label "Bahrain"@en;
+:bh a skos:Concept ;
+	skos:prefLabel "Bahrain"@en ;
+	rdfs:label "Bahrain"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bi a skos:Concept;
-	skos:prefLabel "Burundi"@en;
-	rdfs:label "Burundi"@en;
+:bi a skos:Concept ;
+	skos:prefLabel "Burundi"@en ;
+	rdfs:label "Burundi"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bj a skos:Concept;
-	skos:prefLabel "Benin"@en;
-	rdfs:label "Benin"@en;
+:bj a skos:Concept ;
+	skos:prefLabel "Benin"@en ;
+	rdfs:label "Benin"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bl a skos:Concept;
-	skos:prefLabel "Saint Barthélemy"@en;
-	rdfs:label "Saint Barthélemy"@en;
+:bl a skos:Concept ;
+	skos:prefLabel "Saint Barthélemy"@en ;
+	rdfs:label "Saint Barthélemy"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bm a skos:Concept;
-	skos:prefLabel "Bermuda"@en;
-	rdfs:label "Bermuda"@en;
+:bm a skos:Concept ;
+	skos:prefLabel "Bermuda"@en ;
+	rdfs:label "Bermuda"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bn a skos:Concept;
-	skos:prefLabel "Brunei Darussalam"@en;
-	rdfs:label "Brunei Darussalam"@en;
+:bn a skos:Concept ;
+	skos:prefLabel "Brunei Darussalam"@en ;
+	rdfs:label "Brunei Darussalam"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bo a skos:Concept;
-	skos:prefLabel "Bolivia, Plurinational State of"@en;
-	rdfs:label "Bolivia, Plurinational State of"@en;
+:bo a skos:Concept ;
+	skos:prefLabel "Bolivia, Plurinational State of"@en ;
+	rdfs:label "Bolivia, Plurinational State of"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bq a skos:Concept;
-	skos:prefLabel "Bonaire, Sint Eustatius and Saba"@en;
-	rdfs:label "Bonaire, Sint Eustatius and Saba"@en;
+:bq a skos:Concept ;
+	skos:prefLabel "Bonaire, Sint Eustatius and Saba"@en ;
+	rdfs:label "Bonaire, Sint Eustatius and Saba"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:br a skos:Concept;
-	skos:prefLabel "Brazil"@en;
-	rdfs:label "Brazil"@en;
+:br a skos:Concept ;
+	skos:prefLabel "Brazil"@en ;
+	rdfs:label "Brazil"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bs a skos:Concept;
-	skos:prefLabel "Bahamas (the)"@en;
-	rdfs:label "Bahamas (the)"@en;
+:bs a skos:Concept ;
+	skos:prefLabel "Bahamas (the)"@en ;
+	rdfs:label "Bahamas (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bt a skos:Concept;
-	skos:prefLabel "Bhutan"@en;
-	rdfs:label "Bhutan"@en;
+:bt a skos:Concept ;
+	skos:prefLabel "Bhutan"@en ;
+	rdfs:label "Bhutan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bv a skos:Concept;
-	skos:prefLabel "Bouvet Island"@en;
-	rdfs:label "Bouvet Island"@en;
+:bv a skos:Concept ;
+	skos:prefLabel "Bouvet Island"@en ;
+	rdfs:label "Bouvet Island"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bw a skos:Concept;
-	skos:prefLabel "Botswana"@en;
-	rdfs:label "Botswana"@en;
+:bw a skos:Concept ;
+	skos:prefLabel "Botswana"@en ;
+	rdfs:label "Botswana"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:by a skos:Concept;
-	skos:prefLabel "Belarus"@en;
-	rdfs:label "Belarus"@en;
+:by a skos:Concept ;
+	skos:prefLabel "Belarus"@en ;
+	rdfs:label "Belarus"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:bz a skos:Concept;
-	skos:prefLabel "Belize"@en;
-	rdfs:label "Belize"@en;
+:bz a skos:Concept ;
+	skos:prefLabel "Belize"@en ;
+	rdfs:label "Belize"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ca a skos:Concept;
-	skos:prefLabel "Canada"@en;
-	rdfs:label "Canada"@en;
+:ca a skos:Concept ;
+	skos:prefLabel "Canada"@en ;
+	rdfs:label "Canada"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cc a skos:Concept;
-	skos:prefLabel "Cocos (Keeling) Islands (the)"@en;
-	rdfs:label "Cocos (Keeling) Islands (the)"@en;
+:cc a skos:Concept ;
+	skos:prefLabel "Cocos (Keeling) Islands (the)"@en ;
+	rdfs:label "Cocos (Keeling) Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cd a skos:Concept;
-	skos:prefLabel "Congo (the Democratic Republic of the)"@en;
-	rdfs:label "Congo (the Democratic Republic of the)"@en;
+:cd a skos:Concept ;
+	skos:prefLabel "Congo (the Democratic Republic of the)"@en ;
+	rdfs:label "Congo (the Democratic Republic of the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cf a skos:Concept;
-	skos:prefLabel "Central African Republic (the)"@en;
-	rdfs:label "Central African Republic (the)"@en;
+:cf a skos:Concept ;
+	skos:prefLabel "Central African Republic (the)"@en ;
+	rdfs:label "Central African Republic (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cg a skos:Concept;
-	skos:prefLabel "Congo (the)"@en;
-	rdfs:label "Congo (the)"@en;
+:cg a skos:Concept ;
+	skos:prefLabel "Congo (the)"@en ;
+	rdfs:label "Congo (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ch a skos:Concept;
-	skos:prefLabel "Switzerland"@en;
-	rdfs:label "Switzerland"@en;
+:ch a skos:Concept ;
+	skos:prefLabel "Switzerland"@en ;
+	rdfs:label "Switzerland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ci a skos:Concept;
-	skos:prefLabel "Côte d'Ivoire"@en;
-	rdfs:label "Côte d'Ivoire"@en;
+:ci a skos:Concept ;
+	skos:prefLabel "Côte d'Ivoire"@en ;
+	rdfs:label "Côte d'Ivoire"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ck a skos:Concept;
-	skos:prefLabel "Cook Islands (the)"@en;
-	rdfs:label "Cook Islands (the)"@en;
+:ck a skos:Concept ;
+	skos:prefLabel "Cook Islands (the)"@en ;
+	rdfs:label "Cook Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cl a skos:Concept;
-	skos:prefLabel "Chile"@en;
-	rdfs:label "Chile"@en;
+:cl a skos:Concept ;
+	skos:prefLabel "Chile"@en ;
+	rdfs:label "Chile"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cm a skos:Concept;
-	skos:prefLabel "Cameroon"@en;
-	rdfs:label "Cameroon"@en;
+:cm a skos:Concept ;
+	skos:prefLabel "Cameroon"@en ;
+	rdfs:label "Cameroon"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cn a skos:Concept;
-	skos:prefLabel "China"@en;
-	rdfs:label "China"@en;
+:cn a skos:Concept ;
+	skos:prefLabel "China"@en ;
+	rdfs:label "China"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:co a skos:Concept;
-	skos:prefLabel "Colombia"@en;
-	rdfs:label "Colombia"@en;
+:co a skos:Concept ;
+	skos:prefLabel "Colombia"@en ;
+	rdfs:label "Colombia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cr a skos:Concept;
-	skos:prefLabel "Costa Rica"@en;
-	rdfs:label "Costa Rica"@en;
+:cr a skos:Concept ;
+	skos:prefLabel "Costa Rica"@en ;
+	rdfs:label "Costa Rica"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cu a skos:Concept;
-	skos:prefLabel "Cuba"@en;
-	rdfs:label "Cuba"@en;
+:cu a skos:Concept ;
+	skos:prefLabel "Cuba"@en ;
+	rdfs:label "Cuba"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cv a skos:Concept;
-	skos:prefLabel "Cabo Verde"@en;
-	rdfs:label "Cabo Verde"@en;
+:cv a skos:Concept ;
+	skos:prefLabel "Cabo Verde"@en ;
+	rdfs:label "Cabo Verde"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cw a skos:Concept;
-	skos:prefLabel "Curaçao"@en;
-	rdfs:label "Curaçao"@en;
+:cw a skos:Concept ;
+	skos:prefLabel "Curaçao"@en ;
+	rdfs:label "Curaçao"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cx a skos:Concept;
-	skos:prefLabel "Christmas Island"@en;
-	rdfs:label "Christmas Island"@en;
+:cx a skos:Concept ;
+	skos:prefLabel "Christmas Island"@en ;
+	rdfs:label "Christmas Island"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cy a skos:Concept;
-	skos:prefLabel "Cyprus"@en;
-	rdfs:label "Cyprus"@en;
+:cy a skos:Concept ;
+	skos:prefLabel "Cyprus"@en ;
+	rdfs:label "Cyprus"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:cz a skos:Concept;
-	skos:prefLabel "Czechia"@en;
-	rdfs:label "Czechia"@en;
+:cz a skos:Concept ;
+	skos:prefLabel "Czechia"@en ;
+	rdfs:label "Czechia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:de a skos:Concept;
-	skos:prefLabel "Germany"@en;
-	rdfs:label "Germany"@en;
+:de a skos:Concept ;
+	skos:prefLabel "Germany"@en ;
+	rdfs:label "Germany"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:dj a skos:Concept;
-	skos:prefLabel "Djibouti"@en;
-	rdfs:label "Djibouti"@en;
+:dj a skos:Concept ;
+	skos:prefLabel "Djibouti"@en ;
+	rdfs:label "Djibouti"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:dk a skos:Concept;
-	skos:prefLabel "Denmark"@en;
-	rdfs:label "Denmark"@en;
+:dk a skos:Concept ;
+	skos:prefLabel "Denmark"@en ;
+	rdfs:label "Denmark"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:dm a skos:Concept;
-	skos:prefLabel "Dominica"@en;
-	rdfs:label "Dominica"@en;
+:dm a skos:Concept ;
+	skos:prefLabel "Dominica"@en ;
+	rdfs:label "Dominica"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:do a skos:Concept;
-	skos:prefLabel "Dominican Republic (the)"@en;
-	rdfs:label "Dominican Republic (the)"@en;
+:do a skos:Concept ;
+	skos:prefLabel "Dominican Republic (the)"@en ;
+	rdfs:label "Dominican Republic (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:dz a skos:Concept;
-	skos:prefLabel "Algeria"@en;
-	rdfs:label "Algeria"@en;
+:dz a skos:Concept ;
+	skos:prefLabel "Algeria"@en ;
+	rdfs:label "Algeria"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ec a skos:Concept;
-	skos:prefLabel "Ecuador"@en;
-	rdfs:label "Ecuador"@en;
+:ec a skos:Concept ;
+	skos:prefLabel "Ecuador"@en ;
+	rdfs:label "Ecuador"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ee a skos:Concept;
-	skos:prefLabel "Estonia"@en;
-	rdfs:label "Estonia"@en;
+:ee a skos:Concept ;
+	skos:prefLabel "Estonia"@en ;
+	rdfs:label "Estonia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:eg a skos:Concept;
-	skos:prefLabel "Egypt"@en;
-	rdfs:label "Egypt"@en;
+:eg a skos:Concept ;
+	skos:prefLabel "Egypt"@en ;
+	rdfs:label "Egypt"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:eh a skos:Concept;
-	skos:prefLabel "Western Sahara"@en;
-	rdfs:label "Western Sahara"@en;
+:eh a skos:Concept ;
+	skos:prefLabel "Western Sahara"@en ;
+	rdfs:label "Western Sahara"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:el a skos:Concept;
-	skos:prefLabel "Greece"@en;
-	rdfs:label "Greece"@en;
+:el a skos:Concept ;
+	skos:prefLabel "Greece"@en ;
+	rdfs:label "Greece"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:eo a skos:Concept;
-	skos:prefLabel "Europe"@en;
-	rdfs:label "Europe"@en;
-	dc:description "All European Countries."@en;
+:eo a skos:Concept ;
+	skos:prefLabel "Europe"@en ;
+	rdfs:label "Europe"@en ;
+	dc:description "All European Countries."@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:er a skos:Concept;
-	skos:prefLabel "Eritrea"@en;
-	rdfs:label "Eritrea"@en;
+:er a skos:Concept ;
+	skos:prefLabel "Eritrea"@en ;
+	rdfs:label "Eritrea"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:es a skos:Concept;
-	skos:prefLabel "Spain"@en;
-	rdfs:label "Spain"@en;
+:es a skos:Concept ;
+	skos:prefLabel "Spain"@en ;
+	rdfs:label "Spain"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:et a skos:Concept;
-	skos:prefLabel "Ethiopia"@en;
-	rdfs:label "Ethiopia"@en;
+:et a skos:Concept ;
+	skos:prefLabel "Ethiopia"@en ;
+	rdfs:label "Ethiopia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:eu a skos:Concept;
-	skos:prefLabel "European Union"@en;
-	rdfs:label "European Union"@en;
-	dc:description "All Countries of the European Union."@en;
+:eu a skos:Concept ;
+	skos:prefLabel "European Union"@en ;
+	rdfs:label "European Union"@en ;
+	dc:description "All Countries of the European Union."@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ez a skos:Concept;
-	skos:prefLabel "Euro Zone"@en;
-	rdfs:label "Euro Zone"@en;
-	dc:description "All Countries of the Eurozone."@en;
+:ez a skos:Concept ;
+	skos:prefLabel "Euro Zone"@en ;
+	rdfs:label "Euro Zone"@en ;
+	dc:description "All Countries of the Eurozone."@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fi a skos:Concept;
-	skos:prefLabel "Finland"@en;
-	rdfs:label "Finland"@en;
+:fi a skos:Concept ;
+	skos:prefLabel "Finland"@en ;
+	rdfs:label "Finland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fj a skos:Concept;
-	skos:prefLabel "Fiji"@en;
-	rdfs:label "Fiji"@en;
+:fj a skos:Concept ;
+	skos:prefLabel "Fiji"@en ;
+	rdfs:label "Fiji"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fk a skos:Concept;
-	skos:prefLabel "Falkland Islands (the) [Malvinas]"@en;
-	rdfs:label "Falkland Islands (the) [Malvinas]"@en;
+:fk a skos:Concept ;
+	skos:prefLabel "Falkland Islands (the) [Malvinas]"@en ;
+	rdfs:label "Falkland Islands (the) [Malvinas]"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fm a skos:Concept;
-	skos:prefLabel "Micronesia (Federated States of)"@en;
-	rdfs:label "Micronesia (Federated States of)"@en;
+:fm a skos:Concept ;
+	skos:prefLabel "Micronesia (Federated States of)"@en ;
+	rdfs:label "Micronesia (Federated States of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fo a skos:Concept;
-	skos:prefLabel "Faroe Islands"@en;
-	rdfs:label "Faroe Islands"@en;
+:fo a skos:Concept ;
+	skos:prefLabel "Faroe Islands"@en ;
+	rdfs:label "Faroe Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:fr a skos:Concept;
-	skos:prefLabel "France"@en;
-	rdfs:label "France"@en;
+:fr a skos:Concept ;
+	skos:prefLabel "France"@en ;
+	rdfs:label "France"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ga a skos:Concept;
-	skos:prefLabel "Gabon"@en;
-	rdfs:label "Gabon"@en;
+:ga a skos:Concept ;
+	skos:prefLabel "Gabon"@en ;
+	rdfs:label "Gabon"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gd a skos:Concept;
-	skos:prefLabel "Grenada"@en;
-	rdfs:label "Grenada"@en;
+:gd a skos:Concept ;
+	skos:prefLabel "Grenada"@en ;
+	rdfs:label "Grenada"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ge a skos:Concept;
-	skos:prefLabel "Georgia"@en;
-	rdfs:label "Georgia"@en;
+:ge a skos:Concept ;
+	skos:prefLabel "Georgia"@en ;
+	rdfs:label "Georgia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gf a skos:Concept;
-	skos:prefLabel "French Guiana"@en;
-	rdfs:label "French Guiana"@en;
+:gf a skos:Concept ;
+	skos:prefLabel "French Guiana"@en ;
+	rdfs:label "French Guiana"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gg a skos:Concept;
-	skos:prefLabel "Guernsey"@en;
-	rdfs:label "Guernsey"@en;
+:gg a skos:Concept ;
+	skos:prefLabel "Guernsey"@en ;
+	rdfs:label "Guernsey"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gh a skos:Concept;
-	skos:prefLabel "Ghana"@en;
-	rdfs:label "Ghana"@en;
+:gh a skos:Concept ;
+	skos:prefLabel "Ghana"@en ;
+	rdfs:label "Ghana"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gi a skos:Concept;
-	skos:prefLabel "Gibraltar"@en;
-	rdfs:label "Gibraltar"@en;
+:gi a skos:Concept ;
+	skos:prefLabel "Gibraltar"@en ;
+	rdfs:label "Gibraltar"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gl a skos:Concept;
-	skos:prefLabel "Greenland"@en;
-	rdfs:label "Greenland"@en;
+:gl a skos:Concept ;
+	skos:prefLabel "Greenland"@en ;
+	rdfs:label "Greenland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gm a skos:Concept;
-	skos:prefLabel "Gambia (the)"@en;
-	rdfs:label "Gambia (the)"@en;
+:gm a skos:Concept ;
+	skos:prefLabel "Gambia (the)"@en ;
+	rdfs:label "Gambia (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gn a skos:Concept;
-	skos:prefLabel "Guinea"@en;
-	rdfs:label "Guinea"@en;
+:gn a skos:Concept ;
+	skos:prefLabel "Guinea"@en ;
+	rdfs:label "Guinea"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gp a skos:Concept;
-	skos:prefLabel "Guadeloupe"@en;
-	rdfs:label "Guadeloupe"@en;
+:gp a skos:Concept ;
+	skos:prefLabel "Guadeloupe"@en ;
+	rdfs:label "Guadeloupe"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gq a skos:Concept;
-	skos:prefLabel "Equatorial Guinea"@en;
-	rdfs:label "Equatorial Guinea"@en;
+:gq a skos:Concept ;
+	skos:prefLabel "Equatorial Guinea"@en ;
+	rdfs:label "Equatorial Guinea"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gs a skos:Concept;
-	skos:prefLabel "South Georgia and the South Sandwich Islands"@en;
-	rdfs:label "South Georgia and the South Sandwich Islands"@en;
+:gs a skos:Concept ;
+	skos:prefLabel "South Georgia and the South Sandwich Islands"@en ;
+	rdfs:label "South Georgia and the South Sandwich Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gt a skos:Concept;
-	skos:prefLabel "Guatemala"@en;
-	rdfs:label "Guatemala"@en;
+:gt a skos:Concept ;
+	skos:prefLabel "Guatemala"@en ;
+	rdfs:label "Guatemala"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gu a skos:Concept;
-	skos:prefLabel "Guam"@en;
-	rdfs:label "Guam"@en;
+:gu a skos:Concept ;
+	skos:prefLabel "Guam"@en ;
+	rdfs:label "Guam"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gw a skos:Concept;
-	skos:prefLabel "Guinea-Bissau"@en;
-	rdfs:label "Guinea-Bissau"@en;
+:gw a skos:Concept ;
+	skos:prefLabel "Guinea-Bissau"@en ;
+	rdfs:label "Guinea-Bissau"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:gy a skos:Concept;
-	skos:prefLabel "Guyana"@en;
-	rdfs:label "Guyana"@en;
+:gy a skos:Concept ;
+	skos:prefLabel "Guyana"@en ;
+	rdfs:label "Guyana"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:hk a skos:Concept;
-	skos:prefLabel "Hong Kong"@en;
-	rdfs:label "Hong Kong"@en;
+:hk a skos:Concept ;
+	skos:prefLabel "Hong Kong"@en ;
+	rdfs:label "Hong Kong"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:hm a skos:Concept;
-	skos:prefLabel "Heard Island and McDonald Islands"@en;
-	rdfs:label "Heard Island and McDonald Islands"@en;
+:hm a skos:Concept ;
+	skos:prefLabel "Heard Island and McDonald Islands"@en ;
+	rdfs:label "Heard Island and McDonald Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:hn a skos:Concept;
-	skos:prefLabel "Honduras"@en;
-	rdfs:label "Honduras"@en;
+:hn a skos:Concept ;
+	skos:prefLabel "Honduras"@en ;
+	rdfs:label "Honduras"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:hr a skos:Concept;
-	skos:prefLabel "Croatia"@en;
-	rdfs:label "Croatia"@en;
+:hr a skos:Concept ;
+	skos:prefLabel "Croatia"@en ;
+	rdfs:label "Croatia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ht a skos:Concept;
-	skos:prefLabel "Haiti"@en;
-	rdfs:label "Haiti"@en;
+:ht a skos:Concept ;
+	skos:prefLabel "Haiti"@en ;
+	rdfs:label "Haiti"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:hu a skos:Concept;
-	skos:prefLabel "Hungary"@en;
-	rdfs:label "Hungary"@en;
+:hu a skos:Concept ;
+	skos:prefLabel "Hungary"@en ;
+	rdfs:label "Hungary"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:id a skos:Concept;
-	skos:prefLabel "Indonesia"@en;
-	rdfs:label "Indonesia"@en;
+:id a skos:Concept ;
+	skos:prefLabel "Indonesia"@en ;
+	rdfs:label "Indonesia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ie a skos:Concept;
-	skos:prefLabel "Ireland"@en;
-	rdfs:label "Ireland"@en;
+:ie a skos:Concept ;
+	skos:prefLabel "Ireland"@en ;
+	rdfs:label "Ireland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:il a skos:Concept;
-	skos:prefLabel "Israel"@en;
-	rdfs:label "Israel"@en;
+:il a skos:Concept ;
+	skos:prefLabel "Israel"@en ;
+	rdfs:label "Israel"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:im a skos:Concept;
-	skos:prefLabel "Isle of Man"@en;
-	rdfs:label "Isle of Man"@en;
+:im a skos:Concept ;
+	skos:prefLabel "Isle of Man"@en ;
+	rdfs:label "Isle of Man"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:in a skos:Concept;
-	skos:prefLabel "India"@en;
-	rdfs:label "India"@en;
+:in a skos:Concept ;
+	skos:prefLabel "India"@en ;
+	rdfs:label "India"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:io a skos:Concept;
-	skos:prefLabel "British Indian Ocean Territory (the)"@en;
-	rdfs:label "British Indian Ocean Territory (the)"@en;
+:io a skos:Concept ;
+	skos:prefLabel "British Indian Ocean Territory (the)"@en ;
+	rdfs:label "British Indian Ocean Territory (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:iq a skos:Concept;
-	skos:prefLabel "Iraq"@en;
-	rdfs:label "Iraq"@en;
+:iq a skos:Concept ;
+	skos:prefLabel "Iraq"@en ;
+	rdfs:label "Iraq"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ir a skos:Concept;
-	skos:prefLabel "Iran (Islamic Republic of)"@en;
-	rdfs:label "Iran (Islamic Republic of)"@en;
+:ir a skos:Concept ;
+	skos:prefLabel "Iran (Islamic Republic of)"@en ;
+	rdfs:label "Iran (Islamic Republic of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:is a skos:Concept;
-	skos:prefLabel "Iceland"@en;
-	rdfs:label "Iceland"@en;
+:is a skos:Concept ;
+	skos:prefLabel "Iceland"@en ;
+	rdfs:label "Iceland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:it a skos:Concept;
-	skos:prefLabel "Italy"@en;
-	rdfs:label "Italy"@en;
+:it a skos:Concept ;
+	skos:prefLabel "Italy"@en ;
+	rdfs:label "Italy"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:je a skos:Concept;
-	skos:prefLabel "Jersey"@en;
-	rdfs:label "Jersey"@en;
+:je a skos:Concept ;
+	skos:prefLabel "Jersey"@en ;
+	rdfs:label "Jersey"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:jm a skos:Concept;
-	skos:prefLabel "Jamaica"@en;
-	rdfs:label "Jamaica"@en;
+:jm a skos:Concept ;
+	skos:prefLabel "Jamaica"@en ;
+	rdfs:label "Jamaica"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:jo a skos:Concept;
-	skos:prefLabel "Jordan"@en;
-	rdfs:label "Jordan"@en;
+:jo a skos:Concept ;
+	skos:prefLabel "Jordan"@en ;
+	rdfs:label "Jordan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:jp a skos:Concept;
-	skos:prefLabel "Japan"@en;
-	rdfs:label "Japan"@en;
+:jp a skos:Concept ;
+	skos:prefLabel "Japan"@en ;
+	rdfs:label "Japan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ke a skos:Concept;
-	skos:prefLabel "Kenya"@en;
-	rdfs:label "Kenya"@en;
+:ke a skos:Concept ;
+	skos:prefLabel "Kenya"@en ;
+	rdfs:label "Kenya"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kg a skos:Concept;
-	skos:prefLabel "Kyrgyzstan"@en;
-	rdfs:label "Kyrgyzstan"@en;
+:kg a skos:Concept ;
+	skos:prefLabel "Kyrgyzstan"@en ;
+	rdfs:label "Kyrgyzstan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kh a skos:Concept;
-	skos:prefLabel "Cambodia"@en;
-	rdfs:label "Cambodia"@en;
+:kh a skos:Concept ;
+	skos:prefLabel "Cambodia"@en ;
+	rdfs:label "Cambodia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ki a skos:Concept;
-	skos:prefLabel "Kiribati"@en;
-	rdfs:label "Kiribati"@en;
+:ki a skos:Concept ;
+	skos:prefLabel "Kiribati"@en ;
+	rdfs:label "Kiribati"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:km a skos:Concept;
-	skos:prefLabel "Comoros (the)"@en;
-	rdfs:label "Comoros (the)"@en;
+:km a skos:Concept ;
+	skos:prefLabel "Comoros (the)"@en ;
+	rdfs:label "Comoros (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kn a skos:Concept;
-	skos:prefLabel "Saint Kitts and Nevis"@en;
-	rdfs:label "Saint Kitts and Nevis"@en;
+:kn a skos:Concept ;
+	skos:prefLabel "Saint Kitts and Nevis"@en ;
+	rdfs:label "Saint Kitts and Nevis"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kp a skos:Concept;
-	skos:prefLabel "Korea (the Democratic People's Republic of)"@en;
-	rdfs:label "Korea (the Democratic People's Republic of)"@en;
+:kp a skos:Concept ;
+	skos:prefLabel "Korea (the Democratic People's Republic of)"@en ;
+	rdfs:label "Korea (the Democratic People's Republic of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kr a skos:Concept;
-	skos:prefLabel "Korea (the Republic of)"@en;
-	rdfs:label "Korea (the Republic of)"@en;
+:kr a skos:Concept ;
+	skos:prefLabel "Korea (the Republic of)"@en ;
+	rdfs:label "Korea (the Republic of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kw a skos:Concept;
-	skos:prefLabel "Kuwait"@en;
-	rdfs:label "Kuwait"@en;
+:kw a skos:Concept ;
+	skos:prefLabel "Kuwait"@en ;
+	rdfs:label "Kuwait"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ky a skos:Concept;
-	skos:prefLabel "Cayman Islands (the)"@en;
-	rdfs:label "Cayman Islands (the)"@en;
+:ky a skos:Concept ;
+	skos:prefLabel "Cayman Islands (the)"@en ;
+	rdfs:label "Cayman Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:kz a skos:Concept;
-	skos:prefLabel "Kazakhstan"@en;
-	rdfs:label "Kazakhstan"@en;
+:kz a skos:Concept ;
+	skos:prefLabel "Kazakhstan"@en ;
+	rdfs:label "Kazakhstan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:la a skos:Concept;
-	skos:prefLabel "Lao People's Democratic Republic (the)"@en;
-	rdfs:label "Lao People's Democratic Republic (the)"@en;
+:la a skos:Concept ;
+	skos:prefLabel "Lao People's Democratic Republic (the)"@en ;
+	rdfs:label "Lao People's Democratic Republic (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lb a skos:Concept;
-	skos:prefLabel "Lebanon"@en;
-	rdfs:label "Lebanon"@en;
+:lb a skos:Concept ;
+	skos:prefLabel "Lebanon"@en ;
+	rdfs:label "Lebanon"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lc a skos:Concept;
-	skos:prefLabel "Saint Lucia"@en;
-	rdfs:label "Saint Lucia"@en;
+:lc a skos:Concept ;
+	skos:prefLabel "Saint Lucia"@en ;
+	rdfs:label "Saint Lucia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:li a skos:Concept;
-	skos:prefLabel "Liechtenstein"@en;
-	rdfs:label "Liechtenstein"@en;
+:li a skos:Concept ;
+	skos:prefLabel "Liechtenstein"@en ;
+	rdfs:label "Liechtenstein"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lk a skos:Concept;
-	skos:prefLabel "Sri Lanka"@en;
-	rdfs:label "Sri Lanka"@en;
+:lk a skos:Concept ;
+	skos:prefLabel "Sri Lanka"@en ;
+	rdfs:label "Sri Lanka"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lr a skos:Concept;
-	skos:prefLabel "Liberia"@en;
-	rdfs:label "Liberia"@en;
+:lr a skos:Concept ;
+	skos:prefLabel "Liberia"@en ;
+	rdfs:label "Liberia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ls a skos:Concept;
-	skos:prefLabel "Lesotho"@en;
-	rdfs:label "Lesotho"@en;
+:ls a skos:Concept ;
+	skos:prefLabel "Lesotho"@en ;
+	rdfs:label "Lesotho"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lt a skos:Concept;
-	skos:prefLabel "Lithuania"@en;
-	rdfs:label "Lithuania"@en;
+:lt a skos:Concept ;
+	skos:prefLabel "Lithuania"@en ;
+	rdfs:label "Lithuania"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lu a skos:Concept;
-	skos:prefLabel "Luxembourg"@en;
-	rdfs:label "Luxembourg"@en;
+:lu a skos:Concept ;
+	skos:prefLabel "Luxembourg"@en ;
+	rdfs:label "Luxembourg"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:lv a skos:Concept;
-	skos:prefLabel "Latvia"@en;
-	rdfs:label "Latvia"@en;
+:lv a skos:Concept ;
+	skos:prefLabel "Latvia"@en ;
+	rdfs:label "Latvia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ly a skos:Concept;
-	skos:prefLabel "Libya"@en;
-	rdfs:label "Libya"@en;
+:ly a skos:Concept ;
+	skos:prefLabel "Libya"@en ;
+	rdfs:label "Libya"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ma a skos:Concept;
-	skos:prefLabel "Morocco"@en;
-	rdfs:label "Morocco"@en;
+:ma a skos:Concept ;
+	skos:prefLabel "Morocco"@en ;
+	rdfs:label "Morocco"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mc a skos:Concept;
-	skos:prefLabel "Monaco"@en;
-	rdfs:label "Monaco"@en;
+:mc a skos:Concept ;
+	skos:prefLabel "Monaco"@en ;
+	rdfs:label "Monaco"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:md a skos:Concept;
-	skos:prefLabel "Moldova (Republic of)"@en;
-	rdfs:label "Moldova (Republic of)"@en;
+:md a skos:Concept ;
+	skos:prefLabel "Moldova (Republic of)"@en ;
+	rdfs:label "Moldova (Republic of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:me a skos:Concept;
-	skos:prefLabel "Montenegro"@en;
-	rdfs:label "Montenegro"@en;
+:me a skos:Concept ;
+	skos:prefLabel "Montenegro"@en ;
+	rdfs:label "Montenegro"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mf a skos:Concept;
-	skos:prefLabel "Saint Martin (French part)"@en;
-	rdfs:label "Saint Martin (French part)"@en;
+:mf a skos:Concept ;
+	skos:prefLabel "Saint Martin (French part)"@en ;
+	rdfs:label "Saint Martin (French part)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mg a skos:Concept;
-	skos:prefLabel "Madagascar"@en;
-	rdfs:label "Madagascar"@en;
+:mg a skos:Concept ;
+	skos:prefLabel "Madagascar"@en ;
+	rdfs:label "Madagascar"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mh a skos:Concept;
-	skos:prefLabel "Marshall Islands (the)"@en;
-	rdfs:label "Marshall Islands (the)"@en;
+:mh a skos:Concept ;
+	skos:prefLabel "Marshall Islands (the)"@en ;
+	rdfs:label "Marshall Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mk a skos:Concept;
-	skos:prefLabel "North Macedonia"@en;
-	rdfs:label "North Macedonia"@en;
+:mk a skos:Concept ;
+	skos:prefLabel "North Macedonia"@en ;
+	rdfs:label "North Macedonia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ml a skos:Concept;
-	skos:prefLabel "Mali"@en;
-	rdfs:label "Mali"@en;
+:ml a skos:Concept ;
+	skos:prefLabel "Mali"@en ;
+	rdfs:label "Mali"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mm a skos:Concept;
-	skos:prefLabel "Myanmar"@en;
-	rdfs:label "Myanmar"@en;
+:mm a skos:Concept ;
+	skos:prefLabel "Myanmar"@en ;
+	rdfs:label "Myanmar"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mn a skos:Concept;
-	skos:prefLabel "Mongolia"@en;
-	rdfs:label "Mongolia"@en;
+:mn a skos:Concept ;
+	skos:prefLabel "Mongolia"@en ;
+	rdfs:label "Mongolia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mo a skos:Concept;
-	skos:prefLabel "Macao"@en;
-	rdfs:label "Macao"@en;
+:mo a skos:Concept ;
+	skos:prefLabel "Macao"@en ;
+	rdfs:label "Macao"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mp a skos:Concept;
-	skos:prefLabel "Northern Mariana Islands (the)"@en;
-	rdfs:label "Northern Mariana Islands (the)"@en;
+:mp a skos:Concept ;
+	skos:prefLabel "Northern Mariana Islands (the)"@en ;
+	rdfs:label "Northern Mariana Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mq a skos:Concept;
-	skos:prefLabel "Martinique"@en;
-	rdfs:label "Martinique"@en;
+:mq a skos:Concept ;
+	skos:prefLabel "Martinique"@en ;
+	rdfs:label "Martinique"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mr a skos:Concept;
-	skos:prefLabel "Mauritania"@en;
-	rdfs:label "Mauritania"@en;
+:mr a skos:Concept ;
+	skos:prefLabel "Mauritania"@en ;
+	rdfs:label "Mauritania"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ms a skos:Concept;
-	skos:prefLabel "Montserrat"@en;
-	rdfs:label "Montserrat"@en;
+:ms a skos:Concept ;
+	skos:prefLabel "Montserrat"@en ;
+	rdfs:label "Montserrat"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mt a skos:Concept;
-	skos:prefLabel "Malta"@en;
-	rdfs:label "Malta"@en;
+:mt a skos:Concept ;
+	skos:prefLabel "Malta"@en ;
+	rdfs:label "Malta"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mu a skos:Concept;
-	skos:prefLabel "Mauritius"@en;
-	rdfs:label "Mauritius"@en;
+:mu a skos:Concept ;
+	skos:prefLabel "Mauritius"@en ;
+	rdfs:label "Mauritius"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mv a skos:Concept;
-	skos:prefLabel "Maldives"@en;
-	rdfs:label "Maldives"@en;
+:mv a skos:Concept ;
+	skos:prefLabel "Maldives"@en ;
+	rdfs:label "Maldives"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mw a skos:Concept;
-	skos:prefLabel "Malawi"@en;
-	rdfs:label "Malawi"@en;
+:mw a skos:Concept ;
+	skos:prefLabel "Malawi"@en ;
+	rdfs:label "Malawi"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mx a skos:Concept;
-	skos:prefLabel "Mexico"@en;
-	rdfs:label "Mexico"@en;
+:mx a skos:Concept ;
+	skos:prefLabel "Mexico"@en ;
+	rdfs:label "Mexico"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:my a skos:Concept;
-	skos:prefLabel "Malaysia"@en;
-	rdfs:label "Malaysia"@en;
+:my a skos:Concept ;
+	skos:prefLabel "Malaysia"@en ;
+	rdfs:label "Malaysia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:mz a skos:Concept;
-	skos:prefLabel "Mozambique"@en;
-	rdfs:label "Mozambique"@en;
+:mz a skos:Concept ;
+	skos:prefLabel "Mozambique"@en ;
+	rdfs:label "Mozambique"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:na a skos:Concept;
-	skos:prefLabel "Namibia"@en;
-	rdfs:label "Namibia"@en;
+:na a skos:Concept ;
+	skos:prefLabel "Namibia"@en ;
+	rdfs:label "Namibia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nc a skos:Concept;
-	skos:prefLabel "New Caledonia"@en;
-	rdfs:label "New Caledonia"@en;
+:nc a skos:Concept ;
+	skos:prefLabel "New Caledonia"@en ;
+	rdfs:label "New Caledonia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ne a skos:Concept;
-	skos:prefLabel "Niger (the)"@en;
-	rdfs:label "Niger (the)"@en;
+:ne a skos:Concept ;
+	skos:prefLabel "Niger (the)"@en ;
+	rdfs:label "Niger (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nf a skos:Concept;
-	skos:prefLabel "Norfolk Island"@en;
-	rdfs:label "Norfolk Island"@en;
+:nf a skos:Concept ;
+	skos:prefLabel "Norfolk Island"@en ;
+	rdfs:label "Norfolk Island"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ng a skos:Concept;
-	skos:prefLabel "Nigeria"@en;
-	rdfs:label "Nigeria"@en;
+:ng a skos:Concept ;
+	skos:prefLabel "Nigeria"@en ;
+	rdfs:label "Nigeria"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ni a skos:Concept;
-	skos:prefLabel "Nicaragua"@en;
-	rdfs:label "Nicaragua"@en;
+:ni a skos:Concept ;
+	skos:prefLabel "Nicaragua"@en ;
+	rdfs:label "Nicaragua"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nl a skos:Concept;
-	skos:prefLabel "Netherlands (the)"@en;
-	rdfs:label "Netherlands (the)"@en;
+:nl a skos:Concept ;
+	skos:prefLabel "Netherlands (the)"@en ;
+	rdfs:label "Netherlands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:no a skos:Concept;
-	skos:prefLabel "Norway"@en;
-	rdfs:label "Norway"@en;
+:no a skos:Concept ;
+	skos:prefLabel "Norway"@en ;
+	rdfs:label "Norway"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:np a skos:Concept;
-	skos:prefLabel "Nepal"@en;
-	rdfs:label "Nepal"@en;
+:np a skos:Concept ;
+	skos:prefLabel "Nepal"@en ;
+	rdfs:label "Nepal"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nr a skos:Concept;
-	skos:prefLabel "Nauru"@en;
-	rdfs:label "Nauru"@en;
+:nr a skos:Concept ;
+	skos:prefLabel "Nauru"@en ;
+	rdfs:label "Nauru"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nu a skos:Concept;
-	skos:prefLabel "Niue"@en;
-	rdfs:label "Niue"@en;
+:nu a skos:Concept ;
+	skos:prefLabel "Niue"@en ;
+	rdfs:label "Niue"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:nz a skos:Concept;
-	skos:prefLabel "New Zealand"@en;
-	rdfs:label "New Zealand"@en;
+:nz a skos:Concept ;
+	skos:prefLabel "New Zealand"@en ;
+	rdfs:label "New Zealand"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:om a skos:Concept;
-	skos:prefLabel "Oman"@en;
-	rdfs:label "Oman"@en;
+:om a skos:Concept ;
+	skos:prefLabel "Oman"@en ;
+	rdfs:label "Oman"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ot a skos:Concept;
-	skos:prefLabel "Other"@en;
-	rdfs:label "Other"@en;
+:ot a skos:Concept ;
+	skos:prefLabel "Other"@en ;
+	rdfs:label "Other"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pa a skos:Concept;
-	skos:prefLabel "Panama"@en;
-	rdfs:label "Panama"@en;
+:pa a skos:Concept ;
+	skos:prefLabel "Panama"@en ;
+	rdfs:label "Panama"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pe a skos:Concept;
-	skos:prefLabel "Peru"@en;
-	rdfs:label "Peru"@en;
+:pe a skos:Concept ;
+	skos:prefLabel "Peru"@en ;
+	rdfs:label "Peru"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pf a skos:Concept;
-	skos:prefLabel "French Polynesia"@en;
-	rdfs:label "French Polynesia"@en;
+:pf a skos:Concept ;
+	skos:prefLabel "French Polynesia"@en ;
+	rdfs:label "French Polynesia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pg a skos:Concept;
-	skos:prefLabel "Papua New Guinea"@en;
-	rdfs:label "Papua New Guinea"@en;
+:pg a skos:Concept ;
+	skos:prefLabel "Papua New Guinea"@en ;
+	rdfs:label "Papua New Guinea"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ph a skos:Concept;
-	skos:prefLabel "Philippines (the)"@en;
-	rdfs:label "Philippines (the)"@en;
+:ph a skos:Concept ;
+	skos:prefLabel "Philippines (the)"@en ;
+	rdfs:label "Philippines (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pk a skos:Concept;
-	skos:prefLabel "Pakistan"@en;
-	rdfs:label "Pakistan"@en;
+:pk a skos:Concept ;
+	skos:prefLabel "Pakistan"@en ;
+	rdfs:label "Pakistan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pl a skos:Concept;
-	skos:prefLabel "Poland"@en;
-	rdfs:label "Poland"@en;
+:pl a skos:Concept ;
+	skos:prefLabel "Poland"@en ;
+	rdfs:label "Poland"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pm a skos:Concept;
-	skos:prefLabel "Saint Pierre and Miquelon"@en;
-	rdfs:label "Saint Pierre and Miquelon"@en;
+:pm a skos:Concept ;
+	skos:prefLabel "Saint Pierre and Miquelon"@en ;
+	rdfs:label "Saint Pierre and Miquelon"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pn a skos:Concept;
-	skos:prefLabel "Pitcairn"@en;
-	rdfs:label "Pitcairn"@en;
+:pn a skos:Concept ;
+	skos:prefLabel "Pitcairn"@en ;
+	rdfs:label "Pitcairn"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pr a skos:Concept;
-	skos:prefLabel "Puerto Rico"@en;
-	rdfs:label "Puerto Rico"@en;
+:pr a skos:Concept ;
+	skos:prefLabel "Puerto Rico"@en ;
+	rdfs:label "Puerto Rico"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ps a skos:Concept;
-	skos:prefLabel "Palestine, State of"@en;
-	rdfs:label "Palestine, State of"@en;
+:ps a skos:Concept ;
+	skos:prefLabel "Palestine, State of"@en ;
+	rdfs:label "Palestine, State of"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pt a skos:Concept;
-	skos:prefLabel "Portugal"@en;
-	rdfs:label "Portugal"@en;
+:pt a skos:Concept ;
+	skos:prefLabel "Portugal"@en ;
+	rdfs:label "Portugal"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:pw a skos:Concept;
-	skos:prefLabel "Palau"@en;
-	rdfs:label "Palau"@en;
+:pw a skos:Concept ;
+	skos:prefLabel "Palau"@en ;
+	rdfs:label "Palau"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:py a skos:Concept;
-	skos:prefLabel "Paraguay"@en;
-	rdfs:label "Paraguay"@en;
+:py a skos:Concept ;
+	skos:prefLabel "Paraguay"@en ;
+	rdfs:label "Paraguay"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:qa a skos:Concept;
-	skos:prefLabel "Qatar"@en;
-	rdfs:label "Qatar"@en;
+:qa a skos:Concept ;
+	skos:prefLabel "Qatar"@en ;
+	rdfs:label "Qatar"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:re a skos:Concept;
-	skos:prefLabel "Réunion"@en;
-	rdfs:label "Réunion"@en;
+:re a skos:Concept ;
+	skos:prefLabel "Réunion"@en ;
+	rdfs:label "Réunion"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ro a skos:Concept;
-	skos:prefLabel "Romania"@en;
-	rdfs:label "Romania"@en;
+:ro a skos:Concept ;
+	skos:prefLabel "Romania"@en ;
+	rdfs:label "Romania"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:rs a skos:Concept;
-	skos:prefLabel "Serbia"@en;
-	rdfs:label "Serbia"@en;
+:rs a skos:Concept ;
+	skos:prefLabel "Serbia"@en ;
+	rdfs:label "Serbia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ru a skos:Concept;
-	skos:prefLabel "Russian Federation (the)"@en;
-	rdfs:label "Russian Federation (the)"@en;
+:ru a skos:Concept ;
+	skos:prefLabel "Russian Federation (the)"@en ;
+	rdfs:label "Russian Federation (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:rw a skos:Concept;
-	skos:prefLabel "Rwanda"@en;
-	rdfs:label "Rwanda"@en;
+:rw a skos:Concept ;
+	skos:prefLabel "Rwanda"@en ;
+	rdfs:label "Rwanda"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sa a skos:Concept;
-	skos:prefLabel "Saudi Arabia"@en;
-	rdfs:label "Saudi Arabia"@en;
+:sa a skos:Concept ;
+	skos:prefLabel "Saudi Arabia"@en ;
+	rdfs:label "Saudi Arabia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sb a skos:Concept;
-	skos:prefLabel "Solomon Islands"@en;
-	rdfs:label "Solomon Islands"@en;
+:sb a skos:Concept ;
+	skos:prefLabel "Solomon Islands"@en ;
+	rdfs:label "Solomon Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sc a skos:Concept;
-	skos:prefLabel "Seychelles"@en;
-	rdfs:label "Seychelles"@en;
+:sc a skos:Concept ;
+	skos:prefLabel "Seychelles"@en ;
+	rdfs:label "Seychelles"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sd a skos:Concept;
-	skos:prefLabel "Sudan (the)"@en;
-	rdfs:label "Sudan (the)"@en;
+:sd a skos:Concept ;
+	skos:prefLabel "Sudan (the)"@en ;
+	rdfs:label "Sudan (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:se a skos:Concept;
-	skos:prefLabel "Sweden"@en;
-	rdfs:label "Sweden"@en;
+:se a skos:Concept ;
+	skos:prefLabel "Sweden"@en ;
+	rdfs:label "Sweden"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sg a skos:Concept;
-	skos:prefLabel "Singapore"@en;
-	rdfs:label "Singapore"@en;
+:sg a skos:Concept ;
+	skos:prefLabel "Singapore"@en ;
+	rdfs:label "Singapore"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sh a skos:Concept;
-	skos:prefLabel "Saint Helena, Ascension and Tristan da Cunha"@en;
-	rdfs:label "Saint Helena, Ascension and Tristan da Cunha"@en;
+:sh a skos:Concept ;
+	skos:prefLabel "Saint Helena, Ascension and Tristan da Cunha"@en ;
+	rdfs:label "Saint Helena, Ascension and Tristan da Cunha"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:si a skos:Concept;
-	skos:prefLabel "Slovenia"@en;
-	rdfs:label "Slovenia"@en;
+:si a skos:Concept ;
+	skos:prefLabel "Slovenia"@en ;
+	rdfs:label "Slovenia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sj a skos:Concept;
-	skos:prefLabel "Svalbard and Jan Mayen"@en;
-	rdfs:label "Svalbard and Jan Mayen"@en;
+:sj a skos:Concept ;
+	skos:prefLabel "Svalbard and Jan Mayen"@en ;
+	rdfs:label "Svalbard and Jan Mayen"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sk a skos:Concept;
-	skos:prefLabel "Slovakia"@en;
-	rdfs:label "Slovakia"@en;
+:sk a skos:Concept ;
+	skos:prefLabel "Slovakia"@en ;
+	rdfs:label "Slovakia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sl a skos:Concept;
-	skos:prefLabel "Sierra Leone"@en;
-	rdfs:label "Sierra Leone"@en;
+:sl a skos:Concept ;
+	skos:prefLabel "Sierra Leone"@en ;
+	rdfs:label "Sierra Leone"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sm a skos:Concept;
-	skos:prefLabel "San Marino"@en;
-	rdfs:label "San Marino"@en;
+:sm a skos:Concept ;
+	skos:prefLabel "San Marino"@en ;
+	rdfs:label "San Marino"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sn a skos:Concept;
-	skos:prefLabel "Senegal"@en;
-	rdfs:label "Senegal"@en;
+:sn a skos:Concept ;
+	skos:prefLabel "Senegal"@en ;
+	rdfs:label "Senegal"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:so a skos:Concept;
-	skos:prefLabel "Somalia"@en;
-	rdfs:label "Somalia"@en;
+:so a skos:Concept ;
+	skos:prefLabel "Somalia"@en ;
+	rdfs:label "Somalia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sr a skos:Concept;
-	skos:prefLabel "Suriname"@en;
-	rdfs:label "Suriname"@en;
+:sr a skos:Concept ;
+	skos:prefLabel "Suriname"@en ;
+	rdfs:label "Suriname"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ss a skos:Concept;
-	skos:prefLabel "South Sudan"@en;
-	rdfs:label "South Sudan"@en;
+:ss a skos:Concept ;
+	skos:prefLabel "South Sudan"@en ;
+	rdfs:label "South Sudan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:st a skos:Concept;
-	skos:prefLabel "São Tomé and Príncipe"@en;
-	rdfs:label "São Tomé and Príncipe"@en;
+:st a skos:Concept ;
+	skos:prefLabel "São Tomé and Príncipe"@en ;
+	rdfs:label "São Tomé and Príncipe"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sv a skos:Concept;
-	skos:prefLabel "El Salvador"@en;
-	rdfs:label "El Salvador"@en;
+:sv a skos:Concept ;
+	skos:prefLabel "El Salvador"@en ;
+	rdfs:label "El Salvador"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sx a skos:Concept;
-	skos:prefLabel "Sint Maarten (Dutch part)"@en;
-	rdfs:label "Sint Maarten (Dutch part)"@en;
+:sx a skos:Concept ;
+	skos:prefLabel "Sint Maarten (Dutch part)"@en ;
+	rdfs:label "Sint Maarten (Dutch part)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sy a skos:Concept;
-	skos:prefLabel "Syrian Arab Republic (the)"@en;
-	rdfs:label "Syrian Arab Republic (the)"@en;
+:sy a skos:Concept ;
+	skos:prefLabel "Syrian Arab Republic (the)"@en ;
+	rdfs:label "Syrian Arab Republic (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:sz a skos:Concept;
-	skos:prefLabel "Eswatini"@en;
-	rdfs:label "Eswatini"@en;
+:sz a skos:Concept ;
+	skos:prefLabel "Eswatini"@en ;
+	rdfs:label "Eswatini"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tc a skos:Concept;
-	skos:prefLabel "Turks and Caicos Islands (the)"@en;
-	rdfs:label "Turks and Caicos Islands (the)"@en;
+:tc a skos:Concept ;
+	skos:prefLabel "Turks and Caicos Islands (the)"@en ;
+	rdfs:label "Turks and Caicos Islands (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:td a skos:Concept;
-	skos:prefLabel "Chad"@en;
-	rdfs:label "Chad"@en;
+:td a skos:Concept ;
+	skos:prefLabel "Chad"@en ;
+	rdfs:label "Chad"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tf a skos:Concept;
-	skos:prefLabel "French Southern Territories (the)"@en;
-	rdfs:label "French Southern Territories (the)"@en;
+:tf a skos:Concept ;
+	skos:prefLabel "French Southern Territories (the)"@en ;
+	rdfs:label "French Southern Territories (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tg a skos:Concept;
-	skos:prefLabel "Togo"@en;
-	rdfs:label "Togo"@en;
+:tg a skos:Concept ;
+	skos:prefLabel "Togo"@en ;
+	rdfs:label "Togo"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:th a skos:Concept;
-	skos:prefLabel "Thailand"@en;
-	rdfs:label "Thailand"@en;
+:th a skos:Concept ;
+	skos:prefLabel "Thailand"@en ;
+	rdfs:label "Thailand"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tj a skos:Concept;
-	skos:prefLabel "Tajikistan"@en;
-	rdfs:label "Tajikistan"@en;
+:tj a skos:Concept ;
+	skos:prefLabel "Tajikistan"@en ;
+	rdfs:label "Tajikistan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tk a skos:Concept;
-	skos:prefLabel "Tokelau"@en;
-	rdfs:label "Tokelau"@en;
+:tk a skos:Concept ;
+	skos:prefLabel "Tokelau"@en ;
+	rdfs:label "Tokelau"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tl a skos:Concept;
-	skos:prefLabel "Timor-Leste"@en;
-	rdfs:label "Timor-Leste"@en;
+:tl a skos:Concept ;
+	skos:prefLabel "Timor-Leste"@en ;
+	rdfs:label "Timor-Leste"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tm a skos:Concept;
-	skos:prefLabel "Turkmenistan"@en;
-	rdfs:label "Turkmenistan"@en;
+:tm a skos:Concept ;
+	skos:prefLabel "Turkmenistan"@en ;
+	rdfs:label "Turkmenistan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tn a skos:Concept;
-	skos:prefLabel "Tunisia"@en;
-	rdfs:label "Tunisia"@en;
+:tn a skos:Concept ;
+	skos:prefLabel "Tunisia"@en ;
+	rdfs:label "Tunisia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:to a skos:Concept;
-	skos:prefLabel "Tonga"@en;
-	rdfs:label "Tonga"@en;
+:to a skos:Concept ;
+	skos:prefLabel "Tonga"@en ;
+	rdfs:label "Tonga"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tr a skos:Concept;
-	skos:prefLabel "Turkey"@en;
-	rdfs:label "Turkey"@en;
+:tr a skos:Concept ;
+	skos:prefLabel "Turkey"@en ;
+	rdfs:label "Turkey"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tt a skos:Concept;
-	skos:prefLabel "Trinidad and Tobago"@en;
-	rdfs:label "Trinidad and Tobago"@en;
+:tt a skos:Concept ;
+	skos:prefLabel "Trinidad and Tobago"@en ;
+	rdfs:label "Trinidad and Tobago"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tv a skos:Concept;
-	skos:prefLabel "Tuvalu"@en;
-	rdfs:label "Tuvalu"@en;
+:tv a skos:Concept ;
+	skos:prefLabel "Tuvalu"@en ;
+	rdfs:label "Tuvalu"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tw a skos:Concept;
-	skos:prefLabel "Taiwan (Province of China)"@en;
-	rdfs:label "Taiwan (Province of China)"@en;
+:tw a skos:Concept ;
+	skos:prefLabel "Taiwan (Province of China)"@en ;
+	rdfs:label "Taiwan (Province of China)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:tz a skos:Concept;
-	skos:prefLabel "Tanzania, United Republic of"@en;
-	rdfs:label "Tanzania, United Republic of"@en;
+:tz a skos:Concept ;
+	skos:prefLabel "Tanzania, United Republic of"@en ;
+	rdfs:label "Tanzania, United Republic of"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ua a skos:Concept;
-	skos:prefLabel "Ukraine"@en;
-	rdfs:label "Ukraine"@en;
+:ua a skos:Concept ;
+	skos:prefLabel "Ukraine"@en ;
+	rdfs:label "Ukraine"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ug a skos:Concept;
-	skos:prefLabel "Uganda"@en;
-	rdfs:label "Uganda"@en;
+:ug a skos:Concept ;
+	skos:prefLabel "Uganda"@en ;
+	rdfs:label "Uganda"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:uk a skos:Concept;
-	skos:prefLabel "United Kingdom of Great Britain and Northern Ireland (the)"@en;
-	rdfs:label "United Kingdom of Great Britain and Northern Ireland (the)"@en;
+:uk a skos:Concept ;
+	skos:prefLabel "United Kingdom of Great Britain and Northern Ireland (the)"@en ;
+	rdfs:label "United Kingdom of Great Britain and Northern Ireland (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:um a skos:Concept;
-	skos:prefLabel "United States Minor Outlying Islands"@en;
-	rdfs:label "United States Minor Outlying Islands"@en;
+:um a skos:Concept ;
+	skos:prefLabel "United States Minor Outlying Islands"@en ;
+	rdfs:label "United States Minor Outlying Islands"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:us a skos:Concept;
-	skos:prefLabel "United States of America (the)"@en;
-	rdfs:label "United States of America (the)"@en;
+:us a skos:Concept ;
+	skos:prefLabel "United States of America (the)"@en ;
+	rdfs:label "United States of America (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:uy a skos:Concept;
-	skos:prefLabel "Uruguay"@en;
-	rdfs:label "Uruguay"@en;
+:uy a skos:Concept ;
+	skos:prefLabel "Uruguay"@en ;
+	rdfs:label "Uruguay"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:uz a skos:Concept;
-	skos:prefLabel "Uzbekistan"@en;
-	rdfs:label "Uzbekistan"@en;
+:uz a skos:Concept ;
+	skos:prefLabel "Uzbekistan"@en ;
+	rdfs:label "Uzbekistan"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:va a skos:Concept;
-	skos:prefLabel "Holy See (the)"@en;
-	rdfs:label "Holy See (the)"@en;
+:va a skos:Concept ;
+	skos:prefLabel "Holy See (the)"@en ;
+	rdfs:label "Holy See (the)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:vc a skos:Concept;
-	skos:prefLabel "Saint Vincent and the Grenadines"@en;
-	rdfs:label "Saint Vincent and the Grenadines"@en;
+:vc a skos:Concept ;
+	skos:prefLabel "Saint Vincent and the Grenadines"@en ;
+	rdfs:label "Saint Vincent and the Grenadines"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ve a skos:Concept;
-	skos:prefLabel "Venezuela (Bolivarian Republic of)"@en;
-	rdfs:label "Venezuela (Bolivarian Republic of)"@en;
+:ve a skos:Concept ;
+	skos:prefLabel "Venezuela (Bolivarian Republic of)"@en ;
+	rdfs:label "Venezuela (Bolivarian Republic of)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:vg a skos:Concept;
-	skos:prefLabel "Virgin Islands (British)"@en;
-	rdfs:label "Virgin Islands (British)"@en;
+:vg a skos:Concept ;
+	skos:prefLabel "Virgin Islands (British)"@en ;
+	rdfs:label "Virgin Islands (British)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:vi a skos:Concept;
-	skos:prefLabel "Virgin Islands (U.S.)"@en;
-	rdfs:label "Virgin Islands (U.S.)"@en;
+:vi a skos:Concept ;
+	skos:prefLabel "Virgin Islands (U.S.)"@en ;
+	rdfs:label "Virgin Islands (U.S.)"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:vn a skos:Concept;
-	skos:prefLabel "Viet Nam"@en;
-	rdfs:label "Viet Nam"@en;
+:vn a skos:Concept ;
+	skos:prefLabel "Viet Nam"@en ;
+	rdfs:label "Viet Nam"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:vu a skos:Concept;
-	skos:prefLabel "Vanuatu"@en;
-	rdfs:label "Vanuatu"@en;
+:vu a skos:Concept ;
+	skos:prefLabel "Vanuatu"@en ;
+	rdfs:label "Vanuatu"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:wf a skos:Concept;
-	skos:prefLabel "Wallis and Futuna"@en;
-	rdfs:label "Wallis and Futuna"@en;
+:wf a skos:Concept ;
+	skos:prefLabel "Wallis and Futuna"@en ;
+	rdfs:label "Wallis and Futuna"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ws a skos:Concept;
-	skos:prefLabel "Samoa"@en;
-	rdfs:label "Samoa"@en;
+:ws a skos:Concept ;
+	skos:prefLabel "Samoa"@en ;
+	rdfs:label "Samoa"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ww a skos:Concept;
-	skos:prefLabel "Worldwide"@en;
-	rdfs:label "Worldwide"@en;
-	dc:description "All Countries."@en;
+:ww a skos:Concept ;
+	skos:prefLabel "Worldwide"@en ;
+	rdfs:label "Worldwide"@en ;
+	dc:description "All Countries."@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:ye a skos:Concept;
-	skos:prefLabel "Yemen"@en;
-	rdfs:label "Yemen"@en;
+:ye a skos:Concept ;
+	skos:prefLabel "Yemen"@en ;
+	rdfs:label "Yemen"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:yt a skos:Concept;
-	skos:prefLabel "Mayotte"@en;
-	rdfs:label "Mayotte"@en;
+:yt a skos:Concept ;
+	skos:prefLabel "Mayotte"@en ;
+	rdfs:label "Mayotte"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:za a skos:Concept;
-	skos:prefLabel "South Africa"@en;
-	rdfs:label "South Africa"@en;
+:za a skos:Concept ;
+	skos:prefLabel "South Africa"@en ;
+	rdfs:label "South Africa"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:zm a skos:Concept;
-	skos:prefLabel "Zambia"@en;
-	rdfs:label "Zambia"@en;
+:zm a skos:Concept ;
+	skos:prefLabel "Zambia"@en ;
+	rdfs:label "Zambia"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
 
-:zw a skos:Concept;
-	skos:prefLabel "Zimbabwe"@en;
-	rdfs:label "Zimbabwe"@en;
+:zw a skos:Concept ;
+	skos:prefLabel "Zimbabwe"@en ;
+	rdfs:label "Zimbabwe"@en ;
 	skos:topConceptOf :Schema ;
 	skos:inScheme :Schema .
+
+:country-middle_earth a skos:Concept ;
+	skos:prefLabel "middle earth"@en ;
+	rdfs:label "middle earth"@en ;
+	dc:description "Vocabulary submitted by mantagmg@gmail.com"@en ;
+	skos:topConceptOf :Schema ;
+	skos:inScheme :Schema .
+
