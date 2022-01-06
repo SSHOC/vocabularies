@@ -5,11 +5,12 @@ class EoscSkos:
     translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS', ord('('): 'OPEN_PARENTHESIS', ord(')'): 'CLOSE_PARENTHESIS',
                        ord('&'): 'AMPERSAND', ord(','): 'COMMA'}
 
-    def __init__(self, data_type, schema_name, title, description, additional_description_tag = ''):
+    def __init__(self, data_type, schema_name, title, description, additional_description_tag = '', scheme_node = 'Schema'):
         self.data_type = data_type
         self.schema_name = schema_name
         self.title = title
         self.description = description
+        self.scheme_node = scheme_node
         self.additional_description_tag = additional_description_tag
 
     def slugify(self, text):
@@ -35,7 +36,7 @@ class EoscSkos:
             topLevel += ":" + self.slugify(concept)
         if topLevel:
             topLevel +=  " ;\n"
-        return(":Schema a skos:ConceptScheme ;\n"
+        return(":" + self.scheme_node + " a skos:ConceptScheme ;\n"
             + "\trdfs:label \"" + self.title + "\"@en ;\n"
             + "\tdct:title \"" + self.title + "\"@en ;\n"
             + "\tdc:title \"" + self.title + "\"@en ;\n"
@@ -49,10 +50,10 @@ class EoscSkos:
             + "\trdfs:label \""  + conceptName + "\"@en ;\n"
             + (("\tdc:description \"" + conceptDescription + "\"@en ;\n") if (conceptDescription is not None and conceptDescription != "") else "")
             + ((("\t" + self.additional_description_tag + " \"" + conceptDescription + "\"@en ;\n") if (conceptDescription is not None and conceptDescription != "") else "") if (self.additional_description_tag != "") else "")
-            + ("\tskos:topConceptOf :Schema ;\n" if isTopConcept else "")
+            + ("\tskos:topConceptOf :" + self.scheme_node + " ;\n" if isTopConcept else "")
             + (("\tskos:broader :" + self.slugify(broaderConcept) + " ;\n") if broaderConcept else "")
             + (("\tskos:narrower " + narrowerConcept + " ;\n") if narrowerConcept else "")
-            + "\tskos:inScheme :Schema .\n\n")
+            + "\tskos:inScheme :" + self.scheme_node + " .\n\n")
 
     def createSkos(self):
         response = requests.get("https://api.eosc-portal.eu/vocabulary/byType/" + self.data_type)

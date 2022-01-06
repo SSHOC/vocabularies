@@ -48,7 +48,7 @@ def constructHierarchy(vocabCategories):
 def createSkos(vocabCategories):
   eosc = EoscSkos("SUPERCATEGORY", "eosc-resource-category", "EOSC Resource Category List",
     ("EOSC Resource Category List compiled from https://api.eosc-portal.eu/vocabulary/byType/SUPERCATEGORY, " +
-    "https://api.eosc-portal.eu/vocabulary/byType/CATEGORY, and https://api.eosc-portal.eu/vocabulary/byType/SUBCATEGORY"))
+    "https://api.eosc-portal.eu/vocabulary/byType/CATEGORY, and https://api.eosc-portal.eu/vocabulary/byType/SUBCATEGORY"), "", "eoscResourceCategoryScheme")
   eosc.createHierarchicalSkos(vocabCategories)
 
 vocabCategories = {}

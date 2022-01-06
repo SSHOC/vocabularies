@@ -1,51 +1,51 @@
-@prefix : <https://vocabs.dariah.eu/invocation-type/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/invocation-type/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://vocabs.dariah.eu/invocation-type/> a owl:Ontology;
+<https://vocabs.sshopencloud.eu/vocabularies/invocation-type/> a owl:Ontology;
   owl:imports <http://purl.org/dc/terms/> .
 
 :commandLine a skos:Concept;
   rdfs:label "Command line"@en;
   skos:definition "You need to open a command line to invocate the tool."@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Command line"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :commandProcessor a skos:Concept;
   rdfs:label "Command processor"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Command processor"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :instructionPage a skos:Concept;
   rdfs:label "Instruction page"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Instruction page"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :library a skos:Concept;
   rdfs:label "Library"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Library"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :localApplication a skos:Concept;
   rdfs:label "Local application"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Local application"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :restfulWebservice a skos:Concept;
   rdfs:label "RESTful webservice"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "RESTful webservice"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
-:schemaInvocationType a skos:ConceptScheme;
+:invocationTypeScheme a skos:ConceptScheme;
   dct:title "Invocation type"@en;
   rdfs:comment "Gives information about how something (usually a tools or service) is invocated."@en;
   rdfs:label "Invocation type"@en;
@@ -57,18 +57,18 @@
 
 :script a skos:Concept;
   rdfs:label " Script "@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Script"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :sourceCode a skos:Concept;
   rdfs:label "Source code"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Source code"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .
 
 :webApplication a skos:Concept;
   rdfs:label "Web application"@en;
-  skos:inScheme :schemaInvocationType;
+  skos:inScheme :invocationTypeScheme;
   skos:prefLabel "Web application"@en;
-  skos:topConceptOf :schemaInvocationType .
+  skos:topConceptOf :invocationTypeScheme .

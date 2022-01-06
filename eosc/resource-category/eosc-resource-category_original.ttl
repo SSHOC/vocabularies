@@ -3,9 +3,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix : <https://vocabs.dariah.eu/eosc-resource-category/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/eosc-resource-category/> .
 
-:Schema a skos:ConceptScheme ;
+:eoscResourceCategoryScheme a skos:ConceptScheme ;
 	rdfs:label "EOSC Resource Category List"@en ;
 	dct:title "EOSC Resource Category List"@en ;
 	dc:title "EOSC Resource Category List"@en ;
@@ -17,9 +17,9 @@
 	skos:prefLabel "Access physical & eInfrastructures"@en ;
 	rdfs:label "Access physical & eInfrastructures"@en ;
 	dc:description "Ultra-fast connectivity and ubiquitous access, high performance computing, cloud capacity and storage."@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-access_physical_and_einfrastructures-compute, :category-access_physical_and_einfrastructures-data_storage, :category-access_physical_and_einfrastructures-instrument_and_equipment, :category-access_physical_and_einfrastructures-material_storage, :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-access_physical_and_einfrastructures-compute a skos:Concept ;
 	skos:prefLabel "Compute"@en ;
@@ -27,49 +27,49 @@
 	dc:description "High-performance computing resources and scalable cloud compute capacity for demanding job processes."@en ;
 	skos:broader :supercategory-access_physical_and_einfrastructures ;
 	skos:narrower :subcategory-access_physical_and_einfrastructures-compute-container_management, :subcategory-access_physical_and_einfrastructures-compute-job_execution, :subcategory-access_physical_and_einfrastructures-compute-orchestration, :subcategory-access_physical_and_einfrastructures-compute-other, :subcategory-access_physical_and_einfrastructures-compute-serverless_applications_repository, :subcategory-access_physical_and_einfrastructures-compute-virtual_machine_management, :subcategory-access_physical_and_einfrastructures-compute-workload_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-container_management a skos:Concept ;
 	skos:prefLabel "Container Management"@en ;
 	rdfs:label "Container Management"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-job_execution a skos:Concept ;
 	skos:prefLabel "Job Execution"@en ;
 	rdfs:label "Job Execution"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-orchestration a skos:Concept ;
 	skos:prefLabel "Orchestration"@en ;
 	rdfs:label "Orchestration"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-serverless_applications_repository a skos:Concept ;
 	skos:prefLabel "Serverless Applications Repository"@en ;
 	rdfs:label "Serverless Applications Repository"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-virtual_machine_management a skos:Concept ;
 	skos:prefLabel "Virtual Machine Management"@en ;
 	rdfs:label "Virtual Machine Management"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-compute-workload_management a skos:Concept ;
 	skos:prefLabel "Workload Management"@en ;
 	rdfs:label "Workload Management"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-compute ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-access_physical_and_einfrastructures-data_storage a skos:Concept ;
 	skos:prefLabel "Data Storage"@en ;
@@ -77,79 +77,79 @@
 	dc:description "Reliable, secure and scalable cloud storage for scientific data, apps and workloads."@en ;
 	skos:broader :supercategory-access_physical_and_einfrastructures ;
 	skos:narrower :subcategory-access_physical_and_einfrastructures-data_storage-archive, :subcategory-access_physical_and_einfrastructures-data_storage-backup, :subcategory-access_physical_and_einfrastructures-data_storage-data, :subcategory-access_physical_and_einfrastructures-data_storage-digital_preservation, :subcategory-access_physical_and_einfrastructures-data_storage-disk, :subcategory-access_physical_and_einfrastructures-data_storage-file, :subcategory-access_physical_and_einfrastructures-data_storage-online, :subcategory-access_physical_and_einfrastructures-data_storage-other, :subcategory-access_physical_and_einfrastructures-data_storage-queue, :subcategory-access_physical_and_einfrastructures-data_storage-recovery, :subcategory-access_physical_and_einfrastructures-data_storage-replicated, :subcategory-access_physical_and_einfrastructures-data_storage-synchronised ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-archive a skos:Concept ;
 	skos:prefLabel "Archive"@en ;
 	rdfs:label "Archive"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-backup a skos:Concept ;
 	skos:prefLabel "Backup"@en ;
 	rdfs:label "Backup"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-data a skos:Concept ;
 	skos:prefLabel "Data"@en ;
 	rdfs:label "Data"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-digital_preservation a skos:Concept ;
 	skos:prefLabel "Digital Preservation"@en ;
 	rdfs:label "Digital Preservation"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-disk a skos:Concept ;
 	skos:prefLabel "Disk"@en ;
 	rdfs:label "Disk"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-file a skos:Concept ;
 	skos:prefLabel "File"@en ;
 	rdfs:label "File"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-online a skos:Concept ;
 	skos:prefLabel "Online"@en ;
 	rdfs:label "Online"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-queue a skos:Concept ;
 	skos:prefLabel "Queue"@en ;
 	rdfs:label "Queue"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-recovery a skos:Concept ;
 	skos:prefLabel "Recovery"@en ;
 	rdfs:label "Recovery"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-replicated a skos:Concept ;
 	skos:prefLabel "Replicated"@en ;
 	rdfs:label "Replicated"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-data_storage-synchronised a skos:Concept ;
 	skos:prefLabel "Synchronised"@en ;
 	rdfs:label "Synchronised"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-data_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-access_physical_and_einfrastructures-instrument_and_equipment a skos:Concept ;
 	skos:prefLabel "Instrument & Equipment"@en ;
@@ -157,73 +157,73 @@
 	dc:description "Access to instruments and equipment."@en ;
 	skos:broader :supercategory-access_physical_and_einfrastructures ;
 	skos:narrower :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-chromatographer, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-cytometer, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-digitisation_equipment, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-geophysical, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-laser, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-microscopy, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-monument_maintenance_equipment, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-other, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-radiation, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrometer, :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrophotometer ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-chromatographer a skos:Concept ;
 	skos:prefLabel "Chromatographer"@en ;
 	rdfs:label "Chromatographer"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-cytometer a skos:Concept ;
 	skos:prefLabel "Cytometer"@en ;
 	rdfs:label "Cytometer"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-digitisation_equipment a skos:Concept ;
 	skos:prefLabel "Digitisation Equipment"@en ;
 	rdfs:label "Digitisation Equipment"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-geophysical a skos:Concept ;
 	skos:prefLabel "Geophysical"@en ;
 	rdfs:label "Geophysical"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-laser a skos:Concept ;
 	skos:prefLabel "Laser"@en ;
 	rdfs:label "Laser"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-microscopy a skos:Concept ;
 	skos:prefLabel "Microscopy"@en ;
 	rdfs:label "Microscopy"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-monument_maintenance_equipment a skos:Concept ;
 	skos:prefLabel "Monument Maintenance Equipment"@en ;
 	rdfs:label "Monument Maintenance Equipment"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-radiation a skos:Concept ;
 	skos:prefLabel "Radiation"@en ;
 	rdfs:label "Radiation"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrometer a skos:Concept ;
 	skos:prefLabel "Spectrometer"@en ;
 	rdfs:label "Spectrometer"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrophotometer a skos:Concept ;
 	skos:prefLabel "Spectrophotometer"@en ;
 	rdfs:label "Spectrophotometer"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-instrument_and_equipment ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-access_physical_and_einfrastructures-material_storage a skos:Concept ;
 	skos:prefLabel "Material Storage"@en ;
@@ -231,79 +231,79 @@
 	dc:description "Access to biological, chemical, historical, archeological, cultural, etc. storage. Includes the acquisition, preparation and processing of samples and materials in view of their preservation."@en ;
 	skos:broader :supercategory-access_physical_and_einfrastructures ;
 	skos:narrower :subcategory-access_physical_and_einfrastructures-material_storage-archiving, :subcategory-access_physical_and_einfrastructures-material_storage-assembly, :subcategory-access_physical_and_einfrastructures-material_storage-disposal, :subcategory-access_physical_and_einfrastructures-material_storage-fulfilment, :subcategory-access_physical_and_einfrastructures-material_storage-other, :subcategory-access_physical_and_einfrastructures-material_storage-packaging, :subcategory-access_physical_and_einfrastructures-material_storage-preservation, :subcategory-access_physical_and_einfrastructures-material_storage-quality_inspecting, :subcategory-access_physical_and_einfrastructures-material_storage-repository, :subcategory-access_physical_and_einfrastructures-material_storage-reworking, :subcategory-access_physical_and_einfrastructures-material_storage-sorting, :subcategory-access_physical_and_einfrastructures-material_storage-warehousing ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-archiving a skos:Concept ;
 	skos:prefLabel "Archiving"@en ;
 	rdfs:label "Archiving"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-assembly a skos:Concept ;
 	skos:prefLabel "Assembly"@en ;
 	rdfs:label "Assembly"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-disposal a skos:Concept ;
 	skos:prefLabel "Disposal"@en ;
 	rdfs:label "Disposal"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-fulfilment a skos:Concept ;
 	skos:prefLabel "Fulfilment"@en ;
 	rdfs:label "Fulfilment"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-packaging a skos:Concept ;
 	skos:prefLabel "Packaging"@en ;
 	rdfs:label "Packaging"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-preservation a skos:Concept ;
 	skos:prefLabel "Preservation"@en ;
 	rdfs:label "Preservation"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-quality_inspecting a skos:Concept ;
 	skos:prefLabel "Quality Inspecting"@en ;
 	rdfs:label "Quality Inspecting"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-repository a skos:Concept ;
 	skos:prefLabel "Repository"@en ;
 	rdfs:label "Repository"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-reworking a skos:Concept ;
 	skos:prefLabel "Reworking"@en ;
 	rdfs:label "Reworking"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-sorting a skos:Concept ;
 	skos:prefLabel "Sorting"@en ;
 	rdfs:label "Sorting"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-material_storage-warehousing a skos:Concept ;
 	skos:prefLabel "Warehousing"@en ;
 	rdfs:label "Warehousing"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-material_storage ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-access_physical_and_einfrastructures-network a skos:Concept ;
 	skos:prefLabel "Network"@en ;
@@ -311,62 +311,62 @@
 	dc:description "Ultra-fast connectivity and ubiquitous access to eInfrastructures' resources and services."@en ;
 	skos:broader :supercategory-access_physical_and_einfrastructures ;
 	skos:narrower :subcategory-access_physical_and_einfrastructures-network-content_delivery_network, :subcategory-access_physical_and_einfrastructures-network-direct_connect, :subcategory-access_physical_and_einfrastructures-network-exchange, :subcategory-access_physical_and_einfrastructures-network-load_balancer, :subcategory-access_physical_and_einfrastructures-network-other, :subcategory-access_physical_and_einfrastructures-network-traffic_manager, :subcategory-access_physical_and_einfrastructures-network-virtual_nework, :subcategory-access_physical_and_einfrastructures-network-vpn_gateway ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-content_delivery_network a skos:Concept ;
 	skos:prefLabel "Content Delivery Network"@en ;
 	rdfs:label "Content Delivery Network"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-direct_connect a skos:Concept ;
 	skos:prefLabel "Direct Connect"@en ;
 	rdfs:label "Direct Connect"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-exchange a skos:Concept ;
 	skos:prefLabel "Exchange"@en ;
 	rdfs:label "Exchange"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-load_balancer a skos:Concept ;
 	skos:prefLabel "Load Balancer"@en ;
 	rdfs:label "Load Balancer"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-traffic_manager a skos:Concept ;
 	skos:prefLabel "Traffic Manager"@en ;
 	rdfs:label "Traffic Manager"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-virtual_nework a skos:Concept ;
 	skos:prefLabel "Virtual Network"@en ;
 	rdfs:label "Virtual Network"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-access_physical_and_einfrastructures-network-vpn_gateway a skos:Concept ;
 	skos:prefLabel "VPN Gateway"@en ;
 	rdfs:label "VPN Gateway"@en ;
 	skos:broader :category-access_physical_and_einfrastructures-network ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-aggregators_and_integrators a skos:Concept ;
 	skos:prefLabel "Aggregators & Integrators"@en ;
 	rdfs:label "Aggregators & Integrators"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-aggregators_and_integrators-aggregators_and_integrators a skos:Concept ;
 	skos:prefLabel "Aggregators & Integrators"@en ;
@@ -374,64 +374,64 @@
 	dc:description "Thematic, Regional and other Aggregators & Integrators."@en ;
 	skos:broader :supercategory-aggregators_and_integrators ;
 	skos:narrower :subcategory-aggregators_and_integrators-aggregators_and_integrators-applications, :subcategory-aggregators_and_integrators-aggregators_and_integrators-data, :subcategory-aggregators_and_integrators-aggregators_and_integrators-other, :subcategory-aggregators_and_integrators-aggregators_and_integrators-services, :subcategory-aggregators_and_integrators-aggregators_and_integrators-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-aggregators_and_integrators-aggregators_and_integrators-applications a skos:Concept ;
 	skos:prefLabel "Applications"@en ;
 	rdfs:label "Applications"@en ;
 	skos:broader :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-aggregators_and_integrators-aggregators_and_integrators-data a skos:Concept ;
 	skos:prefLabel "Data"@en ;
 	rdfs:label "Data"@en ;
 	skos:broader :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-aggregators_and_integrators-aggregators_and_integrators-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-aggregators_and_integrators-aggregators_and_integrators-services a skos:Concept ;
 	skos:prefLabel "Services"@en ;
 	rdfs:label "Services"@en ;
 	skos:broader :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-aggregators_and_integrators-aggregators_and_integrators-software a skos:Concept ;
 	skos:prefLabel "Software"@en ;
 	rdfs:label "Software"@en ;
 	skos:broader :category-aggregators_and_integrators-aggregators_and_integrators ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-other-other ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-other-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :supercategory-other ;
 	skos:narrower :subcategory-other-other-other ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-other-other-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-other-other ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-processing_and_analysis a skos:Concept ;
 	skos:prefLabel "Processing & Analysis"@en ;
 	rdfs:label "Processing & Analysis"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-processing_and_analysis-data_analysis, :category-processing_and_analysis-data_management, :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-processing_and_analysis-data_analysis a skos:Concept ;
 	skos:prefLabel "Data Analysis"@en ;
@@ -439,61 +439,61 @@
 	dc:description "Processes for data with the goal of discovering useful information, informing conclusions, and supporting decision-making."@en ;
 	skos:broader :supercategory-processing_and_analysis ;
 	skos:narrower :subcategory-processing_and_analysis-data_analysis-2d_3d_digitisation, :subcategory-processing_and_analysis-data_analysis-artificial_intelligence, :subcategory-processing_and_analysis-data_analysis-data_exploitation, :subcategory-processing_and_analysis-data_analysis-forecast, :subcategory-processing_and_analysis-data_analysis-image_data_analysis, :subcategory-processing_and_analysis-data_analysis-machine_learning, :subcategory-processing_and_analysis-data_analysis-other, :subcategory-processing_and_analysis-data_analysis-visualization, :subcategory-processing_and_analysis-data_analysis-workflows ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-2d_3d_digitisation a skos:Concept ;
 	skos:prefLabel "2D/3D Digitisation"@en ;
 	rdfs:label "2D/3D Digitisation"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-artificial_intelligence a skos:Concept ;
 	skos:prefLabel "Artificial Intelligence"@en ;
 	rdfs:label "Artificial Intelligence"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-data_exploitation a skos:Concept ;
 	skos:prefLabel "Data Exploitation"@en ;
 	rdfs:label "Data Exploitation"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-forecast a skos:Concept ;
 	skos:prefLabel "Forecast"@en ;
 	rdfs:label "Forecast"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-image_data_analysis a skos:Concept ;
 	skos:prefLabel "Image/Data Analysis"@en ;
 	rdfs:label "Image/Data Analysis"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-machine_learning a skos:Concept ;
 	skos:prefLabel "Machine Learning"@en ;
 	rdfs:label "Machine Learning"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-visualization a skos:Concept ;
 	skos:prefLabel "Visualization"@en ;
 	rdfs:label "Visualization"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_analysis-workflows a skos:Concept ;
 	skos:prefLabel "Workflows"@en ;
 	rdfs:label "Workflows"@en ;
 	skos:broader :category-processing_and_analysis-data_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-processing_and_analysis-data_management a skos:Concept ;
 	skos:prefLabel "Data Management"@en ;
@@ -501,109 +501,109 @@
 	dc:description "Robust, feature-rich and user-friendly data management services."@en ;
 	skos:broader :supercategory-processing_and_analysis ;
 	skos:narrower :subcategory-processing_and_analysis-data_management-access, :subcategory-processing_and_analysis-data_management-annotation, :subcategory-processing_and_analysis-data_management-anonymisation, :subcategory-processing_and_analysis-data_management-brokering, :subcategory-processing_and_analysis-data_management-digitisation, :subcategory-processing_and_analysis-data_management-discovery, :subcategory-processing_and_analysis-data_management-embargo, :subcategory-processing_and_analysis-data_management-interlinking, :subcategory-processing_and_analysis-data_management-maintenance, :subcategory-processing_and_analysis-data_management-mining, :subcategory-processing_and_analysis-data_management-other, :subcategory-processing_and_analysis-data_management-persistent_identifier, :subcategory-processing_and_analysis-data_management-preservation, :subcategory-processing_and_analysis-data_management-publishing, :subcategory-processing_and_analysis-data_management-registration, :subcategory-processing_and_analysis-data_management-transfer, :subcategory-processing_and_analysis-data_management-validation ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-access a skos:Concept ;
 	skos:prefLabel "Access"@en ;
 	rdfs:label "Access"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-annotation a skos:Concept ;
 	skos:prefLabel "Annotation"@en ;
 	rdfs:label "Annotation"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-anonymisation a skos:Concept ;
 	skos:prefLabel "Anonymisation"@en ;
 	rdfs:label "Anonymisation"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-brokering a skos:Concept ;
 	skos:prefLabel "Brokering"@en ;
 	rdfs:label "Brokering"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-digitisation a skos:Concept ;
 	skos:prefLabel "Digitisation"@en ;
 	rdfs:label "Digitisation"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-discovery a skos:Concept ;
 	skos:prefLabel "Discovery"@en ;
 	rdfs:label "Discovery"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-embargo a skos:Concept ;
 	skos:prefLabel "Embargo"@en ;
 	rdfs:label "Embargo"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-interlinking a skos:Concept ;
 	skos:prefLabel "Interlinking"@en ;
 	rdfs:label "Interlinking"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-maintenance a skos:Concept ;
 	skos:prefLabel "Maintenance"@en ;
 	rdfs:label "Maintenance"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-mining a skos:Concept ;
 	skos:prefLabel "Mining"@en ;
 	rdfs:label "Mining"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-persistent_identifier a skos:Concept ;
 	skos:prefLabel "Persistent Identifier"@en ;
 	rdfs:label "Persistent Identifier"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-preservation a skos:Concept ;
 	skos:prefLabel "Preservation"@en ;
 	rdfs:label "Preservation"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-publishing a skos:Concept ;
-	skos:prefLabel "processing_and_analysis-data_management-publishing"@en ;
-	rdfs:label "processing_and_analysis-data_management-publishing"@en ;
+	skos:prefLabel "Publishing"@en ;
+	rdfs:label "Publishing"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-registration a skos:Concept ;
 	skos:prefLabel "Registration"@en ;
 	rdfs:label "Registration"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-transfer a skos:Concept ;
 	skos:prefLabel "Transfer"@en ;
 	rdfs:label "Transfer"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-data_management-validation a skos:Concept ;
 	skos:prefLabel "Validation"@en ;
 	rdfs:label "Validation"@en ;
 	skos:broader :category-processing_and_analysis-data_management ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-processing_and_analysis-measurement_and_materials_analysis a skos:Concept ;
 	skos:prefLabel "Measurement & Materials Analysis"@en ;
@@ -611,62 +611,62 @@
 	dc:description "Processess and techiques for material analysis, characterisation and monitoring."@en ;
 	skos:broader :supercategory-processing_and_analysis ;
 	skos:narrower :subcategory-processing_and_analysis-measurement_and_materials_analysis-analysis, :subcategory-processing_and_analysis-measurement_and_materials_analysis-characterisation, :subcategory-processing_and_analysis-measurement_and_materials_analysis-maintenance_and_modification, :subcategory-processing_and_analysis-measurement_and_materials_analysis-other, :subcategory-processing_and_analysis-measurement_and_materials_analysis-production, :subcategory-processing_and_analysis-measurement_and_materials_analysis-testing_and_validation, :subcategory-processing_and_analysis-measurement_and_materials_analysis-validation, :subcategory-processing_and_analysis-measurement_and_materials_analysis-workflows ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-analysis a skos:Concept ;
 	skos:prefLabel "Analysis"@en ;
 	rdfs:label "Analysis"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-characterisation a skos:Concept ;
 	skos:prefLabel "Characterisation"@en ;
 	rdfs:label "Characterisation"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-maintenance_and_modification a skos:Concept ;
 	skos:prefLabel "Maintenance & Modification"@en ;
 	rdfs:label "Maintenance & Modification"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-production a skos:Concept ;
 	skos:prefLabel "Production"@en ;
 	rdfs:label "Production"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-testing_and_validation a skos:Concept ;
 	skos:prefLabel "TEsting & Validation"@en ;
 	rdfs:label "TEsting & Validation"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-validation a skos:Concept ;
 	skos:prefLabel "Validation"@en ;
 	rdfs:label "Validation"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-processing_and_analysis-measurement_and_materials_analysis-workflows a skos:Concept ;
 	skos:prefLabel "Workflows"@en ;
 	rdfs:label "Workflows"@en ;
 	skos:broader :category-processing_and_analysis-measurement_and_materials_analysis ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-security_and_operations a skos:Concept ;
 	skos:prefLabel "Security & Operations"@en ;
 	rdfs:label "Security & Operations"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-security_and_operations-operations_and_infrastructure_management_services, :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-security_and_operations-operations_and_infrastructure_management_services a skos:Concept ;
 	skos:prefLabel "Operations & Infrastructure Management Services"@en ;
@@ -674,73 +674,73 @@
 	dc:description "Services for monitoring, scaling, creating, tracking and automating operations on infrastructures and services."@en ;
 	skos:broader :supercategory-security_and_operations ;
 	skos:narrower :subcategory-security_and_operations-operations_and_infrastructure_management_services-accounting, :subcategory-security_and_operations-operations_and_infrastructure_management_services-analysis, :subcategory-security_and_operations-operations_and_infrastructure_management_services-billing, :subcategory-security_and_operations-operations_and_infrastructure_management_services-configuration, :subcategory-security_and_operations-operations_and_infrastructure_management_services-coordination, :subcategory-security_and_operations-operations_and_infrastructure_management_services-helpdesk, :subcategory-security_and_operations-operations_and_infrastructure_management_services-monitoring, :subcategory-security_and_operations-operations_and_infrastructure_management_services-order_management, :subcategory-security_and_operations-operations_and_infrastructure_management_services-other, :subcategory-security_and_operations-operations_and_infrastructure_management_services-transportation, :subcategory-security_and_operations-operations_and_infrastructure_management_services-utilities ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-accounting a skos:Concept ;
 	skos:prefLabel "Accounting"@en ;
 	rdfs:label "Accounting"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-analysis a skos:Concept ;
 	skos:prefLabel "Analysis"@en ;
 	rdfs:label "Analysis"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-billing a skos:Concept ;
 	skos:prefLabel "Billing"@en ;
 	rdfs:label "Billing"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-configuration a skos:Concept ;
 	skos:prefLabel "Configuration"@en ;
 	rdfs:label "Configuration"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-coordination a skos:Concept ;
 	skos:prefLabel "Coordination"@en ;
 	rdfs:label "Coordination"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-helpdesk a skos:Concept ;
 	skos:prefLabel "Helpdesk"@en ;
 	rdfs:label "Helpdesk"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-monitoring a skos:Concept ;
 	skos:prefLabel "Monitoring"@en ;
 	rdfs:label "Monitoring"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-order_management a skos:Concept ;
 	skos:prefLabel "Order Management"@en ;
 	rdfs:label "Order Management"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-transportation a skos:Concept ;
 	skos:prefLabel "Transportation"@en ;
 	rdfs:label "Transportation"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-operations_and_infrastructure_management_services-utilities a skos:Concept ;
 	skos:prefLabel "Utilities"@en ;
 	rdfs:label "Utilities"@en ;
 	skos:broader :category-security_and_operations-operations_and_infrastructure_management_services ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-security_and_operations-security_and_identity a skos:Concept ;
 	skos:prefLabel "Security & Identity"@en ;
@@ -748,74 +748,74 @@
 	dc:description "Protect infrastructure and manage user identities and access against advanced threats across devices, data, apps, etc."@en ;
 	skos:broader :supercategory-security_and_operations ;
 	skos:narrower :subcategory-security_and_operations-security_and_identity-certification_authority, :subcategory-security_and_operations-security_and_identity-coordination, :subcategory-security_and_operations-security_and_identity-firewall, :subcategory-security_and_operations-security_and_identity-group_management, :subcategory-security_and_operations-security_and_identity-identity_and_access_management, :subcategory-security_and_operations-security_and_identity-other, :subcategory-security_and_operations-security_and_identity-single_sign_on, :subcategory-security_and_operations-security_and_identity-threat_protection, :subcategory-security_and_operations-security_and_identity-tools, :subcategory-security_and_operations-security_and_identity-user_authentication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-certification_authority a skos:Concept ;
 	skos:prefLabel "Certification Authority"@en ;
 	rdfs:label "Certification Authority"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-coordination a skos:Concept ;
 	skos:prefLabel "Coordination"@en ;
 	rdfs:label "Coordination"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-firewall a skos:Concept ;
 	skos:prefLabel "Firewall"@en ;
 	rdfs:label "Firewall"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-group_management a skos:Concept ;
 	skos:prefLabel "Group Management"@en ;
 	rdfs:label "Group Management"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-identity_and_access_management a skos:Concept ;
 	skos:prefLabel "Identity & Access Management"@en ;
 	rdfs:label "Identity & Access Management"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-single_sign_on a skos:Concept ;
 	skos:prefLabel "Single Sign-On"@en ;
 	rdfs:label "Single Sign-On"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-threat_protection a skos:Concept ;
 	skos:prefLabel "Threat Protection"@en ;
 	rdfs:label "Threat Protection"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-tools a skos:Concept ;
 	skos:prefLabel "Tools"@en ;
 	rdfs:label "Tools"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-security_and_operations-security_and_identity-user_authentication a skos:Concept ;
 	skos:prefLabel "User Authentication"@en ;
 	rdfs:label "User Authentication"@en ;
 	skos:broader :category-security_and_operations-security_and_identity ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-sharing_and_discovery a skos:Concept ;
 	skos:prefLabel "Sharing & Discovery"@en ;
 	rdfs:label "Sharing & Discovery"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-sharing_and_discovery-applications, :category-sharing_and_discovery-data, :category-sharing_and_discovery-development_resources, :category-sharing_and_discovery-samples, :category-sharing_and_discovery-scholarly_communication, :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-applications a skos:Concept ;
 	skos:prefLabel "Applications"@en ;
@@ -823,61 +823,61 @@
 	dc:description "End-user applications offered-as-a-service or deployed-on-demand."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-applications-applications_repository, :subcategory-sharing_and_discovery-applications-business, :subcategory-sharing_and_discovery-applications-collaboration, :subcategory-sharing_and_discovery-applications-communication, :subcategory-sharing_and_discovery-applications-education, :subcategory-sharing_and_discovery-applications-other, :subcategory-sharing_and_discovery-applications-productivity, :subcategory-sharing_and_discovery-applications-social_networking, :subcategory-sharing_and_discovery-applications-utilities ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-applications_repository a skos:Concept ;
 	skos:prefLabel "Applications Repository"@en ;
 	rdfs:label "Applications Repository"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-business a skos:Concept ;
 	skos:prefLabel "Business"@en ;
 	rdfs:label "Business"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-collaboration a skos:Concept ;
 	skos:prefLabel "Collaboration"@en ;
 	rdfs:label "Collaboration"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-communication a skos:Concept ;
 	skos:prefLabel "Communication"@en ;
 	rdfs:label "Communication"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-education a skos:Concept ;
 	skos:prefLabel "Education"@en ;
 	rdfs:label "Education"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-productivity a skos:Concept ;
 	skos:prefLabel "Productivity"@en ;
 	rdfs:label "Productivity"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-social_networking a skos:Concept ;
 	skos:prefLabel "Social/Networking"@en ;
 	rdfs:label "Social/Networking"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-applications-utilities a skos:Concept ;
 	skos:prefLabel "Utilities"@en ;
 	rdfs:label "Utilities"@en ;
 	skos:broader :category-sharing_and_discovery-applications ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-data a skos:Concept ;
 	skos:prefLabel "Data"@en ;
@@ -885,55 +885,55 @@
 	dc:description "Vast range of datasets to facilitate research and scientific activities."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-data-clinical_trial_data, :subcategory-sharing_and_discovery-data-data_archives, :subcategory-sharing_and_discovery-data-epidemiological_data, :subcategory-sharing_and_discovery-data-government_and_agency_data, :subcategory-sharing_and_discovery-data-online_service_data, :subcategory-sharing_and_discovery-data-other, :subcategory-sharing_and_discovery-data-scientific_research_data, :subcategory-sharing_and_discovery-data-statistical_data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-clinical_trial_data a skos:Concept ;
 	skos:prefLabel "Clinical Trial Data"@en ;
 	rdfs:label "Clinical Trial Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-data_archives a skos:Concept ;
 	skos:prefLabel "Data Archives"@en ;
 	rdfs:label "Data Archives"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-epidemiological_data a skos:Concept ;
 	skos:prefLabel "Epidemiological Data"@en ;
 	rdfs:label "Epidemiological Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-government_and_agency_data a skos:Concept ;
 	skos:prefLabel "Government & Agency Data"@en ;
 	rdfs:label "Government & Agency Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-online_service_data a skos:Concept ;
 	skos:prefLabel "Online Service Data"@en ;
 	rdfs:label "Online Service Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-scientific_research_data a skos:Concept ;
 	skos:prefLabel "Scientific/Research Data"@en ;
 	rdfs:label "Scientific/Research Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-data-statistical_data a skos:Concept ;
 	skos:prefLabel "Statistical Data"@en ;
 	rdfs:label "Statistical Data"@en ;
 	skos:broader :category-sharing_and_discovery-data ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-development_resources a skos:Concept ;
 	skos:prefLabel "Development Resources"@en ;
@@ -941,37 +941,37 @@
 	dc:description "Developer tools, development kits, libraries, APIs."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-development_resources-apis_repository_gateway, :subcategory-sharing_and_discovery-development_resources-developer_tools, :subcategory-sharing_and_discovery-development_resources-other, :subcategory-sharing_and_discovery-development_resources-software_development_kits, :subcategory-sharing_and_discovery-development_resources-software_libraries ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-development_resources-apis_repository_gateway a skos:Concept ;
 	skos:prefLabel "APIs Repository/Gateway"@en ;
 	rdfs:label "APIs Repository/Gateway"@en ;
 	skos:broader :category-sharing_and_discovery-development_resources ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-development_resources-developer_tools a skos:Concept ;
 	skos:prefLabel "Developer Tools"@en ;
 	rdfs:label "Developer Tools"@en ;
 	skos:broader :category-sharing_and_discovery-development_resources ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-development_resources-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-development_resources ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-development_resources-software_development_kits a skos:Concept ;
 	skos:prefLabel "Software Development Kits"@en ;
 	rdfs:label "Software Development Kits"@en ;
 	skos:broader :category-sharing_and_discovery-development_resources ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-development_resources-software_libraries a skos:Concept ;
 	skos:prefLabel "Software Libraries"@en ;
 	rdfs:label "Software Libraries"@en ;
 	skos:broader :category-sharing_and_discovery-development_resources ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-samples a skos:Concept ;
 	skos:prefLabel "Samples"@en ;
@@ -979,37 +979,37 @@
 	dc:description "Collection, preparation and delivery of biological, chemical, environmental or other samples."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-samples-biological_samples, :subcategory-sharing_and_discovery-samples-characterisation, :subcategory-sharing_and_discovery-samples-chemical_compounds_library, :subcategory-sharing_and_discovery-samples-other, :subcategory-sharing_and_discovery-samples-preparation ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-samples-biological_samples a skos:Concept ;
 	skos:prefLabel "Biological Samples"@en ;
 	rdfs:label "Biological Samples"@en ;
 	skos:broader :category-sharing_and_discovery-samples ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-samples-characterisation a skos:Concept ;
 	skos:prefLabel "Characterisation"@en ;
 	rdfs:label "Characterisation"@en ;
 	skos:broader :category-sharing_and_discovery-samples ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-samples-chemical_compounds_library a skos:Concept ;
 	skos:prefLabel "Chemical Compounds Library"@en ;
 	rdfs:label "Chemical Compounds Library"@en ;
 	skos:broader :category-sharing_and_discovery-samples ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-samples-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-samples ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-samples-preparation a skos:Concept ;
 	skos:prefLabel "Preparation"@en ;
 	rdfs:label "Preparation"@en ;
 	skos:broader :category-sharing_and_discovery-samples ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-scholarly_communication a skos:Concept ;
 	skos:prefLabel "Scholarly Communication"@en ;
@@ -1017,55 +1017,55 @@
 	dc:description "Research findings available to the wider academic community and beyond."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-scholarly_communication-analysis, :subcategory-sharing_and_discovery-scholarly_communication-assessment, :subcategory-sharing_and_discovery-scholarly_communication-discovery, :subcategory-sharing_and_discovery-scholarly_communication-other, :subcategory-sharing_and_discovery-scholarly_communication-outreach, :subcategory-sharing_and_discovery-scholarly_communication-preparation, :subcategory-sharing_and_discovery-scholarly_communication-publication, :subcategory-sharing_and_discovery-scholarly_communication-writing ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-analysis a skos:Concept ;
 	skos:prefLabel "Analysis"@en ;
 	rdfs:label "Analysis"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-assessment a skos:Concept ;
 	skos:prefLabel "Assessment"@en ;
 	rdfs:label "Assessment"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-discovery a skos:Concept ;
 	skos:prefLabel "Discovery"@en ;
 	rdfs:label "Discovery"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-outreach a skos:Concept ;
 	skos:prefLabel "Outreach"@en ;
 	rdfs:label "Outreach"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-preparation a skos:Concept ;
 	skos:prefLabel "Preparation"@en ;
 	rdfs:label "Preparation"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-publication a skos:Concept ;
 	skos:prefLabel "Publication"@en ;
 	rdfs:label "Publication"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-scholarly_communication-writing a skos:Concept ;
 	skos:prefLabel "Writing"@en ;
 	rdfs:label "Writing"@en ;
 	skos:broader :category-sharing_and_discovery-scholarly_communication ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-sharing_and_discovery-software a skos:Concept ;
 	skos:prefLabel "Software"@en ;
@@ -1073,44 +1073,44 @@
 	dc:description "Software, platforms and tools offered-as-a-service or deployed-on-demand."@en ;
 	skos:broader :supercategory-sharing_and_discovery ;
 	skos:narrower :subcategory-sharing_and_discovery-software-libraries, :subcategory-sharing_and_discovery-software-other, :subcategory-sharing_and_discovery-software-platform, :subcategory-sharing_and_discovery-software-software_package, :subcategory-sharing_and_discovery-software-software_repository ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-software-libraries a skos:Concept ;
 	skos:prefLabel "Libraries"@en ;
 	rdfs:label "Libraries"@en ;
 	skos:broader :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-software-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-software-platform a skos:Concept ;
 	skos:prefLabel "Platform"@en ;
 	rdfs:label "Platform"@en ;
 	skos:broader :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-software-software_package a skos:Concept ;
 	skos:prefLabel "Software Package"@en ;
 	rdfs:label "Software Package"@en ;
 	skos:broader :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-sharing_and_discovery-software-software_repository a skos:Concept ;
 	skos:prefLabel "Software Repository"@en ;
 	rdfs:label "Software Repository"@en ;
 	skos:broader :category-sharing_and_discovery-software ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :supercategory-training_and_support a skos:Concept ;
 	skos:prefLabel "Training & Support"@en ;
 	rdfs:label "Training & Support"@en ;
-	skos:topConceptOf :Schema ;
+	skos:topConceptOf :eoscResourceCategoryScheme ;
 	skos:narrower :category-training_and_support-consultancy_and_support, :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-training_and_support-consultancy_and_support a skos:Concept ;
 	skos:prefLabel "Consultancy & Support"@en ;
@@ -1118,103 +1118,103 @@
 	dc:description "Dedicated professional support for a wide range of scientific disciplines and research activities."@en ;
 	skos:broader :supercategory-training_and_support ;
 	skos:narrower :subcategory-training_and_support-consultancy_and_support-application_optimisation, :subcategory-training_and_support-consultancy_and_support-application_porting, :subcategory-training_and_support-consultancy_and_support-application_scaling, :subcategory-training_and_support-consultancy_and_support-audit_and_assessment, :subcategory-training_and_support-consultancy_and_support-benchmarking, :subcategory-training_and_support-consultancy_and_support-calibration, :subcategory-training_and_support-consultancy_and_support-certification, :subcategory-training_and_support-consultancy_and_support-consulting, :subcategory-training_and_support-consultancy_and_support-methodology_development, :subcategory-training_and_support-consultancy_and_support-modeling_and_simulation, :subcategory-training_and_support-consultancy_and_support-other, :subcategory-training_and_support-consultancy_and_support-prototype_development, :subcategory-training_and_support-consultancy_and_support-software_development, :subcategory-training_and_support-consultancy_and_support-software_improvement, :subcategory-training_and_support-consultancy_and_support-technology_transfer, :subcategory-training_and_support-consultancy_and_support-testing ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-application_optimisation a skos:Concept ;
 	skos:prefLabel "Application Optimisation"@en ;
 	rdfs:label "Application Optimisation"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-application_porting a skos:Concept ;
 	skos:prefLabel "Application_Porting"@en ;
 	rdfs:label "Application_Porting"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-application_scaling a skos:Concept ;
 	skos:prefLabel "Application Scaling"@en ;
 	rdfs:label "Application Scaling"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-audit_and_assessment a skos:Concept ;
 	skos:prefLabel "Audit & Assessment"@en ;
 	rdfs:label "Audit & Assessment"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-benchmarking a skos:Concept ;
 	skos:prefLabel "Benchmarking"@en ;
 	rdfs:label "Benchmarking"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-calibration a skos:Concept ;
 	skos:prefLabel "Calibration"@en ;
 	rdfs:label "Calibration"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-certification a skos:Concept ;
 	skos:prefLabel "Certification"@en ;
 	rdfs:label "Certification"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-consulting a skos:Concept ;
 	skos:prefLabel "Consulting"@en ;
 	rdfs:label "Consulting"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-methodology_development a skos:Concept ;
 	skos:prefLabel "Methodology Development"@en ;
 	rdfs:label "Methodology Development"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-modeling_and_simulation a skos:Concept ;
 	skos:prefLabel "Modeling & Simulation"@en ;
 	rdfs:label "Modeling & Simulation"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-prototype_development a skos:Concept ;
 	skos:prefLabel "Prototype Development"@en ;
 	rdfs:label "Prototype Development"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-software_development a skos:Concept ;
 	skos:prefLabel "Software Development"@en ;
 	rdfs:label "Software Development"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-software_improvement a skos:Concept ;
 	skos:prefLabel "Software Improvement"@en ;
 	rdfs:label "Software Improvement"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-technology_transfer a skos:Concept ;
 	skos:prefLabel "Technology Transfer"@en ;
 	rdfs:label "Technology Transfer"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-consultancy_and_support-testing a skos:Concept ;
 	skos:prefLabel "Testing"@en ;
 	rdfs:label "Testing"@en ;
 	skos:broader :category-training_and_support-consultancy_and_support ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :category-training_and_support-education_and_training a skos:Concept ;
 	skos:prefLabel "Education & Training"@en ;
@@ -1222,53 +1222,53 @@
 	dc:description "Highly-specialized seminars and courses to help advance research knowledge and sharpen scientific skills."@en ;
 	skos:broader :supercategory-training_and_support ;
 	skos:narrower :subcategory-training_and_support-education_and_training-in_house_courses, :subcategory-training_and_support-education_and_training-online_courses, :subcategory-training_and_support-education_and_training-open_registration_courses, :subcategory-training_and_support-education_and_training-other, :subcategory-training_and_support-education_and_training-related_training, :subcategory-training_and_support-education_and_training-required_training, :subcategory-training_and_support-education_and_training-training_platform, :subcategory-training_and_support-education_and_training-training_tool ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-in_house_courses a skos:Concept ;
 	skos:prefLabel "In-House Courses"@en ;
 	rdfs:label "In-House Courses"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-online_courses a skos:Concept ;
 	skos:prefLabel "Online Courses"@en ;
 	rdfs:label "Online Courses"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-open_registration_courses a skos:Concept ;
 	skos:prefLabel "Open Registration Courses"@en ;
 	rdfs:label "Open Registration Courses"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	rdfs:label "Other"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-related_training a skos:Concept ;
 	skos:prefLabel "Related Training"@en ;
 	rdfs:label "Related Training"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-required_training a skos:Concept ;
 	skos:prefLabel "Required Training"@en ;
 	rdfs:label "Required Training"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-training_platform a skos:Concept ;
 	skos:prefLabel "Training Platform"@en ;
 	rdfs:label "Training Platform"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
 :subcategory-training_and_support-education_and_training-training_tool a skos:Concept ;
 	skos:prefLabel "Training Tool"@en ;
 	rdfs:label "Training Tool"@en ;
 	skos:broader :category-training_and_support-education_and_training ;
-	skos:inScheme :Schema .
+	skos:inScheme :eoscResourceCategoryScheme .
 
