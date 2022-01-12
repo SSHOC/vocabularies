@@ -1,13 +1,14 @@
-@prefix : <https://vocabs.dariah.eu/sshoc-audience/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/sshoc-audience/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://vocabs.dariah.eu/sshoc-audience/> a owl:Ontology;
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-audience/> a owl:Ontology;
   owl:imports <http://purl.org/dc/terms/> .
 
-:schemaAudience a skos:ConceptScheme;
+:audienceScheme a skos:ConceptScheme;
   dct:title "Intended audience"@en;
   skos:definition "Intended audience of an item."@en;
   skos:hasTopConcept :dataCreator, :dataEngineer, :dataProvider, :dataSteward, :public,
