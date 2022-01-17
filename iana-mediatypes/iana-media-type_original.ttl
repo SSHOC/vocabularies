@@ -3,12 +3,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix media-type: <https://vocabs.dariah.eu/media-type/> .
+@prefix media-type: <https://vocabs.sshopencloud.eu/vocabularies/media-type/> .
 
-media-type:Schema a skos:ConceptScheme;
-	rdfs:label "Media Types from IANA"@en;
-	dc:title "Media Types from IANA"@en;
-	dct:title "Media Types from IANA"@en;
+media-type:mediaTypeScheme a skos:ConceptScheme;
+	rdfs:label "IANA Media Types"@en;
+	dc:title "IANA Media Types"@en;
+	dct:title "IANA Media Types"@en;
 	skos:hasTopConcept media-type:application;
 	skos:hasTopConcept media-type:audio;
 	skos:hasTopConcept media-type:font;

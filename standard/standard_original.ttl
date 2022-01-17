@@ -3,9 +3,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix : <https://vocabs.dariah.eu/ssk-standards/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/standard/> .
 
-:Schema a skos:ConceptScheme ;
+:standardScheme a skos:ConceptScheme ;
   rdfs:label "SSK Standards List"@en ;
   dct:title "SSK Standards List"@en ;
   dc:title "SSK Standards List"@en ;
@@ -158,19 +158,19 @@
 :cidoc-crm a skos:Concept ;
   skos:topConceptOf :Schema ;
   skos:inScheme :Schema ;
-  skos:prefLabel "CIDOC-CRM"@en ;
-  skos:notation "CIDOC-CRM"@en ;
+  skos:prefLabel "CIDOC CRM"@en ;
+  skos:notation "CIDOC CRM"@en ;
   skos:altLabel "CIDOC Conceptual Reference Model"@en ;
-  rdfs:label "CIDOC-CRM"@en ;
+  rdfs:label "CIDOC CRM"@en ;
   skos:definition "The CIDOC Conceptual Reference Model (CRM) provides an extensible ontology for concepts and information in cultural heritage and museum documentation. It is the international standard (ISO 21127:2014) for the controlled exchange of cultural heritage information. Galleries, libraries, archives, museums (GLAMs), and other cultural institutions are encouraged to use the CIDOC CRM to enhance accessibility to museum-related information and knowledge."@en .
 
 :cidoc-crmsci a skos:Concept ;
   skos:topConceptOf :Schema ;
   skos:inScheme :Schema ;
-  skos:prefLabel "CIDOC-CRMsci"@en ;
-  skos:notation "CIDOC-CRMsci"@en ;
-  rdfs:label "CIDOC-CRMsci"@en ;
-  skos:definition "Standard: CIDOC-CRMsci (no further description available)"@en .
+  skos:prefLabel "CIDOC CRMsci"@en ;
+  skos:notation "CIDOC CRMsci"@en ;
+  rdfs:label "CIDOC CRMsci"@en ;
+  skos:definition "Standard: CIDOC CRMsci (no further description available)"@en .
 
 :cmdi a skos:Concept ;
   skos:topConceptOf :Schema ;

@@ -15,18 +15,18 @@ def createSkos():
 
     mimes = ['application', 'audio', 'font', 'image', 'message', 'model', 'multipart', 'text', 'video']
 
-    f = open("iana_media-type_original.ttl", "w")
+    f = open("iana-media-type_original.ttl", "w")
     f.write("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n")
     f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
     f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
     f.write("@prefix dc: <http://purl.org/dc/elements/1.1/> .\n")
     f.write("@prefix dct: <http://purl.org/dc/terms/> .\n")
-    f.write("@prefix media-type: <https://vocabs.dariah.eu/media-type/> .\n\n")
+    f.write("@prefix media-type: <https://vocabs.sshopencloud.eu/vocabularies/media-type/> .\n\n")
 
-    f.write("media-type:Schema a skos:ConceptScheme;\n")
-    f.write("\trdfs:label \"Media Types from IANA\"@en;\n")
-    f.write("\tdc:title \"Media Types from IANA\"@en;\n")
-    f.write("\tdct:title \"Media Types from IANA\"@en;\n")
+    f.write("media-type:mediaTypeScheme a skos:ConceptScheme;\n")
+    f.write("\trdfs:label \"IANA Media Types\"@en;\n")
+    f.write("\tdc:title \"IANA Media Types\"@en;\n")
+    f.write("\tdct:title \"IANA Media Types\"@en;\n")
 
     for mime in mimes:
         f.write("\tskos:hasTopConcept media-type:")
