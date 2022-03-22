@@ -1,0 +1,74 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/continousCuration> a skos:Concept ;
+    dct:created "2022-03-22T12:52:15.621267+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:52:16.875389+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "continous-curation" ;
+    skos:prefLabel "Continous curation"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/deprecated> a skos:Concept ;
+    dct:created "2022-03-22T12:52:56.977204+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:52:57.254485+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "deprecated" ;
+    skos:prefLabel "Deprecated"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/disregarded> a skos:Concept ;
+    dct:created "2022-03-22T12:53:28.176925+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:53:28.566702+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "disregarded" ;
+    skos:prefLabel "Disregarded"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/endangered> a skos:Concept ;
+    dct:created "2022-03-22T12:54:22.064543+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:54:22.321323+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "endangered" ;
+    skos:prefLabel "Endangered"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/finishedOrSupported> a skos:Concept ;
+    dct:created "2022-03-22T12:54:50.897169+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:55:04.715174+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "finishedsupported" ;
+    skos:prefLabel "Finished/supported"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/inDevelopment> a skos:Concept ;
+    dct:created "2022-03-22T12:55:30.393811+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-22T12:55:30.567081+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> ;
+    skos:notation "in-development" ;
+    skos:prefLabel "In development"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/trainingResourceStatusScheme> a skos:ConceptScheme ;
+    rdfs:label "Status of training resources"@en ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dc:description "Used in the SSH Training Discovery Toolkit"@en ;
+    dc:language "en" ;
+    dc:publisher "SSHOC WP6" ;
+    dc:title "Status of training resources"@en ;
+    dct:created "2022-03-22T12:49:15.742673+00:00"^^xsd:dateTime ;
+    dct:license "https://creativecommons.org/publicdomain/zero/1.0/deed.en" ;
+    dct:modified "2022-03-22T12:49:15.822409+00:00"^^xsd:dateTime ;
+    owl:versionInfo "0.1.1" ;
+    skos:hasTopConcept <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/continousCuration>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/deprecated>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/disregarded>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/endangered>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/finishedOrSupported>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/inDevelopment> .
+
