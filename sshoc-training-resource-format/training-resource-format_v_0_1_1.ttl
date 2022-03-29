@@ -1,0 +1,293 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/audio> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:24.790350+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:25.018059+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "audio" ;
+    skos:prefLabel "Audio"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/blog> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:19.853873+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:20.822204+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "blog" ;
+    skos:prefLabel "Blog"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/book> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:26.625304+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:26.908454+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "book" ;
+    skos:prefLabel "Book"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/checklist> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:24.442108+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:24.687587+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "checklist" ;
+    skos:prefLabel "Checklist"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/course> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:21.829944+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:22.036822+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "course" ;
+    skos:prefLabel "Course"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/dataNotebookJupyter> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:23.170262+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:23.380626+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "data-notebook-jupyter" ;
+    skos:prefLabel "Data Notebook (jupyter)"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/demo> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:21.231276+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:21.442044+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "demo" ;
+    skos:prefLabel "Demo"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/educationalGame> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:22.876012+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:23.072292+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "educational-game" ;
+    skos:prefLabel "Educational game"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/elearningModule> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:20.927286+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:21.126395+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "e-learning-module" ;
+    skos:prefLabel "E-learning module"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/evaluation> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:23.483431+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:23.699466+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "evaluation" ;
+    skos:prefLabel "Evaluation"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/eventMaterials> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:23.802281+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:23.991397+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "event-materials" ;
+    skos:prefLabel "Event materials"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/exercise> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:21.553229+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:21.731861+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "exercise" ;
+    skos:prefLabel "Exercise"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/handout> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:25.120371+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:25.339475+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "handout" ;
+    skos:prefLabel "Handout"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/image> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:25.440634+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:25.576518+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "image" ;
+    skos:prefLabel "Image"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/onlineGuide> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:22.297526+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:22.434891+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "online-guide" ;
+    skos:prefLabel "Online guide"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/other> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:25.958154+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:26.088838+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "other" ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/report> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:22.704656+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:22.781074+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "report" ;
+    skos:prefLabel "Report"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/slides> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:26.233901+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:26.365642+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "slides" ;
+    skos:prefLabel "Slides"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/software> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:25.688684+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:25.806425+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "software" ;
+    skos:prefLabel "Software"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/survey> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:27.038614+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:27.114973+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "survey" ;
+    skos:prefLabel "Survey"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/tool> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:24.236663+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:24.338277+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "tool" ;
+    skos:prefLabel "Tool"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/unitLesson> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:22.529327+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:22.597725+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "unitlesson" ;
+    skos:prefLabel "Unit/Lesson"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/video> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:26.469047+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:26.526959+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "video-1" ;
+    skos:prefLabel "Video"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/webinar> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:24.086658+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:24.133086+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "webinar" ;
+    skos:prefLabel "Webinar"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/workshop> a skos:Concept ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dct:created "2022-03-29T14:53:22.145697+00:00"^^xsd:dateTime ;
+    dct:modified "2022-03-29T14:53:22.193344+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> ;
+    skos:notation "workshop" ;
+    skos:prefLabel "Workshop"@en ;
+    skos:topConceptOf <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> .
+
+<https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/trainingResourceFormatScheme> a skos:ConceptScheme ;
+    rdfs:label "Formats of training resources"@en ;
+    dc:contributor "Members of SSHOC WP6" ;
+    dc:creator "Klaus Illmayer" ;
+    dc:description "Used in the SSH Training Discovery Toolkit (https://training-toolkit.sshopencloud.eu/)"@en ;
+    dc:language "en" ;
+    dc:publisher "SSHOC WP6" ;
+    dc:title "Formats of training resources"@en ;
+    dct:created "2022-03-29T14:53:19.599882+00:00"^^xsd:dateTime ;
+    dct:license "https://creativecommons.org/publicdomain/zero/1.0/deed.en" ;
+    dct:modified "2022-03-29T14:53:19.599888+00:00"^^xsd:dateTime ;
+    skos:hasTopConcept <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/audio>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/blog>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/book>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/checklist>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/course>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/dataNotebookJupyter>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/demo>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/educationalGame>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/elearningModule>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/evaluation>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/eventMaterials>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/exercise>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/handout>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/image>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/onlineGuide>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/other>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/report>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/slides>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/software>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/survey>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/tool>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/unitLesson>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/video>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/webinar>,
+        <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/workshop> .
+
