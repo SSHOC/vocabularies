@@ -11,3 +11,4 @@ Version history:
   0.1.1: export from PoolParty on base of WP6 TDT vocabulary
   0.1.2: Vocbench prepared export of WP6 TDT vocabulary (same as 0.1.1 but without extra properties by PoolParty) and added concept 'Data engineer'
   0.2.1: extended vocabulary with CESSDA Training Resources and using ACDH-CH-Vocabseditor for management and export
+  0.2.2: removed the automatic generated skos:notation by vocabseditor; changed the conceptScheme-uri to /Scheme; change in vocabseditor how the collection-uri is created (not using # anymore)

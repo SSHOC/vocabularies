@@ -1,0 +1,113 @@
+@prefix : <https://vocabs.dariah.eu/invocation-type/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Wed Jun 02 16:17:47 CEST 2021
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> csw:hierarchyRoot
+    true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  rdfs:label "Invocation type"@en;
+  dcterms:title "Invocation type"@en;
+  skos:definition "Gives information about how something (usually a tools or service) is invocated."@en;
+  rdfs:comment "Gives information about how something (usually a tools or service) is invocated."@en;
+  skos:note "Used in WP3 for solutions and in WP7 for different items but especially tools and services."@en;
+  skos:prefLabel "Invocation type"@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/invocation-type/commandLine> .
+
+<https://vocabs.dariah.eu/invocation-type/commandLine> a skos:Concept;
+  rdfs:label "Command line"@en;
+  skos:definition "You need to open a command line to invocate the tool."@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Command line"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/commandProcessor> .
+
+<https://vocabs.dariah.eu/invocation-type/commandProcessor> a skos:Concept;
+  rdfs:label "Command processor"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Command processor"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/instructionPage> .
+
+<https://vocabs.dariah.eu/invocation-type/instructionPage> a skos:Concept;
+  rdfs:label "Instruction page"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Instruction page"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/library> .
+
+<https://vocabs.dariah.eu/invocation-type/library> a skos:Concept;
+  rdfs:label "Library"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Library"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/localApplication> .
+
+<https://vocabs.dariah.eu/invocation-type/localApplication> a skos:Concept;
+  rdfs:label "Local application"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Local application"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/restfulWebservice> .
+
+<https://vocabs.dariah.eu/invocation-type/restfulWebservice> a skos:Concept;
+  rdfs:label "RESTful webservice"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "RESTful webservice"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/script> .
+
+<https://vocabs.dariah.eu/invocation-type/script> a skos:Concept;
+  rdfs:label " Script "@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Script"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/sourceCode> .
+
+<https://vocabs.dariah.eu/invocation-type/sourceCode> a skos:Concept;
+  rdfs:label "Source code"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Source code"@en .
+
+<https://vocabs.dariah.eu/invocation-type/schemaInvocationType> skos:hasTopConcept
+    <https://vocabs.dariah.eu/invocation-type/webApplication> .
+
+<https://vocabs.dariah.eu/invocation-type/webApplication> a skos:Concept;
+  rdfs:label "Web application"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:inScheme <https://vocabs.dariah.eu/invocation-type/schemaInvocationType>;
+  skos:prefLabel "Web application"@en .
