@@ -234,13 +234,13 @@
     rdfs:label "Formats of training resources"@en ;
     dc:contributor "Members of SSHOC WP6" ;
     dc:creator "Klaus Illmayer" ;
-    dc:description "Used in the SSH Training Discovery Toolkit (https://training-toolkit.sshopencloud.eu/)"@en ;
+    dc:description "Used in the SSH Training Discovery Toolkit (https://training-toolkit.sshopencloud.eu/) to express the type/format of an item from a training material source."@en ;
     dc:language "en" ;
     dc:publisher "SSHOC WP6" ;
     dc:title "Formats of training resources"@en ;
     dct:created "2022-03-29T14:53:19.599882+00:00"^^xsd:dateTime ;
     dct:license "https://creativecommons.org/publicdomain/zero/1.0/deed.en" ;
-    dct:modified "2022-12-15T17:18:22.167033+00:00"^^xsd:dateTime ;
+    dct:modified "2023-01-23T16:26:26.023781+00:00"^^xsd:dateTime ;
     owl:versionInfo "0.2.1" ;
     skos:hasTopConcept <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/audio>,
         <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-format/blog>,

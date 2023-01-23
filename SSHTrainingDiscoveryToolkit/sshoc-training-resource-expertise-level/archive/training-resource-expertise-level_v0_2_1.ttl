@@ -37,7 +37,7 @@
     dct:created "2022-03-22T13:20:22.050938+00:00"^^xsd:dateTime ;
     dct:license "https://creativecommons.org/publicdomain/zero/1.0/deed.en" ;
     dct:modified "2022-12-15T16:48:32.695460+00:00"^^xsd:dateTime ;
-    owl:versionInfo "0.1.2" ;
+    owl:versionInfo "0.2.1" ;
     skos:hasTopConcept <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-expertise-level/advanced>,
         <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-expertise-level/beginner>,
         <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-expertise-level/intermediate> .

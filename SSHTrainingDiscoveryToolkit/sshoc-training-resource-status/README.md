@@ -2,5 +2,5 @@
 * Current source: export from vocabseditor
 
 Version history:
-  0.1.1: First export from vocabseditor on base of WP6 TDT vocabulary
-  0.2.1: changed conceptScheme url to /Scheme; removed skos:notation coming from vocabseditor
+* 0.1.1: First export from vocabseditor on base of WP6 TDT vocabulary
+* 0.2.1: changed conceptScheme url to /; removed skos:notation coming from vocabseditor

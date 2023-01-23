@@ -51,13 +51,13 @@
     rdfs:label "Status of training resources"@en ;
     dc:contributor "Members of SSHOC WP6" ;
     dc:creator "Klaus Illmayer" ;
-    dc:description "Used in the SSH Training Discovery Toolkit"@en ;
+    dc:description "Used in the SSH Training Discovery Toolkit for sources."@en ;
     dc:language "en" ;
     dc:publisher "SSHOC WP6" ;
     dc:title "Status of training resources"@en ;
     dct:created "2022-03-22T12:49:15.742673+00:00"^^xsd:dateTime ;
     dct:license "https://creativecommons.org/publicdomain/zero/1.0/deed.en" ;
-    dct:modified "2022-12-14T16:41:44.815570+00:00"^^xsd:dateTime ;
+    dct:modified "2023-01-23T16:02:06.368354+00:00"^^xsd:dateTime ;
     owl:versionInfo "0.2.1" ;
     skos:hasTopConcept <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/continousCuration>,
         <https://vocabs.sshopencloud.eu/vocabularies/sshoc-training-resource-status/deprecated>,
