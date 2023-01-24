@@ -1,0 +1,129 @@
+@prefix : <https://vocabs.dariah.eu/eosc-technology-readiness-level/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Thu Aug 05 16:57:08 CEST 2021
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> csw:hierarchyRoot
+    true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  dcterms:title "EOSC Technology Readiness Level"@en;
+  rdfs:comment "EOSC Technology Readiness Level from https://api.eosc-portal.eu/vocabulary/byType/TRL"@en;
+  rdfs:label "EOSC Technology Readiness Level"@en;
+  dc:title "EOSC Technology Readiness Level"@en;
+  dc:description "EOSC Technology Readiness Level from https://api.eosc-portal.eu/vocabulary/byType/TRL"@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-1> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-1> a skos:Concept;
+  skos:prefLabel "1 - basic principles observed"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "Scientific research has led to observation and reports of basic principles which has evolved to applied research and development."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "1 - basic principles observed"@en;
+  dc:description "Scientific research has led to observation and reports of basic principles which has evolved to applied research and development."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-2> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-2> a skos:Concept;
+  skos:prefLabel "2 - technology concept formulated"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "Practical applications for the observed basic physical principles is found and reported."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "2 - technology concept formulated"@en;
+  dc:description "Practical applications for the observed basic physical principles is found and reported."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-3> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-3> a skos:Concept;
+  skos:prefLabel "3 - experimental proof of concept"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "The most critical functions of the new technology is validated by using both analytical and experimental methods."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "3 - experimental proof of concept"@en;
+  dc:description "The most critical functions of the new technology is validated by using both analytical and experimental methods."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-4> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-4> a skos:Concept;
+  skos:prefLabel "4 - technology validated in lab"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "The concept is tested to assure that the technical elements can be integrated together and achieve the desired performance, at a component and/or breadboard level."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "4 - technology validated in lab"@en;
+  dc:description "The concept is tested to assure that the technical elements can be integrated together and achieve the desired performance, at a component and/or breadboard level."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-5> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-5> a skos:Concept;
+  skos:prefLabel "5 - technology validated in relevant environment"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "The components making up the concept is tested individually in realistic environment."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "5 - technology validated in relevant environment"@en;
+  dc:description "The components making up the concept is tested individually in realistic environment."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-6> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-6> a skos:Concept;
+  skos:prefLabel "6 - technology demonstrated in relevant environment"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "A model or prototype of the concept, not individual components, is tested in a relevant environment."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "6 - technology demonstrated in relevant environment"@en;
+  dc:description "A model or prototype of the concept, not individual components, is tested in a relevant environment."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-7> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-7> a skos:Concept;
+  skos:prefLabel "7 - system prototype demonstration in operational environment"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "A prototype is tested in the environment in which the final product will operate, e.g. in the original NASA framework this meant to test the technology in space."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "7 - system prototype demonstration in operational environment"@en;
+  dc:description "A prototype is tested in the environment in which the final product will operate, e.g. in the original NASA framework this meant to test the technology in space."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-8> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-8> a skos:Concept;
+  skos:prefLabel "8 - system complete and qualified"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "The technology is built to the specifications of the final product and is tested in the operational environment alongside all systems it will interact with."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "8 - system complete and qualified"@en;
+  dc:description "The technology is built to the specifications of the final product and is tested in the operational environment alongside all systems it will interact with."@en .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema> skos:hasTopConcept
+    <https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-9> .
+
+<https://vocabs.dariah.eu/eosc-technology-readiness-level/trl-9> a skos:Concept;
+  skos:prefLabel "9 - actual system proven in operational environment"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  skos:definition "At this level the all technology development has been completed and the technology is performing as intended in the real-world environment."@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-technology-readiness-level/Schema>;
+  rdfs:label "9 - actual system proven in operational environment"@en;
+  dc:description "At this level the all technology development has been completed and the technology is performing as intended in the real-world environment."@en .

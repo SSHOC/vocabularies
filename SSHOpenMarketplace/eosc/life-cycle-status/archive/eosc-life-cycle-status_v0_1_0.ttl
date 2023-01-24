@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Tue Aug 24 17:36:58 CEST 2021
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  dcterms:title "EOSC Life Cycle Status List"@en;
+  rdfs:comment "EOSC Life Cycle Status List from https://api.eosc-portal.eu/vocabulary/byType/LIFE_CYCLE_STATUS"@en;
+  rdfs:label "EOSC Life Cycle Status List"@en;
+  dc:title "EOSC Life Cycle Status List"@en;
+  dc:description "EOSC Life Cycle Status List from https://api.eosc-portal.eu/vocabulary/byType/LIFE_CYCLE_STATUS"@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-alpha> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-alpha> a skos:Concept;
+  skos:prefLabel "Alpha"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource prototype available for closed set of users"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Alpha"@en;
+  dc:description "Resource prototype available for closed set of users"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-beta> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-beta> a skos:Concept;
+  skos:prefLabel "Beta"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource being developed while available for testing publicly"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Beta"@en;
+  dc:description "Resource being developed while available for testing publicly"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-concept> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-concept> a skos:Concept;
+  skos:prefLabel "Concept"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Concept development"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Concept"@en;
+  dc:description "Concept development"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-design> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-design> a skos:Concept;
+  skos:prefLabel "Design"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource in design"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Design"@en;
+  dc:description "Resource in design"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-discovery> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-discovery> a skos:Concept;
+  skos:prefLabel "Discovery"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Researching users needs, exploring technological or policy constraints"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Discovery"@en;
+  dc:description "Researching users needs, exploring technological or policy constraints"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-implementation> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-implementation>
+  a skos:Concept;
+  skos:prefLabel "Implementation"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource in deployment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Implementation"@en;
+  dc:description "Resource in deployment"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-in_containment> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-in_containment>
+  a skos:Concept;
+  skos:prefLabel "In containment"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource active, but generally not available to new users"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "In containment"@en;
+  dc:description "Resource active, but generally not available to new users"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-operation> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-operation> a skos:Concept;
+  skos:prefLabel "Operation"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource offered"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Operation"@en;
+  dc:description "Resource offered"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-other> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-other> a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-planned> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-planned> a skos:Concept;
+  skos:prefLabel "Planned"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource plan defined"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Planned"@en;
+  dc:description "Resource plan defined"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-preparation> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-preparation> a
+    skos:Concept;
+  skos:prefLabel "Preparation"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource in preparatory phase"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Preparation"@en;
+  dc:description "Resource in preparatory phase"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-production> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-production> a skos:Concept;
+  skos:prefLabel "Production"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource available in the live environment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Production"@en;
+  dc:description "Resource available in the live environment"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-retirement> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-retirement> a skos:Concept;
+  skos:prefLabel "Retirement"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource is not anymore offered"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Retirement"@en;
+  dc:description "Resource is not anymore offered"@en .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-termination> .
+
+<https://vocabs.dariah.eu/eosc-life-cycle-status/life_cycle_status-termination> a
+    skos:Concept;
+  skos:prefLabel "Termination"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  skos:definition "Resource dissolution, dismantling"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-life-cycle-status/Schema>;
+  rdfs:label "Termination"@en;
+  dc:description "Resource dissolution, dismantling"@en .

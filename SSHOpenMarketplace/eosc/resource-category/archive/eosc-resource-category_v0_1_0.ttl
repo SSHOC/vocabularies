@@ -1,0 +1,2061 @@
+@prefix : <https://vocabs.dariah.eu/eosc-resource-category/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Thu Jul 15 13:33:07 CEST 2021
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> csw:hierarchyRoot true;
+  csw:hierarchyRootType skos:ConceptScheme;
+  a skos:ConceptScheme;
+  dcterms:title "EOSC Resource Category List"@en;
+  rdfs:comment "EOSC Resource Category List compiled from https://api.eosc-portal.eu/vocabulary/byType/SUPERCATEGORY, https://api.eosc-portal.eu/vocabulary/byType/CATEGORY, and https://api.eosc-portal.eu/vocabulary/byType/SUBCATEGORY"@en;
+  rdfs:label "EOSC Resource Category List"@en;
+  dc:title "EOSC Resource Category List"@en;
+  dc:description "EOSC Resource Category List compiled from https://api.eosc-portal.eu/vocabulary/byType/SUPERCATEGORY, https://api.eosc-portal.eu/vocabulary/byType/CATEGORY, and https://api.eosc-portal.eu/vocabulary/byType/SUBCATEGORY"@en;
+  skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures>
+  a skos:Concept;
+  skos:prefLabel "Access physical & eInfrastructures"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Access physical & eInfrastructures"@en;
+  dc:description "Ultra-fast connectivity and ubiquitous access, high performance computing, cloud capacity and storage."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network>
+  a skos:Concept;
+  skos:prefLabel "Network"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-content_delivery_network>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-direct_connect>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-exchange>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-load_balancer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-traffic_manager>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-virtual_nework>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-vpn_gateway>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Network"@en;
+  dc:description "Ultra-fast connectivity and ubiquitous access to eInfrastructures' resources and services."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-exchange>
+  a skos:Concept;
+  skos:prefLabel "Exchange"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Exchange"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-load_balancer>
+  a skos:Concept;
+  skos:prefLabel "Load Balancer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Load Balancer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-content_delivery_network>
+  a skos:Concept;
+  skos:prefLabel "Content Delivery Network"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Content Delivery Network"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-virtual_nework>
+  a skos:Concept;
+  skos:prefLabel "Virtual Network"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Virtual Network"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-vpn_gateway>
+  a skos:Concept;
+  skos:prefLabel "VPN Gateway"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "VPN Gateway"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-direct_connect>
+  a skos:Concept;
+  skos:prefLabel "Direct Connect"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Direct Connect"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-traffic_manager>
+  a skos:Concept;
+  skos:prefLabel "Traffic Manager"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Traffic Manager"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute>
+  a skos:Concept;
+  skos:prefLabel "Compute"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-container_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-job_execution>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-orchestration>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-serverless_applications_repository>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-virtual_machine_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-workload_management>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Compute"@en;
+  dc:description "High-performance computing resources and scalable cloud compute capacity for demanding job processes."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-virtual_machine_management>
+  a skos:Concept;
+  skos:prefLabel "Virtual Machine Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Virtual Machine Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-workload_management>
+  a skos:Concept;
+  skos:prefLabel "Workload Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Workload Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-orchestration>
+  a skos:Concept;
+  skos:prefLabel "Orchestration"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Orchestration"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-serverless_applications_repository>
+  a skos:Concept;
+  skos:prefLabel "Serverless Applications Repository"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Serverless Applications Repository"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-container_management>
+  a skos:Concept;
+  skos:prefLabel "Container Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Container Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-job_execution>
+  a skos:Concept;
+  skos:prefLabel "Job Execution"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Job Execution"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage>
+  a skos:Concept;
+  skos:prefLabel "Material Storage"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-archiving>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-assembly>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-disposal>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-fulfilment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-packaging>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-preservation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-quality_inspecting>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-repository>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-reworking>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-sorting>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-warehousing>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Material Storage"@en;
+  dc:description "Access to biological, chemical, historical, archeological, cultural, etc. storage. Includes the acquisition, preparation and processing of samples and materials in view of their preservation."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-packaging>
+  a skos:Concept;
+  skos:prefLabel "Packaging"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Packaging"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-sorting>
+  a skos:Concept;
+  skos:prefLabel "Sorting"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Sorting"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-quality_inspecting>
+  a skos:Concept;
+  skos:prefLabel "Quality Inspecting"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Quality Inspecting"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-assembly>
+  a skos:Concept;
+  skos:prefLabel "Assembly"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Assembly"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-reworking>
+  a skos:Concept;
+  skos:prefLabel "Reworking"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Reworking"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-warehousing>
+  a skos:Concept;
+  skos:prefLabel "Warehousing"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Warehousing"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-preservation>
+  a skos:Concept;
+  skos:prefLabel "Preservation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Preservation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-fulfilment>
+  a skos:Concept;
+  skos:prefLabel "Fulfilment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Fulfilment"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-repository>
+  a skos:Concept;
+  skos:prefLabel "Repository"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Repository"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-disposal>
+  a skos:Concept;
+  skos:prefLabel "Disposal"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Disposal"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-archiving>
+  a skos:Concept;
+  skos:prefLabel "Archiving"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Archiving"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment>
+  a skos:Concept;
+  skos:prefLabel "Instrument & Equipment"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-chromatographer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-cytometer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-digitisation_equipment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-geophysical>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-laser>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-microscopy>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-monument_maintenance_equipment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-radiation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrometer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrophotometer>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Instrument & Equipment"@en;
+  dc:description "Access to instruments and equipment."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-cytometer>
+  a skos:Concept;
+  skos:prefLabel "Cytometer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Cytometer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-microscopy>
+  a skos:Concept;
+  skos:prefLabel "Microscopy"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Microscopy"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrophotometer>
+  a skos:Concept;
+  skos:prefLabel "Spectrophotometer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Spectrophotometer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-monument_maintenance_equipment>
+  a skos:Concept;
+  skos:prefLabel "Monument Maintenance Equipment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Monument Maintenance Equipment"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-digitisation_equipment>
+  a skos:Concept;
+  skos:prefLabel "Digitisation Equipment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Digitisation Equipment"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-radiation>
+  a skos:Concept;
+  skos:prefLabel "Radiation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Radiation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-geophysical>
+  a skos:Concept;
+  skos:prefLabel "Geophysical"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Geophysical"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-laser>
+  a skos:Concept;
+  skos:prefLabel "Laser"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Laser"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-chromatographer>
+  a skos:Concept;
+  skos:prefLabel "Chromatographer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Chromatographer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrometer>
+  a skos:Concept;
+  skos:prefLabel "Spectrometer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Spectrometer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage>
+  a skos:Concept;
+  skos:prefLabel "Data Storage"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-archive>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-backup>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-digital_preservation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-disk>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-file>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-online>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-queue>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-recovery>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-replicated>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-synchronised>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data Storage"@en;
+  dc:description "Reliable, secure and scalable cloud storage for scientific data, apps and workloads."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-recovery>
+  a skos:Concept;
+  skos:prefLabel "Recovery"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Recovery"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-replicated>
+  a skos:Concept;
+  skos:prefLabel "Replicated"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Replicated"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-online>
+  a skos:Concept;
+  skos:prefLabel "Online"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Online"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-disk>
+  a skos:Concept;
+  skos:prefLabel "Disk"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Disk"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-data>
+  a skos:Concept;
+  skos:prefLabel "Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-file>
+  a skos:Concept;
+  skos:prefLabel "File"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "File"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-digital_preservation>
+  a skos:Concept;
+  skos:prefLabel "Digital Preservation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Digital Preservation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-archive>
+  a skos:Concept;
+  skos:prefLabel "Archive"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Archive"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-backup>
+  a skos:Concept;
+  skos:prefLabel "Backup"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Backup"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-queue>
+  a skos:Concept;
+  skos:prefLabel "Queue"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Queue"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-synchronised>
+  a skos:Concept;
+  skos:prefLabel "Synchronised"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Synchronised"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-aggregators_and_integrators>
+  a skos:Concept;
+  skos:prefLabel "Aggregators & Integrators"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Aggregators & Integrators"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators>
+  a skos:Concept;
+  skos:prefLabel "Aggregators & Integrators"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-applications>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-services>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-software>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Aggregators & Integrators"@en;
+  dc:description "Thematic, Regional and other Aggregators & Integrators."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-applications>
+  a skos:Concept;
+  skos:prefLabel "Applications"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Applications"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-services>
+  a skos:Concept;
+  skos:prefLabel "Services"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Services"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-data>
+  a skos:Concept;
+  skos:prefLabel "Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-software>
+  a skos:Concept;
+  skos:prefLabel "Software"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-other> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-other> a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-other-other>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-other-other> a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-other-other-other>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-other-other-other> a
+    skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-processing_and_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-processing_and_analysis>
+  a skos:Concept;
+  skos:prefLabel "Processing & Analysis"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Processing & Analysis"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management>
+  a skos:Concept;
+  skos:prefLabel "Data Management"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-access>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-annotation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-anonymisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-brokering>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-digitisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-discovery>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-embargo>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-interlinking>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-maintenance>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-mining>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-persistent_identifier>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-preservation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-publishing>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-registration>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-transfer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-validation>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data Management"@en;
+  dc:description "Robust, feature-rich and user-friendly data management services."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-transfer>
+  a skos:Concept;
+  skos:prefLabel "Transfer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Transfer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-access>
+  a skos:Concept;
+  skos:prefLabel "Access"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Access"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-validation>
+  a skos:Concept;
+  skos:prefLabel "Validation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Validation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-persistent_identifier>
+  a skos:Concept;
+  skos:prefLabel "Persistent Identifier"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Persistent Identifier"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-mining>
+  a skos:Concept;
+  skos:prefLabel "Mining"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Mining"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-preservation>
+  a skos:Concept;
+  skos:prefLabel "Preservation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Preservation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-interlinking>
+  a skos:Concept;
+  skos:prefLabel "Interlinking"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Interlinking"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-annotation>
+  a skos:Concept;
+  skos:prefLabel "Annotation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Annotation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-brokering>
+  a skos:Concept;
+  skos:prefLabel "Brokering"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Brokering"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-registration>
+  a skos:Concept;
+  skos:prefLabel "Registration"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Registration"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-anonymisation>
+  a skos:Concept;
+  skos:prefLabel "Anonymisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Anonymisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-publishing>
+  a skos:Concept;
+  skos:prefLabel "processing_and_analysis-data_management-publishing"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "processing_and_analysis-data_management-publishing"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-digitisation>
+  a skos:Concept;
+  skos:prefLabel "Digitisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Digitisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-discovery>
+  a skos:Concept;
+  skos:prefLabel "Discovery"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Discovery"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-embargo>
+  a skos:Concept;
+  skos:prefLabel "Embargo"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Embargo"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-maintenance>
+  a skos:Concept;
+  skos:prefLabel "Maintenance"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Maintenance"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis>
+  a skos:Concept;
+  skos:prefLabel "Measurement & Materials Analysis"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-analysis>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-characterisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-maintenance_and_modification>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-production>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-testing_and_validation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-validation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-workflows>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Measurement & Materials Analysis"@en;
+  dc:description "Processess and techiques for material analysis, characterisation and monitoring."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-characterisation>
+  a skos:Concept;
+  skos:prefLabel "Characterisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Characterisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-production>
+  a skos:Concept;
+  skos:prefLabel "Production"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Production"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-maintenance_and_modification>
+  a skos:Concept;
+  skos:prefLabel "Maintenance & Modification"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Maintenance & Modification"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-validation>
+  a skos:Concept;
+  skos:prefLabel "Validation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Validation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-analysis>
+  a skos:Concept;
+  skos:prefLabel "Analysis"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Analysis"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-workflows>
+  a skos:Concept;
+  skos:prefLabel "Workflows"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Workflows"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-testing_and_validation>
+  a skos:Concept;
+  skos:prefLabel "TEsting & Validation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "TEsting & Validation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis>
+  a skos:Concept;
+  skos:prefLabel "Data Analysis"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-2d_3d_digitisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-artificial_intelligence>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-data_exploitation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-forecast>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-image_data_analysis>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-machine_learning>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-visualization>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-workflows>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data Analysis"@en;
+  dc:description "Processes for data with the goal of discovering useful information, informing conclusions, and supporting decision-making."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-artificial_intelligence>
+  a skos:Concept;
+  skos:prefLabel "Artificial Intelligence"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Artificial Intelligence"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-2d_3d_digitisation>
+  a skos:Concept;
+  skos:prefLabel "2D/3D Digitisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "2D/3D Digitisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-visualization>
+  a skos:Concept;
+  skos:prefLabel "Visualization"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Visualization"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-machine_learning>
+  a skos:Concept;
+  skos:prefLabel "Machine Learning"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Machine Learning"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-workflows>
+  a skos:Concept;
+  skos:prefLabel "Workflows"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Workflows"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-forecast>
+  a skos:Concept;
+  skos:prefLabel "Forecast"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Forecast"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-image_data_analysis>
+  a skos:Concept;
+  skos:prefLabel "Image/Data Analysis"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Image/Data Analysis"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-data_exploitation>
+  a skos:Concept;
+  skos:prefLabel "Data Exploitation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data Exploitation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-security_and_operations> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-security_and_operations>
+  a skos:Concept;
+  skos:prefLabel "Security & Operations"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Security & Operations"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services>
+  a skos:Concept;
+  skos:prefLabel "Operations & Infrastructure Management Services"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-accounting>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-analysis>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-billing>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-configuration>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-coordination>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-helpdesk>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-monitoring>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-order_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-transportation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-utilities>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Operations & Infrastructure Management Services"@en;
+  dc:description "Services for monitoring, scaling, creating, tracking and automating operations on infrastructures and services."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-order_management>
+  a skos:Concept;
+  skos:prefLabel "Order Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Order Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-transportation>
+  a skos:Concept;
+  skos:prefLabel "Transportation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Transportation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-configuration>
+  a skos:Concept;
+  skos:prefLabel "Configuration"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Configuration"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-monitoring>
+  a skos:Concept;
+  skos:prefLabel "Monitoring"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Monitoring"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-analysis>
+  a skos:Concept;
+  skos:prefLabel "Analysis"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Analysis"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-utilities>
+  a skos:Concept;
+  skos:prefLabel "Utilities"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Utilities"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-coordination>
+  a skos:Concept;
+  skos:prefLabel "Coordination"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Coordination"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-helpdesk>
+  a skos:Concept;
+  skos:prefLabel "Helpdesk"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Helpdesk"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-billing>
+  a skos:Concept;
+  skos:prefLabel "Billing"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Billing"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-accounting>
+  a skos:Concept;
+  skos:prefLabel "Accounting"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Accounting"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity>
+  a skos:Concept;
+  skos:prefLabel "Security & Identity"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-certification_authority>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-coordination>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-firewall>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-group_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-identity_and_access_management>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-single_sign_on>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-threat_protection>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-tools>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-user_authentication>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Security & Identity"@en;
+  dc:description "Protect infrastructure and manage user identities and access against advanced threats across devices, data, apps, etc."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-group_management>
+  a skos:Concept;
+  skos:prefLabel "Group Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Group Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-certification_authority>
+  a skos:Concept;
+  skos:prefLabel "Certification Authority"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Certification Authority"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-threat_protection>
+  a skos:Concept;
+  skos:prefLabel "Threat Protection"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Threat Protection"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-coordination>
+  a skos:Concept;
+  skos:prefLabel "Coordination"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Coordination"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-user_authentication>
+  a skos:Concept;
+  skos:prefLabel "User Authentication"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "User Authentication"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-single_sign_on>
+  a skos:Concept;
+  skos:prefLabel "Single Sign-On"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Single Sign-On"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-firewall>
+  a skos:Concept;
+  skos:prefLabel "Firewall"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Firewall"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-identity_and_access_management>
+  a skos:Concept;
+  skos:prefLabel "Identity & Access Management"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Identity & Access Management"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-tools>
+  a skos:Concept;
+  skos:prefLabel "Tools"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Tools"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery>
+  a skos:Concept;
+  skos:prefLabel "Sharing & Discovery"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Sharing & Discovery"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication>
+  a skos:Concept;
+  skos:prefLabel "Scholarly Communication"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-analysis>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-assessment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-discovery>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-outreach>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-preparation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-publication>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-writing>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Scholarly Communication"@en;
+  dc:description "Research findings available to the wider academic community and beyond."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-discovery>
+  a skos:Concept;
+  skos:prefLabel "Discovery"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Discovery"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-publication>
+  a skos:Concept;
+  skos:prefLabel "Publication"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Publication"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-assessment>
+  a skos:Concept;
+  skos:prefLabel "Assessment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Assessment"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-outreach>
+  a skos:Concept;
+  skos:prefLabel "Outreach"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Outreach"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-preparation>
+  a skos:Concept;
+  skos:prefLabel "Preparation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Preparation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-writing>
+  a skos:Concept;
+  skos:prefLabel "Writing"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Writing"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-analysis>
+  a skos:Concept;
+  skos:prefLabel "Analysis"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Analysis"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data>
+  a skos:Concept;
+  skos:prefLabel "Data"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-clinical_trial_data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-data_archives>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-epidemiological_data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-government_and_agency_data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-online_service_data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-scientific_research_data>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-statistical_data>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data"@en;
+  dc:description "Vast range of datasets to facilitate research and scientific activities."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-online_service_data>
+  a skos:Concept;
+  skos:prefLabel "Online Service Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Online Service Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-epidemiological_data>
+  a skos:Concept;
+  skos:prefLabel "Epidemiological Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Epidemiological Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-government_and_agency_data>
+  a skos:Concept;
+  skos:prefLabel "Government & Agency Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Government & Agency Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-scientific_research_data>
+  a skos:Concept;
+  skos:prefLabel "Scientific/Research Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Scientific/Research Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-clinical_trial_data>
+  a skos:Concept;
+  skos:prefLabel "Clinical Trial Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Clinical Trial Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-data_archives>
+  a skos:Concept;
+  skos:prefLabel "Data Archives"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Data Archives"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-statistical_data>
+  a skos:Concept;
+  skos:prefLabel "Statistical Data"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Statistical Data"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources>
+  a skos:Concept;
+  skos:prefLabel "Development Resources"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-apis_repository_gateway>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-developer_tools>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_development_kits>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_libraries>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Development Resources"@en;
+  dc:description "Developer tools, development kits, libraries, APIs."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_development_kits>
+  a skos:Concept;
+  skos:prefLabel "Software Development Kits"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Development Kits"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-developer_tools>
+  a skos:Concept;
+  skos:prefLabel "Developer Tools"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Developer Tools"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-apis_repository_gateway>
+  a skos:Concept;
+  skos:prefLabel "APIs Repository/Gateway"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "APIs Repository/Gateway"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_libraries>
+  a skos:Concept;
+  skos:prefLabel "Software Libraries"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Libraries"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications>
+  a skos:Concept;
+  skos:prefLabel "Applications"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-applications_repository>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-business>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-collaboration>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-communication>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-education>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-productivity>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-social_networking>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-utilities>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Applications"@en;
+  dc:description "End-user applications offered-as-a-service or deployed-on-demand."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-productivity>
+  a skos:Concept;
+  skos:prefLabel "Productivity"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Productivity"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-collaboration>
+  a skos:Concept;
+  skos:prefLabel "Collaboration"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Collaboration"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-applications_repository>
+  a skos:Concept;
+  skos:prefLabel "Applications Repository"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Applications Repository"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-communication>
+  a skos:Concept;
+  skos:prefLabel "Communication"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Communication"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-business>
+  a skos:Concept;
+  skos:prefLabel "Business"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Business"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-social_networking>
+  a skos:Concept;
+  skos:prefLabel "Social/Networking"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Social/Networking"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-education>
+  a skos:Concept;
+  skos:prefLabel "Education"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Education"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-utilities>
+  a skos:Concept;
+  skos:prefLabel "Utilities"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Utilities"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software>
+  a skos:Concept;
+  skos:prefLabel "Software"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-libraries>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-platform>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_package>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_repository>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software"@en;
+  dc:description "Software, platforms and tools offered-as-a-service or deployed-on-demand."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-platform>
+  a skos:Concept;
+  skos:prefLabel "Platform"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Platform"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-libraries>
+  a skos:Concept;
+  skos:prefLabel "Libraries"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Libraries"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_package>
+  a skos:Concept;
+  skos:prefLabel "Software Package"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Package"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_repository>
+  a skos:Concept;
+  skos:prefLabel "Software Repository"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Repository"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples>
+  a skos:Concept;
+  skos:prefLabel "Samples"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-biological_samples>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-characterisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-chemical_compounds_library>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-preparation>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Samples"@en;
+  dc:description "Collection, preparation and delivery of biological, chemical, environmental or other samples."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-characterisation>
+  a skos:Concept;
+  skos:prefLabel "Characterisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Characterisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-preparation>
+  a skos:Concept;
+  skos:prefLabel "Preparation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Preparation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-biological_samples>
+  a skos:Concept;
+  skos:prefLabel "Biological Samples"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Biological Samples"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-chemical_compounds_library>
+  a skos:Concept;
+  skos:prefLabel "Chemical Compounds Library"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Chemical Compounds Library"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/Schema> skos:hasTopConcept <https://vocabs.dariah.eu/eosc-resource-category/supercategory-training_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/supercategory-training_and_support>
+  a skos:Concept;
+  skos:prefLabel "Training & Support"@en;
+  skos:topConceptOf <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support>,
+    <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Training & Support"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support>
+  a skos:Concept;
+  skos:prefLabel "Consultancy & Support"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_optimisation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_porting>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_scaling>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-audit_and_assessment>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-benchmarking>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-calibration>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-certification>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-consulting>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-methodology_development>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-modeling_and_simulation>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-prototype_development>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_development>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_improvement>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-technology_transfer>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-testing>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Consultancy & Support"@en;
+  dc:description "Dedicated professional support for a wide range of scientific disciplines and research activities."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-prototype_development>
+  a skos:Concept;
+  skos:prefLabel "Prototype Development"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Prototype Development"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-audit_and_assessment>
+  a skos:Concept;
+  skos:prefLabel "Audit & Assessment"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Audit & Assessment"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_improvement>
+  a skos:Concept;
+  skos:prefLabel "Software Improvement"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Improvement"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-calibration>
+  a skos:Concept;
+  skos:prefLabel "Calibration"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Calibration"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-consulting>
+  a skos:Concept;
+  skos:prefLabel "Consulting"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Consulting"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-modeling_and_simulation>
+  a skos:Concept;
+  skos:prefLabel "Modeling & Simulation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Modeling & Simulation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_porting>
+  a skos:Concept;
+  skos:prefLabel "Application_Porting"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Application_Porting"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-methodology_development>
+  a skos:Concept;
+  skos:prefLabel "Methodology Development"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Methodology Development"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-certification>
+  a skos:Concept;
+  skos:prefLabel "Certification"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Certification"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-technology_transfer>
+  a skos:Concept;
+  skos:prefLabel "Technology Transfer"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Technology Transfer"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-benchmarking>
+  a skos:Concept;
+  skos:prefLabel "Benchmarking"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Benchmarking"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_development>
+  a skos:Concept;
+  skos:prefLabel "Software Development"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Software Development"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-testing>
+  a skos:Concept;
+  skos:prefLabel "Testing"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Testing"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_scaling>
+  a skos:Concept;
+  skos:prefLabel "Application Scaling"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Application Scaling"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_optimisation>
+  a skos:Concept;
+  skos:prefLabel "Application Optimisation"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Application Optimisation"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training>
+  a skos:Concept;
+  skos:prefLabel "Education & Training"@en;
+  skos:narrower <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-in_house_courses>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-online_courses>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-open_registration_courses>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-other>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-related_training>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-required_training>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_platform>,
+    <https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_tool>;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Education & Training"@en;
+  dc:description "Highly-specialized seminars and courses to help advance research knowledge and sharpen scientific skills."@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-online_courses>
+  a skos:Concept;
+  skos:prefLabel "Online Courses"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Online Courses"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_platform>
+  a skos:Concept;
+  skos:prefLabel "Training Platform"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Training Platform"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-related_training>
+  a skos:Concept;
+  skos:prefLabel "Related Training"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Related Training"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_tool>
+  a skos:Concept;
+  skos:prefLabel "Training Tool"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Training Tool"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-other>
+  a skos:Concept;
+  skos:prefLabel "Other"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Other"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-required_training>
+  a skos:Concept;
+  skos:prefLabel "Required Training"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Required Training"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-open_registration_courses>
+  a skos:Concept;
+  skos:prefLabel "Open Registration Courses"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "Open Registration Courses"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-in_house_courses>
+  a skos:Concept;
+  skos:prefLabel "In-House Courses"@en;
+  skos:inScheme <https://vocabs.dariah.eu/eosc-resource-category/Schema>;
+  rdfs:label "In-House Courses"@en .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-preparation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-utilities>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-open_registration_courses>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-coordination>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-scientific_research_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-archive>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-backup>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-digitisation_equipment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-packaging>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_development>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-brokering>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-content_delivery_network>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-virtual_machine_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-laser>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-discovery>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-accounting>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-maintenance>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-online_service_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-workflows>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-libraries>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-maintenance_and_modification>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-disposal>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-production>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-job_execution>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-processing_and_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-annotation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-in_house_courses>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-replicated>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-training_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-mining>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-data_exploitation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_libraries>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-prototype_development>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-microscopy>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-related_training>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-recovery>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-business>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-anonymisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-consulting>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-chemical_compounds_library>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-validation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-identity_and_access_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-threat_protection>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-group_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-software_improvement>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-developer_tools>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-calibration>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-modeling_and_simulation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-education>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_platform>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_repository>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-security_and_operations> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-online_courses>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-methodology_development>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-software>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-digital_preservation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-other-other-other> skos:broader
+    <https://vocabs.dariah.eu/eosc-resource-category/category-other-other> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-software_development_kits>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-testing_and_validation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-load_balancer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-billing>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-warehousing>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-preservation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-applications>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-collaboration>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-workload_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-assessment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-validation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-communication>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-access>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-processing_and_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-interlinking>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-configuration>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-benchmarking>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-vpn_gateway>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-biological_samples>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-exchange>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-visualization>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_porting>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-geophysical>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-orchestration>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-preservation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-synchronised>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-other-other> skos:broader
+    <https://vocabs.dariah.eu/eosc-resource-category/supercategory-other> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-writing>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-social_networking>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrophotometer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-monitoring>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-statistical_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-required_training>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-apis_repository_gateway>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-traffic_manager>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-epidemiological_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-repository>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-virtual_nework>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-file>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_scaling>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-aggregators_and_integrators-aggregators_and_integrators-services>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-aggregators_and_integrators-aggregators_and_integrators> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-processing_and_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-software_package>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-discovery>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-monument_maintenance_equipment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-2d_3d_digitisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-workflows>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-publication>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-image_data_analysis>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-embargo>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-access_physical_and_einfrastructures> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-quality_inspecting>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-certification_authority>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-reworking>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-tools>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-fulfilment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-outreach>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-spectrometer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-certification>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-serverless_applications_repository>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-transfer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-publishing>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-user_authentication>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-audit_and_assessment>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-software-platform>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-software> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-government_and_agency_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-application_optimisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-single_sign_on>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-archiving>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-radiation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-online>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-cytometer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-productivity>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-sorting>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-instrument_and_equipment-chromatographer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-instrument_and_equipment> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-transportation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-forecast>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-artificial_intelligence>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-queue>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-material_storage-assembly>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-material_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-firewall>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-digitisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-order_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-technology_transfer>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-compute-container_management>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-compute> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-data_storage-disk>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-data_storage> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-registration>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-access_physical_and_einfrastructures-network-direct_connect>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-access_physical_and_einfrastructures-network> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-measurement_and_materials_analysis-characterisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-measurement_and_materials_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-development_resources-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-development_resources> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-coordination>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_analysis-machine_learning>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_analysis> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-clinical_trial_data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-samples-characterisation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-samples> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-utilities>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-training_and_support> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-education_and_training-training_tool>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-education_and_training> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-scholarly_communication-preparation>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-scholarly_communication> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-data-data_archives>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-data>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-sharing_and_discovery> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/supercategory-security_and_operations> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-operations_and_infrastructure_management_services-helpdesk>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-operations_and_infrastructure_management_services> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-security_and_operations-security_and_identity-other>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-security_and_operations-security_and_identity> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-sharing_and_discovery-applications-applications_repository>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-sharing_and_discovery-applications> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-processing_and_analysis-data_management-persistent_identifier>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-processing_and_analysis-data_management> .
+
+<https://vocabs.dariah.eu/eosc-resource-category/subcategory-training_and_support-consultancy_and_support-testing>
+  skos:broader <https://vocabs.dariah.eu/eosc-resource-category/category-training_and_support-consultancy_and_support> .
