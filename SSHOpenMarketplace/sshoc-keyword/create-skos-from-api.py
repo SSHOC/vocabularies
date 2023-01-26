@@ -5,7 +5,7 @@ translate_table = {ord('/'): 'SLASH', ord('+'): 'PLUS', ord('('): 'OPEN_PARENTHE
                    ord('&'): 'AMPERSAND', ord(','): 'COMMA'}
 
 def createSkos():
-    response = requests.get("https://sshoc-marketplace-api.acdh-dev.oeaw.ac.at/api/item-search/?f.keyword=*")
+    response = requests.get("https://marketplace-api.sshopencloud.eu/api/item-search/?f.keyword=*")
     keywords = response.json()['facets']['keyword']
 
     f = open("sshoc-keyword_original.ttl", "w", encoding="utf-8")
