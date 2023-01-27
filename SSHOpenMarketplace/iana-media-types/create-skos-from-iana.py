@@ -65,7 +65,7 @@ def createSkos():
                 f.write("\tskos:altLabel \"")
                 f.write("Humanities Data: " + mappings[template])
                 f.write("\"@en;\n")
-            f.write("\tskos:inScheme media-type:Schema;\n")
+            f.write("\tskos:inScheme media-type:mediaTypeScheme;\n")
             f.write("\tskos:broader media-type:")
             f.write(slugify(mime))
             f.write(" .\n\n")
