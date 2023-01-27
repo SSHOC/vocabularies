@@ -85,8 +85,8 @@
   rdfs:comment "A list of standards that are mentioned in steps of the SSK (Standardization Survival Kit)"@en .
 
 :3ds a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel ".3ds"@en ;
   skos:notation ".3ds"@en ;
   skos:altLabel "3D studio"@en ;
@@ -94,8 +94,8 @@
   skos:definition "3DS is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software. It was the native file format of the old Autodesk 3D Studio DOS (releases 1 to 4), which was popular until its successor (3D Studio MAX 1.0) replaced it in April 1996. Having been around since 1990 (when the first version of 3D Studio DOS was launched), it has grown to become a de facto industry standard for transferring models between 3D programs, or for storing models for 3D resource catalogs (along with OBJ, which is more frequently used as a model archiving file format). While the 3DS format aims to provide an import/export format, retaining only essential geometry, texture and lighting data, the related MAX format (now superseded by the PRJ format) also contains extra information specific to Autodesk 3ds Max, to allow a scene to be completely saved/loaded."@en .
 
 :alto-xml a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ALTO-XML"@en ;
   skos:notation "ALTO-XML"@en ;
   skos:altLabel "Analyzed Layout and Text Object"@en ;
@@ -103,8 +103,8 @@
   skos:definition "ALTO (Analyzed Layout and Text Object) is an open XML Schema developed by the EU-funded project called METAe. The standard was initially developed for the description of text OCR and layout information of pages for digitized material. The goal was to describe the layout and text in a form to be able to reconstruct the original appearance based on the digitized information - similar to the approach of a lossless image saving operation. ALTO is often used in combination with Metadata Encoding and Transmission Standard (METS) for the description of the whole digitized object and creation of references across the ALTO files, e.g. reading sequence description."@en .
 
 :apache-fop a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "Apache FOP"@en ;
   skos:notation "Apache FOP"@en ;
   skos:altLabel "Apache Formatting Objects Processor"@en ;
@@ -112,8 +112,8 @@
   skos:definition "Apache FOP (Formatting Objects Processor) is a print formatter driven by XSL formatting objects (XSL-FO) and an output independent formatter. It is a Java application that reads a formatting object (FO) tree and renders the resulting pages to a specified output. Output formats currently supported include PDF, PS, PCL, AFP, XML (area tree representation), Print, AWT and PNG, and to a lesser extent, RTF and TXT. The primary output target is PDF"@en .
 
 :ascii a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ASCII"@en ;
   skos:notation "ASCII"@en ;
   skos:altLabel "American Standard Code for Information Interchange"@en ;
@@ -121,8 +121,8 @@
   skos:definition "ASCII abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters. ASCII is the traditional name for the encoding system."@en .
 
 :autocad-dxf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "AutoCAD DXF"@en ;
   skos:notation "AutoCAD DXF"@en ;
   skos:altLabel "AutoCAD Drawing Exchange Format"@en ;
@@ -130,8 +130,8 @@
   skos:definition "AutoCAD DXF (Drawing Interchange Format, or Drawing Exchange Format) is a CAD data file format developed by Autodesk for enabling data interoperability between AutoCAD and other programs. DXF was originally introduced in December 1982 as part of AutoCAD 1.0, and was intended to provide an exact representation of the data in the AutoCAD native file format, DWG (Drawing), for which Autodesk for many years did not publish specifications. Because of this, correct imports of DXF files have been difficult. Autodesk now publishes the DXF specifications as a PDF on its website. Versions of AutoCAD from Release 10 (October 1988) and up support both ASCII and binary forms of DXF. Earlier versions support only ASCII. As AutoCAD has become more powerful, supporting more complex object types, DXF has become less useful. Certain object types, including ACIS solids and regions, are not documented. Other object types, including AutoCAD 2006\'s dynamic blocks, and all of the objects specific to the vertical market versions of AutoCAD, are partially documented, but not well enough to allow other developers to support them. For these reasons many CAD applications use the DWG format which can be licensed from Autodesk or non-natively from the Open Design Alliance. DXF coordinates are always without dimensions so that the reader or user needs to know the drawing unit or has to extract it from the textual comments in the sheets."@en .
 
 :bmp a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "BMP"@en ;
   skos:notation "BMP"@en ;
   skos:altLabel "bitmap image file"@en ;
@@ -139,8 +139,8 @@
   skos:definition "The BMP file format, also known as bitmap image file or device independent bitmap (DIB) file format or simply a bitmap, is a raster graphics image file format used to store bitmap digital images, independently of the display device (such as a graphics adapter), especially on Microsoft Windows and OS/2 operating systems. The BMP file format is capable of storing two-dimensional digital images both monochrome and color, in various color depths, and optionally with data compression, alpha channels, and color profiles. The Windows Metafile (WMF) specification covers the BMP file format. Among others, wingdi.h defines BMP constants and structures."@en .
 
 :cen-ts-16163-2014 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CEN/TS 16163:2014"@en ;
   skos:notation "CEN/TS 16163:2014"@en ;
   skos:altLabel "Conservation of cultural heritage - Cleaning of porous inorganic materials - Laser cleaning techniques for cultural heritage"@en ;
@@ -148,16 +148,16 @@
   skos:definition "This European standard applies to porous inorganic materials constituting cultural heritage. It provides the fundamental requirements of the laser parameters and guidelines for the choice of the laser operational parameters, in order to optimize the cleaning procedure."@en .
 
 :cendari-archival-extension a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "Cendari Archival Extension"@en ;
   skos:notation "Cendari Archival Extension"@en ;
   rdfs:label "Cendari Archival Extension"@en ;
   skos:definition "The standard installation of AtoM is used in conjunction with a CENDARI theme. In addition CENDARI developed a Shibboleth authentication extension and a script to upload AtoM archival descriptions in EAD and EAG to the CENDARI repository."@en .
 
 :cidoc-crm a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CIDOC CRM"@en ;
   skos:notation "CIDOC CRM"@en ;
   skos:altLabel "CIDOC Conceptual Reference Model"@en ;
@@ -165,16 +165,16 @@
   skos:definition "The CIDOC Conceptual Reference Model (CRM) provides an extensible ontology for concepts and information in cultural heritage and museum documentation. It is the international standard (ISO 21127:2014) for the controlled exchange of cultural heritage information. Galleries, libraries, archives, museums (GLAMs), and other cultural institutions are encouraged to use the CIDOC CRM to enhance accessibility to museum-related information and knowledge."@en .
 
 :cidoc-crmsci a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CIDOC CRMsci"@en ;
   skos:notation "CIDOC CRMsci"@en ;
   rdfs:label "CIDOC CRMsci"@en ;
   skos:definition "Standard: CIDOC CRMsci (no further description available)"@en .
 
 :cmdi a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CMDI"@en ;
   skos:notation "CMDI"@en ;
   skos:altLabel "Component MetaData Infrastructure"@en ;
@@ -182,8 +182,8 @@
   skos:definition "Component MetaData Infrastructure(CMDI)describes a model that enables the flexible construction of interoperable metadata schemas for Language Resources (LRs). The metadata schemas based on this model can be used to describe resources at different levels of granularity (e.g. descriptions both on the collection level and on the level of individual resources)."@en .
 
 :collada a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "COLLADA"@en ;
   skos:notation "COLLADA"@en ;
   skos:altLabel "Collaborative Design Activity"@en ;
@@ -191,8 +191,8 @@
   skos:definition "COLLADA (COLLAborative Design Activity) is an interchange file format for interactive 3D applications. It is managed by the nonprofit technology consortium, the Khronos Group, and has been adopted by ISO as a publicly available specification, ISO/PAS 17506. COLLADA defines an open standard XML schema for exchanging digital assets among various graphics software applications that might otherwise store their assets in incompatible file formats. COLLADA documents that describe digital assets are XML files, usually identified with a .dae (digital asset exchange) filename extension."@en .
 
 :css a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CSS"@en ;
   skos:notation "CSS"@en ;
   skos:altLabel "Cascading Style Sheets"@en ;
@@ -200,8 +200,8 @@
   skos:definition "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content."@en .
 
 :css-paged-media a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CSS Paged Media"@en ;
   skos:notation "CSS Paged Media"@en ;
   skos:altLabel "Cascading Style Sheets Paged Media"@en ;
@@ -209,8 +209,8 @@
   skos:definition "This CSS module specifies how pages are generated and laid out to hold fragmented content in a paged presentation. It adds functionality for controlling page margins, page size and orientation, and headers and footers, and extends generated content to enable page numbering and running headers/footers. The process of paginating a flow into such generated pages is covered in CSS3-BREAK. CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, etc."@en .
 
 :csv a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "CSV"@en ;
   skos:notation "CSV"@en ;
   skos:altLabel "Comma-separated values"@en ;
@@ -218,8 +218,8 @@
   skos:definition "A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. RFC 4180 formalized CSV. It defines the MIME type \"text/csv\", and CSV files that follow its rules should be very widely portable"@en .
 
 :ddi a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "DDI"@en ;
   skos:notation "DDI"@en ;
   skos:altLabel "Data Documentation Initiative"@en ;
@@ -227,8 +227,8 @@
   skos:definition "The Data Documentation Initiative (also known as DDI or DDI Metadata) is an international standard for describing surveys, questionnaires, statistical data files, and social sciences study-level information. This information is described as metadata by the standard."@en .
 
 :dm2e a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "DM2E"@en ;
   skos:notation "DM2E"@en ;
   skos:altLabel "Data Model to Europeana"@en ;
@@ -236,8 +236,8 @@
   skos:definition "DM2E (Data Model to Europeana) is building the tools and communities to enable humanities researchers to work with manuscripts in the Linked Open Web."@en .
 
 :dublin-core a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "DUBLIN CORE"@en ;
   skos:notation "DUBLIN CORE"@en ;
   skos:altLabel "Dublin Core Schema"@en ;
@@ -245,8 +245,8 @@
   skos:definition "The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources (video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like artworks. The full set of Dublin Core metadata terms can be found on the Dublin Core Metadata Initiative (DCMI) website."@en .
 
 :eac a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EAC"@en ;
   skos:notation "EAC"@en ;
   skos:altLabel "Encoded Archival Context"@en ;
@@ -254,16 +254,16 @@
   skos:definition "Encoded Archival Context - Corporate bodies, Persons and Families (EAC-CPF) is an XML standard for encoding information about the creators of archival materials -- i.e., a corporate body, person or family -- including their relationships to (a) resources (books, collections, papers, etc.) and (b) other corporate bodies, persons and families. The goal is to provide contextual information regarding the circumstances of record creation and use. EAC-CPF can be used in conjunction with Encoded Archival Description (EAD) for enhancement of EAD\'s capabilities in encoding finding aids, but can also be used in conjunction with other standards or for standalone authority file encoding."@en .
 
 :eac-cpf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EAC-CPF"@en ;
   skos:notation "EAC-CPF"@en ;
   rdfs:label "EAC-CPF"@en ;
   skos:definition "Standard: EAC-CPF (no further description available)"@en .
 
 :ead a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EAD"@en ;
   skos:notation "EAD"@en ;
   skos:altLabel "Encoded Archival Description"@en ;
@@ -271,8 +271,8 @@
   skos:definition "EAD stands for Encoded Archival Description, and is a non-proprietary de facto standard for the encoding of finding aids for use in a networked (online) environment. Finding aids are inventories, indexes, or guides that are created by archival and manuscript repositories to provide information about specific collections. While the finding aids may vary somewhat in style, their common purpose is to provide detailed description of the content and intellectual organization of collections of archival materials. EAD allows the standardization of collection information in finding aids within and across repositories."@en .
 
 :eag a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EAG"@en ;
   skos:notation "EAG"@en ;
   skos:altLabel "Encoded Archival Guide"@en ;
@@ -280,8 +280,8 @@
   skos:definition "Encoded Archival Guide (EAG) is intended to provide a standard for the description of archives. The Spanish Ministry of Culture has developed EAG 2002 for the Spanish-language archive portal \"Censo-Gua de Archivos de Espaa e Iberoamrica\", together with the corresponding XML structure, to encode information about archives, such as address, opening hours, technical equipment, etc. A corresponding ICA standard was published in 2008 as the International Standard for Describing Institutions with Archival Holdings (ISDIAH)."@en .
 
 :edm a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EDM"@en ;
   skos:notation "EDM"@en ;
   skos:altLabel "Europeana Data Model"@en ;
@@ -289,24 +289,24 @@
   skos:definition "The Europeana Data Model (EDM) is a richer metadata standard introduced to help give users more and better information."@en .
 
 :en-16782-2016 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "EN 16782:2016"@en ;
   skos:notation "EN 16782:2016"@en ;
   rdfs:label "EN 16782:2016"@en ;
   skos:definition "Standard: EN 16782:2016 (no further description available)"@en .
 
 :fls a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "FLS"@en ;
   skos:notation "FLS"@en ;
   rdfs:label "FLS"@en ;
   skos:definition "Standard: FLS (no further description available)"@en .
 
 :foaf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "FOAF"@en ;
   skos:notation "FOAF"@en ;
   skos:altLabel "Friend of a friend"@en ;
@@ -314,16 +314,16 @@
   skos:definition "FOAF (an acronym of friend of a friend) is a machine-readable ontology describing persons, their activities and their relations to other people and objects. Anyone can use FOAF to describe themselves. FOAF allows groups of people to describe social networks without the need for a centralised database. FOAF is a descriptive vocabulary expressed using the Resource Description Framework (RDF) and the Web Ontology Language (OWL)."@en .
 
 :fws a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "FWS"@en ;
   skos:notation "FWS"@en ;
   rdfs:label "FWS"@en ;
   skos:definition "Standard: FWS (no further description available)"@en .
 
 :gnd a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "GND"@en ;
   skos:notation "GND"@en ;
   skos:altLabel "Gemeinsame Normdatei"@en ;
@@ -331,8 +331,8 @@
   skos:definition "The Integrated Authority File (German: Gemeinsame Normdatei, also known as: Universal Authority File) or GND is an international authority file for the organisation of personal names, subject headings and corporate bodies from catalogues. It is used mainly for documentation in libraries and increasingly also by archives and museums."@en .
 
 :hisco a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "HISCO"@en ;
   skos:notation "HISCO"@en ;
   skos:altLabel "Historical International Standard of Classification of Occupations"@en ;
@@ -340,16 +340,16 @@
   skos:definition "The Historical International Standard of Classification of Occupations or HISCO is a theoretical model used to code social class and occupational status. Formulated in 2002, the model complements the ILO\'s ISCO68 scheme, as it prescribes a universal code system for examining occupation descriptions."@en .
 
 :hocr a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "hOCR"@en ;
   skos:notation "hOCR"@en ;
   rdfs:label "hOCR"@en ;
   skos:definition "hOCR is an open standard for representing document layout analysis and OCR results as a subset of HTML. The goal is to reuse as much existing technology as possible, and to arrive at a representation that makes it easy to store, share, process and display OCR results. This specification defines many features that can represent a variety of OCR-related information. However, being built on top of HTML, hOCR is designed to make it easy to start simple and gradually use more complex constructs when necessary. Consider you have an HTML document that encodes a book: Wrapping page elements in <div class=\"ocr_page\"> tags will convey the page boundaries to hOCR-capable agents and turn the HTML document into an hOCR document."@en .
 
 :idml a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "IDML"@en ;
   skos:notation "IDML"@en ;
   skos:altLabel "InDesign Markup Language"@en ;
@@ -357,8 +357,8 @@
   skos:definition "is an XML-based format for representing InDesign content. Essentially, it is a major revision of INX, InDesigns previous XML-based file format. IDML addresses INX shortcomings, in an effort to represent InDesign content in a human-readable formatsomething that can be reasonably assembled and  disassembled by a competent XML programmer."@en .
 
 :iiif a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "IIIF"@en ;
   skos:notation "IIIF"@en ;
   skos:altLabel "International Image Interoperability Framework"@en ;
@@ -366,8 +366,8 @@
   skos:definition "The International Image Interoperability Framework (IIIF) is a set of shared application programming interface (API) specifications for interoperable functionality in digital image repositories. The IIIF is comprised of and driven by a community of libraries, museums, archives, software companies, and other organizations working together to create, test, refine, implement and promote the IIIF specifications. Using JSON-LD, linked data, and standard W3C web protocols such as Web Annotation, IIIF makes it easy to parse and share digital image data, migrate across technology systems, and provide enhanced image access for scholars and researchers. In short, IIIF enables better, faster and cheaper image delivery. It lets you leverage interoperability and the fabric of the Web to access new possibilities and new users for your image-based resources, while reducing long term maintenance and technological lock in. IIIF gives users a rich set of baseline functionality for viewing, zooming, and assembling the best mix of resources and tools to view, compare, manipulate and work with images on the Web, an experience made portableshareable, citable, and embeddable. (source: https://iiif.io/community/faq/)<br>"@en .
 
 :isco a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ISCO"@en ;
   skos:notation "ISCO"@en ;
   skos:altLabel "International Standard Classification of Occupations"@en ;
@@ -375,8 +375,8 @@
   skos:definition "The International Standard Classification of Occupations (ISCO) is an International Labour Organization (ILO) classification structure for organizing information on labour and jobs."@en .
 
 :iso-tr-21254-4-2011 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ISO/TR 21254-4:2011"@en ;
   skos:notation "ISO/TR 21254-4:2011"@en ;
   skos:altLabel "Lasers and laser-related equipment -- Test methods for laser-induced damage threshold -- Part 4: Inspection, detection and measurement"@en ;
@@ -384,8 +384,8 @@
   skos:definition "ISO/TR 21254-4:2011 describes selected techniques for the inspection of optical surfaces prior to and after damage testing, and damage detection techniques integrated in detection facilities. The described damage detection methods are examples of practical solutions tested and often applied in detection facilities. Also, this direct information on the state of damage can be processed in the course of the running test to determine energy levels for the following interrogations optimised to minimise detection uncertainties. This inspection of the interrogated sites is essential for an accurate determination of the damage thresholds because it is the final and most sensitive assessment of the state of damage."@en .
 
 :iso-11554-2017 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ISO 11554:2017"@en ;
   skos:notation "ISO 11554:2017"@en ;
   skos:altLabel "Optics and photonics -- Lasers and laser-related equipment -- Test methods for laser beam power, energy and temporal characteristics"@en ;
@@ -393,8 +393,8 @@
   skos:definition "ISO 11554:2017 specifies test methods for determining the power and energy of continuous wave and pulsed laser beams, as well as their temporal characteristics of pulse shape, pulse duration and pulse repetition rate. Test and evaluation methods are also given for the power stability of cw-lasers, energy stability of pulsed lasers and pulse duration stability."@en .
 
 :iso-12234-2-2001 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ISO 12234-2:2001"@en ;
   skos:notation "ISO 12234-2:2001"@en ;
   skos:altLabel "Electronic still-picture imaging -- Removable memory -- Part 2: TIFF/EP image data format"@en ;
@@ -402,16 +402,16 @@
   skos:definition "Tag Image File Format/Electronic Photography (TIFF/EP) is a digital image file format standard  ISO 12234-2, titled \"Electronic still-picture imaging  Removable memory  Part 2: TIFF/EP image data format\". The TIFF/EP standard is based on a subset of the Adobe TIFF standard, and a subset of the JEITA Exif standard, with some differences and extensions."@en .
 
 :iso-28590-2017 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "ISO 28590:2017"@en ;
   skos:notation "ISO 28590:2017"@en ;
   rdfs:label "ISO 28590:2017"@en ;
   skos:definition "Standard: ISO 28590:2017 (no further description available)"@en .
 
 :jcamp-dx a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "JCAMP-DX"@en ;
   skos:notation "JCAMP-DX"@en ;
   skos:altLabel "JCAMP-DX: A Standard Form for the Exchange of Infrared Spectra in Computer Readable Form"@en ;
@@ -419,8 +419,8 @@
   skos:definition "CAMP-DX is a standard file form for exchange of infrared spectra and related chemical and physical information between spectrometer data systems of different manufacture, main-frame time-sharing systems, general purpose lab computers, and personal computers. It is compatible with all media: telephone, magnetic and optical disk, magnetic tape, and even the printed page (via optical reader). All data are stored as labeled fields of variable length using printable ASCII characters. A JCAMP-DX spectrum is a text file which can be viewed, corrected, and annotated with a text editor. The present focus is on infrared spectra, but JCAMP-DX can easily accommodate Raman, UV, NMR, mass, and other types of spectra, x-ray powder patterns, chromatograms, thermograms, and other plots which require the capability of representing contours as well as peak position and intensity. JCAMP-DX also provides for combining adequate information about the sample and method of observation with its spectrum."@en .
 
 :jpeg a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "JPEG"@en ;
   skos:notation "JPEG"@en ;
   skos:altLabel "Joint Photographic Experts Group"@en ;
@@ -428,8 +428,8 @@
   skos:definition "JPEG ( JAY-peg) is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality. JPEG compression is used in a number of image file formats. JPEG/Exif is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/JFIF, it is the most common format for storing and transmitting photographic images on the World Wide Web. These format variations are often not distinguished, and are simply called JPEG. The term \"JPEG\" is an initialism/acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MIME type of image/pjpeg when uploading JPEG images. JPEG files usually have a filename extension of .jpg or .jpeg. JPEG/JFIF supports a maximum image size of 65,53565,535 pixels, hence up to 4 gigapixels for an aspect ratio of 1:1."@en .
 
 :laf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "LAF"@en ;
   skos:notation "LAF"@en ;
   skos:altLabel "Linguistic annotation framework"@en ;
@@ -437,8 +437,8 @@
   skos:definition "LAF, linguistic annotation framework, is a standard ISO for representing linguistic annotations of language data such as corpora, speech signal and video. The framework includes an abstract data model and an XML serialization of that model for representing annotations of primary data. The serialization serves as a pivot format to allow annotations expressed in one representation format to be mapped onto another."@en .
 
 :libs a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "LIBS"@en ;
   skos:notation "LIBS"@en ;
   skos:altLabel "Laser-induced breakdown spectroscopy"@en ;
@@ -446,8 +446,8 @@
   skos:definition "Laser Induced Breakdown Spectroscopy (LIBS) is an analytical technique that enables the determination of the elemental composition of materials on the basis of the characteristic atomic emission from a micro-plasma produced by focusing a high-power laser on or in a material."@en .
 
 :lido a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "LIDO"@en ;
   skos:notation "LIDO"@en ;
   skos:altLabel "Lightweight Information Describing Objects"@en ;
@@ -455,8 +455,8 @@
   skos:definition "LIDO (Lightweight Information Describing Objects) is an XML schema for describing museum objects. It is applicable to all kinds of objects: art, natural history, technology, cultural objects. LIDO is widely used for harvesting museum data in union catalogs, and as a preliminary step for converting to semantic formats like CIDOC CRM or EDM."@en .
 
 :lif a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "LIF"@en ;
   skos:notation "LIF"@en ;
   skos:altLabel "Laser-induced fluorescence"@en ;
@@ -464,8 +464,8 @@
   skos:definition "Laser-induced fluorescence (LIF) is a spectroscopic method in which an atom or molecule is excited to a higher energy level by the absorption of laser light followed by spontaneous emission of light. LIF is used for studying structure of molecules, detection of selective species and flow visualization and measurements. The excitation wavelength is often selected to be the one at which the species has its largest cross section. The excited species decay usually after a few nanoseconds to microseconds, and emit light at a wavelength longer than the excitation wavelength."@en .
 
 :maf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "MAF"@en ;
   skos:notation "MAF"@en ;
   skos:altLabel "Morpho-syntactic annotation framework"@en ;
@@ -473,8 +473,8 @@
   skos:definition "Morpho-syntactic annotation framework(MAF)provides a framework for the representation of annotations of word-forms in texts; such annotations concern tokens, their relationship with lexical units, and their morpho-syntactic properties."@en .
 
 :mdv a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "MDV"@en ;
   skos:notation "MDV"@en ;
   skos:altLabel "MeDieVal Extension of DM2E"@en ;
@@ -482,8 +482,8 @@
   skos:definition "MDV is MeDieVal Extension of DM2E model developed by SISMEL for the study of medieval manuscripts."@en .
 
 :mei a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "MEI"@en ;
   skos:notation "MEI"@en ;
   skos:altLabel "Music Encoding Initiative"@en ;
@@ -491,8 +491,8 @@
   skos:definition "The Music Encoding Initiative (MEI) is an open-source effort to create a system for representation musical documents in a machine-readable structure. MEI closely mirrors work done by text scholars in the Text Encoding Initiative (TEI) and while the two encoding initiatives are not formally related, they share many common characteristics and development practices. The term \"MEI\", like \"TEI\", describes the governing organization and the markup language."@en .
 
 :mets a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "METS"@en ;
   skos:notation "METS"@en ;
   skos:altLabel "Metadata Encoding and Transmission Standard"@en ;
@@ -500,8 +500,8 @@
   skos:definition "The Metadata Encoding and Transmission Standard (METS) is a metadata standard for encoding descriptive, administrative, and structural metadata regarding objects within a digital library, expressed using the XML schema language of the World Wide Web Consortium (W3C)."@en .
 
 :mods a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "MODS"@en ;
   skos:notation "MODS"@en ;
   skos:altLabel "Metadata Object Description Schema"@en ;
@@ -509,16 +509,16 @@
   skos:definition "The Metadata Object Description Schema (MODS) is an XML-based bibliographic description schema developed by the United States Library of Congress\' Network Development and Standards Office. MODS was designed as a compromise between the complexity of the MARC format used by libraries and the extreme simplicity of Dublin Core metadata."@en .
 
 :multispectral-imaging a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "Multispectral Imaging"@en ;
   skos:notation "Multispectral Imaging"@en ;
   rdfs:label "Multispectral Imaging"@en ;
   skos:definition "Multispectral imaging, like other spectral imaging, collects and processes information from across the electromagnetic spectrum. The goal of Multispectral imaging is to obtain the spectrum for each pixel in the image of a scene, with the purpose of finding objects, identifying materials, or detecting processes."@en .
 
 :oai-pmh a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "OAI-PMH"@en ;
   skos:notation "OAI-PMH"@en ;
   skos:altLabel "Open Archives Initiative Protocol for Metadata Harvesting"@en ;
@@ -526,8 +526,8 @@
   skos:definition "The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a protocol developed for harvesting (or collecting) metadata descriptions of records in an archive so that services can be built using metadata from many archives. An implementation of OAI-PMH must support representing metadata in Dublin Core, but may also support additional representations."@en .
 
 :oais a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "OAIS"@en ;
   skos:notation "OAIS"@en ;
   skos:altLabel "Open Archival Information System"@en ;
@@ -535,8 +535,8 @@
   skos:definition "An Open Archival Information System (or OAIS) is an archive, consisting of an organization of people and systems, that has accepted the responsibility to preserve information and make it available for a Designated Community. The term OAIS also refers, by extension, to the ISO OAIS Reference Model for an OAIS. This reference model is defined by recommendation CCSDS 650.0-B-2 of the Consultative Committee for Space Data Systems; this text is identical to ISO 14721:2012. The CCSDS\'s purview is space agencies, but the OAIS model it developed has proved useful to a wide variety of other organizations and institutions with digital archiving needs."@en .
 
 :obj a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "OBJ"@en ;
   skos:notation "OBJ"@en ;
   skos:altLabel "Wavefront .obj file"@en ;
@@ -544,16 +544,16 @@
   skos:definition "OBJ (or .OBJ) is a geometry definition file format first developed by Wavefront Technologies for its Advanced Visualizer animation package. The file format is open and has been adopted by other 3D graphics application vendors. The OBJ file format is a simple data-format that represents 3D geometry alone  namely, the position of each vertex, the UV position of each texture coordinate vertex, vertex normals, and the faces that make each polygon defined as a list of vertices, and texture vertices. Vertices are stored in a counter-clockwise order by default, making explicit declaration of face normals unnecessary. OBJ coordinates have no units, but OBJ files can contain scale information in a human readable comment line."@en .
 
 :opac a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "OPAC"@en ;
   skos:notation "OPAC"@en ;
   rdfs:label "OPAC"@en ;
   skos:definition "Standard: OPAC (no further description available)"@en .
 
 :page-xml a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "PAGE XML"@en ;
   skos:notation "PAGE XML"@en ;
   skos:altLabel "Page Analysis and Ground-Truth Elements"@en ;
@@ -561,8 +561,8 @@
   skos:definition "There is a plethora of established and proposed document representation formats but none that can adequately support individual stages within an entire sequence of document image analysis methods (from document image enhancement to layout analysis to OCR) and their evaluation. This paper describes PAGE, a new XML-based page image representation framework that records information on image characteristics (image borders, geometric distortions and corresponding corrections, binarisation etc.) in addition to layout structure and page content. The suitability of the framework to the evaluation of entire workflows as well as individual stages has been extensively validated by using it in high-profile applications such as in public contemporary and historical ground-truthed datasets and in the ICDAR Page Segmentation competition series."@en .
 
 :ply a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "PLY"@en ;
   skos:notation "PLY"@en ;
   skos:altLabel "Polygon File Format"@en ;
@@ -570,8 +570,8 @@
   skos:definition "PLY is a computer file format known as the Polygon File Format or the Stanford Triangle Format. It was principally designed to store three-dimensional data from 3D scanners. The data storage format supports a relatively simple description of a single object as a list of nominally flat polygons. A variety of properties can be stored, including: color and transparency, surface normals, texture coordinates and data confidence values. The format permits one to have different properties for the front and back of a polygon. There are two versions of the file format, one in ASCII, the other in binary."@en .
 
 :png a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "PNG"@en ;
   skos:notation "PNG"@en ;
   skos:altLabel "Portable Network Graphics"@en ;
@@ -579,40 +579,40 @@
   skos:definition "Portable Network Graphics (PNG, pronounced PEE-en-JEE or PING) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet. PNG supports palette-based images (with palettes of 24-bit RGB or 32-bit RGBA colors), grayscale images (with or without alpha channel for transparency), and full-color non-palette-based RGB/RGBA images (with or without alpha channel). PNG was designed for transferring images on the Internet, not for professional-quality print graphics, and therefore does not support non-RGB color spaces such as CMYK. A PNG file contains a single image in an extensible structure of \"chunks\", encoding the basic pixels and other information such as textual comments and integrity checks documented in RFC 2083. PNG files nearly always use file extension PNG or png and are assigned MIME media type image/png. PNG was published as informational RFC 2083 in March 1997 and as an ISO/IEC standard in 2004."@en .
 
 :raman-spectroscopy a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "Raman spectroscopy"@en ;
   skos:notation "Raman spectroscopy"@en ;
   rdfs:label "Raman spectroscopy"@en ;
   skos:definition "Raman spectroscopy is a spectroscopic technique used to observe vibrational, rotational, and other low-frequency modes in a system. Raman spectroscopy is commonly used in chemistry to provide a structural fingerprint by which molecules can be identified."@en .
 
 :rdfs a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "RDFS"@en ;
   skos:notation "RDFS"@en ;
   rdfs:label "RDFS"@en ;
   skos:definition "Standard: RDFS (no further description available)"@en .
 
 :schematron a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "Schematron"@en ;
   skos:notation "Schematron"@en ;
   rdfs:label "Schematron"@en ;
   skos:definition "Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of elements and XPath."@en .
 
 :serds a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "SERDS"@en ;
   skos:notation "SERDS"@en ;
   rdfs:label "SERDS"@en ;
   skos:definition "Standard: SERDS (no further description available)"@en .
 
 :spc a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "SPC"@en ;
   skos:notation "SPC"@en ;
   skos:altLabel "Thermo Scientific SPC file format"@en ;
@@ -620,16 +620,16 @@
   skos:definition "The Thermo Scientific SPC file format is a generic format used in all of Thermo Scientific\\\'s software products. In addition, many spectrometer vendors\\\' software packages offer capabilities to export spectral data to the Thermo Scientific SPC format or use it as their native file format. All the converters and translators used on this site create Thermo Scientific SPC files from the submitted spectral data files before presenting them to the library search engine on this site. Submitting data files in the Thermo Scientific SPC format is the most reliable way to guarantee that your data is interpreted correctly for searching against the databases. The Thermo Scientific SPC file format is completely public domain information."@en .
 
 :ssrs a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "SSRS"@en ;
   skos:notation "SSRS"@en ;
   rdfs:label "SSRS"@en ;
   skos:definition "Standard: SSRS (no further description available)"@en .
 
 :stl-file-format a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "STL (file format)"@en ;
   skos:notation "STL (file format)"@en ;
   skos:altLabel "stereolithography"@en ;
@@ -637,8 +637,8 @@
   skos:definition "STL (an abbreviation of \"stereolithography\") is a file format native to the stereolithography CAD software created by 3D Systems. STL has several after-the-fact backronyms such as \"Standard Triangle Language\" and \"Standard Tessellation Language\". This file format is supported by many other software packages; it is widely used for rapid prototyping, 3D printing and computer-aided manufacturing. STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes. The STL format specifies both ASCII and binary representations. Binary files are more common, since they are more compact. An STL file describes a raw, unstructured triangulated surface by the unit normal and vertices (ordered by the right-hand rule) of the triangles using a three-dimensional Cartesian coordinate system. In the original specification, all STL coordinates were required to be positive numbers, but this restriction is no longer enforced and negative coordinates are commonly encountered in STL files today. STL files contain no scale information, and the units are arbitrary."@en .
 
 :tcf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "TCF"@en ;
   skos:notation "TCF"@en ;
   skos:altLabel "Text Corpus Format"@en ;
@@ -646,8 +646,8 @@
   skos:definition "The TCF format (Text Corpus Format) is used by WebLicht services as a machine-readable format for representing and exchanging linguistically annotated texts. It enables interoperability of linguistic tools. WebLicht developer manual provides detailed information on the TCF format and its background."@en .
 
 :tei a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "TEI"@en ;
   skos:notation "TEI"@en ;
   skos:altLabel "The Text Encoding Initiative "@en ;
@@ -655,8 +655,8 @@
   skos:definition "The Text Encoding Initiative (TEI) is a text-centric community of practice in the academic field of digital humanities, operating continuously since the 1980s. The community currently runs a mailing list, meetings and conference series, and maintains an eponymous technical standard, a journal, a wiki, a GitHub repository and a toolchain."@en .
 
 :tiff a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "TIFF"@en ;
   skos:notation "TIFF"@en ;
   skos:altLabel "Tagged Image File Format"@en ;
@@ -664,16 +664,16 @@
   skos:definition "Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry, and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing, and page-layout applications. The format was created by Aldus Corporation for use in desktop publishing. It published the latest version 6.0 in 1992, subsequently updated with an Adobe Systems copyright after the latter acquired Aldus in 1994. Several Aldus or Adobe technical notes have been published with minor extensions to the format, and several specifications have been based on TIFF 6.0, including TIFF/EP (ISO 12234-2), TIFF/IT (ISO 12639), TIFF-F (RFC 2306) and TIFF-FX (RFC 3949)."@en .
 
 :tiff-ep-iso-12234-2 a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "TIFF/EP (ISO 12234-2)"@en ;
   skos:notation "TIFF/EP (ISO 12234-2)"@en ;
   rdfs:label "TIFF/EP (ISO 12234-2)"@en ;
   skos:definition "Standard: TIFF/EP (ISO 12234-2) (no further description available)"@en .
 
 :viaf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "VIAF"@en ;
   skos:notation "VIAF"@en ;
   skos:altLabel "Virtual International Authority File"@en ;
@@ -681,8 +681,8 @@
   skos:definition "The Virtual International Authority File (VIAF) is an international authority file. It is a joint project of several national libraries and operated by the Online Computer Library Center (OCLC). The aim is to link the national authority files (such as the German Name Authority File) to a single virtual authority file. In this file, identical records from the different data sets are linked together."@en .
 
 :xml a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "XML"@en ;
   skos:notation "XML"@en ;
   skos:altLabel "Extensible Markup Language"@en ;
@@ -690,8 +690,8 @@
   skos:definition "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."@en .
 
 :xrf a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "XRF"@en ;
   skos:notation "XRF"@en ;
   skos:altLabel "X-ray fluorescence spectroscopy"@en ;
@@ -699,8 +699,8 @@
   skos:definition "X-ray fluorescence is the emission of characteristic \"secondary\" (or fluorescent) X-rays from a material that has been excited by bombarding with high-energy X-rays or gamma rays. The phenomenon is widely used for elemental analysis and chemical analysis, particularly in the investigation of metals, glass, ceramics and building materials, and for research in geochemistry, forensic science, archaeology and art objects such as paintings and murals."@en .
 
 :xsl a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "XSL"@en ;
   skos:notation "XSL"@en ;
   skos:altLabel "Extensible Stylesheet Language"@en ;
@@ -708,8 +708,8 @@
   skos:definition "XSL is a language for expressing style sheets. An XSL style sheet is, like with CSS, a file that describes how to display an XML document of a given type. XSL shares the functionality and is compatible with CSS2 (although it uses a different syntax). It also adds a transformation language for XML documents: XSLT. Originally intended to perform complex styling operations, like the generation of tables of contents and indexes, it is now used as a general purpose XML processing language. XSLT is thus widely used for purposes other than XSL, like generating HTML web pages from XML data."@en .
 
 :xsl-fo a skos:Concept ;
-  skos:topConceptOf :Schema ;
-  skos:inScheme :Schema ;
+  skos:topConceptOf :standardScheme ;
+  skos:inScheme :standardScheme ;
   skos:prefLabel "XSL-FO"@en ;
   skos:notation "XSL-FO"@en ;
   skos:altLabel "XSL Formatting Objects"@en ;
