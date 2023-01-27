@@ -1,4 +1,4 @@
-@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -6,32 +6,32 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 bibo:Journal a skos:Concept ;
-          skos:inScheme bibo:publicationTypeVocabulary ;
-          skos:topConceptOf bibo:publicationTypeVocabulary ;
+          skos:inScheme bibo:publicationTypeScheme ;
+          skos:topConceptOf bibo:publicationTypeScheme ;
           rdfs:label "Journal"@en ;
           skos:prefLabel "Journal"@en .
 
 bibo:Book a skos:Concept ;
-          skos:inScheme bibo:publicationTypeVocabulary ;
-          skos:topConceptOf bibo:publicationTypeVocabulary ;
+          skos:inScheme bibo:publicationTypeScheme ;
+          skos:topConceptOf bibo:publicationTypeScheme ;
           rdfs:label "Book"@en ;
           skos:prefLabel "Book"@en .
 
 bibo:Conference a skos:Concept ;
-          skos:inScheme bibo:publicationTypeVocabulary ;
-          skos:topConceptOf bibo:publicationTypeVocabulary ;
+          skos:inScheme bibo:publicationTypeScheme ;
+          skos:topConceptOf bibo:publicationTypeScheme ;
           rdfs:label "Conference"@en ;
           skos:prefLabel "Conference"@en .
 
 bibo:Article a skos:Concept ;
-          skos:inScheme bibo:publicationTypeVocabulary ;
-          skos:topConceptOf bibo:publicationTypeVocabulary ;
+          skos:inScheme bibo:publicationTypeScheme ;
+          skos:topConceptOf bibo:publicationTypeScheme ;
           rdfs:label "Article"@en ;
           skos:prefLabel "Article"@en .
 
 bibo:Pre-Print a skos:Concept ;
-          skos:inScheme bibo:publicationTypeVocabulary ;
-          skos:topConceptOf bibo:publicationTypeVocabulary ;
+          skos:inScheme bibo:publicationTypeScheme ;
+          skos:topConceptOf bibo:publicationTypeScheme ;
           rdfs:label "Pre-Print"@en ;
           skos:note "This concept is introduced in the SSH Open Marketplace, it is not part of the official bibo vocabulary." ;
           skos:prefLabel "Pre-Print"@en .

@@ -1,0 +1,49 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+bibo:Article a skos:Concept ;
+    rdfs:label "Article"@en ;
+    skos:inScheme bibo:publicationTypeScheme ;
+    skos:prefLabel "Article"@en ;
+    skos:topConceptOf bibo:publicationTypeScheme .
+
+bibo:Book a skos:Concept ;
+    rdfs:label "Book"@en ;
+    skos:inScheme bibo:publicationTypeScheme ;
+    skos:prefLabel "Book"@en ;
+    skos:topConceptOf bibo:publicationTypeScheme .
+
+bibo:Conference a skos:Concept ;
+    rdfs:label "Conference"@en ;
+    skos:inScheme bibo:publicationTypeScheme ;
+    skos:prefLabel "Conference"@en ;
+    skos:topConceptOf bibo:publicationTypeScheme .
+
+bibo:Journal a skos:Concept ;
+    rdfs:label "Journal"@en ;
+    skos:inScheme bibo:publicationTypeScheme ;
+    skos:prefLabel "Journal"@en ;
+    skos:topConceptOf bibo:publicationTypeScheme .
+
+bibo:Pre-Print a skos:Concept ;
+    rdfs:label "Pre-Print"@en ;
+    skos:inScheme bibo:publicationTypeScheme ;
+    skos:note "This concept is introduced in the SSH Open Marketplace, it is not part of the official bibo vocabulary." ;
+    skos:prefLabel "Pre-Print"@en ;
+    skos:topConceptOf bibo:publicationTypeScheme .
+
+bibo:publicationTypeScheme a skos:ConceptScheme ;
+    rdfs:label "The Bibliographic Ontology (bibo) Concept Scheme (parts used in SSHOC)"@en ;
+    dc:description "The Bibliographic Ontology describes bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources. This version only takes the relevant concepts used in the SSH Open Marketplace (and introducing a new concept pre-print)."@en ;
+    dc:title "The Bibliographic Ontology (bibo) Concept Scheme (parts used in SSHOC)"@en ;
+    dct:title "The Bibliographic Ontology (bibo) Concept Scheme (parts used in SSHOC)"@en ;
+    rdfs:comment "The Bibliographic Ontology describes bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources. This version only takes the relevant concepts used in the SSH Open Marketplace (and introducing a new concept pre-print)."@en ;
+    skos:hasTopConcept bibo:Article,
+        bibo:Book,
+        bibo:Conference,
+        bibo:Journal,
+        bibo:Pre-Print .
+
