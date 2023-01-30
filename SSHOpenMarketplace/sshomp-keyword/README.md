@@ -10,7 +10,7 @@ Script to harvest the data in this directory (see instructions `How to use`).
 
 # Version history:
 * 0.1.0: Import of API harvest (file `_original.ttl`) into PoolParty and export from there with manual addition (prefix line 1 added)
-* 0.1.1: Only use Skosify result of the API harvest (file `_original.ttl`)
+* 0.1.1: Only use Skosify result of the API harvest (file `_original.ttl`); changed the namespace to the vocabs-common
 
 ## Notes
 - Some keywords are very similar, e.g. `Metadata` and `metadata`, so only one is used, the second one is simply deleted as it creates problems with SKOS

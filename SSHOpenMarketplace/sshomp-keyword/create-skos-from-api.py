@@ -14,12 +14,12 @@ def createSkos():
     f.write("@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n")
     f.write("@prefix dc: <http://purl.org/dc/elements/1.1/> .\n")
     f.write("@prefix dct: <http://purl.org/dc/terms/> .\n")
-    f.write("@prefix : <https://vocabs.dariah.eu/sshoc-keyword/> .\n\n")
+    f.write("@prefix : <https://vocabs.sshopencloud.eu/vocabularies/sshomp-keyword/> .\n\n")
 
     f.write(":Schema a skos:ConceptScheme;\n")
-    f.write("\trdfs:label \"Keywords from SSHOC MP\"@en;\n")
-    f.write("\tdct:title \"Keywords from SSHOC MP\"@en;\n")
-    f.write("\tdc:title \"Keywords from SSHOC MP\"@en;\n")
+    f.write("\trdfs:label \"SSH Open Marketplace Keyword\"@en;\n")
+    f.write("\tdct:title \"SSH Open Marketplace Keyword\"@en;\n")
+    f.write("\tdc:title \"SSH Open Marketplace Keyword\"@en;\n")
 
     keyword_slugs = []
     for keyword in keywords:
@@ -28,8 +28,8 @@ def createSkos():
             f.write("\tskos:hasTopConcept :")
             f.write(slugify(keyword))
             f.write(";\n")
-    f.write("\tdc:description \"All the keywords used in the SSHOC Marketplace: coming from various sources.\"@en ;\n")
-    f.write("\trdfs:comment \"All the keywords used in the SSHOC Marketplace: coming from various sources.\"@en .\n\n")
+    f.write("\tdc:description \"All the keywords used in the SSH Open Marketplace: coming from various sources and from user input.\"@en ;\n")
+    f.write("\trdfs:comment \"All the keywords used in the SSH Open Marketplace: coming from various sources and from user input.\"@en .\n\n")
 
     keyword_slugs = []
     for keyword in keywords:

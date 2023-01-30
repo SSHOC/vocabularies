@@ -1,4 +1,4 @@
-@prefix : <https://vocabs.dariah.eu/sshoc-keyword/> .
+@prefix : <https://vocabs.sshopencloud.eu/vocabularies/sshomp-keyword/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -5057,11 +5057,9 @@
     skos:topConceptOf :Schema .
 
 :Schema a skos:ConceptScheme ;
-    rdfs:label "Keywords from SSHOC MP"@en ;
-    dc:description "All the keywords used in the SSHOC Marketplace: coming from various sources."@en ;
-    dc:title "Keywords from SSHOC MP"@en ;
-    dct:title "Keywords from SSHOC MP"@en ;
-    rdfs:comment "All the keywords used in the SSHOC Marketplace: coming from various sources."@en ;
+    rdfs:label "SSH Open Marketplace Keyword"@en ;
+    dc:description "All the keywords used in the SSH Open Marketplace: coming from various sources and from user input."@en ;
+    dc:title "SSH Open Marketplace Keyword"@en ;
     skos:hasTopConcept :1-grams,
         :18th-century,
         :18th-century-literature,
