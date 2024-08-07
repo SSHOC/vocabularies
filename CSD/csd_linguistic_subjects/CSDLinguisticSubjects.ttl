@@ -1,0 +1,383 @@
+@prefix csdls: <https://vocabs.sshopencloud.eu/vocabularies/csd-linguistic-subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix iso639-3: <https://iso639-3.sil.org/code/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+csdls:0002 a skos:Concept ;
+    skos:definition "format to represent annotations"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "annotation formats"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0003 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Anthropological_linguistics> ;
+    skos:definition "the subfield of linguistics and anthropology which deals with the place of language in its wider social and cultural context, and its role in making and maintaining cultural practices and societal structures"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "anthropological linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0005 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Cognitive_science> ;
+    skos:definition "the interdisciplinary, scientific study of the mind and its processes"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "cognitive science"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0006 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Computational_linguistics> ;
+    skos:definition "an interdisciplinary field concerned with the computational modelling of natural language, as well as the study of appropriate computational approaches to linguistic questions"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "computational linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0007 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Dialectology> ;
+    skos:definition "the scientific study of linguistic dialect, a sub-field of sociolinguistics"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "dialectology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0008 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Discourse_analysis> ;
+    skos:definition "analysis of (coherent) sequences of sentences, propositions, speech, or turns-at-talk"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "discourse analysis"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0010 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Theoretical_linguistics> ;
+    skos:altLabel "theoretical linguistics"@en ;
+    skos:definition "inquires into the nature of language and seeks to answer fundamental questions as to what language is, or what the common ground of all languages is"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "general linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0011 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Historical_linguistics> ;
+    skos:altLabel "diachronic linguistics"@en ;
+    skos:definition "the scientific study of language change over time."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "historical linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0012 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/History_of_linguistics> ;
+    skos:definition "the study of linguistics over time"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "history of linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0013 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Language_acquisition> ;
+    skos:definition "the process by which humans acquire the capacity to perceive and comprehend language"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "language acquisition"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0014 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Language_documentation> ;
+    skos:altLabel "documentary linguistics"@en ;
+    skos:definition "a subfield of linguistics which aims to describe the grammar and use of human languages."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "language documentation"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0015 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Lexicography> ;
+    skos:definition "the study of lexicons, and the art of compiling, writing and editing dictionaries."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "lexicography"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0016 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Lexicology> ;
+    skos:definition "the branch of linguistics that analyzes the lexicon of a specific language"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "lexicology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0017 a skos:Concept ;
+    skos:definition "theories about language"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "linguistic theories"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0018 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Philology> ;
+    skos:altLabel "philology"@en ;
+    skos:definition "study of language in oral and written historical sources"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "linguistics and literature"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0019 a skos:Concept ;
+    skos:altLabel "formal language theory"@en ;
+    skos:definition "branch of mathematics that studies formal language <https://en.wikipedia.org/wiki/Formal_language>"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "mathematical linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0020 a skos:Concept ;
+    skos:altLabel "morpho-syntax" ;
+    skos:definition "level of linguistics that deals with properties that play a role both in syntax and morphology"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "morphosyntax"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0021 a skos:Concept ;
+    skos:definition "level of linguistics dealing with the internal structure of words"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "morphology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0022 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Neurolinguistics> ;
+    skos:definition "the study of neural mechanisms in the human brain that control the comprehension, production, and acquisition of language"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "neurolinguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0023 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Onomastics> ;
+    skos:altLabel "onomastics"@en ;
+    skos:definition "the study of the etymology, history, and use of proper name"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "onomatology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0024 a skos:Concept ;
+    skos:definition "level of linguistics that deals with the writing system"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "orthography"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0025 a skos:Concept ;
+    skos:definition "none of the other values in this domain"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0026 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Philosophy_of_language> ;
+    skos:definition "branch of philosophy that deals with the nature of language and the relations between language, language users, and the world."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "philosophy of language"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0027 a skos:Concept ;
+    skos:definition "level of language analysis that deals with sounds"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "phonetics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0028 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Phonology> ;
+    skos:definition "level of language analysis that describes how languages systematically organize their phones or, for sign languages, their constituent parts of signs."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "phonology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0029 a skos:Concept ;
+    skos:definition "branch of linguistics that studies pidgin and creole languages"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "pidgin and creole studies"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0030 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Pragmatics> ;
+    skos:definition "the study of how context contributes to meaning"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "pragmatics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0031 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Psycholinguistics> ;
+    skos:definition "he study of the interrelation between linguistic factors and psychological aspects"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "psycholinguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0032 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Readability> ;
+    skos:definition "branch of linguistics that studies readability, i.e. the ease with which a reader can understand a written text"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "readability studies"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0033 a skos:Concept ;
+    skos:definition "level of linguistics that deals with meaning"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "semantics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0034 a skos:Concept ;
+    skos:definition "language that uses the visual-manual modality to convey meaning, instead of spoken words"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "sign language"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0035 a skos:Concept ;
+    skos:definition "level of linguistic analysis that deals with the relation between language (use) and society"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "sociolinguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0036 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Specific_language_impairment> ;
+    skos:altLabel "developmental language disorder studies"@en ;
+    skos:definition "research that studies Specific language impairment (SLI), which is diagnosed when a child's language does not develop normally and the difficulties cannot be accounted for by generally slow development, physical abnormality of the speech apparatus, autism spectrum disorder, apraxia, acquired brain damage or hearing loss"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "specific language impairment studies"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0037 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Stylistics> ;
+    skos:definition "the study and interpretation of texts of all types and/or spoken language in regard to their linguistic and tonal style, where style is the particular variety of language used by different individuals and/or in different situations or settings"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "stylistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0038 a skos:Concept ;
+    skos:definition "level of linguistics that deals with the combination of words and/or morphemes into larger units"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "syntax"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0039 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Corpus_linguistics> ;
+    skos:altLabel "text and corpus linguistics"@en ;
+    skos:definition "the study of a language as that language is expressed in text corpora, its bodies of 'real world' text."@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "corpus linguistics" ;
+    skos:topConceptOf csdls: .
+
+csdls:0040 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Translation> ;
+    skos:definition "the activity of communicating the meaning of a textual, oral, or signed source-language  message by means of an equivalent target-language message"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "translating and interpreting"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0041 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Linguistic_typology> ;
+    skos:altLabel "linguistic typology"@en,
+        "typology"@en ;
+    skos:definition "field of linguistics that studies and classifies languages according to their structural features to allow their comparison"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "language typology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0042 a skos:Concept ;
+    skos:definition "the value for this property is not known"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0043 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Writing_system> ;
+    skos:definition "A writing system is a method of visually representing verbal communication, based on a script and a set of rules regulating its use"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "writing systems"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0044 a skos:Concept ;
+    skos:definition "level of linguistics that deals with terms, i.e., words or word combinations and their meanings in a specific domain"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "terminology"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0045 a skos:Concept ;
+    skos:definition "level of linguistics dealing with the relations between co-occurring utterances"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "discourse"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0046 a skos:Concept ;
+    skos:definition "expressions that identifies a single entity and that is used to refer to that entity"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "names"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0047 a skos:Concept ;
+    skos:definition "combinations of words that have properties that cannot be derived from the properties of the individual word nor from the rules by which they have been combined"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "multiword expressions"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0004 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Applied_linguistics> ;
+    skos:definition "an interdisciplinary field which identifies, investigates, and offers solutions to language-related real-life problems"@en ;
+    skos:inScheme csdls: ;
+    skos:narrower csdls:0009 ;
+    skos:prefLabel "applied linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls:0009 a skos:Concept ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Forensic_linguistics> ;
+    skos:broader csdls:0004 ;
+    skos:definition "the application of linguistic knowledge, methods, and insights to the forensic context of law, language, crime investigation, trial, and judicial procedure"@en ;
+    skos:inScheme csdls: ;
+    skos:prefLabel "forensic linguistics"@en ;
+    skos:topConceptOf csdls: .
+
+csdls: a skos:ConceptScheme ;
+    dc:contributor "Jan Odijk, Daan Broeder, Eline Westerhout, Rogier Kraf, Erica Renkens" ;
+    dc:title "CLARIN taxonomy for Linguistic Subjects"@en ;
+    dct:created "2023-08-01"^^xsd:date ;
+    dct:description "Linguistic Subject is a taxonomy of linguistic subjects used for service and tools description in the CLARIN domain"@en ;
+    dct:language iso639-3:eng ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:modified "2024-01-02"^^xsd:date ;
+    owl:versionInfo "1.1.0"^^xsd:string ;
+    skos:hasTopConcept csdls:0002,
+        csdls:0003,
+        csdls:0004,
+        csdls:0005,
+        csdls:0006,
+        csdls:0007,
+        csdls:0008,
+        csdls:0009,
+        csdls:0010,
+        csdls:0011,
+        csdls:0012,
+        csdls:0013,
+        csdls:0014,
+        csdls:0015,
+        csdls:0016,
+        csdls:0017,
+        csdls:0018,
+        csdls:0019,
+        csdls:0020,
+        csdls:0021,
+        csdls:0022,
+        csdls:0023,
+        csdls:0024,
+        csdls:0025,
+        csdls:0026,
+        csdls:0027,
+        csdls:0028,
+        csdls:0029,
+        csdls:0030,
+        csdls:0031,
+        csdls:0032,
+        csdls:0033,
+        csdls:0034,
+        csdls:0035,
+        csdls:0036,
+        csdls:0037,
+        csdls:0038,
+        csdls:0039,
+        csdls:0040,
+        csdls:0041,
+        csdls:0042,
+        csdls:0043,
+        csdls:0044,
+        csdls:0045,
+        csdls:0046,
+        csdls:0047 ;
+    skos:prefLabel "CLARIN Services Description Linguistic Subject taxonomy"@en .
+
