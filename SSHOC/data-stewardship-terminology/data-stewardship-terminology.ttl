@@ -4516,13 +4516,13 @@ sshocterm:hierarchical_data_type_149 a skos:Concept ;
 
 sshocterm:metadata_158 a skos:Concept ;
     dct:source "Loterre Open Science Thesaurus, \"metadata\", http://data.loterre.fr/ark:/67375/TSO-VF5K6BGT-F"^^xsd:string ;
-    skos:definition "Eine eindeutige und stabile Bezeichnung (Referenz) einer digitalen Ressource (z. B. Forschungsdaten) durch Zuweisung eines Codes, auf den im Internet dauerhaft und eindeutig verwiesen werden kann."@de,
-        "Μοναδική και σταθερή ονομασία (αναφορά) ενός ψηφιακού πόρου (π.χ. ερευνητικών δεδομένων) μέσω της χορήγησης ενός κωδικού που μπορεί να αναφέρεται διαρκώς και ρητά στο διαδίκτυο."@el,
-        "A unique and stable denomination (reference) of a digital resource (e.g. research data) through allocation of a code that can be persistently and explicitly referenced on the internet."@en,
-        "Une dénomination (référence) unique et stable d'une ressource numérique (par exemple des données de recherche) par l'attribution d'un code qui peut être référencé de manière persistante et explicite sur Internet."@fr,
-        "Una denominazione unica e stabile (riferimento) di una risorsa digitale (per esempio dati di ricerca) attraverso l'assegnazione di un codice che può essere riferito in modo persistente ed esplicito su Internet."@it,
-        "Een unieke en stabiele benaming (referentie) van een digitale bron (bv. onderzoeksgegevens) door de toekenning van een code waarnaar op het internet blijvend en expliciet kan worden verwezen."@nl,
-        "Enolično in obstojno naslavljanje (referenca) digitalnega vira (npr. raziskovalnih podatkov) s tem, da se zgotovi koda, na katero se je mogoče trajno in izrecno sklicevati na internetu."@sl ;
+    skos:definition "Eine Sammlung strukturierter Informationen, die eine Informationsressource beschreibt, erläutert und lokalisiert, mit dem Ziel, ihre Suche, Nutzung und Verwaltung zu erleichtern."@de,
+        "Σύνολο δομημένων πληροφοριών που περιγράφει, επεξηγεί και εντοπίζει έναν πληροφοριακό πόρο, με σκοπό να διευκολύνει την αναζήτηση, τη χρήση και τη διαχείρισή του."@el,
+        "A set of structured information that describes, explains, and locates an informational resource, with the aim of facilitating its search, use, and management."@en,
+        "Ensemble d’informations structurées qui décrit, explicite et localise une ressource informationnelle, dans le but d’en faciliter la recherche, l’usage et la gestion."@fr,
+        "Un insieme di informazioni strutturate che descrive, esplicita e localizza una risorsa informativa, allo scopo di facilitarne la ricerca, l’uso e la gestione."@it,
+        "Een geheel van gestructureerde informatie dat een informatiebron beschrijft, toelicht en lokaliseert, met als doel het zoeken, gebruiken en beheren ervan te vergemakkelijken."@nl,
+        "Skupek strukturiranih informacij, ki opisuje, pojasnjuje in umešča informacijski vir, z namenom olajšati njegovo iskanje, uporabo in upravljanje."@sl ;
     skos:exactMatch <http://data.loterre.fr/ark:/67375/TSO-VF5K6BGT-F>,
         <http://purl.org/spar/fabio/Metadata> ;
     skos:inScheme sshocterm: ;
@@ -4829,8 +4829,8 @@ sshocterm: a skos:ConceptScheme ;
         iso639-3:ger,
         iso639-3:ita,
         iso639-3:slv ;
-    dct:modified "2021-12-17"^^xsd:date ;
-    owl:versionInfo "1.0"^^xsd:string ;
+    dct:modified "2026-05-10"^^xsd:date ;
+    owl:versionInfo "1.1.0"^^xsd:string ;
     skos:hasTopConcept sshocterm:accessible_data_1,
         sshocterm:administrative_data_2,
         sshocterm:anonymisation_3,

@@ -8,3 +8,4 @@ Multilingual concepts relevant for Data Stewardship.
 # Version history:
 * 0.1: First version sent by Daan Broder
 * 1.0: Final version created within SSHOC T3.1.2
+* 1.1.0: Corrected definition of "metadata", which reported definition of PID
